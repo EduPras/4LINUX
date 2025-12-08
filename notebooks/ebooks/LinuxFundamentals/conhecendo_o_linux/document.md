@@ -1,0 +1,86 @@
+![](0.png)
+
+## 6
+
+## Conhecendo o Linux
+
+Os sistemas GNU/Linux herdaram muitas características do padrão Unix, o que refletirá na maneira como executaremos os comandos a partir do interpretador de comandos. O sistema operacional MAC OS X, da Apple, por ser Unix-like, também herda tais características.
+
+- Representação por arquivos : esta é uma herança fundamental do sistema Unix, em que tudo que estiver presente no sistema será representado por um arquivo. Para tanto, teremos várias classificações para tipos de arquivos, que representarão dispositivos de armazenamento de dados, memória física, portas seriais ou paralelas, arquivos especiais, arquivos de texto comuns, binários e até mesmo diretórios. É importante dizer que um diretório também é um arquivo, um arquivo especial que aponta para outros arquivos e subdiretórios presentes dentro do sistema. No momento de gerenciar o sistema, é importante saber lidar com todos esses tipos de arquivos e tomar as devidas precauções na hora de manipulá-los.
+- Aspecto case-sensitive : uma característica forte em sistemas Unix-like é a presença da característica case-sensitive, em que letras maiúsculas serão completamente diferentes de letras minúsculas e vice-versa. No início, quando não se tem prática e costume com essa característica, é um tanto desconfortável se acostumar, mas depois, com o domínio, ela é útil e prática. A funcionalidade case-sensitive estará presente no sistema através de nomes de arquivos, diretórios, comandos etc. Por exemplo, o comando LS é completamente diferente de ls.
+- Permissão para executar arquivos : em sistemas Unix-like, para que um arquivo possa ser executado, inclusive pelo administrador do sistema, deve existir, obrigatoriamente, permissões de execução. Esse arquivo pode ser um arquivo binário de um comando
+
+- qualquer, um shell script etc. A permissão de execução protege o sistema contra arquivos auto-executáveis e faz com que os sistemas Unix-like sejam praticamente imunes a vírus ou arquivos com funções mal-intencionadas.
+- Arquivos e diretórios ocultos : por padrão, a forma utilizada para identificar arquivos ou diretórios ocultos no sistema é iniciar seus respectivos nomes por um ponto (.). Uma vez que na linha de comandos não há como utilizar efeitos como os usados nos ambientes gráficos, para visualizar tais arquivos ou diretórios ocultos, basta utilizar uma simples opção com o comando de visualização ls , que será abordado posteriormente neste treinamento.
+- Divisão em camadas : o sistema é todo dividido e trabalhado em camadas, não sendo necessária a execução obrigatória de um ambiente gráfico, por exemplo. Teremos o kernel como o centro de execução do nosso sistema, que controlará todo o hardware e fará a interface de controle e gerenciamento dos usuários, aplicações e processos em execução.
+- Superusuário (root) : o superusuário root é, por padrão, o único usuário com permissões completas de administração e gerenciamento do sistema. Sua utilização deve ser restrita e extremamente cautelosa, exatamente pela liberdade que possui ao executar qualquer tipo de tarefa, como excluir um diretório importante, por exemplo. O login do superusuário é root e o que define esse login como superusuário não é simplesmente o nome root , mas sim a UID ( User Identification ), que é o número de identificação que cada usuário terá no sistema. O superusuário possui UID de número 0 (zero).
+- Aspecto multitarefa / multiusuário : uma característica herdada dos primórdios Unix é poder executar várias tarefas ao mesmo tempo, com vários usuários trabalhando simultaneamente no sistema.
+
+## Principais aplicações desktop Open-Source
+
+- Firefox : um dos navegadores mais populares do mundo e utilizado por milhões de pessoas está presente em ambas as plataformas, a experiência de usar o Mozilla Firefox no Windows e no Linux é basicamente a mesma, então em uma possível migração isso não fará muita diferença. Claro que o Firefox não é o único navegador multiplataforma, temos outras opções equivalentes como Chrome, Vivaldi, Opera entre outros.
+- Thunderbird : com o Thunderbird você baixa ou apenas acessa seus emails do Zimbra, Gmail, Hotmail, Yahoo, iG, UOL, Oi Mail, iBest, Terra, BOL ou qualquer outro provedor com suporte a SMTP/POP3/IMAP. O Thunderbird permite que você adicione novo recursos a medida que você precisar através de extensões. As extensões são ferramentas poderosas que auxiliam você a criar um cliente de e-mail de acordo com suas necessidades. O Thunderbird oferece recursos necessários a empresas, tais como S/MIME, assinaturas digitais, criptografia de mensagens, suporte a certificados e dispositivos de segurança.
+- GIMP : é um programa de código aberto voltado principalmente para criação e edição
+
+- de imagens e em menor escala também para desenho vetorial. O GIMP foi criado pela comunidade como uma alternativa livre ao Adobe Photoshop. Foi um projeto universitário que amadureceu bastante e hoje alcança expressiva popularidade, sendo utilizado por hobbistas e profissionais.
+- Inkscape : é um software livre para editoração eletrônica de imagens e documentos vetoriais. Utiliza o método vetorial, ou seja, gera imagens a partir de um caminho de pontos definindo suas coordenadas, de forma transparente ao usuário. Imagens vetoriais têm maior aplicação em desenho técnico ou artístico e são, geralmente, mais leves e não perdem a qualidade ao sofrer transformações, como redimensionamento ou giro. O Inkscape trabalha nativamente com o formato SVG ( Scalable Vectorial Graphics ), um formato aberto de imagens vetoriais, nomeadamente, uma subdefinição (DTD) da linguagem XML definido pela W3C. O aplicativo também exporta para o popular formato da Internet PNG e importa vários formatos vectoriais ou bitmap, como por exemplo: TIFF, GIF, JPG, AI, PDF, PS, entre outros.
+- Kdenlive : KDE Non-Linear Video Editor é um editor de vídeo open-source baseado no framework MLT e KDE. O projeto foi iniciado por Jason Wood em 2002, e hoje é mantido por um pequeno time de desenvolvedores. Com o lançamento do Kdenlive 15.04.0 passou a ser oficialmente parte do projeto oficial do KDE. Pacotes do Kdenlive estão livremente disponíveis para Linux, FreeBSD e Mac OS X sob os termos da GNU General Public License versão 2 ou posterior.
+- Virtualbox : é um software de virtualização desenvolvido pela empresa Innotek depois comprado pela Sun Microsystems que posteriormente foi comprada pela Oracle que, como o VMware Workstation, visa criar ambientes para instalação de sistemas distintos. Ele permite a instalação e utilização de um sistema operacional dentro de outro, assim como seus respectivos softwares, como dois ou mais computadores independentes, mas compartilhando fisicamente o mesmo hardware. O VirtualBox pode ser instalado em vários sistemas operacionais hospedeiros, incluindo: Linux, MacOS e Windows. O VirtualBox pode ser usado tanto por usuários comuns, quanto por desenvolvedores de sistemas ou profissionais de TI.
+- LibreOffice : é uma suíte de aplicativos livre para escritório disponível para Windows, Unix, Solaris, Linux e Mac OS X. A suíte utiliza o formato OpenDocument (ODF OpenDocument Format ) - formato homologado como ISO/IEC 26300 e NBR ISO/IEC 26300 - e é também compatível com os formatos do Microsoft Office, além de outros formatos legados. Alguns deles não são suportados pelas versões mais recentes do Microsoft Office, mas ainda podem ser abertos pelo LibreOffice. O LibreOffice é composto pelos seguintes aplicativos:
+- Writer - Editor de Texto;
+- Calc - Planilha;
+- Impress - Apresentações;
+- Draw - Desenho Vetorial;
+- Math - Fórmulas matemáticas;
+
+## - Base - Banco de Dados;
+
+- VLC : é um software de media player portátil gratuito e de código aberto, multiplataforma e também um servidor de mídia de streaming desenvolvido pelo projeto VideoLAN. O VLC está disponível para sistemas operacionais de desktop e plataformas móveis, como Android e iOS. O VLC também está disponível em plataformas de distribuição digital, como a App Store da Apple ou na Google Play. O VLC suporta muitos métodos de compactação de áudio e vídeo e formatos de arquivo, incluindo DVD-Video, CD de vídeo e protocolos de streaming. É capaz de transmitir mídia por redes de computadores e transcodificar arquivos multimídia. A distribuição padrão do VLC inclui muitas bibliotecas de decodificação e codificação gratuitas, evitando a necessidade de encontrar/calibrar plugins proprietários.
+- Audacity : é um software livre de edição digital de áudio disponível principalmente nas plataformas: Windows, Linux e Mac e ainda em outros Sistemas Operacionais. O código fonte do Audacity está sob a licença GNU General Public License . O Audacity é muito popular entre os podcasters por seus recursos de edição, sua grande disponibilidade em múltiplas plataformas, suporte e licença abertas, que permite ao programa ser gratuito.
+- ImageMagick : o ImageMagick é uma ferramenta de linha de comando usada para converter e editar a maioria dos tipos de arquivos de imagem. Também pode ser usado para criar documentos PDF a partir de arquivos de imagem e vice e versa.
+- K3B : é um programa de computador que funciona como uma interface gráfica para a gravação de CD-ROMs e DVDs e funciona normalmente em sistemas operacionais da família Unix, tais como o Linux e o FreeBSD. Utiliza-se, para gravar mídias, dos programas cdrecord , cdrdao e growisofs . O K3B faz parte do projeto KDE. Permite criar, além de CD-ROMs e DVDs de dados, CDs de áudio, CDs de vídeo e cópias exatas de CDs e DVDs.
+- Blender : é um programa de computador de código aberto, desenvolvido pela Blender Foundation, para modelagem, animação, texturização, composição, renderização, e edição de vídeo. Está disponível sob a GNU GPL, versão 2 ou posterior. O programa é multiplataforma, estando portanto disponível para diversos sistemas operacionais. O Blender implementa ferramentas similares às de outros programas proprietários.
+
+O programa mais popular para a reprodução de vídeo é o VLC, mas alguns usuários preferem outras alternativas, como o smplayer . A reprodução de música local também traz muitas opções, como o Audacious, o Banshee e o Amarok, que também podem gerenciar uma coleção local de arquivos de áudio.
+
+## Principais aplicações em servidores Open-Source
+
+- Apache HTTP Server : o servidor HTTP Apache (do inglês Apache HTTP Server) ou Servidor Apache ou HTTP Daemon Apache ou somente Apache, é um servidor web livre criado em 1995 por Rob McCool. É a principal tecnologia da Apache Software
+
+Foundation , responsável por mais de uma dezena de projetos envolvendo tecnologias de transmissão via web, processamento de dados e execução de aplicativos distribuídos. É um servidor do tipo HTTPD, compatível com o protocolo HTTP versão 1.1. Suas funcionalidades são mantidas através de uma estrutura de módulos, permitindo inclusive que o usuário escreva seus próprios módulos - utilizando a API do software.
+
+- NGINX : Nginx (lê-se 'engine x') é um servidor leve de HTTP, proxy reverso, proxy de e-mail IMAP/POP3, feito por Igor Sysoev em 2005, sob a licença BSD-like 2-clause.
+- Lighttpd : o servidor Lighttpd (pronuncia-se 'lighty'), é um servidor web otimizado para ambientes de velocidade crítica. Foi originalmente escrito por Jan Kneschke como uma prova de conceito do problema c10k - como lidar com 10.000 conexões em paralelo em um servidor, ganhando popularidade mundial. Traz um gerenciamento eficaz da cpu-load e um conjunto de recursos avançados como FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting etc.
+- Apache Tomcat : o Tomcat é um servidor web Java, mais especificamente, um container de servlets. O Tomcat implementa, dentre outras de menor relevância, as tecnologias Java Servlet e JavaServer Pages (JSP).
+- Node.js : interpretador de JavaScript assíncrono com código aberto orientado a eventos, criado por Ryan Dahl em 2009, focado em migrar a programação do Javascript do cliente (frontend) para os servidores, criando aplicações de alta escalonabilidade (como um servidor web), manipulando milhares de conexões/eventos simultâneas em tempo real em uma única máquina física.
+- Mariadb : MariaDB Server é um dos bancos de dados relacionais de código aberto mais populares. Destinado a permanecer como um software de código-fonte aberto e gratuito sob a GNU General Public License , foi criado pelos desenvolvedores originais do MySQL que o bifurcaram devido a preocupações sobre sua aquisição pela Oracle Corporation em 2009. É parte da maioria das ofertas de nuvem e o padrão na maioria das distribuições Linux.
+- PostgreSql : também conhecido como Postgres, este é um poderoso sistema de banco de dados relacional de objetos de código aberto que usa e estende a linguagem SQL combinada com muitos recursos que armazenam e escalonam com segurança as cargas de trabalho de dados mais complicadas. Tem uma forte reputação por sua arquitetura comprovada, confiabilidade, integridade de dados, conjunto de recursos robustos, extensibilidade e dedicação da comunidade de código aberto por trás do software para fornecer soluções inovadoras e de alto desempenho de maneira consistente.
+- Postfix : o Postfix é um agente de transferência de e-mails (MTA) livre e de código aberto que encaminha e entrega e-mails e tem como objetivo ser uma alternativa segura ao Sendmail, muito utilizado em servidores UNIX. O Postfix foi originalmente escrito em 1997 por Wietse Venema no Centro de Pesquisa IBM Thomas J. Watson e teve a sua primeira versão lançada em 1998.
+- Bind : o BIND Berkeley Internet Name Domain - ou, como chamado previamente, Berkeley Internet Name Daemon é o servidor para o protocolo DNS mais utilizado na
+
+- Internet, especialmente em sistemas do tipo Unix, onde ele pode ser considerado um padrão, de fato.
+- Squid : o Squid é um servidor proxy que suporta HTTP, HTTPS, FTP e outros. Ele reduz a utilização da conexão e melhora os tempos de resposta fazendo cache de requisições frequentes de páginas web numa rede de computadores. Ele pode também ser usado como um proxy reverso.
+- Hadoop : plataforma Java de software de computação distribuída voltada para clusters e processamento de grandes volumes de dados, com atenção e tolerância a falhas. Foi inspirada no MapReduce e no GoogleFS (GFS). Trata-se de um projeto da Apache de alto nível, construído por uma comunidade de contribuidores e utilizando a linguagem de programação Java.
+- Kubernetes : Kubernetes (comumente estilizado como K8s) é um sistema de orquestração de contêineres open-source que automatiza a implantação, o dimensionamento e a gestão de aplicações em contêineres. Ele foi originalmente projetado pelo Google e agora é mantido pela Cloud Native Computing Foundation. Ele funciona com uma variedade de ferramentas de conteinerização, incluindo Docker.
+
+## Principais linguagens de programação Open-Source
+
+- Python : linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. Atualmente possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation .
+- PHP : um acrônimo recursivo para Pre Hypertext Preprocessor , originalmente Personal Home Pages ) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na web.
+- Java : o Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation. Diferentemente das linguagens de programação modernas, que são compiladas para código nativo, a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual ( Java Virtual Machine , mais conhecida pela sua abreviação JVM).
+
+## Apresentação dos principais gerenciadores de janelas usados no Linux
+
+Com os gerenciadores de janela ( window managers ), tanto a aparência quanto a localização das janelas do X são administradas. Um dos diferenciais do GNU/Linux é permitir que o próprio usuário gerencie as janelas, em vez de conceder esse controle ao sistema, como é feito pelos sistemas Apple e Microsoft, que oferecem apenas uma aparência básica.
+
+No GNU/Linux, um computador pode ter vários gerenciadores de janela, cabendo ao usuário usar o que mais lhe convier. Entre os gerenciadores, temos: AfterSteps, Enlightenment, Kwin (ambiente KDE), Blakbox, Evilwn, IceWM, FluxBox, SawFish, FVWM, Ion, Metacity (ambiente GNOME), WMN, OpenClasses (Sun), xfce e twm.
+
+Os gerenciadores de janela são diferentes entre si no que diz respeito a diversos fatores, tais como:
+
+- Recursos necessários do computador;
+- Customização de funcionalidades e de aparência;
+- Configuração de menus;
+- Interface gráfica;
+- Capacidade de uso de vários computadores.
+
+Muitas distribuições GNU/Linux atuais disponibilizam ferramentas de acessibilidade voltadas para usuários com necessidades especiais, como problemas motores e visuais.
