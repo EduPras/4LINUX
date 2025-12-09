@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<nodes>
+   <node id="introducao_ao_linux" name="Introdução ao Linux" folder="introducao_ao_linux" order="0" level="1" page_start="6"/>
+   <node id="certificacoes_linux" name="Certiﬁcações Linux" folder="certificacoes_linux" order="1" level="1" page_start="13"/>
+   <node id="historia_do_linux" name="História do Linux" folder="historia_do_linux" order="2" level="1" page_start="16"/>
+   <node id="licencas_open_source" name="Licenças Open Source" folder="licencas_open_source" order="3" level="1" page_start="20"/>
+   <node id="evolucao_do_linux_distribuicoes" name="Evolução do Linux: distribuições" folder="evolucao_do_linux_distribuicoes" order="4" level="1" page_start="23"/>
+   <node id="conhecendo_o_linux" name="Conhecendo o Linux" folder="conhecendo_o_linux" order="5" level="1" page_start="34"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="6" level="1" page_start="41"/>
+   <node id="estrutura_do_sistema_operacional" name="Estrutura do sistema operacional" folder="estrutura_do_sistema_operacional" order="7" level="1" page_start="43"/>
+   <node id="o_que_e_um_shell" name="O que é um Shell" folder="o_que_e_um_shell" order="8" level="1" page_start="52"/>
+   <node id="variaveis" name="Variáveis" folder="variaveis" order="9" level="1" page_start="55"/>
+   <node id="arquivos_de_configuracao_do_shell" name="Arquivos de conﬁguração do shell" folder="arquivos_de_configuracao_do_shell" order="10" level="1" page_start="62"/>
+   <node id="caminhos_de_diretorios" name="Caminhos de Diretorios" folder="caminhos_de_diretorios" order="11" level="1" page_start="68"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="12" level="1" page_start="74"/>
+   <node id="como_obter_ajuda" name="Como obter ajuda" folder="como_obter_ajuda" order="13" level="1" page_start="76"/>
+   <node id="formas_de_documentacao" name="Formas de documentação" folder="formas_de_documentacao" order="14" level="1" page_start="77"/>
+   <node id="comando_help" name="Comando help" folder="comando_help" order="15" level="1" page_start="79"/>
+   <node id="comando_apropos" name="Comando apropos" folder="comando_apropos" order="16" level="1" page_start="81"/>
+   <node id="comando_whatis" name="Comando whatis" folder="comando_whatis" order="17" level="1" page_start="84"/>
+   <node id="comando_man" name="Comando man" folder="comando_man" order="18" level="1" page_start="86"/>
+   <node id="comando_info" name="Comando info" folder="comando_info" order="19" level="1" page_start="89"/>
+   <node id="comando_whereis" name="Comando whereis" folder="comando_whereis" order="20" level="1" page_start="91"/>
+   <node id="comando_which" name="Comando which" folder="comando_which" order="21" level="1" page_start="94"/>
+   <node id="fhs_hierarquia_dos_diretorios" name="FHS, Hierarquia dos Diretórios" folder="fhs_hierarquia_dos_diretorios" order="22" level="1" page_start="96"/>
+   <node id="aprendendo_comandos_do_gnulinux" name="Aprendendo Comandos do GNU/Linux" folder="aprendendo_comandos_do_gnulinux" order="23" level="1" page_start="110"/>
+   <node id="localizacao_no_sistema" name="Localização no sistema" folder="localizacao_no_sistema" order="24" level="1" page_start="120"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="25" level="1" page_start="127"/>
+</nodes>
