@@ -1,564 +1,1065 @@
 <?xml version="1.0" ?>
 <relations>
-   <relation type="definition" source="introducao_ao_linux" target="Linux">
-      <context>A introdução ao Linux aborda o uso e importância do Linux em diversos setores, como dispositivos móveis, segurança, computação em nuvem, Big Data, e DevOps.</context>
+   <relation type="including" source="introducao_ao_linux" target="sobre_o_material">
+      <context>Structural Hierarchy (ToC)</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="Open Source">
-      <context>A introdução ao Linux inclui uma seção sobre o mundo Open Source, destacando a importância do Linux e as profissões relacionadas.</context>
+   <relation type="part-of" source="sobre_o_material" target="introducao_ao_linux">
+      <context>Structural Hierarchy (ToC)</context>
    </relation>
-   <relation type="part-of" source="introducao_ao_linux" target="Android">
+   <relation type="including" source="introducao_ao_linux" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="mercado_linux" target="introducao_ao_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="mercado_linux" target="onde_podemos_encontrar_o_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="onde_podemos_encontrar_o_linux" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="mercado_linux" target="market_share__sistemas_operacionais_pelo_mundo">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="market_share__sistemas_operacionais_pelo_mundo" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="mercado_linux" target="dispositivos_moveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="dispositivos_moveis" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="mercado_linux" target="desktop_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="desktop_linux" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="mercado_linux" target="servidores_web">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="servidores_web" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="mercado_linux" target="profissoes_no_mundo_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="profissoes_no_mundo_opensource" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="certificacoes_linux" target="centros_certificadores">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="centros_certificadores" target="certificacoes_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="historia_do_linux" target="a_origem_do_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="a_origem_do_linux" target="historia_do_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="licencas_open_source" target="free_software_foundation">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="free_software_foundation" target="licencas_open_source">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="licencas_open_source" target="software_livre">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="software_livre" target="licencas_open_source">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="licencas_open_source" target="gnu_gpl_general_public_license">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="gnu_gpl_general_public_license" target="licencas_open_source">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="distribuicoes_livres_e_corporativas">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="distribuicoes_livres_e_corporativas" target="evolucao_do_linux_distribuicoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="distribuicoes_from_scratch_e_derivadas">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="distribuicoes_from_scratch_e_derivadas" target="evolucao_do_linux_distribuicoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="ciclo_de_vida_de_algumas_distribuicoes_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="ciclo_de_vida_de_algumas_distribuicoes_linux" target="evolucao_do_linux_distribuicoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="ciclo_de_vida_de_algumas_distribuicoes_linux" target="debian_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="debian_gnulinux" target="ciclo_de_vida_de_algumas_distribuicoes_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="evolucao_do_linux_dispositivos_embarcados">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="evolucao_do_linux_dispositivos_embarcados" target="evolucao_do_linux_distribuicoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="conhecendo_o_linux" target="principais_aplicacoes_desktop_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="principais_aplicacoes_desktop_opensource" target="conhecendo_o_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="conhecendo_o_linux" target="principais_aplicacoes_em_servidores_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="principais_aplicacoes_em_servidores_opensource" target="conhecendo_o_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="conhecendo_o_linux" target="principais_linguagens_de_programacao_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="principais_linguagens_de_programacao_opensource" target="conhecendo_o_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="conhecendo_o_linux" target="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux" target="conhecendo_o_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="estrutura_do_sistema_operacional" target="sessoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="sessoes" target="estrutura_do_sistema_operacional">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="sessoes" target="terminal_virtual_em_modo_texto">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="terminal_virtual_em_modo_texto" target="sessoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="sessoes" target="pseudoterminal">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="pseudoterminal" target="sessoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="estrutura_do_sistema_operacional" target="execucao_dos_primeiros_comandos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="execucao_dos_primeiros_comandos" target="estrutura_do_sistema_operacional">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="execucao_dos_primeiros_comandos" target="inicio_de_uma_sessao_login">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="inicio_de_uma_sessao_login" target="execucao_dos_primeiros_comandos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="execucao_dos_primeiros_comandos" target="encerrando_uma_sessao_logout">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="encerrando_uma_sessao_logout" target="execucao_dos_primeiros_comandos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="execucao_dos_primeiros_comandos" target="desligamento_do_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="desligamento_do_sistema" target="execucao_dos_primeiros_comandos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="execucao_dos_primeiros_comandos" target="reiniciar_o_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="reiniciar_o_sistema" target="execucao_dos_primeiros_comandos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="o_que_e_um_shell" target="tipos_de_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="tipos_de_shell" target="o_que_e_um_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="o_que_e_um_shell" target="alteracao_do_shell_atual">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="alteracao_do_shell_atual" target="o_que_e_um_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="variaveis" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="variaveis_locais_e_de_ambiente_globais" target="variaveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="variaveis_locais_e_de_ambiente_globais" target="como_definir_variaveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="como_definir_variaveis" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="variaveis_locais_e_de_ambiente_globais" target="exclusao_de_variaveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="exclusao_de_variaveis" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="variaveis_locais_e_de_ambiente_globais" target="alterar_o_prompt_de_comando">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="alterar_o_prompt_de_comando" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="utilizacao_de_aliases_apelidos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="utilizacao_de_aliases_apelidos" target="arquivos_de_configuracao_do_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="arquivos_para_exibicao_de_mensagens">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="arquivos_para_exibicao_de_mensagens" target="arquivos_de_configuracao_do_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="historico_de_comando">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="historico_de_comando" target="arquivos_de_configuracao_do_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="comando_fc">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="comando_fc" target="arquivos_de_configuracao_do_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="caminhos_de_diretorios" target="acessando_os_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="acessando_os_diretorios" target="caminhos_de_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="acessando_os_diretorios" target="comando_ls">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="comando_ls" target="acessando_os_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="caminhos_de_diretorios" target="atalhos_de_teclado_utilizados_na_linha_de_comando">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="atalhos_de_teclado_utilizados_na_linha_de_comando" target="caminhos_de_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="formas_de_documentacao" target="howtos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="howtos" target="formas_de_documentacao">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="formas_de_documentacao" target="manuais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="manuais" target="formas_de_documentacao">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="formas_de_documentacao" target="documentacao">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="documentacao" target="formas_de_documentacao">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="comando_info" target="alternativas_para_consulta">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="alternativas_para_consulta" target="comando_info">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="comando_which" target="topicos_para_revisao_do_capitulo">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="topicos_para_revisao_do_capitulo" target="comando_which">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="introducao_teorica">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="introducao_teorica" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="estrutura_de_diretorios_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="estrutura_de_diretorios_gnulinux" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="estrutura_de_diretorios_gnulinux" target="diretorio_">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_" target="estrutura_de_diretorios_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_bin">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_bin" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_boot">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_boot" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_dev">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_dev" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_etc">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_etc" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_lib">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_lib" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_media">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_media" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_mnt">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_mnt" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_opt">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_opt" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_sbin">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_sbin" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_srv">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_srv" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_tmp">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_tmp" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_usr">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_usr" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_var">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_var" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_proc">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_proc" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorio_sys">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorio_sys" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="fhs_hierarquia_dos_diretorios" target="diretorios_home_e_root">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="diretorios_home_e_root" target="fhs_hierarquia_dos_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="extraindo_mais_do_comando_ls">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="extraindo_mais_do_comando_ls" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="criar_arquivo">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="criar_arquivo" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="curingas">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="curingas" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="criando_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="criando_diretorios" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="removendo_arquivosdiretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="removendo_arquivosdiretorios" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="copiar_arquivosdiretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="copiar_arquivosdiretorios" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="aprendendo_comandos_do_gnulinux" target="mover_ou_renomear_arquivosdiretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="mover_ou_renomear_arquivosdiretorios" target="aprendendo_comandos_do_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="localizacao_no_sistema" target="comando_find">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="comando_find" target="localizacao_no_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="comando_find" target="mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia" target="comando_find">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="localizacao_no_sistema" target="comando_xargs">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="comando_xargs" target="localizacao_no_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="including" source="localizacao_no_sistema" target="comando_locate">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="part-of" source="comando_locate" target="localizacao_no_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="definition" source="introducao_ao_linux" target="linux">
+      <context>Nesta seção, você será introduzido no mundo Open Source, veremos a importância do Linux no mundo atual e quais são as principais profissões do mercado que utilizam Linux atualmente.</context>
+   </relation>
+   <relation type="definition" source="introducao_ao_linux" target="open_source">
+      <context>Nesta seção, você será introduzido no mundo Open Source, veremos a importância do Linux no mundo atual e quais são as principais profissões do mercado que utilizam Linux atualmente.</context>
+   </relation>
+   <relation type="part-of" source="introducao_ao_linux" target="android">
       <context>O Android é um sistema operacional baseado no kernel Linux, licenciado pelo GPLv2.</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="DevOps">
-      <context>A DevOps é uma cultura aplicada para unir desenvolvimento e operações, funcionando dentro de ambientes Linux.</context>
+   <relation type="definition" source="introducao_ao_linux" target="devops">
+      <context>A DevOps é uma cultura aplicada para se obter principalmente a união entre os times de desenvolvimento (dev) e operações (ops) e assim surgiram diversas operações e deveres de ambas as áreas, muito disso funcionando dentro de ambientes Linux.</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="Big Data">
-      <context>As ferramentas para integração e tratamento de dados em Big Data são executadas em Linux.</context>
+   <relation type="definition" source="introducao_ao_linux" target="big_data">
+      <context>O mundo da Big Data também vem crescendo e atualmente as ferramentas para integração e tratamento de dados são executados em Linux.</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="Cloud Computing">
-      <context>A computação em nuvem transforma recursos tecnológicos em serviços, com a maioria dos recursos executados em ambientes Linux.</context>
+   <relation type="definition" source="introducao_ao_linux" target="cloud_computing">
+      <context>Hoje a computação em nuvem vem transformando muitos dos recursos tecnológicos das empresas em serviços prestados por provedores, nesses casos podendo fornecer, por exemplo, infraestrutura sob demanda e a maior parte dos recursos que estão hoje na computação em nuvem são executados em ambientes Linux.</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="Linux Distributions">
-      <context>Diversas distribuições Linux são desenvolvidas para usuários comuns, como Ubuntu, Fedora, e Linux Mint.</context>
+   <relation type="definition" source="introducao_ao_linux" target="linux_distributions">
+      <context>Mesmo não dominando os computadores domésticos, ainda são desenvolvidas diversas distribuições para a utilização do usuário comum, muitas delas são até mesmo mais simples do que o próprio sistema de janelas da Microsoft.</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="Web Servers">
-      <context>Relatório de Market Share de 2020 mostra a utilização de Linux em servidores web.</context>
+   <relation type="definition" source="introducao_ao_linux" target="web_servers">
+      <context>Em 2020, a W3Techs fez o relatório de Market Share dos servidores web mais utilizados baseado nos sistemas operacionais.</context>
    </relation>
-   <relation type="definition" source="introducao_ao_linux" target="Open Source Professions">
-      <context>Profissões em alta no mundo Open Source incluem Analista DevOps, Engenheiro de Software, e Cientista de Dados.</context>
+   <relation type="definition" source="introducao_ao_linux" target="open_source_professions">
+      <context>Alguns dos muitos cargos que estão em alta no mundo Open Source: Analista DevOps, Analista SRE, Administrador de Servidores, Desenvolvedor de Software, Engenheiro de Software, Analista de Banco de Dados, Engenheiro de Dados, Cientista de Dados, Engenheiro de Machine Learning, Analista de Segurança, Gerente de TI, Diretor Chefe de Tecnologia.</context>
    </relation>
-   <relation type="prerequisite" source="Linux" target="certificacoes_linux">
-      <context>Certificações Linux are related to validating skills in Linux, which is a previously learned concept.</context>
-   </relation>
-   <relation type="including" source="certificacoes_linux" target="Centros certificadores">
+   <relation type="including" source="certificacoes_linux" target="centros_certificadores">
       <context>Existem diversas carreiras e centros de formação para certificar profissionais em Linux.</context>
    </relation>
-   <relation type="including" source="certificacoes_linux" target="Linux Professional Institute">
+   <relation type="including" source="certificacoes_linux" target="linux_professional_institute">
       <context>Atualmente os mais buscados são: LPI ( Linux Professional Institute ), RedHat e Linux Foundation.</context>
    </relation>
-   <relation type="including" source="certificacoes_linux" target="Red Hat Certificate">
+   <relation type="including" source="certificacoes_linux" target="red_hat_certificate">
       <context>Atualmente os mais buscados são: LPI ( Linux Professional Institute ), RedHat e Linux Foundation.</context>
    </relation>
-   <relation type="including" source="certificacoes_linux" target="Linux Foundation">
+   <relation type="including" source="certificacoes_linux" target="linux_foundation">
       <context>Atualmente os mais buscados são: LPI ( Linux Professional Institute ), RedHat e Linux Foundation.</context>
    </relation>
-   <relation type="property" source="certificacoes_linux" target="property">
-      <context>É uma organização sem fins lucrativos; Certificação independente de fornecedores; O conteúdo dos exames são baseados no padrão LSB ( Linux Standard Base ); As provas são aplicadas pelo LPI Brasil ou pelo centro de treinamento VUE; As provas são aplicadas em português apenas nos níveis 1 e 2; O tempo de validade é de 5 anos; Para obter as certificações de nível 1 e 2 são realizadas duas provas; Para obter a certificação nível 3 é realizada apenas uma prova.</context>
+   <relation type="prerequisite" source="linux" target="certificacoes_linux">
+      <context>Existem diversas carreiras e centros de formação para certificar profissionais em Linux.</context>
    </relation>
-   <relation type="property" source="certificacoes_linux" target="property">
-      <context>Dentre as versões Linux comerciais, a Red Hat tem o mais popular programa de certificação do mercado; As provas são práticas; O conteúdo dos exames são baseados sempre na versão mais recente do Linux Red Hat Enterprise.</context>
+   <relation type="property" source="certificacoes_linux" target="organization">
+      <context>É uma organização sem fins lucrativos.</context>
    </relation>
-   <relation type="property" source="certificacoes_linux" target="property">
-      <context>Metodologia de aplicação de provas práticas; É possível escolher sua distribuição de preferência; Não depende de escolas autorizadas para execução das provas; Foi o primeiro centro certificador a fechar parceria com a Microsoft.</context>
+   <relation type="property" source="certificacoes_linux" target="certificacao_independente_de_fornecedores">
+      <context>Certificação independente de fornecedores.</context>
    </relation>
-   <relation type="prerequisite" source="Projeto GNU" target="historia_do_linux">
+   <relation type="property" source="certificacoes_linux" target="lsb__linux_standard_base_">
+      <context>O conteúdo dos exames são baseados no padrão LSB ( Linux Standard Base ).</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="maior_certificacao_mundial_em_linux">
+      <context>Nas palavras de Jon Maddog Hall: 'É a maior certificação mundial em Linux'.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="lpi_brasil">
+      <context>As provas são aplicadas pelo LPI Brasil ou pelo centro de treinamento VUE.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="5_anos">
+      <context>O tempo de validade é de 5 anos.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="nivel_1_e_2">
+      <context>Para obter as certificações de nível 1 e 2 são realizadas duas provas.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="nivel_3">
+      <context>Para obter a certificação nível 3 é realizada apenas uma prova.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="linux_comerciais">
+      <context>Dentre as versões Linux comerciais, a Red Hat tem o mais popular programa de certificação do mercado.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="provas_praticas">
+      <context>As provas são práticas.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="versao_mais_recente_do_linux_red_hat_enterprise">
+      <context>O conteúdo dos exames são baseados sempre na versão mais recente do Linux Red Hat Enterprise.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="provas_praticas">
+      <context>Metodologia de aplicação de provas práticas.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="distribuicao_de_preferencia">
+      <context>É possível escolher sua distribuição de preferência.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="escolas_autorizadas">
+      <context>Não depende de escolas autorizadas para execução das provas.</context>
+   </relation>
+   <relation type="property" source="certificacoes_linux" target="microsoft">
+      <context>Foi o primeiro centro certificador a fechar parceria com a Microsoft.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="historia_do_linux">
       <context>Antes de explicarmos o que é de fato o Linux, é preciso conhecer a origem e função do projeto GNU.</context>
    </relation>
-   <relation type="prerequisite" source="GNU/Hurd" target="historia_do_linux">
+   <relation type="prerequisite" source="gnuhurd" target="historia_do_linux">
       <context>Um dos grandes motivos do sistema operacional GNU não ter sido lançado foi pelo formato do desenvolvimento do seu kernel, o GNU/Hurd.</context>
    </relation>
-   <relation type="prerequisite" source="Linus Torvalds" target="historia_do_linux">
-      <context>Eis que, no ano de 1991, o finlandês Linus Torvalds criou um kernel denominado Linux.</context>
-   </relation>
-   <relation type="prerequisite" source="Minix" target="historia_do_linux">
-      <context>Linus Torvalds iniciou seu projeto a partir do Minix e pretendia criar uma versão do Minix melhor do que o original.</context>
-   </relation>
-   <relation type="prerequisite" source="Unix-like" target="historia_do_linux">
-      <context>Unix-like é um termo utilizado para referenciar o padrão de sistemas operacionais Unix.</context>
-   </relation>
-   <relation type="definition" source="historia_do_linux" target="Kernel Linux">
-      <context>Primeiramente, é importante entender que, tecnicamente falando, o Linux não é um sistema operacional, mas sim um kernel.</context>
-   </relation>
-   <relation type="definition" source="historia_do_linux" target="Linux">
-      <context>Primeiramente, é importante entender que, tecnicamente falando, o Linux não é um sistema operacional, mas sim um kernel.</context>
-   </relation>
-   <relation type="definition" source="historia_do_linux" target="GNU/Linux">
-      <context>Dessa junção, nasceu o sistema GNU/Linux.</context>
-   </relation>
-   <relation type="prerequisite" source="Free Software Foundation" target="historia_do_linux">
+   <relation type="prerequisite" source="free_software_foundation_fsf" target="historia_do_linux">
       <context>Nasceu, então, a Free Software Foundation (FSF).</context>
    </relation>
-   <relation type="prerequisite" source="Open Source" target="historia_do_linux">
+   <relation type="prerequisite" source="linus_torvalds" target="historia_do_linux">
+      <context>Eis que, no ano de 1991, o finlandês Linus Torvalds criou um kernel denominado Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="minix" target="historia_do_linux">
+      <context>Linus Torvalds iniciou seu projeto a partir do Minix e pretendia criar uma versão do Minix melhor do que o original.</context>
+   </relation>
+   <relation type="prerequisite" source="unixlike" target="historia_do_linux">
+      <context>Unix-like é um termo utilizado para referenciar o padrão de sistemas operacionais Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="freax" target="historia_do_linux">
+      <context>Deu-se a esse sistema o nome Linux, que é uma junção de Linus com Unix, embora o próprio Linus tenha desgostado dessa ideia inicialmente, batizando o sistema de Freax.</context>
+   </relation>
+   <relation type="prerequisite" source="gpl" target="historia_do_linux">
       <context>O kernel Linux é um grande exemplo de software livre licenciado utilizando-se a GPL.</context>
    </relation>
-   <relation type="including" source="licencas_open_source" target="Free Software Foundation">
+   <relation type="definition" source="historia_do_linux" target="linux">
+      <context>Primeiramente, é importante entender que, tecnicamente falando, o Linux não é um sistema operacional, mas sim um kernel.</context>
+   </relation>
+   <relation type="definition" source="historia_do_linux" target="gnulinux">
+      <context>Dessa junção, nasceu o sistema GNU/Linux.</context>
+   </relation>
+   <relation type="property" source="historia_do_linux" target="linux">
+      <context>O kernel Linux é um grande exemplo de software livre licenciado utilizando-se a GPL.</context>
+   </relation>
+   <relation type="property" source="historia_do_linux" target="linux">
+      <context>A junção das milhares de ferramentas desenvolvidas pelo projeto GNU com o kernel Linux forma todas as camadas de preenchimento para que seja possível um sistema operacional completo.</context>
+   </relation>
+   <relation type="including" source="licencas_open_source" target="free_software_foundation">
       <context>A Free Software Foundation surgiu em 1985, com o propósito de organizar o projeto GNU em um formato técnico e jurídico.</context>
    </relation>
-   <relation type="including" source="licencas_open_source" target="Software livre">
+   <relation type="including" source="licencas_open_source" target="software_livre">
       <context>Até o momento, o termo software livre, que foi idealizado por Richard Stallman e defendido pela Free Software Foundation através da GPL, foi muito citado.</context>
    </relation>
-   <relation type="including" source="licencas_open_source" target="GNU GPL (General Public License)">
+   <relation type="including" source="licencas_open_source" target="gnu_gpl_general_public_license">
       <context>A GPL ( General Public License ) teve sua primeira versão (GPLv1) lançada em janeiro de 1989.</context>
    </relation>
-   <relation type="prerequisite" source="Open Source" target="licencas_open_source">
+   <relation type="prerequisite" source="open_source" target="licencas_open_source">
       <context>Outras licenças também foram criadas com a finalidade de manter a defesa da liberdade do código aberto, do conhecimento e da informação, como foi iniciado pela GPL.</context>
    </relation>
-   <relation type="property" source="licencas_open_source" target="GNU GPL (General Public License)">
+   <relation type="including" source="licencas_open_source" target="gnu_gpl_general_public_license">
       <context>A FSF é uma organização sem fins lucrativos, que se mantém com a doação de empresas que apoiam a mesma causa: defender o software livre. Hoje, o foco principal da FSF é manter a GPL ( General Public License ).</context>
    </relation>
-   <relation type="property" source="licencas_open_source" target="GNU GPL (General Public License)">
+   <relation type="including" source="licencas_open_source" target="gnu_gpl_general_public_license">
       <context>A junção dessas quatro liberdades é a essência do software livre, no qual a ideia principal é sempre prorrogar a liberdade de um software, de forma que um usuário jamais possa se apoderar de um software livre e torná-lo algo como um software proprietário. Para tal função, existe a GPL.</context>
    </relation>
-   <relation type="part-of" source="licencas_open_source" target="Free Software Foundation">
+   <relation type="part-of" source="licencas_open_source" target="free_software_foundation">
       <context>A GPL, que é uma importante ferramenta jurídica criada pela Free Software Foundation , tinha inicialmente, como principal função, defender a liberdade dos softwares desenvolvidos pelo projeto GNU.</context>
    </relation>
-   <relation type="property" source="licencas_open_source" target="Software livre">
-      <context>A Licença Pública Geral segue, desde a sua primeira versão, as quatro liberdades citadas anteriormente, sendo também sua intenção poder defender o software livre de forma prorrogada.</context>
+   <relation type="property" source="licencas_open_source" target="software_livre">
+      <context>A GPL, que é uma importante ferramenta jurídica criada pela Free Software Foundation , tinha inicialmente, como principal função, defender a liberdade dos softwares desenvolvidos pelo projeto GNU.</context>
    </relation>
-   <relation type="definition" source="evolucao_do_linux_distribuicoes" target="Distribuições GNU/Linux">
+   <relation type="definition" source="evolucao_do_linux_distribuicoes" target="distribuicoes_gnulinux">
       <context>Com a junção das ferramentas GNU e o kernel Linux, temos tecnicamente um sistema operacional GNU/Linux. Em suas primeiras versões, instalar um sistema GNU/Linux era extremamente complexo, pois era necessário praticamente instalar e compilar manualmente quase todas as ferramentas, incluindo o próprio kernel. Ou seja, o GNU/Linux era geralmente utilizado por usuários avançados. Foi a partir dessa dificuldade que surgiram as primeiras distribuições GNU/Linux - também chamadas de distros -, que tinham a finalidade de facilitar a instalação do sistema, disponibilizando todas as ferramentas necessárias, com um kernel Linux e um instalador para automatizar o processo de instalação.</context>
    </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Distribuições livres">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="distribuicoes_livres">
       <context>A maioria das distribuições é mantida por comunidades de colaboradores localizados em todo o mundo e por corporações. Dada essa característica, as distribuições podem ser divididas em duas categorias: livres e corporativas.</context>
    </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Distribuições corporativas">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="distribuicoes_corporativas">
       <context>A maioria das distribuições é mantida por comunidades de colaboradores localizados em todo o mundo e por corporações. Dada essa característica, as distribuições podem ser divididas em duas categorias: livres e corporativas.</context>
    </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Distribuições from scratch">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="distribuicoes_from_scratch">
       <context>As distribuições também podem ser categorizadas de acordo com a maneira como são desenvolvidas. Assim, são classificadas como from scratch (do zero) ou derivadas de alguma outra distribuição.</context>
    </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Distribuições derivadas">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="distribuicoes_derivadas">
       <context>As distribuições também podem ser categorizadas de acordo com a maneira como são desenvolvidas. Assim, são classificadas como from scratch (do zero) ou derivadas de alguma outra distribuição.</context>
    </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Slackware">
-      <context>O primeiro tipo é disponibilizado por comunidades de colaboradores que não visam absolutamente nenhum lucro sobre suas distribuições, como é o caso do Slackware, Debian, Knoppix, Gentoo e CentOS.</context>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="red_hat_enterprise_linux">
+      <context>A distribuição Red Hat Linux, criada em 1993, é pioneira em distribuições GNU/Linux corporativas.</context>
    </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Debian">
-      <context>O primeiro tipo é disponibilizado por comunidades de colaboradores que não visam absolutamente nenhum lucro sobre suas distribuições, como é o caso do Slackware, Debian, Knoppix, Gentoo e CentOS.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="CentOS">
-      <context>O primeiro tipo é disponibilizado por comunidades de colaboradores que não visam absolutamente nenhum lucro sobre suas distribuições, como é o caso do Slackware, Debian, Knoppix, Gentoo e CentOS.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Ubuntu">
-      <context>Já as distribuições corporativas, como Ubuntu, Suse, Red Hat e Mandriva, são administradas por empresas que cobram pelo suporte prestado.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Red Hat">
-      <context>Já as distribuições corporativas, como Ubuntu, Suse, Red Hat e Mandriva, são administradas por empresas que cobram pelo suporte prestado.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Debian">
-      <context>A diferença básica entre os dois tipos é que as distribuições from scratch não derivam de nenhuma já existente, sendo todas as suas características desenvolvidas específica e exclusivamente para elas, como é o caso da Debian, Red Hat, Slackware e Gentoo.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Red Hat">
-      <context>A diferença básica entre os dois tipos é que as distribuições from scratch não derivam de nenhuma já existente, sendo todas as suas características desenvolvidas específica e exclusivamente para elas, como é o caso da Debian, Red Hat, Slackware e Gentoo.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Slackware">
-      <context>A diferença básica entre os dois tipos é que as distribuições from scratch não derivam de nenhuma já existente, sendo todas as suas características desenvolvidas específica e exclusivamente para elas, como é o caso da Debian, Red Hat, Slackware e Gentoo.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Ubuntu">
-      <context>As distribuições derivadas baseiam-se em alguma distribuição anterior, recebendo ajustes e visando um objetivo funcional definido. Exemplos desse tipo são os mencionados Kubuntu e Kurumin, além de Ubuntu, DreamLinux, BrDesktop e Slax.</context>
-   </relation>
-   <relation type="including" source="evolucao_do_linux_distribuicoes" target="Linux Mint">
-      <context>Mint é uma distribuição derivada e compatível com o Ubuntu.</context>
-   </relation>
-   <relation type="part-of" source="evolucao_do_linux_distribuicoes" target="Red Hat">
-      <context>Derivada da Red Hat Linux, a Red Hat Enterprise Linux é uma versão corporativa de distribuição original.</context>
-   </relation>
-   <relation type="part-of" source="evolucao_do_linux_distribuicoes" target="Red Hat Enterprise Linux">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="centos">
       <context>O CentOS, abreviação de Community Enterprise Operating System , é uma distribuição Linux de classe corporativa derivada de códigos fonte gratuitamente distribuídos pela Red Hat Enterprise Linux e mantida pelo CentOS Project.</context>
    </relation>
-   <relation type="part-of" source="evolucao_do_linux_distribuicoes" target="Red Hat Enterprise Linux">
-      <context>A Oracle Linux é uma distribuição Linux empacotada e distribuída gratuitamente pela Oracle, disponível parcialmente sob a GNU General Public License desde o final de 2006. É compilada a partir do código-fonte do Red Hat Enterprise Linux (RHEL), substituindo a marca Red Hat pela Oracle.</context>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="oracle_linux">
+      <context>A Oracle Linux é uma distribuição Linux empacotada e distribuída gratuitamente pela Oracle, disponível parcialmente sob a GNU General Public License desde o final de 2006.</context>
    </relation>
-   <relation type="property" source="evolucao_do_linux_distribuicoes" target="Patrick Volkerding">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="slackware">
       <context>Criada por Patrick Volkerding, a distribuição livre Slackware Linux foi a primeira a ser distribuída em CD e é um sistema Unix-like multitarefa completo de 32-bits.</context>
    </relation>
-   <relation type="property" source="evolucao_do_linux_distribuicoes" target="Ian Murdock">
-      <context>A Debian, criada em 1993 por Ian Murdock, foi uma das primeiras distribuições criadas, com o intuito de ser desenvolvida abertamente, seguindo os moldes do Linux em si.</context>
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="debian_gnulinux">
+      <context>Com interface padrão Xfce, a distribuição livre Debian é atualmente uma das maiores distribuições e uma das principais bases para outras distribuições derivadas.</context>
    </relation>
-   <relation type="part-of" source="evolucao_do_linux_distribuicoes" target="Debian">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="ubuntu">
       <context>Baseado no Debian, o Ubuntu, cujo nome significa ' Humanidade para os outros ' ou ' Sou o que sou pelo que nós somos ' em africano, conta com diversas ferramentas, como servidores web, ferramentas de programação, processador de texto e leitor de e-mails.</context>
    </relation>
-   <relation type="part-of" source="evolucao_do_linux_distribuicoes" target="Ubuntu">
+   <relation type="including" source="evolucao_do_linux_distribuicoes" target="linux_mint">
       <context>Mint é uma distribuição derivada e compatível com o Ubuntu.</context>
    </relation>
-   <relation type="prerequisite" source="História do Linux" target="evolucao_do_linux_distribuicoes">
+   <relation type="prerequisite" source="historia_do_linux" target="evolucao_do_linux_distribuicoes">
       <context>Com a junção das ferramentas GNU e o kernel Linux, temos tecnicamente um sistema operacional GNU/Linux.</context>
    </relation>
-   <relation type="prerequisite" source="Kernel Linux" target="evolucao_do_linux_distribuicoes">
-      <context>Com a junção das ferramentas GNU e o kernel Linux, temos tecnicamente um sistema operacional GNU/Linux.</context>
-   </relation>
-   <relation type="prerequisite" source="GNU GPL (General Public License)" target="evolucao_do_linux_distribuicoes">
-      <context>É importante notar que, embora um custo esteja envolvido, isso não contradiz os princípios da licença GPL, pois a liberdade de software é mantida.</context>
-   </relation>
-   <relation type="prerequisite" source="Unix" target="conhecendo_o_linux">
+   <relation type="prerequisite" source="unix" target="conhecendo_o_linux">
       <context>Os sistemas GNU/Linux herdaram muitas características do padrão Unix, o que refletirá na maneira como executaremos os comandos a partir do interpretador de comandos.</context>
    </relation>
-   <relation type="prerequisite" source="Unix-like" target="conhecendo_o_linux">
+   <relation type="prerequisite" source="unixlike" target="conhecendo_o_linux">
       <context>O sistema operacional MAC OS X, da Apple, por ser Unix-like, também herda tais características.</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Representação por arquivos">
+   <relation type="property" source="conhecendo_o_linux" target="representacao_por_arquivos">
       <context>esta é uma herança fundamental do sistema Unix, em que tudo que estiver presente no sistema será representado por um arquivo.</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Aspecto case-sensitive">
+   <relation type="property" source="conhecendo_o_linux" target="aspecto_casesensitive">
       <context>uma característica forte em sistemas Unix-like é a presença da característica case-sensitive, em que letras maiúsculas serão completamente diferentes de letras minúsculas e vice-versa.</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Permissão para executar arquivos">
+   <relation type="property" source="conhecendo_o_linux" target="permissao_para_executar_arquivos">
       <context>em sistemas Unix-like, para que um arquivo possa ser executado, inclusive pelo administrador do sistema, deve existir, obrigatoriamente, permissões de execução.</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Arquivos e diretórios ocultos">
+   <relation type="property" source="conhecendo_o_linux" target="arquivos_e_diretorios_ocultos">
       <context>por padrão, a forma utilizada para identificar arquivos ou diretórios ocultos no sistema é iniciar seus respectivos nomes por um ponto (.).</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Divisão em camadas">
+   <relation type="property" source="conhecendo_o_linux" target="divisao_em_camadas">
       <context>o sistema é todo dividido e trabalhado em camadas, não sendo necessária a execução obrigatória de um ambiente gráfico, por exemplo.</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Superusuário (root)">
+   <relation type="property" source="conhecendo_o_linux" target="superusuario_root">
       <context>o superusuário root é, por padrão, o único usuário com permissões completas de administração e gerenciamento do sistema.</context>
    </relation>
-   <relation type="property" source="conhecendo_o_linux" target="Aspecto multitarefa / multiusuário">
+   <relation type="property" source="conhecendo_o_linux" target="aspecto_multitarefa__multiusuario">
       <context>uma característica herdada dos primórdios Unix é poder executar várias tarefas ao mesmo tempo, com vários usuários trabalhando simultaneamente no sistema.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="FHS Filesystem Hierarchy Standard">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="fhs_filesystem_hierarchy_standard">
       <context>Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="touch command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="touch_command">
       <context>O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="file command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="file_command">
       <context>O comando file mostra o tipo de um arquivo.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="mkdir command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="mkdir_command">
       <context>O comando mkdir é usado para criar diretórios. O parâmetro -p é usado para não sobrescrever um diretório caso ele já exista.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="rm command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="rm_command">
       <context>O comando rm é usado para remover arquivos ou diretórios. O parâmetro -i faz uma pergunta para confirmar a remoção do arquivo. O argumento -r serve para remover o conteúdo do diretório e o parâmetro -f força a remoção dos arquivos.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="find command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="find_command">
       <context>O comando find faz busca por arquivos e diretórios por meio de suas características, por exemplo, dono, grupo, permissões, tamanho, tipo de arquivo etc.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="xargs command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="xargs_command">
       <context>A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="locate command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="locate_command">
       <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb.</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="updatedb command">
+   <relation type="including" source="topicos_para_revisao_do_capitulo" target="updatedb_command">
       <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb.</context>
    </relation>
-   <relation type="prerequisite" source="Linux" target="topicos_para_revisao_do_capitulo">
-      <context>Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard.</context>
-   </relation>
-   <relation type="part-of" source="estrutura_do_sistema_operacional" target="Ambiente de trabalho">
+   <relation type="part-of" source="estrutura_do_sistema_operacional" target="ambiente_de_trabalho">
       <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
-   <relation type="part-of" source="estrutura_do_sistema_operacional" target="DM (display manager)">
+   <relation type="part-of" source="estrutura_do_sistema_operacional" target="dm_display_manager">
       <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
    <relation type="part-of" source="estrutura_do_sistema_operacional" target="ttyn">
       <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
-   <relation type="part-of" source="estrutura_do_sistema_operacional" target="Sistema Operacional">
+   <relation type="part-of" source="estrutura_do_sistema_operacional" target="sistema_operacional">
       <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
-   <relation type="part-of" source="estrutura_do_sistema_operacional" target="Kernel Linux">
+   <relation type="part-of" source="estrutura_do_sistema_operacional" target="kernel_linux">
       <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
-   <relation type="part-of" source="estrutura_do_sistema_operacional" target="Hardware">
+   <relation type="part-of" source="estrutura_do_sistema_operacional" target="hardware">
       <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
-   <relation type="prerequisite" source="Kernel Linux" target="estrutura_do_sistema_operacional">
-      <context>Kernel Linux is mentioned as a layer in the system structure.</context>
+   <relation type="definition" source="estrutura_do_sistema_operacional" target="estrutura_do_sistema_operacional">
+      <context>A estrutura de um sistema GNU/Linux é composta por porções denominadas camadas (layers).</context>
    </relation>
-   <relation type="prerequisite" source="Distribuições GNU/Linux" target="estrutura_do_sistema_operacional">
-      <context>The concept of GNU/Linux distributions is necessary to understand the system structure.</context>
+   <relation type="prerequisite" source="gnulinux" target="estrutura_do_sistema_operacional">
+      <context>Para compreender de fato o que é esse sistema, é fundamental saber do que se trata cada uma de suas camadas.</context>
    </relation>
-   <relation type="definition" source="o_que_e_um_shell" target="Shell">
+   <relation type="part-of" source="estrutura_do_sistema_operacional" target="login">
+      <context>Uma sessão é composta pelos dados gerados após o login de um usuário válido cadastrado no sistema e efetuado com sucesso no ambiente.</context>
+   </relation>
+   <relation type="property" source="estrutura_do_sistema_operacional" target="multiusuariomultitarefa">
+      <context>Por meio de terminais virtuais, o GNU/Linux permite que diversos usuários se mantenham simultaneamente conectados, pondo em prática o aspecto multiusuário/multitarefa, característico do padrão Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="ambiente_grafico" target="estrutura_do_sistema_operacional">
+      <context>Um pseudoterminal é, basicamente, um terminal virtual inicializado a partir do ambiente gráfico.</context>
+   </relation>
+   <relation type="prerequisite" source="autenticacao" target="estrutura_do_sistema_operacional">
+      <context>pois esta exigirá, em um sistema configurado de modo seguro, que seja feita uma autenticação com um usuário previamente cadastrado.</context>
+   </relation>
+   <relation type="including" source="estrutura_do_sistema_operacional" target="shutdown">
+      <context>Sob o nível de usuário root, o desligamento do computador pode ser realizado por um dos seguintes comandos: shutdown -h now.</context>
+   </relation>
+   <relation type="including" source="estrutura_do_sistema_operacional" target="shutdown">
+      <context>Para reiniciar o sistema, podemos utilizar, como no desligamento, o comando shutdown.</context>
+   </relation>
+   <relation type="definition" source="o_que_e_um_shell" target="shell">
       <context>O shell é uma camada de acesso ao sistema básico, o sistema operacional do computador, que pode ser acessada tanto pelo modo gráfico, quanto pelo modo texto.</context>
    </relation>
-   <relation type="property" source="o_que_e_um_shell" target="personalização">
+   <relation type="property" source="o_que_e_um_shell" target="personalizacao">
       <context>O shell pode ser personalizado para atender as necessidade do usuário.</context>
    </relation>
-   <relation type="property" source="o_que_e_um_shell" target="idioma padrão">
+   <relation type="property" source="o_que_e_um_shell" target="idioma_padrao">
       <context>Pode-se definir um idioma padrão, personalizar e automatizar processos.</context>
    </relation>
-   <relation type="property" source="o_que_e_um_shell" target="automatização de processos">
+   <relation type="property" source="o_que_e_um_shell" target="automatizacao_de_processos">
       <context>Pode-se definir um idioma padrão, personalizar e automatizar processos.</context>
    </relation>
-   <relation type="prerequisite" source="GNU/Linux" target="o_que_e_um_shell">
-      <context>Sabemos que o principal meio de interação do usuário com um sistema GNU/Linux é o terminal de comandos, também conhecida como shell.</context>
+   <relation type="including" source="o_que_e_um_shell" target="sh_bourne_shell">
+      <context>Há diversos tipos de shell disponíveis para distribuições GNU/Linux . O bash é o tipo utilizado na maioria das distribuições. A seguir, temos a descrição dos principais tipos de shell: sh (Bourne shell)</context>
    </relation>
-   <relation type="including" source="o_que_e_um_shell" target="sh (Bourne shell)">
-      <context>sh (Bourne shell) : desenvolvido por Stephen Bourne, por isso seu nome. É o shell original, bem simples, com poucas ferramentas, mas ainda utilizado em sistemas UNIX e ambientes relacionados ao UNIX.</context>
+   <relation type="including" source="o_que_e_um_shell" target="bash_bourne_again_shell">
+      <context>Há diversos tipos de shell disponíveis para distribuições GNU/Linux . O bash é o tipo utilizado na maioria das distribuições. A seguir, temos a descrição dos principais tipos de shell: bash (Bourne Again shell)</context>
    </relation>
-   <relation type="including" source="o_que_e_um_shell" target="bash (Bourne Again shell)">
-      <context>bash (Bourne Again shell) : trata-se do shell padrão do Linux, conveniente tanto para usuários iniciantes, por ser intuitivo e flexível, quanto para usuários avançados e profissionais, por possuir ferramentas variadas e eficientes.</context>
+   <relation type="including" source="o_que_e_um_shell" target="csh_c_shell">
+      <context>Há diversos tipos de shell disponíveis para distribuições GNU/Linux . O bash é o tipo utilizado na maioria das distribuições. A seguir, temos a descrição dos principais tipos de shell: csh (C shell)</context>
    </relation>
-   <relation type="including" source="o_que_e_um_shell" target="csh (C shell)">
-      <context>csh (C shell) : o preferido de alguns programadores. A sintaxe desse shell é semelhante à linguagem de programação C.</context>
+   <relation type="including" source="o_que_e_um_shell" target="tcsh_turbo_c_shell">
+      <context>Há diversos tipos de shell disponíveis para distribuições GNU/Linux . O bash é o tipo utilizado na maioria das distribuições. A seguir, temos a descrição dos principais tipos de shell: tcsh (Turbo C shell)</context>
    </relation>
-   <relation type="including" source="o_que_e_um_shell" target="tcsh (Turbo C shell)">
-      <context>tcsh (Turbo C shell) : versão melhorada do csh , que interpreta linguagens de comando e pode ser usada tanto como um shell de login interativo quanto como um processador de comandos de shell scripts.</context>
+   <relation type="including" source="o_que_e_um_shell" target="ksh_korn_shell">
+      <context>Há diversos tipos de shell disponíveis para distribuições GNU/Linux . O bash é o tipo utilizado na maioria das distribuições. A seguir, temos a descrição dos principais tipos de shell: ksh (Korn shell)</context>
    </relation>
-   <relation type="including" source="o_que_e_um_shell" target="ksh (Korn shell)">
-      <context>ksh (Korn shell) : este shell é o Bourne Shell evoluído, portando todos os comandos que funcionavam no Bourne Shell funcionarão aqui, com a vantagem de ter mais opções.</context>
+   <relation type="including" source="o_que_e_um_shell" target="zsh_z_shell">
+      <context>Há diversos tipos de shell disponíveis para distribuições GNU/Linux . O bash é o tipo utilizado na maioria das distribuições. A seguir, temos a descrição dos principais tipos de shell: zsh (Z shell)</context>
    </relation>
-   <relation type="including" source="o_que_e_um_shell" target="zsh (Z shell)">
-      <context>zsh (Z shell) : além de um shell desenvolvido para uso interativo, que engloba várias funções úteis do bash , ksh e tcsh , o zsh é também uma linguagem de script eficiente.</context>
+   <relation type="property" source="o_que_e_um_shell" target="stephen_bourne">
+      <context>sh (Bourne shell) : desenvolvido por Stephen Bourne, por isso seu nome.</context>
    </relation>
-   <relation type="prerequisite" source="chsh command" target="o_que_e_um_shell">
+   <relation type="property" source="o_que_e_um_shell" target="linux">
+      <context>bash (Bourne Again shell) : trata-se do shell padrão do Linux.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="sh_bourne_shell">
+      <context>Compatível com todos os comandos do sh.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="linguagem_de_programacao_c">
+      <context>A sintaxe desse shell é semelhante à linguagem de programação C.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="csh_c_shell">
+      <context>É completamente compatível com o csh.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="bourne_shell">
+      <context>Este shell é o Bourne Shell evoluído, portando todos os comandos que funcionavam no Bourne Shell funcionarão aqui, com a vantagem de ter mais opções.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="bash_bourne_again_shell">
+      <context>O zsh é também uma linguagem de script eficiente que engloba várias funções úteis do bash.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="ksh_korn_shell">
+      <context>O zsh é também uma linguagem de script eficiente que engloba várias funções úteis do ksh.</context>
+   </relation>
+   <relation type="property" source="o_que_e_um_shell" target="tcsh_turbo_c_shell">
+      <context>O zsh é também uma linguagem de script eficiente que engloba várias funções úteis do tcsh.</context>
+   </relation>
+   <relation type="prerequisite" source="chsh_command" target="o_que_e_um_shell">
       <context>Para alterar o shell atual, utilizamos o comando chsh com a opção -s ou --shell , seguido do nome do shell que se deseja utilizar.</context>
    </relation>
-   <relation type="definition" source="variaveis" target="Podemos definir variáveis como nomes que contêm algum valor e, ainda, como espaços de memória que armazenam valores.">
+   <relation type="definition" source="variaveis" target="podemos_definir_variaveis_como_nomes_que_contem_algum_valor_e_ainda_como_espacos_de_memoria_que_armazenam_valores">
       <context>Podemos definir variáveis como nomes que contêm algum valor e, ainda, como espaços de memória que armazenam valores.</context>
    </relation>
-   <relation type="property" source="variaveis" target="NOME=VALOR">
+   <relation type="property" source="variaveis" target="nomevalor">
       <context>Tais variáveis apresentam a seguinte forma: NOME=VALOR</context>
    </relation>
    <relation type="property" source="variaveis" target="escala">
       <context>Esse tipo de variável que acabamos de definir é conhecida como escala e pode receber valores numéricos ou caracteres.</context>
    </relation>
-   <relation type="including" source="variaveis" target="Variáveis Locais">
+   <relation type="including" source="variaveis" target="variaveis_locais">
       <context>Quando falamos em variáveis em shell temos que ter em mente a divisão entre variáveis locais e de ambiente (ou globais).</context>
    </relation>
-   <relation type="including" source="variaveis" target="Variáveis de Ambiente">
+   <relation type="including" source="variaveis" target="variaveis_de_ambiente">
       <context>Quando falamos em variáveis em shell temos que ter em mente a divisão entre variáveis locais e de ambiente (ou globais).</context>
    </relation>
-   <relation type="definition" source="variaveis" target="são as variáveis disponíveis somente para o shell atual">
+   <relation type="definition" source="variaveis" target="sao_as_variaveis_disponiveis_somente_para_o_shell_atual">
       <context>Variáveis locais : são as variáveis disponíveis somente para o shell atual.</context>
    </relation>
-   <relation type="definition" source="variaveis" target="são as variáveis disponíveis tanto para o shell atual como para os subprocessos que as utilizam">
+   <relation type="definition" source="variaveis" target="sao_as_variaveis_disponiveis_tanto_para_o_shell_atual_como_para_os_subprocessos_que_as_utilizam">
       <context>Variáveis globais (de ambiente) : são as variáveis disponíveis tanto para o shell atual como para os subprocessos que as utilizam.</context>
    </relation>
-   <relation type="prerequisite" source="echo" target="variaveis">
-      <context>Interessante observar o comando echo , que por sua vez é usado para imprimir algo na tela ou direcionar para um arquivo.</context>
+   <relation type="property" source="variaveis" target="home_hosttype_shell_term_user_path_ps1_ps2_mail_logname_ostype">
+      <context>Vejamos algumas variáveis de ambiente na tabela abaixo: | Variável | Definição | |------------|---------------------------------------------------------------------------------------------------------------------------------| | HOME | Responsável por identificar o diretório do usuário. | | HOSTTYPE | Faz referência à plataforma que está sendo utilizada. | | SHELL | Permite identificar o shell que está sendo utilizado. | | TERM | Define o tipo de terminal que está sendo utilizado. | | USER | Predefine o nome da conta como variável global. | | PATH | Determina quais diretórios devemos pesquisar e, ainda, qual sequência deverá ser seguida para encontrar um determinado comando. | | PS1 | Representa as informações exibidas no prompt. | | PS2 | Representa o prompt estendido. | | MAIL | Esta variável informa como o correio eletrônico está definido. | | LOGNAME | É um sinônimo da variável USER. | | OSTYPE | Com a utilização desta variável, é possível definir o tipo de sistema operacional que está sendo utilizado.</context>
    </relation>
-   <relation type="prerequisite" source="export" target="variaveis">
-      <context>Para definir uma variável de ambiente o procedimento adiciona o comando export antes da definição.</context>
+   <relation type="definition" source="variaveis" target="unset">
+      <context>Utilizamos o comando unset para excluir variáveis. Sua sintaxe é a seguinte: unset &lt;variavel&gt;</context>
    </relation>
-   <relation type="prerequisite" source="unset" target="variaveis">
-      <context>Utilizamos o comando unset para excluir variáveis.</context>
-   </relation>
-   <relation type="prerequisite" source="set" target="variaveis">
-      <context>Uma vez definidas as variáveis , podemos visualizá-las utilizando os comandos set e env ou printenv para variáveis locais e de ambiente, respectivamente.</context>
-   </relation>
-   <relation type="prerequisite" source="env" target="variaveis">
-      <context>Uma vez definidas as variáveis , podemos visualizá-las utilizando os comandos set e env ou printenv para variáveis locais e de ambiente, respectivamente.</context>
-   </relation>
-   <relation type="prerequisite" source="printenv" target="variaveis">
-      <context>Uma vez definidas as variáveis , podemos visualizá-las utilizando os comandos set e env ou printenv para variáveis locais e de ambiente, respectivamente.</context>
-   </relation>
-   <relation type="including" source="variaveis" target="Exclusão de variáveis">
-      <context>Utilizamos o comando unset para excluir variáveis.</context>
-   </relation>
-   <relation type="including" source="variaveis" target="Alterar o prompt de comando">
+   <relation type="property" source="variaveis" target="ps1">
       <context>Para que possamos alterar o prompt de comandos, devemos alterar os valores que estão armazenados dentro da variável PS1.</context>
    </relation>
-   <relation type="definition" source="arquivos_de_configuracao_do_shell" target="definition">
-      <context>Alguns arquivos são automaticamente lidos pelo shell no momento do login e do logout de um usuário ou ainda no momento da chamada do shell a partir de uma sessão que já tenha sido iniciada.</context>
+   <relation type="prerequisite" source="shell" target="variaveis">
+      <context>Para acessar o endereço de memória atribuído à variável 4LINUX , em shell , devemos utilizar o operador $ (cifrão) antes do nome da variável.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="/etc/profile">
-      <context>Caso o bash seja invocado durante um login, ele lerá os arquivos /etc/profile , ~/.bash_profile , ~/.bash_login e ~/.profile , nessa ordem, caso eles existam.</context>
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="etcprofile">
+      <context>O arquivo /etc/profile é executado automaticamente no momento do login e lido antes dos arquivos de configurações pessoais do usuário.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="/etc/environment">
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="etcenvironment">
       <context>O arquivo /etc/environment é utilizado por sistemas Debian para definir variáveis de ambiente.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="/.bashrc">
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="bashrc">
       <context>Executado por shells invocados em sessões já iniciadas, e não de login, esse arquivo possui características semelhantes às do arquivo ~/.bash.profile.</context>
    </relation>
    <relation type="including" source="arquivos_de_configuracao_do_shell" target="aliases">
       <context>Uma forma bastante útil de agilizar a entrada de um comando que seja usado normalmente com os mesmos parâmetros é atribuir um alias.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="/etc/issue">
-      <context>Existem três arquivos relacionados à exibição de imagens para usuários, que não afetam a parte operacional do sistema. O primeiro deles é o /etc/issue.</context>
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="etcissue">
+      <context>O primeiro deles é o /etc/issue, que exibe uma mensagem para um usuário antes do login no sistema.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="/etc/motd">
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="etcmotd">
       <context>Caso queira que a mensagem apareça depois do login, o arquivo utilizado é o /etc/motd.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="/etc/issue.net">
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="etcissuenet">
       <context>Para visualizar mensagens exibidas em logins remotos, o arquivo a ser verificado é o /etc/issue.net.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target=".bash_history">
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="bash_history">
       <context>O .bash_history é um arquivo responsável por armazenar o histórico de linhas de comando.</context>
    </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="HISTFILE">
-      <context>Armazena o nome do arquivo utilizado para armazenar históricos.</context>
-   </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="HISTSIZE">
-      <context>Armazena o número máximo de comandos que o arquivo suportará.</context>
-   </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="HISTFILESIZE">
-      <context>Armazena o número máximo de linhas que o arquivo do histórico comandos suportará.</context>
-   </relation>
-   <relation type="including" source="arquivos_de_configuracao_do_shell" target="Comando fc">
+   <relation type="including" source="arquivos_de_configuracao_do_shell" target="comando_fc">
       <context>FC significa Find Command ou Fix Command pois ele executa as duas tarefas, encontrar e corrigir comandos.</context>
    </relation>
-   <relation type="prerequisite" source="Shell" target="arquivos_de_configuracao_do_shell">
-      <context>Alguns arquivos são automaticamente lidos pelo shell no momento do login e do logout de um usuário ou ainda no momento da chamada do shell a partir de uma sessão que já tenha sido iniciada.</context>
+   <relation type="prerequisite" source="shell" target="arquivos_de_configuracao_do_shell">
+      <context>Alguns arquivos são automaticamente lidos pelo shell no momento do login e do logout de um usuário.</context>
    </relation>
-   <relation type="definition" source="caminhos_de_diretorios" target="Caminhos de Diretorios">
+   <relation type="definition" source="caminhos_de_diretorios" target="caminhos_de_diretorios">
       <context>Os chamados 'caminhos' de diretório, são locais no sistema onde são armazenadas localizações físicas de arquivos, pastas, scripts e demais recursos do sistema e consistem em caminhos absolutos e caminhos relativos.</context>
    </relation>
-   <relation type="including" source="caminhos_de_diretorios" target="Caminho absoluto">
+   <relation type="including" source="caminhos_de_diretorios" target="caminho_absoluto">
       <context>Os chamados 'caminhos' de diretório, são locais no sistema onde são armazenadas localizações físicas de arquivos, pastas, scripts e demais recursos do sistema e consistem em caminhos absolutos e caminhos relativos.</context>
    </relation>
-   <relation type="including" source="caminhos_de_diretorios" target="Caminho relativo">
+   <relation type="including" source="caminhos_de_diretorios" target="caminho_relativo">
       <context>Os chamados 'caminhos' de diretório, são locais no sistema onde são armazenadas localizações físicas de arquivos, pastas, scripts e demais recursos do sistema e consistem em caminhos absolutos e caminhos relativos.</context>
    </relation>
-   <relation type="definition" source="caminhos_de_diretorios" target="Caminho absoluto">
-      <context>Caminho absoluto é o caminho completo de um arquivo ou subdiretório desde a raiz. Por exemplo: /proc/cpuinfo.</context>
+   <relation type="definition" source="caminhos_de_diretorios" target="caminho_absoluto">
+      <context>Caminho absoluto é o caminho completo de um arquivo ou subdiretório desde a raiz.</context>
    </relation>
-   <relation type="part-of" source="caminhos_de_diretorios" target="Caminhos de Diretorios">
-      <context>Caminho absoluto é o caminho completo de um arquivo ou subdiretório desde a raiz. Por exemplo: /proc/cpuinfo.</context>
-   </relation>
-   <relation type="definition" source="caminhos_de_diretorios" target="Caminho relativo">
+   <relation type="definition" source="caminhos_de_diretorios" target="caminho_relativo">
       <context>Já o caminho relativo é usado quando não é indicado o diretório raiz para acessar um subdiretório ou um arquivo qualquer.</context>
    </relation>
-   <relation type="part-of" source="caminhos_de_diretorios" target="Caminhos de Diretorios">
-      <context>Já o caminho relativo é usado quando não é indicado o diretório raiz para acessar um subdiretório ou um arquivo qualquer.</context>
+   <relation type="prerequisite" source="pwd_command" target="caminhos_de_diretorios">
+      <context>O comando pwd ( print name of current/working directory ) significa: imprima o nome do diretório corrente no qual estou trabalhando agora, e é usado para saber em qual diretório você está no momento.</context>
    </relation>
-   <relation type="prerequisite" source="Estrutura do sistema operacional" target="caminhos_de_diretorios">
-      <context>Mas de vez em quando você pode ter que fazer alguma coisa a partir da linha de comando do Linux, e é importante saber onde você está na estrutura de arquivos do Linux.</context>
+   <relation type="prerequisite" source="cd_command" target="caminhos_de_diretorios">
+      <context>O comando cd é utilizado para mudar o diretório atual de onde o usuário está.</context>
    </relation>
-   <relation type="prerequisite" source="FHS Filesystem Hierarchy Standard" target="caminhos_de_diretorios">
-      <context>Linux são hierárquicos, ou seja, há um diretório de nível superior chamado Raiz , que é identificado como apenas uma barra / . A Raiz tem sub-diretórios organizados sob ele, como /home , /bin e /usr.</context>
+   <relation type="prerequisite" source="ls_command" target="caminhos_de_diretorios">
+      <context>O comando ls é utilizado para listar o conteúdo dos diretórios.</context>
    </relation>
-   <relation type="prerequisite" source="Variáveis de Ambiente" target="caminhos_de_diretorios">
+   <relation type="prerequisite" source="variaveis_de_ambiente" target="caminhos_de_diretorios">
       <context>O que permite você executar o comando ls sem indicar o caminho absoluto é a existência da variável de ambiente $PATH , que armazena os diretórios nos quais o sistema deve buscar os executáveis.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard">
+   <relation type="prerequisite" source="fhs_filesystem_hierarchy_standard" target="topicos_para_revisao_do_capitulo">
       <context>Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório">
-      <context>O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório</context>
+   <relation type="prerequisite" source="touch_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="O comando file mostra o tipo de um arquivo">
-      <context>O comando file mostra o tipo de um arquivo</context>
+   <relation type="prerequisite" source="file_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando file mostra o tipo de um arquivo.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="O comando mkdir é usado para criar diretórios">
+   <relation type="prerequisite" source="mkdir_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando mkdir é usado para criar diretórios. O parâmetro -p é usado para não sobrescrever um diretório caso ele já exista.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="O comando rm é usado para remover arquivos ou diretórios">
+   <relation type="prerequisite" source="rm_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando rm é usado para remover arquivos ou diretórios. O parâmetro -i faz uma pergunta para confirmar a remoção do arquivo. O argumento -r serve para remover o conteúdo do diretório e o parâmetro -f força a remoção dos arquivos.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="O comando find faz busca por arquivos e diretórios por meio de suas características">
+   <relation type="prerequisite" source="find_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando find faz busca por arquivos e diretórios por meio de suas características, por exemplo, dono, grupo, permissões, tamanho, tipo de arquivo etc.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções">
+   <relation type="prerequisite" source="xargs_command" target="topicos_para_revisao_do_capitulo">
       <context>A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções.</context>
    </relation>
-   <relation type="property" source="topicos_para_revisao_do_capitulo" target="O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb">
-      <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb.</context>
+   <relation type="prerequisite" source="locate_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb</context>
    </relation>
-   <relation type="including" source="como_obter_ajuda" target="Man Pages">
+   <relation type="prerequisite" source="updatedb_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb</context>
+   </relation>
+   <relation type="including" source="como_obter_ajuda" target="man_pages">
       <context>Essa ajuda é provida por meio dos manuais, as famosas Man Pages.</context>
    </relation>
-   <relation type="property" source="como_obter_ajuda" target="GNU/Linux">
+   <relation type="property" source="como_obter_ajuda" target="gnulinux">
       <context>O Sistema Operacional GNU/Linux possui uma vasta biblioteca de documentação.</context>
    </relation>
-   <relation type="property" source="como_obter_ajuda" target="Software Livre">
+   <relation type="property" source="como_obter_ajuda" target="software_livre">
       <context>É muito importante reforçar que no Software Livre, as pessoas nunca ocultam seu know-how.</context>
    </relation>
-   <relation type="property" source="como_obter_ajuda" target="documentação">
-      <context>A documentação do GNU/Linux pode ser vista também como fonte de conhecimento.</context>
+   <relation type="definition" source="como_obter_ajuda" target="definition">
+      <context>Neste capítulo, vamos aprender a consultar as documentações existentes e como buscar informações sobre o que precisamos.</context>
    </relation>
-   <relation type="including" source="formas_de_documentacao" target="How-to's">
+   <relation type="prerequisite" source="gnulinux" target="como_obter_ajuda">
+      <context>O GNU/Linux cresceu porque a comunidade contribui para o sistema e sua documentação.</context>
+   </relation>
+   <relation type="including" source="formas_de_documentacao" target="howtos">
       <context>Existem diversas formas de se documentar um projeto, dentre elas temos os Howto's , os manuais e as documentações.</context>
    </relation>
-   <relation type="including" source="formas_de_documentacao" target="Manuais">
+   <relation type="including" source="formas_de_documentacao" target="manuais">
       <context>Existem diversas formas de se documentar um projeto, dentre elas temos os Howto's , os manuais e as documentações.</context>
    </relation>
-   <relation type="including" source="formas_de_documentacao" target="Documentação">
+   <relation type="including" source="formas_de_documentacao" target="documentacao">
       <context>Existem diversas formas de se documentar um projeto, dentre elas temos os Howto's , os manuais e as documentações.</context>
    </relation>
-   <relation type="definition" source="formas_de_documentacao" target="Formas de documentação">
+   <relation type="part-of" source="formas_de_documentacao" target="formas_de_documentacao">
       <context>Existem diversas formas de se documentar um projeto, dentre elas temos os Howto's , os manuais e as documentações.</context>
    </relation>
-   <relation type="property" source="formas_de_documentacao" target="/usr/share/doc">
+   <relation type="part-of" source="formas_de_documentacao" target="formas_de_documentacao">
+      <context>Existem diversas formas de se documentar um projeto, dentre elas temos os Howto's , os manuais e as documentações.</context>
+   </relation>
+   <relation type="part-of" source="formas_de_documentacao" target="formas_de_documentacao">
+      <context>Existem diversas formas de se documentar um projeto, dentre elas temos os Howto's , os manuais e as documentações.</context>
+   </relation>
+   <relation type="property" source="formas_de_documentacao" target="usrsharedoc">
       <context>O diretório de How-to's do GNU/Linux é o /usr/share/doc.</context>
    </relation>
-   <relation type="property" source="formas_de_documentacao" target="man command">
-      <context>Esses manuais podem ser encontrados através do comando man , o qual veremos ainda nesse capítulo, um pouco mais adiante.</context>
+   <relation type="property" source="formas_de_documentacao" target="man_command">
+      <context>Esses manuais podem ser encontrados através do comando man.</context>
    </relation>
-   <relation type="including" source="formas_de_documentacao" target="How-to's">
+   <relation type="definition" source="formas_de_documentacao" target="howtos">
+      <context>Os How-to's (do inglês 'Como Fazer'), são documentos que focam uma necessidade específica, como montar um 'firewall', instalar uma 'webcam', configurar placas de som, configurar um servidor web e muitos outros.</context>
+   </relation>
+   <relation type="definition" source="formas_de_documentacao" target="manuais">
+      <context>Diferente dos How-to's os manuais não vão te mostrar um passo a passo ou mesmo te dar uma lista de afazeres. O principal objetivo do manual é te mostrar como as funcionalidades daquele software podem ser usadas.</context>
+   </relation>
+   <relation type="definition" source="formas_de_documentacao" target="documentacao">
       <context>A palavra documentação é muito intensa. Quando falamos em documentar uma ferramenta, estamos na realidade abrangendo uma série de outros itens importantes, dentre eles os Howto's e os manuais.</context>
    </relation>
-   <relation type="including" source="formas_de_documentacao" target="Manuais">
-      <context>A palavra documentação é muito intensa. Quando falamos em documentar uma ferramenta, estamos na realidade abrangendo uma série de outros itens importantes, dentre eles os Howto's e os manuais.</context>
-   </relation>
-   <relation type="property" source="comando_help" target="comandos internos">
+   <relation type="property" source="comando_help" target="comandos_internos">
       <context>O comando help provê ajuda para comandos internos do interpretador de comandos.</context>
    </relation>
-   <relation type="property" source="comando_help" target="ajuda rápida">
-      <context>O comando help fornece ajuda rápida.</context>
+   <relation type="property" source="comando_help" target="ajuda_rapida">
+      <context>o comando help fornece ajuda rápida.</context>
    </relation>
-   <relation type="property" source="comando_help" target="opções">
+   <relation type="property" source="comando_help" target="opcoes">
       <context>Ele é muito útil para saber quais opções podem ser usadas com os comandos internos do interpretador de comandos (shell).</context>
    </relation>
-   <relation type="definition" source="comando_help" target="comandos internos">
-      <context>O comando help provê ajuda para comandos internos do interpretador de comandos.</context>
-   </relation>
-   <relation type="property" source="comando_help" target="help [comando]">
-      <context>Caso desejemos visualizar a ajuda rápida para somente um comando interno, usamos esta outra sintaxe: help [comando]</context>
-   </relation>
-   <relation type="property" source="comando_help" target="comandos internos">
+   <relation type="property" source="comando_help" target="comandos_internos">
       <context>O comando help somente mostra a ajuda para comandos internos.</context>
    </relation>
-   <relation type="prerequisite" source="comando type" target="comando_help">
+   <relation type="prerequisite" source="comando_type" target="comando_help">
       <context>O comando type mostra se cada nome de comando é um comando do UNIX, um comando interno, um alias, uma palavra-chave do shell ou uma função de shell definida.</context>
    </relation>
-   <relation type="property" source="comando_help" target="comandos externos">
+   <relation type="property" source="comando_help" target="help">
       <context>Para comandos externos, o help aparece como parâmetro.</context>
    </relation>
-   <relation type="property" source="comando_help" target="--help">
-      <context>O parâmetro --help pode ser utilizado em qualquer comando para ter uma consulta rápida dos parâmetros que ele pode nos oferecer.</context>
+   <relation type="prerequisite" source="comandos_externos" target="comando_help">
+      <context>Para comandos externos, o help aparece como parâmetro.</context>
    </relation>
-   <relation type="prerequisite" source="Linux" target="comando_apropos">
-      <context>O comando apropos ajuda o usuário quando ele não se lembra do comando exato, mas conhece algumas palavras-chave relacionadas ao comando que definem seu uso ou funcionalidade. Ele pesquisa a página de manual do Linux com a ajuda da palavra-chave fornecida pelo usuário para encontrar o comando e suas funções.</context>
+   <relation type="prerequisite" source="diferencas_entre_comandos_internos_e_externos" target="comando_help">
+      <context>Não se esqueça de estudar as diferenças entre comandos internos e externos.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="apropos [OPÇÃO ..] PALAVRA-CHAVE ...">
+   <relation type="definition" source="comando_apropos" target="o_comando_apropos_ajuda_o_usuario_quando_ele_nao_se_lembra_do_comando_exato_mas_conhece_algumas_palavraschave_relacionadas_ao_comando_que_definem_seu_uso_ou_funcionalidade">
+      <context>O comando apropos ajuda o usuário quando ele não se lembra do comando exato, mas conhece algumas palavras-chave relacionadas ao comando que definem seu uso ou funcionalidade.</context>
+   </relation>
+   <relation type="property" source="comando_apropos" target="ele_pesquisa_a_pagina_de_manual_do_linux_com_a_ajuda_da_palavrachave_fornecida_pelo_usuario_para_encontrar_o_comando_e_suas_funcoes">
+      <context>Ele pesquisa a página de manual do Linux com a ajuda da palavra-chave fornecida pelo usuário para encontrar o comando e suas funções.</context>
+   </relation>
+   <relation type="property" source="comando_apropos" target="apropos_opcao__palavrachave_">
       <context>Sintaxe: apropos [OPÇÃO ..] PALAVRA-CHAVE ...</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-d">
+   <relation type="property" source="comando_apropos" target="d">
       <context>-d : esta opção é usada para emitir mensagens de depuração.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-v">
+   <relation type="property" source="comando_apropos" target="v">
       <context>-v : esta opção é usada para imprimir mensagens de aviso detalhadas.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-e , -exact">
+   <relation type="property" source="comando_apropos" target="e__exact">
       <context>-e , -exact : esta opção é usada para pesquisar cada palavra-chave para correspondência exata.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-w , -wildcard">
+   <relation type="property" source="comando_apropos" target="w__wildcard">
       <context>-w , -wildcard : esta opção é usada quando a (s) palavra (s) -chave contém curingas.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-a , -and">
+   <relation type="property" source="comando_apropos" target="a__and">
       <context>-a , -and : esta opção é usada quando queremos que todas as palavras-chave correspondam.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-l , -long">
-      <context>-l , -long : por padrão, a saída é cortada para a largura do terminal. Esta opção é útil quando não queremos que o resultado seja truncado.</context>
+   <relation type="property" source="comando_apropos" target="l__long">
+      <context>-l , -long : por padrão, a saída é cortada para a largura do terminal.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-C">
+   <relation type="property" source="comando_apropos" target="c">
       <context>-C : esta opção é usada quando não queremos usar o padrão ( / manpath ), mas o arquivo de configuração do usuário.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-L">
+   <relation type="property" source="comando_apropos" target="l">
       <context>-L : define o local para esta pesquisa.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-m , -systems">
+   <relation type="property" source="comando_apropos" target="m__systems">
       <context>-m , -systems : esta opção usa páginas de manual de outros sistemas.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-M , -manpath">
+   <relation type="property" source="comando_apropos" target="m__manpath">
       <context>-M , -manpath : define o caminho de pesquisa das páginas de manual para PATH em vez do $MANPATH padrão.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-s , -sections , -section">
+   <relation type="property" source="comando_apropos" target="s__sections__section">
       <context>-s , -sections , -section : Esta opção é usada quando queremos pesquisar apenas seções particulares (separadas por dois pontos) que são fornecidas no argumento.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-? , -Help">
+   <relation type="property" source="comando_apropos" target="__help">
       <context>-? , -Help : esta opção exibe a lista de ajuda.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-V , -version">
+   <relation type="property" source="comando_apropos" target="v__version">
       <context>-V , -version : usado para imprimir a versão do programa.</context>
    </relation>
-   <relation type="property" source="comando_apropos" target="-r , -regex">
+   <relation type="property" source="comando_apropos" target="r__regex">
       <context>-r , -regex : esta opção interpreta cada palavra-chave como um regex (expressão regular).</context>
    </relation>
-   <relation type="definition" source="comando_apropos" target="man -k">
+   <relation type="property" source="comando_apropos" target="man_k">
       <context>E por fim, uma forma equivalente ao apropos é usar o comando man juntamente com a opção -k man -k editor</context>
    </relation>
-   <relation type="definition" source="comando_whatis" target="Comando apropos">
+   <relation type="definition" source="comando_whatis" target="comando_apropos">
       <context>O comando whatis tem basicamente a mesma função do comando apropos , porém as buscas do comando whatis são mais específicas.</context>
    </relation>
-   <relation type="property" source="comando_whatis" target="Comando apropos">
+   <relation type="property" source="comando_whatis" target="comando_apropos">
       <context>O apropos busca as páginas de manuais e descrições de maneira mais genérica.</context>
    </relation>
-   <relation type="property" source="comando_whatis" target="Comando apropos">
+   <relation type="property" source="comando_whatis" target="comando_apropos">
       <context>Para localizar as man pages , o comando apropos e whatis utilizam o mesmo banco de dados construído com o comando catman ou makewhatis.</context>
    </relation>
    <relation type="prerequisite" source="catman" target="comando_whatis">
@@ -567,35 +1068,26 @@
    <relation type="prerequisite" source="makewhatis" target="comando_whatis">
       <context>Para construir o banco de dados do comando apropos e whatis devemos executar o comando abaixo: makewhatis -v</context>
    </relation>
-   <relation type="property" source="comando_whatis" target="man -f">
-      <context>Uma forma equivalente ao whatis é usar o comando man juntamente com a opção -f : man -f vim</context>
+   <relation type="property" source="comando_whatis" target="man">
+      <context>Uma forma equivalente ao whatis é usar o comando man juntamente com a opção -f.</context>
    </relation>
-   <relation type="property" source="comando_whatis" target="whatis [comando]">
-      <context>A sintaxe utilizada no comando whatis é a seguinte: whatis [comando]</context>
-   </relation>
-   <relation type="definition" source="comando_man" target="obtenção de documentação no Linux">
+   <relation type="definition" source="comando_man" target="obtencao_de_documentacao_no_linux">
       <context>O comando man sem dúvidas é o comando mais usado para obtenção de documentação no Linux, ele é o responsável por trazer os manuais mais completos sobre determinado comando, arquivo de configuração, bibliotecas, entre outros nos quais estamos trabalhando.</context>
    </relation>
-   <relation type="property" source="comando_man" target="manuais do sistema">
-      <context>Os manuais do sistema são divididos nos seguintes níveis: - man 1 -&gt; Programas e executáveis disponíveis ao usuário; - man 2 -&gt; Rotinas de sistema Unix e C; - man 3 -&gt; Rotinas de bibliotecas da linguagem C; - man 4 -&gt; Arquivos especiais (dispositivos em /dev ); - man 5 -&gt; Arquivos de configuração e convenções; - man 6 -&gt; Games; - man 7 -&gt; Diversos (macros textuais, por exemplo, regex ); - man 8 -&gt; Comandos administrativos; - man 9 -&gt; Rotinas internas do kernel.</context>
+   <relation type="property" source="comando_man" target="manuais_do_sistema">
+      <context>Os manuais do sistema são divididos nos seguintes níveis: man 1, man 2, man 3, man 4, man 5, man 6, man 7, man 8, man 9.</context>
    </relation>
    <relation type="property" source="comando_man" target="sintaxe">
       <context>Sintaxe do comando man : man [ comando ] ou man [ seção ] [ comando ]</context>
    </relation>
-   <relation type="property" source="comando_man" target="navegação">
-      <context>Para navegar pelo manual, o comando man abre um arquivo que está compactado na pasta /usr /share/man/man1 para o passwd . Outros níveis de manuais, dependem do comando ou arquivo.</context>
+   <relation type="property" source="comando_man" target="navegacao">
+      <context>Para navegar pelo manual, o comando man abre um arquivo que está compactado na pasta /usr /share/man/man1 para o passwd .</context>
    </relation>
-   <relation type="property" source="comando_man" target="manuais disponíveis">
+   <relation type="property" source="comando_man" target="usrshareman">
       <context>Podemos consultar quais manuais estão disponíveis dentro do próprio diretório do man : ls /usr/share/man/</context>
    </relation>
-   <relation type="property" source="comando_man" target="introdução dos manuais">
+   <relation type="property" source="comando_man" target="man_nivel_intro">
       <context>Todos os níveis de manuais possuem sua determinada introdução que pode ser vista com o comando: man &lt;nivel&gt; intro</context>
-   </relation>
-   <relation type="property" source="comando_man" target="comando">
-      <context>O passwd é conhecido no sistema GNU/Linux como um comando que adiciona ou modifica a senha do usuário e, também, como o arquivo de usuários do sistema /etc/passwd) .</context>
-   </relation>
-   <relation type="property" source="comando_man" target="arquivo de usuários do sistema">
-      <context>O passwd é conhecido no sistema GNU/Linux como um comando que adiciona ou modifica a senha do usuário e, também, como o arquivo de usuários do sistema /etc/passwd) .</context>
    </relation>
    <relation type="including" source="comando_man" target="passwd">
       <context>Se for necessário visualizar o manual do comando passwd , podemos fazer da seguinte forma: man passwd</context>
@@ -603,259 +1095,289 @@
    <relation type="including" source="comando_man" target="passwd">
       <context>Veremos agora o manual do arquivo de usuários passwd : man 5 passwd</context>
    </relation>
-   <relation type="including" source="comando_man" target="/usr/share/man/">
-      <context>Podemos consultar quais manuais estão disponíveis dentro do próprio diretório do man : ls /usr/share/man/</context>
+   <relation type="including" source="comando_man" target="passwd">
+      <context>Podemos ver que para visualizar o manual do arquivo de usuário passwd precisamos informar em qual nível de manual ele se encontra, pois já existe um passwd no nível 1, que é o comando, então ele aparece primeiro quando digitamos man passwd sem indicar o nível.</context>
    </relation>
-   <relation type="including" source="comando_man" target="/usr/share/man/man5">
-      <context>Esse manual do arquivo passwd está compactado na pasta /usr/share/man/man5 .</context>
-   </relation>
-   <relation type="part-of" source="comando_man" target="/usr/share/man/man5">
-      <context>Esse manual do arquivo passwd está compactado na pasta /usr/share/man/man5 .</context>
-   </relation>
-   <relation type="part-of" source="comando_man" target="/usr/share/man/man1">
-      <context>Para navegar pelo manual, o comando man abre um arquivo que está compactado na pasta /usr /share/man/man1 para o passwd . Outros níveis de manuais, dependem do comando ou arquivo.</context>
-   </relation>
-   <relation type="definition" source="comando_info" target="info pages">
+   <relation type="definition" source="comando_info" target="info_pages">
       <context>As info pages são como as páginas de manuais, porém são utilizadas com navegação entre as páginas. Elas são acessadas pelo comando info.</context>
    </relation>
-   <relation type="property" source="comando_info" target="navegação entre páginas">
+   <relation type="property" source="comando_info" target="navegacao_entre_paginas">
+      <context>As info pages são como as páginas de manuais, porém são utilizadas com navegação entre as páginas.</context>
+   </relation>
+   <relation type="property" source="comando_info" target="navegacao_por_hipertextos">
       <context>A navegação nas info pages é feita através de nomes marcados com um (*) (hipertextos) que, ao pressionarmos Enter , nos leva até a seção correspondente, e Backspace volta à página anterior.</context>
    </relation>
-   <relation type="property" source="comando_info" target="teclas de navegação">
-      <context>Podemos também navegar pelas páginas com as teclas: * n (next/próximo); * p (previous/anterior); * u (up/sobe um nível).</context>
+   <relation type="property" source="comando_info" target="teclas_de_navegacao">
+      <context>Podemos também navegar pelas páginas com as teclas: n (next/próximo); p (previous/anterior); u (up/sobe um nível).</context>
    </relation>
-   <relation type="property" source="comando_info" target="sair do comando">
+   <relation type="property" source="comando_info" target="sair_do_comando">
       <context>Para sair do comando info , basta pressionar a tecla q.</context>
    </relation>
-   <relation type="property" source="comando_info" target="exibir lista de manuais">
+   <relation type="property" source="comando_info" target="exibir_lista_de_manuais">
       <context>Se for necessário exibir a lista de todos os manuais de comandos/programas disponíveis, execute o comando abaixo sem nenhum argumento. Assim: info</context>
    </relation>
-   <relation type="property" source="comando_info" target="exibir informações de um comando">
+   <relation type="property" source="comando_info" target="exibir_informacoes_de_um_comando">
       <context>Para exibir as informações somente de um determinado comando, usaremos a seguinte sintaxe: info [comando]</context>
    </relation>
-   <relation type="definition" source="comando_info" target="ferramenta gráfica">
+   <relation type="definition" source="comando_info" target="ferramenta_grafica">
       <context>yelp - Ferramenta gráfica para visualização de manuais de aplicativos gráficos do GNOME; (fornecido pelo pacote yelp).</context>
    </relation>
-   <relation type="definition" source="comando_info" target="front-end para o comando man">
+   <relation type="definition" source="comando_info" target="frontend_para_o_comando_man">
       <context>xman - 'Front-end' para o comando man , que facilita a consulta das man pages ; (fornecido pelo pacote x11-apps).</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="localização do binário">
+   <relation type="property" source="comando_whereis" target="localizacao_do_binario">
       <context>O comando whereis é utilizado para mostrar a localização do binário do comando, do arquivo de configuração (caso exista), e a localização das páginas de manuais do determinado comando ou arquivo.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="localização do arquivo de configuração">
+   <relation type="property" source="comando_whereis" target="localizacao_do_arquivo_de_configuracao">
       <context>O comando whereis é utilizado para mostrar a localização do binário do comando, do arquivo de configuração (caso exista), e a localização das páginas de manuais do determinado comando ou arquivo.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="localização das páginas de manuais">
+   <relation type="property" source="comando_whereis" target="localizacao_das_paginas_de_manuais">
       <context>O comando whereis é utilizado para mostrar a localização do binário do comando, do arquivo de configuração (caso exista), e a localização das páginas de manuais do determinado comando ou arquivo.</context>
    </relation>
-   <relation type="prerequisite" source="Comando find" target="comando_whereis">
+   <relation type="prerequisite" source="comando_find" target="comando_whereis">
       <context>Se compararmos o comando whereis com o comando find , eles parecerão semelhantes entre si, pois ambos podem ser usados para os mesmos fins, mas o comando whereis produz o resultado com mais precisão, consumindo menos tempo comparativamente.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-b">
+   <relation type="property" source="comando_whereis" target="b">
       <context>-b : esta opção é usada quando queremos apenas pesquisar binários.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-m">
+   <relation type="property" source="comando_whereis" target="m">
       <context>-m : esta opção é usada quando queremos apenas pesquisar por seções manuais.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-s">
+   <relation type="property" source="comando_whereis" target="s">
       <context>-s : esta opção é usada quando queremos apenas pesquisar fontes.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-u">
-      <context>-u : esta opção pesquisa entradas incomuns.</context>
+   <relation type="property" source="comando_whereis" target="u">
+      <context>-u : esta opção pesquisa entradas incomuns. Um arquivo de origem ou um arquivo binário é considerado incomum se não tiver nenhuma existência no sistema de acordo com [-bmsu] descrito junto com -u .</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-B">
+   <relation type="property" source="comando_whereis" target="b">
       <context>-B : esta opção é usada para alterar ou limitar os locais onde o whereis procura por binários.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-M">
+   <relation type="property" source="comando_whereis" target="m">
       <context>-M : esta opção é usada para alterar ou limitar os locais onde o whereis procura por seções manuais.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-S">
+   <relation type="property" source="comando_whereis" target="s">
       <context>-S : esta opção é usada para alterar ou de outra forma limitar os locais onde whereis procura pelas fontes.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-f">
-      <context>-f : esta opção simplesmente termina a última lista de diretórios e sinaliza o início dos nomes dos arquivos.</context>
+   <relation type="property" source="comando_whereis" target="f">
+      <context>-f : esta opção simplesmente termina a última lista de diretórios e sinaliza o início dos nomes dos arquivos. Deve ser usado quando qualquer uma das opções -B , -M ou -S for usada.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-V">
+   <relation type="property" source="comando_whereis" target="v">
       <context>-V : exibe informações sobre a versão e sai.</context>
    </relation>
-   <relation type="property" source="comando_whereis" target="-h">
+   <relation type="property" source="comando_whereis" target="h">
       <context>-h : exibe esta ajuda e sai.</context>
    </relation>
-   <relation type="definition" source="comando_whereis" target="Comando whereis">
+   <relation type="definition" source="comando_whereis" target="comando_whereis">
       <context>O comando whereis é utilizado para mostrar a localização do binário do comando, do arquivo de configuração (caso exista), e a localização das páginas de manuais do determinado comando ou arquivo.</context>
    </relation>
-   <relation type="property" source="comando_which" target="Comando whereis">
+   <relation type="property" source="comando_which" target="comando_whereis">
       <context>O comando which é bem semelhante ao comando whereis , entretanto este só mostra a localização do binário do comando.</context>
    </relation>
    <relation type="definition" source="comando_which" target="definition">
       <context>O comando which localiza o arquivo executável associado a um determinado comando.</context>
    </relation>
-   <relation type="definition" source="fhs_hierarquia_dos_diretorios" target="FHS - Filesystem Hierarchy Standard">
-      <context>Cada diretório do sistema tem seus respectivos arquivos que são armazenados conforme regras definidas pela FHS - Filesystem Hierarchy Standard ou Hierarquia Padrão do Sistema de Arquivos, que define que tipo de arquivo deve ser guardado em cada diretório.</context>
+   <relation type="property" source="comando_which" target="localizacao_do_binario_do_comando">
+      <context>Para visualizar a localização do binário do comando, utilizamos a seguinte sintaxe: which &lt;comando&gt;</context>
    </relation>
-   <relation type="prerequisite" source="POSIX" target="fhs_hierarquia_dos_diretorios">
-      <context>Entretanto, eles estão organizados seguindo o padrão POSIX, com o qual você pode não estar muito familiarizado.</context>
-   </relation>
-   <relation type="prerequisite" source="FSSTND - Filesystem Standard" target="fhs_hierarquia_dos_diretorios">
-      <context>O primeiro esforço para padronização de sistemas de arquivos para o GNU/Linux foi o FSSTND - Filesystem Standard, lançado no ano de 1994.</context>
-   </relation>
-   <relation type="property" source="fhs_hierarquia_dos_diretorios" target="Free Standard Group">
-      <context>Atualmente, o FHS está na sua versão 2.3, e é mantido pelo Free Standard Group, uma organização sem fins lucrativos formada por grandes empresas como HP, IBM, RedHat e Dell.</context>
-   </relation>
-   <relation type="definition" source="fhs_hierarquia_dos_diretorios" target="Árvore de Diretórios">
-      <context>A estrutura de diretórios também é conhecida como 'Árvore de Diretórios' porque tem a forma de uma árvore.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>O diretório /bin guarda os comandos essenciais para o funcionamento do sistema.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>No diretório /boot estão os arquivos estáticos necessários à inicialização do sistema, e o gerenciador de boot.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>No diretório /dev ficam todos os arquivos de dispositivos.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>No diretório /etc estão os arquivos de configuração do sistema.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>No diretório /lib estão as bibliotecas compartilhadas e módulos do kernel.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Ponto de montagem para dispositivos removíveis.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Este diretório é utilizado para montagem temporária de sistemas de arquivos.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Normalmente, é utilizado por programas proprietários ou que não fazem parte oficialmente da distribuição.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>O diretório /sbin guarda os comandos utilizados para inicializar, reparar, restaurar e/ou recuperar o sistema.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Diretórios pessoais dos usuários.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Diretório pessoal do usuário root.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Hierarquia secundária. É chamado de hierarquia secundária pois é o maior diretório do sistema após o diretório raiz.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Armazena informações dinâmicas sobre o sistema operacional.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Sistema de arquivos virtual como o /proc mas que armazena e permite modificações nos dispositivos conectados ao sistema.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Armazena arquivos recuperados pelo sistema.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Informações sobre o sistema em execução desde o último boot.</context>
-   </relation>
-   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="FHS, Hierarquia dos Diretórios">
-      <context>Arquivos temporários que são limpos durante a inicialização.</context>
-   </relation>
-   <relation type="definition" source="aprendendo_comandos_do_gnulinux" target="Comandos do GNU/Linux">
-      <context>Comandos são instruções passadas ao computador para executar uma determinada tarefa. No mundo NIX (GNU/Linux,Unix) , o conceito de comandos é diferente do padrão MS-DOS . Um comando é qualquer arquivo executável, que pode ser ou não criado pelo usuário.</context>
-   </relation>
-   <relation type="property" source="aprendendo_comandos_do_gnulinux" target="Shell">
-      <context>O Shell é o responsável pela interação entre o usuário e o sistema operacional, interpretando os comandos.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>O comando ls possui muitos parâmetros, veremos aqui as opções mais utilizadas.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>Para criar um arquivo, podemos simplesmente abrir um editor de texto e salvá-lo. Mas existem outras formas. Uma das formas mais simples é usando o comando touch.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>Os curingas são utilizados para especificar um ou mais arquivos ou diretórios.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>O comando mkdir é utilizado para criar um diretório no sistema.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>O comando rm é utilizado para apagar arquivos, diretórios e subdiretórios estejam eles vazios ou não.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>O comando rmdir é utilizado para remover diretórios vazios.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>O comando cp serve para fazer cópias de arquivos e diretórios.</context>
-   </relation>
-   <relation type="part-of" source="aprendendo_comandos_do_gnulinux" target="Aprendendo Comandos do GNU/Linux">
-      <context>O comando mv serve tanto para renomear um arquivo quanto para movê-lo.</context>
-   </relation>
-   <relation type="including" source="localizacao_no_sistema" target="find command">
-      <context>The section 'Localização no sistema' includes detailed information about the 'find' command.</context>
-   </relation>
-   <relation type="including" source="localizacao_no_sistema" target="xargs command">
-      <context>The section 'Localização no sistema' includes information about the 'xargs' command.</context>
-   </relation>
-   <relation type="including" source="localizacao_no_sistema" target="locate command">
-      <context>The section 'Localização no sistema' includes information about the 'locate' command.</context>
-   </relation>
-   <relation type="definition" source="localizacao_no_sistema" target="definition">
-      <context>The section 'Localização no sistema' is defined by the commands and techniques used to locate files and directories in the system.</context>
-   </relation>
-   <relation type="prerequisite" source="find command" target="localizacao_no_sistema">
-      <context>Understanding the 'find' command is essential for locating files and directories in the system.</context>
-   </relation>
-   <relation type="prerequisite" source="xargs command" target="localizacao_no_sistema">
-      <context>Understanding the 'xargs' command is essential for executing commands on the results of 'find'.</context>
-   </relation>
-   <relation type="prerequisite" source="locate command" target="localizacao_no_sistema">
-      <context>Understanding the 'locate' command is essential for quickly finding files using a pre-built database.</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard">
+   <relation type="prerequisite" source="fhs_filesystem_hierarchy_standard" target="topicos_para_revisao_do_capitulo">
       <context>Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard</context>
    </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório">
-      <context>O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="O comando file mostra o tipo de um arquivo">
-      <context>O comando file mostra o tipo de um arquivo</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="O comando mkdir é usado para criar diretórios">
-      <context>O comando mkdir é usado para criar diretórios. O parâmetro -p é usado para não sobrescrever um diretório caso ele já exista.</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="O comando rm é usado para remover arquivos ou diretórios">
-      <context>O comando rm é usado para remover arquivos ou diretórios. O parâmetro -i faz uma pergunta para confirmar a remoção do arquivo. O argumento -r serve para remover o conteúdo do diretório e o parâmetro -f força a remoção dos arquivos.</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="O comando find faz busca por arquivos e diretórios por meio de suas características">
-      <context>O comando find faz busca por arquivos e diretórios por meio de suas características, por exemplo, dono, grupo, permissões, tamanho, tipo de arquivo etc.</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções">
-      <context>A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções.</context>
-   </relation>
-   <relation type="including" source="topicos_para_revisao_do_capitulo" target="O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb">
-      <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb.</context>
-   </relation>
-   <relation type="prerequisite" source="FHS Filesystem Hierarchy Standard" target="topicos_para_revisao_do_capitulo">
-      <context>Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard</context>
-   </relation>
-   <relation type="prerequisite" source="touch command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="touch_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório.</context>
    </relation>
-   <relation type="prerequisite" source="file command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="file_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando file mostra o tipo de um arquivo.</context>
    </relation>
-   <relation type="prerequisite" source="mkdir command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="mkdir_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando mkdir é usado para criar diretórios. O parâmetro -p é usado para não sobrescrever um diretório caso ele já exista.</context>
    </relation>
-   <relation type="prerequisite" source="rm command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="rm_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando rm é usado para remover arquivos ou diretórios. O parâmetro -i faz uma pergunta para confirmar a remoção do arquivo. O argumento -r serve para remover o conteúdo do diretório e o parâmetro -f força a remoção dos arquivos.</context>
    </relation>
-   <relation type="prerequisite" source="find command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="find_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando find faz busca por arquivos e diretórios por meio de suas características, por exemplo, dono, grupo, permissões, tamanho, tipo de arquivo etc.</context>
    </relation>
-   <relation type="prerequisite" source="xargs command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="xargs_command" target="topicos_para_revisao_do_capitulo">
       <context>A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções.</context>
    </relation>
-   <relation type="prerequisite" source="locate command" target="topicos_para_revisao_do_capitulo">
+   <relation type="prerequisite" source="locate_command" target="topicos_para_revisao_do_capitulo">
       <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb.</context>
    </relation>
-   <relation type="prerequisite" source="updatedb command" target="topicos_para_revisao_do_capitulo">
-      <context>O comando locate é usado para buscar em uma base dados gerada pelo comando updatedb.</context>
+   <relation type="definition" source="fhs_hierarquia_dos_diretorios" target="filesystem_hierarchy_standard">
+      <context>Cada diretório do sistema tem seus respectivos arquivos que são armazenados conforme regras definidas pela FHS - Filesystem Hierarchy Standard ou Hierarquia Padrão do Sistema de Arquivos , que define que tipo de arquivo deve ser guardado em cada diretório.</context>
+   </relation>
+   <relation type="property" source="fhs_hierarquia_dos_diretorios" target="free_standard_group">
+      <context>Atualmente, o FHS está na sua versão 2.3, e é mantido pelo Free Standard Group , uma organização sem fins lucrativos formada por grandes empresas como HP, IBM, RedHat e Dell.</context>
+   </relation>
+   <relation type="prerequisite" source="posix" target="fhs_hierarquia_dos_diretorios">
+      <context>Entretanto, eles estão organizados seguindo o padrão POSIX , com o qual você pode não estar muito familiarizado.</context>
+   </relation>
+   <relation type="prerequisite" source="fsstnd__filesystem_standard" target="fhs_hierarquia_dos_diretorios">
+      <context>O primeiro esforço para padronização de sistemas de arquivos para o GNU/Linux foi o FSSTND - Filesystem Standard , lançado no ano de 1994.</context>
+   </relation>
+   <relation type="prerequisite" source="gnulinux" target="fhs_hierarquia_dos_diretorios">
+      <context>Quem já teve algum contato com o GNU/Linux , mesmo que superficial, deve ter percebido a presença de vários diretórios (pastas) no sistema.</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="bin">
+      <context>- /bin : comandos (binários) essenciais acessíveis a qualquer usuário;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="sbin">
+      <context>- /sbin : comandos (binários) essenciais administrativos;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="boot">
+      <context>- /boot : arquivos estáticos do gerenciador de inicialização e imagem do kernel;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="dev">
+      <context>- /dev : arquivos dispositivos (discos rígidos, placa de som, placa de vídeo, mouse, etc., exceto placa de rede);</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="etc">
+      <context>- /etc : arquivos de configuração de sistema e de programas em geral;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="lib">
+      <context>- /lib : bibliotecas essenciais do sistema;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="media">
+      <context>- /media : ponto de montagem para dispositivos removíveis;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="mnt">
+      <context>- /mnt : ponto de montagem para sistemas de arquivos temporários;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="opt">
+      <context>- /opt : pacotes de software adicionais (proprietários);</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="srv">
+      <context>- /srv : dados providos por serviços de rede do sistema;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="var">
+      <context>- /var : dados variáveis (por exemplo: arquivos de log, cache, spool de impressão etc.);</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="home">
+      <context>- /home : diretórios pessoais dos usuários;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="root">
+      <context>- /root : diretório pessoal do usuário root ;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="usr">
+      <context>- /usr : hierarquia secundária. É chamado de hierarquia secundária pois é o maior diretório do sistema após o diretório raiz.</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="proc">
+      <context>- /proc : armazena informações dinâmicas sobre o sistema operacional, como, processos, informações sobre entrada e saída, interrupções, modelo do processador, versão do kernel, estatísticas sobre quanto tempo a máquina está ligada, quais sistemas de arquivos suportados etc.</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="sys">
+      <context>- /sys : sistema de arquivos virtual como o /proc mas que armazena e permite modificações nos dispositivos conectados ao sistema;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="lostfound">
+      <context>- /lost+found : armazena arquivos recuperados pelo sistema;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="run">
+      <context>- /run : informações sobre o sistema em execução desde o último boot, usuários logados e processos servidores em execução;</context>
+   </relation>
+   <relation type="part-of" source="fhs_hierarquia_dos_diretorios" target="tmp">
+      <context>- /tmp : arquivos temporários que são limpos durante a inicialização;</context>
+   </relation>
+   <relation type="definition" source="aprendendo_comandos_do_gnulinux" target="comandos_do_gnulinux">
+      <context>Comandos são instruções passadas ao computador para executar uma determinada tarefa. No mundo NIX (GNU/Linux,Unix) , o conceito de comandos é diferente do padrão MS-DOS . Um comando é qualquer arquivo executável, que pode ser ou não criado pelo usuário.</context>
+   </relation>
+   <relation type="property" source="aprendendo_comandos_do_gnulinux" target="shell">
+      <context>O Shell é o responsável pela interação entre o usuário e o sistema operacional, interpretando os comandos.</context>
+   </relation>
+   <relation type="definition" source="aprendendo_comandos_do_gnulinux" target="fifo">
+      <context>FIFO - Sigla para First In, First Out , que em inglês significa primeiro a entrar, primeiro a sair. São amplamente utilizados para implementar filas de espera.</context>
+   </relation>
+   <relation type="definition" source="aprendendo_comandos_do_gnulinux" target="buffer">
+      <context>Buffer - É uma região de memória temporária, usada para escrita e leitura de dados.</context>
+   </relation>
+   <relation type="definition" source="aprendendo_comandos_do_gnulinux" target="socket">
+      <context>Socket - É um meio de comunicação por software entre um computador e outro.</context>
+   </relation>
+   <relation type="definition" source="aprendendo_comandos_do_gnulinux" target="curingas">
+      <context>Os curingas são utilizados para especificar um ou mais arquivos ou diretórios. Eles podem substituir uma palavra completa ou somente uma letra, seja para listar, copiar, apagar, etc.</context>
+   </relation>
+   <relation type="prerequisite" source="comandos_do_gnulinux" target="aprendendo_comandos_do_gnulinux">
+      <context>Uma das tantas vantagens do GNU/Linux é a variedade de comandos que ele oferece, afinal, para quem conhece comandos, a administração do sistema acaba se tornando um processo mais rápido.</context>
+   </relation>
+   <relation type="definition" source="localizacao_no_sistema" target="find_command">
+      <context>O comando find procura por arquivos/diretórios no disco. Ele pode procurar arquivos pela sua data de modificação, tamanho, etc.</context>
+   </relation>
+   <relation type="definition" source="localizacao_no_sistema" target="xargs_command">
+      <context>Outra forma de procurar por arquivos e/ou diretórios e executar um comando é através do comando xargs que obtém como a entrada a saída ok do comando antes do pipe e envia como stdin do próximo comando.</context>
+   </relation>
+   <relation type="definition" source="localizacao_no_sistema" target="locate_command">
+      <context>O comando locate é um comando rápido de busca de arquivos, porém não usa busca recursiva na sua árvore de diretórios. Ele utiliza uma base de dados que é criada pelo comando updatedb.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>find [diretório] [opções/expressão]</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-name [expressão] : Procura pela [expressão] definida nos nomes de arquivos e diretórios processados.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-maxdepth[num] : Limita a recursividade de busca na árvore de diretórios.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-amin[num] : Procura por arquivos que foram acessados [num] minutos atrás.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-atime[num] : Procura por arquivos que foram acessados [num] dias atrás.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-uid[num] : Procura por arquivos que pertençam ao usuário com o uid 1000 [num].</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-user[nome] : Procura por arquivos que pertençam ao usuário aluno [nome].</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-perm[modo] : Procura por arquivos que possuem os modos de permissão [modo].</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-size[num] : Procura por arquivos que tenham o tamanho [num].</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="find_command">
+      <context>-type[tipo] : Procura por arquivos do [tipo] especificado.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="xargs_command">
+      <context>xargs obtém como a entrada a saída ok do comando antes do pipe e envia como stdin do próximo comando.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="locate_command">
+      <context>locate é um comando rápido de busca de arquivos, porém não usa busca recursiva na sua árvore de diretórios.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="locate_command">
+      <context>locate utiliza uma base de dados que é criada pelo comando updatedb.</context>
+   </relation>
+   <relation type="property" source="localizacao_no_sistema" target="updatedb_command">
+      <context>updatedb é usado para criar a base de dados que o comando locate utiliza.</context>
+   </relation>
+   <relation type="prerequisite" source="find_command" target="localizacao_no_sistema">
+      <context>The text assumes knowledge of the find command as it provides detailed options and examples for its usage.</context>
+   </relation>
+   <relation type="prerequisite" source="xargs_command" target="localizacao_no_sistema">
+      <context>The text assumes knowledge of the xargs command as it provides examples of its usage.</context>
+   </relation>
+   <relation type="prerequisite" source="locate_command" target="localizacao_no_sistema">
+      <context>The text assumes knowledge of the locate command as it provides examples of its usage.</context>
+   </relation>
+   <relation type="prerequisite" source="fhs_filesystem_hierarchy_standard" target="topicos_para_revisao_do_capitulo">
+      <context>Os diretórios no Linux são organizados de acordo com o padrão FHS Filesystem Hierarchy Standard</context>
+   </relation>
+   <relation type="prerequisite" source="touch_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando touch cria um arquivo vazio e também pode ser usado para modificar a data de criação/modificação de um arquivo ou diretório.</context>
+   </relation>
+   <relation type="prerequisite" source="file_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando file mostra o tipo de um arquivo.</context>
+   </relation>
+   <relation type="prerequisite" source="mkdir_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando mkdir é usado para criar diretórios. O parâmetro -p é usado para não sobrescrever um diretório caso ele já exista.</context>
+   </relation>
+   <relation type="prerequisite" source="rm_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando rm é usado para remover arquivos ou diretórios. O parâmetro -i faz uma pergunta para confirmar a remoção do arquivo. O argumento -r serve para remover o conteúdo do diretório e o parâmetro -f força a remoção dos arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="find_command" target="topicos_para_revisao_do_capitulo">
+      <context>O comando find faz busca por arquivos e diretórios por meio de suas características, por exemplo, dono, grupo, permissões, tamanho, tipo de arquivo etc.</context>
+   </relation>
+   <relation type="prerequisite" source="xargs_command" target="topicos_para_revisao_do_capitulo">
+      <context>A função do comando xargs é construir listas de parâmetros e passá-la para a execução de outros programas ou instruções.</context>
+   </relation>
+   <relation type="prerequisite" source="locate_command" target="topicos_para_revisao_do_capitulo">
+      <context>Ocomando locate é usado para buscar em uma base dados gerada pelo comando updatedb</context>
    </relation>
 </relations>
