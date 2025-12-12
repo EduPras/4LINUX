@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #1e1e1e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 900px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#22577a", "font": {"color": "#cccccc"}, "id": "introducao_ao_linux", "label": "Introdu\u00e7\u00e3o ao Linux", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "sobre_o_material", "label": "Sobre o material", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "mercado_linux", "label": "Mercado Linux", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "onde_podemos_encontrar_o_linux", "label": "Onde podemos encontrar o Linux?", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "market_share__sistemas_operacionais_pelo_mundo", "label": "Market Share \u2013 Sistemas Operacionais pelo mundo", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "dispositivos_moveis", "label": "Dispositivos m\u00f3veis", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "desktop_linux", "label": "Desktop Linux", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "servidores_web", "label": "Servidores web", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "profissoes_no_mundo_opensource", "label": "Profiss\u00f5es no mundo OpenSource", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "certificacoes_linux", "label": "Certifica\u00e7\u00f5es Linux", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "centros_certificadores", "label": "Centros certificadores", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "historia_do_linux", "label": "Hist\u00f3ria do Linux", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "a_origem_do_linux", "label": "A origem do Linux", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "licencas_open_source", "label": "Licen\u00e7as Open Source", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "free_software_foundation", "label": "Free Software Foundation", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "software_livre", "label": "Software livre", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "gnu_gpl_general_public_license", "label": "GNU GPL (General Public License)", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "evolucao_do_linux_distribuicoes", "label": "Evolu\u00e7\u00e3o do Linux: distribui\u00e7\u00f5es", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "distribuicoes_livres_e_corporativas", "label": "Distribui\u00e7\u00f5es livres e corporativas", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "distribuicoes_from_scratch_e_derivadas", "label": "Distribui\u00e7\u00f5es from scratch e derivadas", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "ciclo_de_vida_de_algumas_distribuicoes_linux", "label": "Ciclo de vida de algumas distribui\u00e7\u00f5es Linux", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "evolucao_do_linux_dispositivos_embarcados", "label": "Evolu\u00e7\u00e3o do Linux: dispositivos embarcados", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "debian_gnulinux", "label": "Debian GNU/Linux", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "conhecendo_o_linux", "label": "Conhecendo o Linux", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "principais_aplicacoes_desktop_opensource", "label": "Principais aplica\u00e7\u00f5es desktop Open-Source", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "principais_aplicacoes_em_servidores_opensource", "label": "Principais aplica\u00e7\u00f5es em servidores Open-Source", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "principais_linguagens_de_programacao_opensource", "label": "Principais linguagens de programa\u00e7\u00e3o Open-Source", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux", "label": "Apresenta\u00e7\u00e3o dos principais gerenciadores de janelas usados no Linux", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "estrutura_do_sistema_operacional", "label": "Estrutura do sistema operacional", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "sessoes", "label": "Sess\u00f5es", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "execucao_dos_primeiros_comandos", "label": "Execu\u00e7\u00e3o dos primeiros comandos", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "terminal_virtual_em_modo_texto", "label": "Terminal virtual em modo texto", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "pseudoterminal", "label": "Pseudoterminal", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "inicio_de_uma_sessao_login", "label": "In\u00edcio de uma sess\u00e3o (login)", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "encerrando_uma_sessao_logout", "label": "Encerrando uma sess\u00e3o (logout)", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "desligamento_do_sistema", "label": "Desligamento do sistema", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "reiniciar_o_sistema", "label": "Reiniciar o sistema", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "o_que_e_um_shell", "label": "O que \u00e9 um Shell", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "tipos_de_shell", "label": "Tipos de shell", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "alteracao_do_shell_atual", "label": "Altera\u00e7\u00e3o do shell atual", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "variaveis", "label": "Vari\u00e1veis", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "variaveis_locais_e_de_ambiente_globais", "label": "Vari\u00e1veis Locais e de Ambiente (globais)", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "como_definir_variaveis", "label": "Como definir vari\u00e1veis", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "exclusao_de_variaveis", "label": "Exclus\u00e3o de vari\u00e1veis", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "alterar_o_prompt_de_comando", "label": "Alterar o prompt de comando", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "arquivos_de_configuracao_do_shell", "label": "Arquivos de configura\u00e7\u00e3o do shell", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "utilizacao_de_aliases_apelidos", "label": "Utiliza\u00e7\u00e3o de aliases (apelidos)", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "arquivos_para_exibicao_de_mensagens", "label": "Arquivos para exibi\u00e7\u00e3o de mensagens", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "historico_de_comando", "label": "Hist\u00f3rico de comando", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "comando_fc", "label": "Comando fc", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "caminhos_de_diretorios", "label": "Caminhos de Diretorios", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "acessando_os_diretorios", "label": "Acessando os diret\u00f3rios", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "atalhos_de_teclado_utilizados_na_linha_de_comando", "label": "Atalhos de teclado utilizados na linha de comando", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "comando_ls", "label": "Comando ls", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "formas_de_documentacao", "label": "Formas de documenta\u00e7\u00e3o", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "howtos", "label": "How-to\u2019s", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "manuais", "label": "Manuais", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "documentacao", "label": "Documenta\u00e7\u00e3o", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_info", "label": "Comando info", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "alternativas_para_consulta", "label": "Alternativas para consulta", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_which", "label": "Comando which", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "topicos_para_revisao_do_capitulo", "label": "T\u00f3picos para revis\u00e3o do cap\u00edtulo", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "fhs_hierarquia_dos_diretorios", "label": "FHS, Hierarquia dos Diret\u00f3rios", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "introducao_teorica", "label": "Introdu\u00e7\u00e3o te\u00f3rica", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "estrutura_de_diretorios_gnulinux", "label": "Estrutura de Diret\u00f3rios GNU/Linux", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_bin", "label": "Diret\u00f3rio /bin", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_boot", "label": "Diret\u00f3rio /boot", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_dev", "label": "Diret\u00f3rio /dev", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_etc", "label": "Diret\u00f3rio /etc", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_lib", "label": "Diret\u00f3rio /lib", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_media", "label": "Diret\u00f3rio /media", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_mnt", "label": "Diret\u00f3rio /mnt", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_opt", "label": "Diret\u00f3rio /opt", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_sbin", "label": "Diret\u00f3rio /sbin", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_srv", "label": "Diret\u00f3rio /srv", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_tmp", "label": "Diret\u00f3rio /tmp", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_usr", "label": "Diret\u00f3rio /usr", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_var", "label": "Diret\u00f3rio /var", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_proc", "label": "Diret\u00f3rio /proc", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorio_sys", "label": "Diret\u00f3rio /sys", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "diretorios_home_e_root", "label": "Diret\u00f3rios /home e /root", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "diretorio_", "label": "Diret\u00f3rio /", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "aprendendo_comandos_do_gnulinux", "label": "Aprendendo Comandos do GNU/Linux", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "extraindo_mais_do_comando_ls", "label": "Extraindo mais do comando ls", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "criar_arquivo", "label": "Criar arquivo", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "curingas", "label": "Curingas", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "criando_diretorios", "label": "Criando diret\u00f3rios", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "removendo_arquivosdiretorios", "label": "Removendo arquivos/diret\u00f3rios", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "copiar_arquivosdiretorios", "label": "Copiar arquivos/diret\u00f3rios", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "mover_ou_renomear_arquivosdiretorios", "label": "Mover ou renomear arquivos/diret\u00f3rios", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "localizacao_no_sistema", "label": "Localiza\u00e7\u00e3o no sistema", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "comando_find", "label": "Comando find", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "comando_xargs", "label": "Comando xargs", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#38a3a5", "font": {"color": "#cccccc"}, "id": "comando_locate", "label": "Comando locate", "shape": "dot", "size": 19, "title": "Type: chapter\nLevel: 2"}, {"color": "#57cc99", "font": {"color": "#cccccc"}, "id": "mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia", "label": "Mais alguns exemplos que podem te ajudar no seu dia-a-dia", "shape": "dot", "size": 16, "title": "Type: chapter\nLevel: 3"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "como_obter_ajuda", "label": "Como obter ajuda", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_help", "label": "Comando help", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_apropos", "label": "Comando apropos", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_whatis", "label": "Comando whatis", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_man", "label": "Comando man", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}, {"color": "#22577a", "font": {"color": "#cccccc"}, "id": "comando_whereis", "label": "Comando whereis", "shape": "dot", "size": 22, "title": "Type: chapter\nLevel: 1"}]);
+                  edges = new vis.DataSet([{"color": "#888888", "dashes": false, "from": "introducao_ao_linux", "title": "contains", "to": "sobre_o_material", "width": 1}, {"color": "#888888", "dashes": false, "from": "introducao_ao_linux", "title": "contains", "to": "mercado_linux", "width": 1}, {"color": "#888888", "dashes": false, "from": "mercado_linux", "title": "contains", "to": "onde_podemos_encontrar_o_linux", "width": 1}, {"color": "#888888", "dashes": false, "from": "mercado_linux", "title": "contains", "to": "market_share__sistemas_operacionais_pelo_mundo", "width": 1}, {"color": "#888888", "dashes": false, "from": "mercado_linux", "title": "contains", "to": "dispositivos_moveis", "width": 1}, {"color": "#888888", "dashes": false, "from": "mercado_linux", "title": "contains", "to": "desktop_linux", "width": 1}, {"color": "#888888", "dashes": false, "from": "mercado_linux", "title": "contains", "to": "servidores_web", "width": 1}, {"color": "#888888", "dashes": false, "from": "mercado_linux", "title": "contains", "to": "profissoes_no_mundo_opensource", "width": 1}, {"color": "#888888", "dashes": false, "from": "certificacoes_linux", "title": "contains", "to": "centros_certificadores", "width": 1}, {"color": "#888888", "dashes": false, "from": "historia_do_linux", "title": "contains", "to": "a_origem_do_linux", "width": 1}, {"color": "#888888", "dashes": false, "from": "licencas_open_source", "title": "contains", "to": "free_software_foundation", "width": 1}, {"color": "#888888", "dashes": false, "from": "licencas_open_source", "title": "contains", "to": "software_livre", "width": 1}, {"color": "#888888", "dashes": false, "from": "licencas_open_source", "title": "contains", "to": "gnu_gpl_general_public_license", "width": 1}, {"color": "#888888", "dashes": false, "from": "evolucao_do_linux_distribuicoes", "title": "contains", "to": "distribuicoes_livres_e_corporativas", "width": 1}, {"color": "#888888", "dashes": false, "from": "evolucao_do_linux_distribuicoes", "title": "contains", "to": "distribuicoes_from_scratch_e_derivadas", "width": 1}, {"color": "#888888", "dashes": false, "from": "evolucao_do_linux_distribuicoes", "title": "contains", "to": "ciclo_de_vida_de_algumas_distribuicoes_linux", "width": 1}, {"color": "#888888", "dashes": false, "from": "evolucao_do_linux_distribuicoes", "title": "contains", "to": "evolucao_do_linux_dispositivos_embarcados", "width": 1}, {"color": "#888888", "dashes": false, "from": "ciclo_de_vida_de_algumas_distribuicoes_linux", "title": "contains", "to": "debian_gnulinux", "width": 1}, {"color": "#888888", "dashes": false, "from": "conhecendo_o_linux", "title": "contains", "to": "principais_aplicacoes_desktop_opensource", "width": 1}, {"color": "#888888", "dashes": false, "from": "conhecendo_o_linux", "title": "contains", "to": "principais_aplicacoes_em_servidores_opensource", "width": 1}, {"color": "#888888", "dashes": false, "from": "conhecendo_o_linux", "title": "contains", "to": "principais_linguagens_de_programacao_opensource", "width": 1}, {"color": "#888888", "dashes": false, "from": "conhecendo_o_linux", "title": "contains", "to": "apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux", "width": 1}, {"color": "#888888", "dashes": false, "from": "estrutura_do_sistema_operacional", "title": "contains", "to": "sessoes", "width": 1}, {"color": "#888888", "dashes": false, "from": "estrutura_do_sistema_operacional", "title": "contains", "to": "execucao_dos_primeiros_comandos", "width": 1}, {"color": "#888888", "dashes": false, "from": "sessoes", "title": "contains", "to": "terminal_virtual_em_modo_texto", "width": 1}, {"color": "#888888", "dashes": false, "from": "sessoes", "title": "contains", "to": "pseudoterminal", "width": 1}, {"color": "#888888", "dashes": false, "from": "execucao_dos_primeiros_comandos", "title": "contains", "to": "inicio_de_uma_sessao_login", "width": 1}, {"color": "#888888", "dashes": false, "from": "execucao_dos_primeiros_comandos", "title": "contains", "to": "encerrando_uma_sessao_logout", "width": 1}, {"color": "#888888", "dashes": false, "from": "execucao_dos_primeiros_comandos", "title": "contains", "to": "desligamento_do_sistema", "width": 1}, {"color": "#888888", "dashes": false, "from": "execucao_dos_primeiros_comandos", "title": "contains", "to": "reiniciar_o_sistema", "width": 1}, {"color": "#888888", "dashes": false, "from": "o_que_e_um_shell", "title": "contains", "to": "tipos_de_shell", "width": 1}, {"color": "#888888", "dashes": false, "from": "o_que_e_um_shell", "title": "contains", "to": "alteracao_do_shell_atual", "width": 1}, {"color": "#888888", "dashes": false, "from": "variaveis", "title": "contains", "to": "variaveis_locais_e_de_ambiente_globais", "width": 1}, {"color": "#888888", "dashes": false, "from": "variaveis_locais_e_de_ambiente_globais", "title": "contains", "to": "como_definir_variaveis", "width": 1}, {"color": "#888888", "dashes": false, "from": "variaveis_locais_e_de_ambiente_globais", "title": "contains", "to": "exclusao_de_variaveis", "width": 1}, {"color": "#888888", "dashes": false, "from": "variaveis_locais_e_de_ambiente_globais", "title": "contains", "to": "alterar_o_prompt_de_comando", "width": 1}, {"color": "#888888", "dashes": false, "from": "arquivos_de_configuracao_do_shell", "title": "contains", "to": "utilizacao_de_aliases_apelidos", "width": 1}, {"color": "#888888", "dashes": false, "from": "arquivos_de_configuracao_do_shell", "title": "contains", "to": "arquivos_para_exibicao_de_mensagens", "width": 1}, {"color": "#888888", "dashes": false, "from": "arquivos_de_configuracao_do_shell", "title": "contains", "to": "historico_de_comando", "width": 1}, {"color": "#888888", "dashes": false, "from": "arquivos_de_configuracao_do_shell", "title": "contains", "to": "comando_fc", "width": 1}, {"color": "#888888", "dashes": false, "from": "caminhos_de_diretorios", "title": "contains", "to": "acessando_os_diretorios", "width": 1}, {"color": "#888888", "dashes": false, "from": "caminhos_de_diretorios", "title": "contains", "to": "atalhos_de_teclado_utilizados_na_linha_de_comando", "width": 1}, {"color": "#888888", "dashes": false, "from": "acessando_os_diretorios", "title": "contains", "to": "comando_ls", "width": 1}, {"color": "#888888", "dashes": false, "from": "formas_de_documentacao", "title": "contains", "to": "howtos", "width": 1}, {"color": "#888888", "dashes": false, "from": "formas_de_documentacao", "title": "contains", "to": "manuais", "width": 1}, {"color": "#888888", "dashes": false, "from": "formas_de_documentacao", "title": "contains", "to": "documentacao", "width": 1}, {"color": "#888888", "dashes": false, "from": "comando_info", "title": "contains", "to": "alternativas_para_consulta", "width": 1}, {"color": "#888888", "dashes": false, "from": "comando_which", "title": "contains", "to": "topicos_para_revisao_do_capitulo", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "introducao_teorica", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "estrutura_de_diretorios_gnulinux", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_bin", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_boot", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_dev", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_etc", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_lib", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_media", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_mnt", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_opt", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_sbin", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_srv", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_tmp", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_usr", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_var", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_proc", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorio_sys", "width": 1}, {"color": "#888888", "dashes": false, "from": "fhs_hierarquia_dos_diretorios", "title": "contains", "to": "diretorios_home_e_root", "width": 1}, {"color": "#888888", "dashes": false, "from": "estrutura_de_diretorios_gnulinux", "title": "contains", "to": "diretorio_", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "extraindo_mais_do_comando_ls", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "criar_arquivo", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "curingas", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "criando_diretorios", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "removendo_arquivosdiretorios", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "copiar_arquivosdiretorios", "width": 1}, {"color": "#888888", "dashes": false, "from": "aprendendo_comandos_do_gnulinux", "title": "contains", "to": "mover_ou_renomear_arquivosdiretorios", "width": 1}, {"color": "#888888", "dashes": false, "from": "localizacao_no_sistema", "title": "contains", "to": "comando_find", "width": 1}, {"color": "#888888", "dashes": false, "from": "localizacao_no_sistema", "title": "contains", "to": "comando_xargs", "width": 1}, {"color": "#888888", "dashes": false, "from": "localizacao_no_sistema", "title": "contains", "to": "comando_locate", "width": 1}, {"color": "#888888", "dashes": false, "from": "comando_find", "title": "contains", "to": "mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"borderWidth": 0, "borderWidthSelected": 2, "font": {"size": 14, "face": "tahoma", "color": "#eeeeee", "strokeWidth": 2, "strokeColor": "#1e1e1e"}, "shadow": {"enabled": true, "color": "black", "size": 5, "x": 2, "y": 2}}, "edges": {"smooth": {"type": "continuous", "forceDirection": "none"}, "arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "color": {"inherit": false, "opacity": 1.0}}, "interaction": {"hover": true, "hoverConnectedEdges": true, "selectConnectedEdges": true, "navigationButtons": true, "keyboard": true, "tooltipDelay": 200}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

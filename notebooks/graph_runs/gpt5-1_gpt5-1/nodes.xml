@@ -1,0 +1,462 @@
+<?xml version="1.0" ?>
+<nodes>
+   <node id="introducao_ao_linux" name="Introdução ao Linux" folder="introducao_ao_linux" order="0" level="1" page_start="6"/>
+   <node id="sobre_o_material" name="Sobre o material" folder="sobre_o_material" order="1" level="2" page_start="6"/>
+   <node id="mercado_linux" name="Mercado Linux" folder="mercado_linux" order="2" level="2" page_start="7"/>
+   <node id="onde_podemos_encontrar_o_linux" name="Onde podemos encontrar o Linux?" folder="onde_podemos_encontrar_o_linux" order="3" level="3" page_start="7"/>
+   <node id="market_share__sistemas_operacionais_pelo_mundo" name="Market Share – Sistemas Operacionais pelo mundo" folder="market_share__sistemas_operacionais_pelo_mundo" order="4" level="3" page_start="8"/>
+   <node id="dispositivos_moveis" name="Dispositivos móveis" folder="dispositivos_moveis" order="5" level="3" page_start="9"/>
+   <node id="desktop_linux" name="Desktop Linux" folder="desktop_linux" order="6" level="3" page_start="10"/>
+   <node id="servidores_web" name="Servidores web" folder="servidores_web" order="7" level="3" page_start="11"/>
+   <node id="profissoes_no_mundo_opensource" name="Profissões no mundo OpenSource" folder="profissoes_no_mundo_opensource" order="8" level="3" page_start="11"/>
+   <node id="certificacoes_linux" name="Certificações Linux" folder="certificacoes_linux" order="9" level="1" page_start="13"/>
+   <node id="centros_certificadores" name="Centros certificadores" folder="centros_certificadores" order="10" level="2" page_start="13"/>
+   <node id="historia_do_linux" name="História do Linux" folder="historia_do_linux" order="11" level="1" page_start="16"/>
+   <node id="a_origem_do_linux" name="A origem do Linux" folder="a_origem_do_linux" order="12" level="2" page_start="18"/>
+   <node id="licencas_open_source" name="Licenças Open Source" folder="licencas_open_source" order="13" level="1" page_start="20"/>
+   <node id="free_software_foundation" name="Free Software Foundation" folder="free_software_foundation" order="14" level="2" page_start="20"/>
+   <node id="software_livre" name="Software livre" folder="software_livre" order="15" level="2" page_start="20"/>
+   <node id="gnu_gpl_general_public_license" name="GNU GPL (General Public License)" folder="gnu_gpl_general_public_license" order="16" level="2" page_start="21"/>
+   <node id="evolucao_do_linux_distribuicoes" name="Evolução do Linux: distribuições" folder="evolucao_do_linux_distribuicoes" order="17" level="1" page_start="23"/>
+   <node id="distribuicoes_livres_e_corporativas" name="Distribuições livres e corporativas" folder="distribuicoes_livres_e_corporativas" order="18" level="2" page_start="24"/>
+   <node id="distribuicoes_from_scratch_e_derivadas" name="Distribuições from scratch e derivadas" folder="distribuicoes_from_scratch_e_derivadas" order="19" level="2" page_start="24"/>
+   <node id="ciclo_de_vida_de_algumas_distribuicoes_linux" name="Ciclo de vida de algumas distribuições Linux" folder="ciclo_de_vida_de_algumas_distribuicoes_linux" order="20" level="2" page_start="32"/>
+   <node id="debian_gnulinux" name="Debian GNU/Linux" folder="debian_gnulinux" order="21" level="3" page_start="32"/>
+   <node id="evolucao_do_linux_dispositivos_embarcados" name="Evolução do Linux: dispositivos embarcados" folder="evolucao_do_linux_dispositivos_embarcados" order="22" level="2" page_start="32"/>
+   <node id="conhecendo_o_linux" name="Conhecendo o Linux" folder="conhecendo_o_linux" order="23" level="1" page_start="34"/>
+   <node id="principais_aplicacoes_desktop_opensource" name="Principais aplicações desktop Open-Source" folder="principais_aplicacoes_desktop_opensource" order="24" level="2" page_start="35"/>
+   <node id="principais_aplicacoes_em_servidores_opensource" name="Principais aplicações em servidores Open-Source" folder="principais_aplicacoes_em_servidores_opensource" order="25" level="2" page_start="37"/>
+   <node id="principais_linguagens_de_programacao_opensource" name="Principais linguagens de programação Open-Source" folder="principais_linguagens_de_programacao_opensource" order="26" level="2" page_start="39"/>
+   <node id="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux" name="Apresentação dos principais gerenciadores de janelas usados no Linux" folder="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux" order="27" level="2" page_start="39"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="28" level="1" page_start="41"/>
+   <node id="estrutura_do_sistema_operacional" name="Estrutura do sistema operacional" folder="estrutura_do_sistema_operacional" order="29" level="1" page_start="43"/>
+   <node id="sessoes" name="Sessões" folder="sessoes" order="30" level="2" page_start="45"/>
+   <node id="terminal_virtual_em_modo_texto" name="Terminal virtual em modo texto" folder="terminal_virtual_em_modo_texto" order="31" level="3" page_start="45"/>
+   <node id="pseudoterminal" name="Pseudoterminal" folder="pseudoterminal" order="32" level="3" page_start="46"/>
+   <node id="execucao_dos_primeiros_comandos" name="Execução dos primeiros comandos" folder="execucao_dos_primeiros_comandos" order="33" level="2" page_start="47"/>
+   <node id="inicio_de_uma_sessao_login" name="Início de uma sessão (login)" folder="inicio_de_uma_sessao_login" order="34" level="3" page_start="47"/>
+   <node id="encerrando_uma_sessao_logout" name="Encerrando uma sessão (logout)" folder="encerrando_uma_sessao_logout" order="35" level="3" page_start="49"/>
+   <node id="desligamento_do_sistema" name="Desligamento do sistema" folder="desligamento_do_sistema" order="36" level="3" page_start="49"/>
+   <node id="reiniciar_o_sistema" name="Reiniciar o sistema" folder="reiniciar_o_sistema" order="37" level="3" page_start="51"/>
+   <node id="o_que_e_um_shell" name="O que é um Shell" folder="o_que_e_um_shell" order="38" level="1" page_start="52"/>
+   <node id="tipos_de_shell" name="Tipos de shell" folder="tipos_de_shell" order="39" level="2" page_start="53"/>
+   <node id="alteracao_do_shell_atual" name="Alteração do shell atual" folder="alteracao_do_shell_atual" order="40" level="2" page_start="54"/>
+   <node id="variaveis" name="Variáveis" folder="variaveis" order="41" level="1" page_start="55"/>
+   <node id="variaveis_locais_e_de_ambiente_globais" name="Variáveis Locais e de Ambiente (globais)" folder="variaveis_locais_e_de_ambiente_globais" order="42" level="2" page_start="57"/>
+   <node id="como_definir_variaveis" name="Como definir variáveis" folder="como_definir_variaveis" order="43" level="3" page_start="57"/>
+   <node id="exclusao_de_variaveis" name="Exclusão de variáveis" folder="exclusao_de_variaveis" order="44" level="3" page_start="59"/>
+   <node id="alterar_o_prompt_de_comando" name="Alterar o prompt de comando" folder="alterar_o_prompt_de_comando" order="45" level="3" page_start="60"/>
+   <node id="arquivos_de_configuracao_do_shell" name="Arquivos de configuração do shell" folder="arquivos_de_configuracao_do_shell" order="46" level="1" page_start="62"/>
+   <node id="utilizacao_de_aliases_apelidos" name="Utilização de aliases (apelidos)" folder="utilizacao_de_aliases_apelidos" order="47" level="2" page_start="63"/>
+   <node id="arquivos_para_exibicao_de_mensagens" name="Arquivos para exibição de mensagens" folder="arquivos_para_exibicao_de_mensagens" order="48" level="2" page_start="65"/>
+   <node id="historico_de_comando" name="Histórico de comando" folder="historico_de_comando" order="49" level="2" page_start="66"/>
+   <node id="comando_fc" name="Comando fc" folder="comando_fc" order="50" level="2" page_start="67"/>
+   <node id="caminhos_de_diretorios" name="Caminhos de Diretorios" folder="caminhos_de_diretorios" order="51" level="1" page_start="68"/>
+   <node id="acessando_os_diretorios" name="Acessando os diretórios" folder="acessando_os_diretorios" order="52" level="2" page_start="70"/>
+   <node id="comando_ls" name="Comando ls" folder="comando_ls" order="53" level="3" page_start="71"/>
+   <node id="atalhos_de_teclado_utilizados_na_linha_de_comando" name="Atalhos de teclado utilizados na linha de comando" folder="atalhos_de_teclado_utilizados_na_linha_de_comando" order="54" level="2" page_start="73"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="55" level="1" page_start="74"/>
+   <node id="como_obter_ajuda" name="Como obter ajuda" folder="como_obter_ajuda" order="56" level="1" page_start="76"/>
+   <node id="formas_de_documentacao" name="Formas de documentação" folder="formas_de_documentacao" order="57" level="1" page_start="77"/>
+   <node id="howtos" name="How-to’s" folder="howtos" order="58" level="2" page_start="77"/>
+   <node id="manuais" name="Manuais" folder="manuais" order="59" level="2" page_start="78"/>
+   <node id="documentacao" name="Documentação" folder="documentacao" order="60" level="2" page_start="78"/>
+   <node id="comando_help" name="Comando help" folder="comando_help" order="61" level="1" page_start="79"/>
+   <node id="comando_apropos" name="Comando apropos" folder="comando_apropos" order="62" level="1" page_start="81"/>
+   <node id="comando_whatis" name="Comando whatis" folder="comando_whatis" order="63" level="1" page_start="84"/>
+   <node id="comando_man" name="Comando man" folder="comando_man" order="64" level="1" page_start="86"/>
+   <node id="comando_info" name="Comando info" folder="comando_info" order="65" level="1" page_start="89"/>
+   <node id="alternativas_para_consulta" name="Alternativas para consulta" folder="alternativas_para_consulta" order="66" level="2" page_start="90"/>
+   <node id="comando_whereis" name="Comando whereis" folder="comando_whereis" order="67" level="1" page_start="91"/>
+   <node id="comando_which" name="Comando which" folder="comando_which" order="68" level="1" page_start="94"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="69" level="2" page_start="94"/>
+   <node id="fhs_hierarquia_dos_diretorios" name="FHS, Hierarquia dos Diretórios" folder="fhs_hierarquia_dos_diretorios" order="70" level="1" page_start="96"/>
+   <node id="introducao_teorica" name="Introdução teórica" folder="introducao_teorica" order="71" level="2" page_start="96"/>
+   <node id="estrutura_de_diretorios_gnulinux" name="Estrutura de Diretórios GNU/Linux" folder="estrutura_de_diretorios_gnulinux" order="72" level="2" page_start="97"/>
+   <node id="diretorio_" name="Diretório /" folder="diretorio_" order="73" level="3" page_start="99"/>
+   <node id="diretorio_bin" name="Diretório /bin" folder="diretorio_bin" order="74" level="2" page_start="99"/>
+   <node id="diretorio_boot" name="Diretório /boot" folder="diretorio_boot" order="75" level="2" page_start="100"/>
+   <node id="diretorio_dev" name="Diretório /dev" folder="diretorio_dev" order="76" level="2" page_start="100"/>
+   <node id="diretorio_etc" name="Diretório /etc" folder="diretorio_etc" order="77" level="2" page_start="101"/>
+   <node id="diretorio_lib" name="Diretório /lib" folder="diretorio_lib" order="78" level="2" page_start="105"/>
+   <node id="diretorio_media" name="Diretório /media" folder="diretorio_media" order="79" level="2" page_start="105"/>
+   <node id="diretorio_mnt" name="Diretório /mnt" folder="diretorio_mnt" order="80" level="2" page_start="106"/>
+   <node id="diretorio_opt" name="Diretório /opt" folder="diretorio_opt" order="81" level="2" page_start="106"/>
+   <node id="diretorio_sbin" name="Diretório /sbin" folder="diretorio_sbin" order="82" level="2" page_start="106"/>
+   <node id="diretorio_srv" name="Diretório /srv" folder="diretorio_srv" order="83" level="2" page_start="107"/>
+   <node id="diretorio_tmp" name="Diretório /tmp" folder="diretorio_tmp" order="84" level="2" page_start="107"/>
+   <node id="diretorio_usr" name="Diretório /usr" folder="diretorio_usr" order="85" level="2" page_start="107"/>
+   <node id="diretorio_var" name="Diretório /var" folder="diretorio_var" order="86" level="2" page_start="107"/>
+   <node id="diretorio_proc" name="Diretório /proc" folder="diretorio_proc" order="87" level="2" page_start="108"/>
+   <node id="diretorio_sys" name="Diretório /sys" folder="diretorio_sys" order="88" level="2" page_start="108"/>
+   <node id="diretorios_home_e_root" name="Diretórios /home e /root" folder="diretorios_home_e_root" order="89" level="2" page_start="109"/>
+   <node id="aprendendo_comandos_do_gnulinux" name="Aprendendo Comandos do GNU/Linux" folder="aprendendo_comandos_do_gnulinux" order="90" level="1" page_start="110"/>
+   <node id="extraindo_mais_do_comando_ls" name="Extraindo mais do comando ls" folder="extraindo_mais_do_comando_ls" order="91" level="2" page_start="110"/>
+   <node id="criar_arquivo" name="Criar arquivo" folder="criar_arquivo" order="92" level="2" page_start="112"/>
+   <node id="curingas" name="Curingas" folder="curingas" order="93" level="2" page_start="112"/>
+   <node id="criando_diretorios" name="Criando diretórios" folder="criando_diretorios" order="94" level="2" page_start="116"/>
+   <node id="removendo_arquivosdiretorios" name="Removendo arquivos/diretórios" folder="removendo_arquivosdiretorios" order="95" level="2" page_start="116"/>
+   <node id="copiar_arquivosdiretorios" name="Copiar arquivos/diretórios" folder="copiar_arquivosdiretorios" order="96" level="2" page_start="117"/>
+   <node id="mover_ou_renomear_arquivosdiretorios" name="Mover ou renomear arquivos/diretórios" folder="mover_ou_renomear_arquivosdiretorios" order="97" level="2" page_start="118"/>
+   <node id="localizacao_no_sistema" name="Localização no sistema" folder="localizacao_no_sistema" order="98" level="1" page_start="120"/>
+   <node id="comando_find" name="Comando find" folder="comando_find" order="99" level="2" page_start="120"/>
+   <node id="mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia" name="Mais alguns exemplos que podem te ajudar no seu dia-a-dia" folder="mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia" order="100" level="3" page_start="122"/>
+   <node id="comando_xargs" name="Comando xargs" folder="comando_xargs" order="101" level="2" page_start="125"/>
+   <node id="comando_locate" name="Comando locate" folder="comando_locate" order="102" level="2" page_start="126"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="103" level="1" page_start="127"/>
+   <node id="linux" name="Linux" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="open_source" name="Open Source" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="android" name="Android" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="kernel_linux" name="kernel Linux" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="gplv2" name="GPLv2" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="computacao_em_nuvem" name="computação em nuvem" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="infraestrutura_sob_demanda" name="infraestrutura sob demanda" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="amazon_web_services_aws" name="Amazon Web Services (AWS)" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="google_cloud_platform_gcp" name="Google Cloud Platform (GCP)" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="oracle_cloud_oci" name="Oracle Cloud (OCI)" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="digital_ocean" name="Digital Ocean" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="microsoft_azure" name="Microsoft Azure" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="big_data" name="Big Data" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="devops" name="DevOps" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="market_share_de_sistemas_operacionais" name="Market Share de sistemas operacionais" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="distribuicao_linux" name="distribuição Linux" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="tecnologias_de_nuvem_aberta" name="tecnologias de nuvem aberta" type="extracted" found_in_chapter="introducao_ao_linux"/>
+   <node id="linux_professional_institute_lpi" name="Linux Professional Institute (LPI)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="red_hat_certificate_program" name="Red Hat Certificate Program" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="linux_foundation_certification_program" name="Linux Foundation Certification Program" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="linux_standard_base_lsb" name="Linux Standard Base (LSB)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="lpi_brasil" name="LPI Brasil" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="vue_centro_de_treinamento_vue" name="VUE (centro de treinamento VUE)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="red_hat_certified_system_administrator_rhcsa" name="Red Hat Certified System Administrator (RHCSA)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="red_hat_certified_engineer_rhce" name="Red Hat Certified Engineer (RHCE)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="red_hat_certified_architect_rhca" name="Red Hat Certified Architect (RHCA)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="sysadmin_linux_professional_linux_foundation" name="SysAdmin Linux Professional (Linux Foundation)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="engineer_linux_professional_linux_foundation" name="Engineer Linux Professional (Linux Foundation)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="opensuse_como_centro_certificador" name="OpenSuse (como centro certificador)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="comptia_como_certificacao_relacionada_a_linux" name="CompTIA+ (como certificação relacionada a Linux)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="exin_devops_certification" name="Exin DevOps certification" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="validade_de_certificacoes_lpi" name="Validade de certificações LPI" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="provas_praticas_metodologia_de_certificacao" name="Provas práticas (metodologia de certificação)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="niveis_de_certificacao_lpi_nivel_1_2_3" name="Níveis de certificação LPI (nível 1, 2, 3)" type="extracted" found_in_chapter="certificacoes_linux"/>
+   <node id="projeto_gnu" name="Projeto GNU" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="free_software_foundation_fsf" name="Free Software Foundation (FSF)" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="gnuhurd" name="GNU/Hurd" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="gnulinux" name="GNU/Linux" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="software_proprietario" name="Software proprietário" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="software_livre_no_contexto_gnufsf" name="Software livre (no contexto GNU/FSF)" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="emacs" name="Emacs" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="servidor_x" name="Servidor X" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="gcc" name="GCC" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="g" name="G++" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="gnash" name="Gnash" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="coreboot" name="Coreboot" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="minix" name="Minix" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="unixlike" name="Unix-like" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="multiusuario" name="Multiusuário" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="multitarefa" name="Multitarefa" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="linus_torvalds" name="Linus Torvalds" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="ari_lemmke" name="Ari Lemmke" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="richard_stallman" name="Richard Stallman" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="gnu_is_not_unix_acronimo_gnu" name="GNU Is Not Unix (acrônimo GNU)" type="extracted" found_in_chapter="historia_do_linux"/>
+   <node id="liberdade_numero_0_software_livre" name="Liberdade número 0 (software livre)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="liberdade_numero_1_software_livre" name="Liberdade número 1 (software livre)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="liberdade_numero_2_software_livre" name="Liberdade número 2 (software livre)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="liberdade_numero_3_software_livre" name="Liberdade número 3 (software livre)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="gplv1" name="GPLv1" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="gplv3" name="GPLv3" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="gfdl_gnu_free_documentation_license" name="GFDL (GNU Free Documentation License)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="opl_open_publication_license" name="OPL (Open Publication License)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="creative_commons_cc_as_softwarecontentrelated_license_family" name="Creative Commons (CC, as software-/content-related license family)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="bsd_license_berkeley_software_distribution_license" name="BSD license (Berkeley Software Distribution license)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="spl_sun_public_license" name="SPL (Sun Public License)" type="extracted" found_in_chapter="licencas_open_source"/>
+   <node id="distribuicoes_gnulinux_distros__conceito_evolutivo" name="Distribuições GNU/Linux (distros) – conceito evolutivo" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="distribuicao_linux_live" name="Distribuição Linux Live" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="distribuicoes_linux_livres" name="Distribuições Linux livres" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="distribuicoes_linux_corporativas" name="Distribuições Linux corporativas" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="distribuicoes_linux_from_scratch" name="Distribuições Linux from scratch" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="distribuicoes_linux_derivadas" name="Distribuições Linux derivadas" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="distrowatch" name="DistroWatch" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="slackware_linux" name="Slackware Linux" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="red_hat_linux" name="Red Hat Linux" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="red_hat_enterprise_linux_rhel" name="Red Hat Enterprise Linux (RHEL)" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="fedora_project" name="Fedora Project" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="centos" name="CentOS" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="centos_stream" name="CentOS Stream" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="rolling_release_modelo_de_lancamento_continuo" name="Rolling release (modelo de lançamento contínuo)" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="rpmfusion_repositorio_adicional" name="RPMFusion (repositório adicional)" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="epel_extra_packages_for_enterprise_linux_repositorio" name="EPEL (Extra Packages for Enterprise Linux, repositório)" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="oracle_linux" name="Oracle Linux" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="ksplice" name="Ksplice" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="dtrace" name="DTrace" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="ubuntu" name="Ubuntu" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="versao_lts_do_ubuntu_long_term_support" name="Versão LTS do Ubuntu (Long Term Support)" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="versao_provisoria_interim_do_ubuntu" name="Versão provisória (interim) do Ubuntu" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="linux_mint" name="Linux Mint" type="extracted" found_in_chapter="evolucao_do_linux_distribuicoes"/>
+   <node id="representacao_por_arquivos_no_contexto_unixgnulinux" name="Representação por arquivos (no contexto Unix/GNU/Linux)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="aspecto_casesensitive_em_sistemas_unixlike" name="Aspecto case-sensitive em sistemas Unix-like" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="permissao_de_execucao_de_arquivos_em_unixlike" name="Permissão de execução de arquivos em Unix-like" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="arquivos_e_diretorios_ocultos_em_unixlike_prefixo_ponto" name="Arquivos e diretórios ocultos em Unix-like (prefixo ponto)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="divisao_em_camadas_do_sistema_gnulinux_kernel_usuarios_processos" name="Divisão em camadas do sistema GNU/Linux (kernel, usuários, processos)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="superusuario_root_login_root_uid_0" name="Superusuário root (login root, UID 0)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="firefox_como_aplicacao_desktop_opensource" name="Firefox (como aplicação desktop open-source)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="thunderbird" name="Thunderbird" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="gimp" name="GIMP" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="inkscape" name="Inkscape" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="formato_svg_scalable_vector_graphics" name="Formato SVG (Scalable Vector Graphics)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="kdenlive" name="Kdenlive" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="virtualbox" name="VirtualBox" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice" name="LibreOffice" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="formato_opendocument_odf" name="Formato OpenDocument (ODF)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice_writer" name="LibreOffice Writer" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice_calc" name="LibreOffice Calc" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice_impress" name="LibreOffice Impress" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice_draw" name="LibreOffice Draw" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice_math" name="LibreOffice Math" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="libreoffice_base" name="LibreOffice Base" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="vlc_media_player" name="VLC media player" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="audacity" name="Audacity" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="imagemagick" name="ImageMagick" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="k3b" name="K3b" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="blender_software_3d" name="Blender (software 3D)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="smplayer" name="smplayer" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="audacious" name="Audacious" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="banshee" name="Banshee" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="amarok" name="Amarok" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="apache_http_server" name="Apache HTTP Server" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="nginx" name="NGINX" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="lighttpd" name="Lighttpd" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="apache_tomcat" name="Apache Tomcat" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="nodejs_como_tecnologia_de_servidor" name="Node.js (como tecnologia de servidor)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="mariadb" name="MariaDB" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="postgresql" name="PostgreSQL" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="postfix" name="Postfix" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="bind_berkeley_internet_name_domain" name="BIND (Berkeley Internet Name Domain)" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="squid" name="Squid" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="hadoop" name="Hadoop" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="kubernetes" name="Kubernetes" type="extracted" found_in_chapter="conhecendo_o_linux"/>
+   <node id="filesystem_hierarchy_standard_fhs" name="Filesystem Hierarchy Standard (FHS)" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="comando_touch_funcao_de_criacao_e_alteracao_de_timestamps" name="Comando touch (função de criação e alteração de timestamps)" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="comando_file" name="Comando file" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="comando_mkdir_uso_do_parametro_p" name="Comando mkdir (uso do parâmetro -p)" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="comando_rm_parametros_i_r_f" name="Comando rm (parâmetros -i, -r, -f)" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="comando_find_busca_por_caracteristicas_de_arquivos" name="Comando find (busca por características de arquivos)" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="comando_updatedb" name="Comando updatedb" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="estrutura_do_sistema_operacional_em_camadas_no_gnulinux" name="Estrutura do sistema operacional (em camadas no GNU/Linux)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="ambiente_de_trabalho_desktop_environment" name="Ambiente de trabalho (desktop environment)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="display_manager_dm" name="Display manager (DM)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="ttyn_terminais_virtuais" name="ttyn (terminais virtuais)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="sessao_no_contexto_de_login_em_gnulinux" name="Sessão (no contexto de login em GNU/Linux)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="prompt_principal_do_shell_bash" name="Prompt principal do shell (bash)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_sudo_i" name="Comando sudo -i" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_su__substitute_user" name="Comando su - (substitute user)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_whoami" name="Comando whoami" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_who_am_i" name="Comando who am i" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="encerramento_de_sessao_logoutexitctrld" name="Encerramento de sessão (logout/exit/CTRL+D)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_shutdown_parametros_h_r_now_tempo_hora" name="Comando shutdown (parâmetros -h, -r, now, tempo, hora)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_halt_p" name="Comando halt (-p)" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_poweroff" name="Comando poweroff" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_init_0" name="Comando init 0" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="comando_reboot" name="Comando reboot" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="uso_de_ctrlaltdel_para_reinicializacao" name="Uso de CTRL+ALT+DEL para reinicialização" type="extracted" found_in_chapter="estrutura_do_sistema_operacional"/>
+   <node id="shell_no_contexto_de_gnulinux" name="Shell (no contexto de GNU/Linux)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="tipos_de_shell_em_gnulinux" name="Tipos de shell em GNU/Linux" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="sh_bourne_shell" name="sh (Bourne shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="bash_bourne_again_shell" name="bash (Bourne Again Shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="csh_c_shell" name="csh (C shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="tcsh_turbo_c_shell" name="tcsh (Turbo C shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="ksh_korn_shell" name="ksh (Korn shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="zsh_z_shell" name="zsh (Z shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="comando_chsh_change_shell" name="Comando chsh (change shell)" type="extracted" found_in_chapter="o_que_e_um_shell"/>
+   <node id="variaveis_escalares_no_shell" name="Variáveis escalares (no shell)" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variaveis_locais_no_shell" name="Variáveis locais (no shell)" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variaveis_de_ambiente__variaveis_globais_no_shell" name="Variáveis de ambiente / variáveis globais (no shell)" type="extracted" found_in_chapter="variaveis"/>
+   <node id="comando_echo" name="Comando echo" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_home" name="Variável de ambiente HOME" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_hosttype" name="Variável de ambiente HOSTTYPE" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_shell" name="Variável de ambiente SHELL" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_term" name="Variável de ambiente TERM" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_user" name="Variável de ambiente USER" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_path" name="Variável de ambiente PATH" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_ps1" name="Variável de ambiente PS1" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_ps2" name="Variável de ambiente PS2" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_mail" name="Variável de ambiente MAIL" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_logname" name="Variável de ambiente LOGNAME" type="extracted" found_in_chapter="variaveis"/>
+   <node id="variavel_de_ambiente_ostype" name="Variável de ambiente OSTYPE" type="extracted" found_in_chapter="variaveis"/>
+   <node id="comando_export" name="Comando export" type="extracted" found_in_chapter="variaveis"/>
+   <node id="comando_set" name="Comando set" type="extracted" found_in_chapter="variaveis"/>
+   <node id="comando_env" name="Comando env" type="extracted" found_in_chapter="variaveis"/>
+   <node id="comando_printenv" name="Comando printenv" type="extracted" found_in_chapter="variaveis"/>
+   <node id="comando_unset" name="Comando unset" type="extracted" found_in_chapter="variaveis"/>
+   <node id="arquivos_de_inicializacao_globais_de_ambiente_etcprofile_etcenvironment" name="Arquivos de inicialização globais de ambiente (/etc/profile, /etc/environment)" type="extracted" found_in_chapter="variaveis"/>
+   <node id="arquivos_de_inicializacao_de_usuario_bashrc_bash_profile_bash_login_profile" name="Arquivos de inicialização de usuário (~/.bashrc, ~/.bash_profile, ~/.bash_login, ~/.profile)" type="extracted" found_in_chapter="variaveis"/>
+   <node id="etcprofile_como_arquivo_de_configuracao_do_shell" name="/etc/profile (como arquivo de configuração do shell)" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="etcenvironment_como_arquivo_de_configuracao_de_ambiente" name="/etc/environment (como arquivo de configuração de ambiente)" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="etcbashbashrc" name="/etc/bash.bashrc" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="bashrc_como_arquivo_de_configuracao_do_shell_em_sessoes_naologin" name="~/.bashrc (como arquivo de configuração do shell em sessões não‑login)" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="bash_logout" name="~/.bash_logout" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="alias_no_shell_bash" name="Alias (no shell bash)" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="comando_alias" name="Comando alias" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="comando_unalias" name="Comando unalias" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="etcissue" name="/etc/issue" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="etcmotd" name="/etc/motd" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="etcissuenet" name="/etc/issue.net" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="arquivo_bash_history" name="Arquivo ~/.bash_history" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="variavel_de_ambiente_histfile" name="Variável de ambiente HISTFILE" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="variavel_de_ambiente_histsize" name="Variável de ambiente HISTSIZE" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="variavel_de_ambiente_histfilesize" name="Variável de ambiente HISTFILESIZE" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="comando_history_bash" name="Comando history (bash)" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="comando_fc_bash" name="Comando fc (bash)" type="extracted" found_in_chapter="arquivos_de_configuracao_do_shell"/>
+   <node id="diretorio_raiz__no_contexto_de_caminhos" name="Diretório raiz / (no contexto de caminhos)" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="caminho_absoluto" name="Caminho absoluto" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="caminho_relativo" name="Caminho relativo" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="ponto__como_diretorio_corrente" name="Ponto . como diretório corrente" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="dois_pontos__como_diretorio_pai" name="Dois pontos .. como diretório pai" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="cd__diretorio_anterior" name="cd - (diretório anterior)" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="pwd_print_working_directory" name="pwd (print working directory)" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="uso_de_coringas___e___no_ls" name="Uso de coringas * ? e [ ] no ls" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="atalhos_de_teclado_do_shell_interativo_homeendctrla_ctrle_ctrlu_ctrlk_ctrll_ctrlr_ctrly_etc" name="Atalhos de teclado do shell interativo (HOME/END/CTRL+A, CTRL+E, CTRL+U, CTRL+K, CTRL+L, CTRL+R, CTRL+Y etc.)" type="extracted" found_in_chapter="caminhos_de_diretorios"/>
+   <node id="documentacao_do_gnulinux_como_fonte_de_conhecimento" name="Documentação do GNU/Linux como fonte de conhecimento" type="extracted" found_in_chapter="como_obter_ajuda"/>
+   <node id="comunidade_gnulinux_como_produtora_de_documentacao" name="Comunidade GNU/Linux como produtora de documentação" type="extracted" found_in_chapter="como_obter_ajuda"/>
+   <node id="compartilhamento_de_knowhow_no_software_livre" name="Compartilhamento de know-how no Software Livre" type="extracted" found_in_chapter="como_obter_ajuda"/>
+   <node id="manuais_do_sistema_man_pages" name="Manuais do sistema (Man Pages)" type="extracted" found_in_chapter="como_obter_ajuda"/>
+   <node id="howtos_howtos_cookbooks" name="How-to's (Howtos, cook-books)" type="extracted" found_in_chapter="formas_de_documentacao"/>
+   <node id="manuais_no_contexto_de_software" name="Manuais (no contexto de software)" type="extracted" found_in_chapter="formas_de_documentacao"/>
+   <node id="documentacao_no_contexto_de_projetos_e_softwares_abrangendo_multiplos_artefatos" name="Documentação (no contexto de projetos e softwares, abrangendo múltiplos artefatos)" type="extracted" found_in_chapter="formas_de_documentacao"/>
+   <node id="diretorio_usrsharedoc_como_repositorio_de_howtos_e_documentacao_de_aplicacoes" name="Diretório /usr/share/doc como repositório de how-to's e documentação de aplicações" type="extracted" found_in_chapter="formas_de_documentacao"/>
+   <node id="parametro_help_em_comandos_externos" name="Parâmetro --help em comandos externos" type="extracted" found_in_chapter="comando_help"/>
+   <node id="comando_type_no_contexto_de_identificar_tipo_de_comando" name="Comando type (no contexto de identificar tipo de comando)" type="extracted" found_in_chapter="comando_help"/>
+   <node id="diferenca_entre_comandos_internos_e_externos_no_contexto_de_ajuda" name="Diferença entre comandos internos e externos (no contexto de ajuda)" type="extracted" found_in_chapter="comando_help"/>
+   <node id="opcao_d_do_comando_apropos" name="Opção -d do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_v_do_comando_apropos" name="Opção -v do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_eexact_do_comando_apropos" name="Opção -e/-exact do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_wwildcard_do_comando_apropos" name="Opção -w/-wildcard do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_aand_do_comando_apropos" name="Opção -a/-and do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_llong_do_comando_apropos" name="Opção -l/-long do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_c_do_comando_apropos" name="Opção -C do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_l_do_comando_apropos" name="Opção -L do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_msystems_do_comando_apropos" name="Opção -m/-systems do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_mmanpath_do_comando_apropos" name="Opção -M/-manpath do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_ssectionssection_do_comando_apropos" name="Opção -s/-sections/-section do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao__help_do_comando_apropos" name="Opção -?/ -Help do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_vversion_do_comando_apropos" name="Opção -V/-version do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="opcao_rregex_do_comando_apropos" name="Opção -r/-regex do comando apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="equivalencia_man_k_com_apropos" name="Equivalência man -k com apropos" type="extracted" found_in_chapter="comando_apropos"/>
+   <node id="sintaxe_do_comando_whatis" name="Sintaxe do comando whatis" type="extracted" found_in_chapter="comando_whatis"/>
+   <node id="equivalencia_man_f_com_whatis" name="Equivalência man -f com whatis" type="extracted" found_in_chapter="comando_whatis"/>
+   <node id="banco_de_dados_de_whatisapropos" name="Banco de dados de whatis/apropos" type="extracted" found_in_chapter="comando_whatis"/>
+   <node id="comando_catman" name="Comando catman" type="extracted" found_in_chapter="comando_whatis"/>
+   <node id="comando_makewhatis" name="Comando makewhatis" type="extracted" found_in_chapter="comando_whatis"/>
+   <node id="diferenca_de_comportamento_entre_apropos_e_whatis" name="Diferença de comportamento entre apropos e whatis" type="extracted" found_in_chapter="comando_whatis"/>
+   <node id="niveissecoes_das_man_pages_19" name="Níveis/seções das man pages (1–9)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_1_programas_e_executaveis" name="man 1 (programas e executáveis)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_2_rotinas_de_sistema_unix_e_c" name="man 2 (rotinas de sistema Unix e C)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_3_rotinas_de_bibliotecas_c" name="man 3 (rotinas de bibliotecas C)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_4_arquivos_especiais__dispositivos" name="man 4 (arquivos especiais / dispositivos)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_5_arquivos_de_configuracao_e_convencoes" name="man 5 (arquivos de configuração e convenções)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_6_games" name="man 6 (games)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_7_diversos__macros__regex" name="man 7 (diversos / macros / regex)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_8_comandos_administrativos" name="man 8 (comandos administrativos)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="man_9_rotinas_internas_do_kernel" name="man 9 (rotinas internas do kernel)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="sintaxe_do_comando_man" name="Sintaxe do comando man" type="extracted" found_in_chapter="comando_man"/>
+   <node id="diretorio_usrshareman_como_repositorio_de_manuais" name="Diretório /usr/share/man/ como repositório de manuais" type="extracted" found_in_chapter="comando_man"/>
+   <node id="comando_man_man_manual_do_proprio_man" name="Comando man man (manual do próprio man)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="uso_de_man_secao_comando_ex_man_5_passwd" name="Uso de man &lt;seção&gt; &lt;comando&gt; (ex: man 5 passwd)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="introducoes_por_nivel_com_man_nivel_intro" name="Introduções por nível com man &lt;nível&gt; intro" type="extracted" found_in_chapter="comando_man"/>
+   <node id="localizacao_do_manual_do_passwd_como_comando_usrsharemanman1passwd" name="Localização do manual do passwd como comando (/usr/share/man/man1/passwd)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="localizacao_do_manual_do_arquivo_passwd_usrsharemanman5passwd" name="Localização do manual do arquivo passwd (/usr/share/man/man5/passwd)" type="extracted" found_in_chapter="comando_man"/>
+   <node id="info_pages" name="info pages" type="extracted" found_in_chapter="comando_info"/>
+   <node id="teclas_de_navegacao_do_info_n_p_u_q_enter_backspace" name="Teclas de navegação do info (n, p, u, q, Enter, Backspace)" type="extracted" found_in_chapter="comando_info"/>
+   <node id="yelp_ferramenta_grafica_de_documentacao_gnome" name="yelp (ferramenta gráfica de documentação GNOME)" type="extracted" found_in_chapter="comando_info"/>
+   <node id="xman_frontend_grafico_para_man" name="xman (front-end gráfico para man)" type="extracted" found_in_chapter="comando_info"/>
+   <node id="opcao_b_do_comando_whereis" name="Opção -b do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="opcao_m_do_comando_whereis" name="Opção -m do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="opcao_s_do_comando_whereis" name="Opção -s do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="opcao_u_do_comando_whereis" name="Opção -u do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="opcao_f_do_comando_whereis" name="Opção -f do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="opcao_v_do_comando_whereis" name="Opção -V do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="opcao_h_do_comando_whereis" name="Opção -h do comando whereis" type="extracted" found_in_chapter="comando_whereis"/>
+   <node id="xargs_como_construtor_de_listas_de_parametros" name="xargs como construtor de listas de parâmetros" type="extracted" found_in_chapter="topicos_para_revisao_do_capitulo"/>
+   <node id="hierarquia_dos_diretorios_arvore_de_diretorios_do_gnulinux" name="Hierarquia dos diretórios (árvore de diretórios) do GNU/Linux" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio__raiz" name="Diretório / (raiz)" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_home" name="Diretório /home" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_root" name="Diretório /root" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_usrsbin" name="Diretório /usr/sbin" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_usrbin" name="Diretório /usr/bin" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_usrlib" name="Diretório /usr/lib" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_usrshareman" name="Diretório /usr/share/man" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_usrsrc" name="Diretório /usr/src" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_lostfound" name="Diretório /lost+found" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_run" name="Diretório /run" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="arquivos_de_dispositivo_em_dev_ex_devinputmice_devsda" name="Arquivos de dispositivo em /dev (ex.: /dev/input/mice, /dev/sda)" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="arquivo_etcpasswd_estrutura_de_campos" name="Arquivo /etc/passwd (estrutura de campos)" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="arquivo_etcshadow_estrutura_de_campos" name="Arquivo /etc/shadow (estrutura de campos)" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="comando_pwconv" name="Comando pwconv" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="comando_pwunconv" name="Comando pwunconv" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="comando_getent_no_contexto_de_passwd" name="Comando getent (no contexto de passwd)" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="diretorio_libmodulesversaokernel_modulos_de_kernel" name="Diretório /lib/modules/&lt;versão&gt;/kernel (módulos de kernel)" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="case_sensitivity_aplicada_a_nomes_de_arquivos_e_diretorios_em_gnulinux" name="Case sensitivity aplicada a nomes de arquivos e diretórios em GNU/Linux" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="conceito_de_diretorio_como_gavetaorganizacao_de_arquivos_no_sistema" name="Conceito de diretório como ‘gaveta’/organização de arquivos no sistema" type="extracted" found_in_chapter="fhs_hierarquia_dos_diretorios"/>
+   <node id="comandos_no_contexto_de_gnulinux" name="Comandos (no contexto de GNU/Linux)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="arquivo_executavel_como_comando" name="Arquivo executável como comando" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="diferenca_de_comandos_entre_mundo_nix_e_msdos" name="Diferença de comandos entre mundo NIX e MS‑DOS" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="interpretacao_de_comandos_pelo_shell" name="Interpretação de comandos pelo shell" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcoesparametros_do_comando_ls_l_a_r_d" name="Opções/parâmetros do comando ls (-l, -a, -R, -d)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="saida_detalhada_do_ls_l_campos_e_significados_gerais" name="Saída detalhada do ls -l (campos e significados gerais)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="tipos_de_arquivo_indicados_na_primeira_posicao_de_ls_l_d_l__c_b_u_s_p" name="Tipos de arquivo indicados na primeira posição de ls -l (d, l, -, c, b, u, s, p)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="arquivo_de_dispositivo_de_caractere_character_device" name="Arquivo de dispositivo de caractere (character device)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="arquivo_de_dispositivo_de_bloco_block_device" name="Arquivo de dispositivo de bloco (block device)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="socket_arquivo_de_socket_em_sistemas_unixlike" name="Socket (arquivo de socket em sistemas Unix-like)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="fifo__named_pipe" name="FIFO / named pipe" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="conceito_de_fifo_first_in_first_out_como_estrutura_de_fila" name="Conceito de FIFO (First In, First Out) como estrutura de fila" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="conceito_de_buffer_regiao_de_memoria_temporaria" name="Conceito de buffer (região de memória temporária)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="conceito_de_socket_como_meio_de_comunicacao_entre_computadores" name="Conceito de socket como meio de comunicação entre computadores" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="campo_de_permissoes_em_ls_como_rwrr" name="Campo de permissões em ls (como rw-r--r--)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="campo_de_dono_e_grupo_na_listagem_do_ls" name="Campo de dono e grupo na listagem do ls" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="campo_numero_de_hard_links_na_listagem_do_ls" name="Campo número de hard links na listagem do ls" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="campo_tamanho_do_arquivo_na_listagem_do_ls" name="Campo tamanho do arquivo na listagem do ls" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="campo_datahora_na_listagem_do_ls" name="Campo data/hora na listagem do ls" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="diferenca_entre_tamanho_mostrado_para_diretorio_e_espaco_realmente_ocupado" name="Diferença entre tamanho mostrado para diretório e espaço realmente ocupado" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="comando_ls_com_curingas_padroes_como_conf_n" name="Comando ls com curingas (padrões como *.conf, /*n)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="criacao_de_arquivos_com_touch" name="Criação de arquivos com touch" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="curingas_wildcards_em_gnulinux" name="Curingas (wildcards) em GNU/Linux" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="curinga_" name="Curinga *" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="curinga__negacao_no_padrao" name="Curinga ! (negação no padrão)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="curingas_com_colchetes___faixas_e_conjuntos_de_caracteres" name="Curingas com colchetes [ ] (faixas e conjuntos de caracteres)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="padroes_compostos_az09_az10_az10_abc" name="Padrões compostos [a-z][0-9], [a,z][1,0], [a-z,1,0], [^abc]" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="expansao_de_chaves___brace_expansion" name="Expansão de chaves { } (brace expansion)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="barra_invertida__backslash_como_caractere_de_escape" name="Barra invertida / backslash como caractere de escape" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="uso_combinado_de_curingas" name="Uso combinado de curingas" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="comando_mkdir_para_criar_diretorios" name="Comando mkdir para criar diretórios" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcao_p_do_mkdir_para_criacao_recursiva_de_diretorios" name="Opção -p do mkdir para criação recursiva de diretórios" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="conceito_de_diretorio_como_pasta_para_guardar_arquivos" name="Conceito de diretório como pasta para guardar arquivos" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="comando_rm_para_remocao_de_arquivos_e_diretorios" name="Comando rm para remoção de arquivos e diretórios" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcao_i_do_rm_confirmacao_interativa" name="Opção -i do rm (confirmação interativa)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcao_r__r_do_rm_remocao_recursiva" name="Opção -r / -R do rm (remoção recursiva)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="irrecuperabilidade_de_arquivos_removidos_com_rm" name="Irrecuperabilidade de arquivos removidos com rm" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="comando_rmdir_para_remover_diretorios_vazios" name="Comando rmdir para remover diretórios vazios" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="comando_cp_para_copiar_arquivos_e_diretorios" name="Comando cp para copiar arquivos e diretórios" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcao_rr_do_cp_para_copiar_diretorios_recursivamente" name="Opção -R/-r do cp para copiar diretórios recursivamente" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcao_p_do_cp_para_preservar_metadados_data_dono_permissoes" name="Opção -p do cp para preservar metadados (data, dono, permissões)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="metadados_de_arquivos_datas_donos_permissoes" name="Metadados de arquivos (datas, donos, permissões)" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="comando_mv_para_mover_ou_renomear_arquivos_e_diretorios" name="Comando mv para mover ou renomear arquivos e diretórios" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="movimentacao_como_copia_seguida_de_remocao" name="Movimentação como cópia seguida de remoção" type="extracted" found_in_chapter="aprendendo_comandos_do_gnulinux"/>
+   <node id="opcao_name_do_find" name="Opção -name do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_maxdepth_do_find" name="Opção -maxdepth do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_amin_do_find" name="Opção -amin do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_atime_do_find_no_contexto_do_find" name="Opção -atime do find (no contexto do find)" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_uid_do_find" name="Opção -uid do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_user_do_find" name="Opção -user do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_perm_do_find" name="Opção -perm do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_size_do_find" name="Opção -size do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_type_do_find" name="Opção -type do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_mtime_do_find" name="Opção -mtime do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_cmin_do_find" name="Opção -cmin do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="acao_exec_do_find" name="Ação -exec do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="acao_print0_do_find" name="Ação -print0 do find" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="comando_xargs_no_contexto_de_processamento_de_listas_geradas_por_outros_comandos" name="Comando xargs (no contexto de processamento de listas geradas por outros comandos)" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_n_do_xargs" name="Opção -n do xargs" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="opcao_d_do_xargs" name="Opção -d do xargs" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="comando_updatedb_no_contexto_de_atualizacao_da_base_do_locate" name="Comando updatedb (no contexto de atualização da base do locate)" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="base_de_dados_do_locate" name="Base de dados do locate" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+   <node id="agendamento_via_cron_da_atualizacao_do_banco_do_locate" name="Agendamento via cron da atualização do banco do locate" type="extracted" found_in_chapter="localizacao_no_sistema"/>
+</nodes>
