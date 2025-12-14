@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<nodes>
+   <node id="introducao_ao_linux" name="Introdução ao Linux" folder="introducao_ao_linux" order="0" level="1" page_start="6"/>
+   <node id="sobre_o_material" name="Sobre o material" folder="introducao_ao_linux" order="1" level="2" page_start="6"/>
+   <node id="mercado_linux" name="Mercado Linux" folder="introducao_ao_linux" order="2" level="2" page_start="7"/>
+   <node id="onde_podemos_encontrar_o_linux" name="Onde podemos encontrar o Linux?" folder="introducao_ao_linux" order="3" level="3" page_start="7"/>
+   <node id="market_share__sistemas_operacionais_pelo_mundo" name="Market Share – Sistemas Operacionais pelo mundo" folder="introducao_ao_linux" order="4" level="3" page_start="8"/>
+   <node id="dispositivos_moveis" name="Dispositivos móveis" folder="introducao_ao_linux" order="5" level="3" page_start="9"/>
+   <node id="desktop_linux" name="Desktop Linux" folder="introducao_ao_linux" order="6" level="3" page_start="10"/>
+   <node id="servidores_web" name="Servidores web" folder="introducao_ao_linux" order="7" level="3" page_start="11"/>
+   <node id="profissoes_no_mundo_opensource" name="Profissões no mundo OpenSource" folder="introducao_ao_linux" order="8" level="3" page_start="11"/>
+   <node id="certificacoes_linux" name="Certificações Linux" folder="certificacoes_linux" order="9" level="1" page_start="13"/>
+   <node id="centros_certificadores" name="Centros certificadores" folder="certificacoes_linux" order="10" level="2" page_start="13"/>
+   <node id="historia_do_linux" name="História do Linux" folder="historia_do_linux" order="11" level="1" page_start="16"/>
+   <node id="a_origem_do_linux" name="A origem do Linux" folder="historia_do_linux" order="12" level="2" page_start="18"/>
+   <node id="licencas_open_source" name="Licenças Open Source" folder="licencas_open_source" order="13" level="1" page_start="20"/>
+   <node id="free_software_foundation" name="Free Software Foundation" folder="licencas_open_source" order="14" level="2" page_start="20"/>
+   <node id="software_livre" name="Software livre" folder="licencas_open_source" order="15" level="2" page_start="20"/>
+   <node id="gnu_gpl_general_public_license" name="GNU GPL (General Public License)" folder="licencas_open_source" order="16" level="2" page_start="21"/>
+   <node id="evolucao_do_linux_distribuicoes" name="Evolução do Linux: distribuições" folder="evolucao_do_linux_distribuicoes" order="17" level="1" page_start="23"/>
+   <node id="distribuicoes_livres_e_corporativas" name="Distribuições livres e corporativas" folder="evolucao_do_linux_distribuicoes" order="18" level="2" page_start="24"/>
+   <node id="distribuicoes_from_scratch_e_derivadas" name="Distribuições from scratch e derivadas" folder="evolucao_do_linux_distribuicoes" order="19" level="2" page_start="24"/>
+   <node id="ciclo_de_vida_de_algumas_distribuicoes_linux" name="Ciclo de vida de algumas distribuições Linux" folder="evolucao_do_linux_distribuicoes" order="20" level="2" page_start="32"/>
+   <node id="debian_gnulinux" name="Debian GNU/Linux" folder="evolucao_do_linux_distribuicoes" order="21" level="3" page_start="32"/>
+   <node id="evolucao_do_linux_dispositivos_embarcados" name="Evolução do Linux: dispositivos embarcados" folder="evolucao_do_linux_distribuicoes" order="22" level="2" page_start="32"/>
+   <node id="conhecendo_o_linux" name="Conhecendo o Linux" folder="conhecendo_o_linux" order="23" level="1" page_start="34"/>
+   <node id="principais_aplicacoes_desktop_opensource" name="Principais aplicações desktop Open-Source" folder="conhecendo_o_linux" order="24" level="2" page_start="35"/>
+   <node id="principais_aplicacoes_em_servidores_opensource" name="Principais aplicações em servidores Open-Source" folder="conhecendo_o_linux" order="25" level="2" page_start="37"/>
+   <node id="principais_linguagens_de_programacao_opensource" name="Principais linguagens de programação Open-Source" folder="conhecendo_o_linux" order="26" level="2" page_start="39"/>
+   <node id="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux" name="Apresentação dos principais gerenciadores de janelas usados no Linux" folder="conhecendo_o_linux" order="27" level="2" page_start="39"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="28" level="1" page_start="41"/>
+   <node id="estrutura_do_sistema_operacional" name="Estrutura do sistema operacional" folder="estrutura_do_sistema_operacional" order="29" level="1" page_start="43"/>
+   <node id="sessoes" name="Sessões" folder="estrutura_do_sistema_operacional" order="30" level="2" page_start="45"/>
+   <node id="terminal_virtual_em_modo_texto" name="Terminal virtual em modo texto" folder="estrutura_do_sistema_operacional" order="31" level="3" page_start="45"/>
+   <node id="pseudoterminal" name="Pseudoterminal" folder="estrutura_do_sistema_operacional" order="32" level="3" page_start="46"/>
+   <node id="execucao_dos_primeiros_comandos" name="Execução dos primeiros comandos" folder="estrutura_do_sistema_operacional" order="33" level="2" page_start="47"/>
+   <node id="inicio_de_uma_sessao_login" name="Início de uma sessão (login)" folder="estrutura_do_sistema_operacional" order="34" level="3" page_start="47"/>
+   <node id="encerrando_uma_sessao_logout" name="Encerrando uma sessão (logout)" folder="estrutura_do_sistema_operacional" order="35" level="3" page_start="49"/>
+   <node id="desligamento_do_sistema" name="Desligamento do sistema" folder="estrutura_do_sistema_operacional" order="36" level="3" page_start="49"/>
+   <node id="reiniciar_o_sistema" name="Reiniciar o sistema" folder="estrutura_do_sistema_operacional" order="37" level="3" page_start="51"/>
+   <node id="o_que_e_um_shell" name="O que é um Shell" folder="o_que_e_um_shell" order="38" level="1" page_start="52"/>
+   <node id="tipos_de_shell" name="Tipos de shell" folder="o_que_e_um_shell" order="39" level="2" page_start="53"/>
+   <node id="alteracao_do_shell_atual" name="Alteração do shell atual" folder="o_que_e_um_shell" order="40" level="2" page_start="54"/>
+   <node id="variaveis" name="Variáveis" folder="variaveis" order="41" level="1" page_start="55"/>
+   <node id="variaveis_locais_e_de_ambiente_globais" name="Variáveis Locais e de Ambiente (globais)" folder="variaveis" order="42" level="2" page_start="57"/>
+   <node id="como_definir_variaveis" name="Como definir variáveis" folder="variaveis" order="43" level="3" page_start="57"/>
+   <node id="exclusao_de_variaveis" name="Exclusão de variáveis" folder="variaveis" order="44" level="3" page_start="59"/>
+   <node id="alterar_o_prompt_de_comando" name="Alterar o prompt de comando" folder="variaveis" order="45" level="3" page_start="60"/>
+   <node id="arquivos_de_configuracao_do_shell" name="Arquivos de configuração do shell" folder="arquivos_de_configuracao_do_shell" order="46" level="1" page_start="62"/>
+   <node id="utilizacao_de_aliases_apelidos" name="Utilização de aliases (apelidos)" folder="arquivos_de_configuracao_do_shell" order="47" level="2" page_start="63"/>
+   <node id="arquivos_para_exibicao_de_mensagens" name="Arquivos para exibição de mensagens" folder="arquivos_de_configuracao_do_shell" order="48" level="2" page_start="65"/>
+   <node id="historico_de_comando" name="Histórico de comando" folder="arquivos_de_configuracao_do_shell" order="49" level="2" page_start="66"/>
+   <node id="comando_fc" name="Comando fc" folder="arquivos_de_configuracao_do_shell" order="50" level="2" page_start="67"/>
+   <node id="caminhos_de_diretorios" name="Caminhos de Diretorios" folder="caminhos_de_diretorios" order="51" level="1" page_start="68"/>
+   <node id="acessando_os_diretorios" name="Acessando os diretórios" folder="caminhos_de_diretorios" order="52" level="2" page_start="70"/>
+   <node id="comando_ls" name="Comando ls" folder="caminhos_de_diretorios" order="53" level="3" page_start="71"/>
+   <node id="atalhos_de_teclado_utilizados_na_linha_de_comando" name="Atalhos de teclado utilizados na linha de comando" folder="caminhos_de_diretorios" order="54" level="2" page_start="73"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="55" level="1" page_start="74"/>
+   <node id="como_obter_ajuda" name="Como obter ajuda" folder="como_obter_ajuda" order="56" level="1" page_start="76"/>
+   <node id="formas_de_documentacao" name="Formas de documentação" folder="formas_de_documentacao" order="57" level="1" page_start="77"/>
+   <node id="howtos" name="How-to’s" folder="formas_de_documentacao" order="58" level="2" page_start="77"/>
+   <node id="manuais" name="Manuais" folder="formas_de_documentacao" order="59" level="2" page_start="78"/>
+   <node id="documentacao" name="Documentação" folder="formas_de_documentacao" order="60" level="2" page_start="78"/>
+   <node id="comando_help" name="Comando help" folder="comando_help" order="61" level="1" page_start="79"/>
+   <node id="comando_apropos" name="Comando apropos" folder="comando_apropos" order="62" level="1" page_start="81"/>
+   <node id="comando_whatis" name="Comando whatis" folder="comando_whatis" order="63" level="1" page_start="84"/>
+   <node id="comando_man" name="Comando man" folder="comando_man" order="64" level="1" page_start="86"/>
+   <node id="comando_info" name="Comando info" folder="comando_info" order="65" level="1" page_start="89"/>
+   <node id="alternativas_para_consulta" name="Alternativas para consulta" folder="comando_info" order="66" level="2" page_start="90"/>
+   <node id="comando_whereis" name="Comando whereis" folder="comando_whereis" order="67" level="1" page_start="91"/>
+   <node id="comando_which" name="Comando which" folder="comando_which" order="68" level="1" page_start="94"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="comando_which" order="69" level="2" page_start="94"/>
+   <node id="fhs_hierarquia_dos_diretorios" name="FHS, Hierarquia dos Diretórios" folder="fhs_hierarquia_dos_diretorios" order="70" level="1" page_start="96"/>
+   <node id="introducao_teorica" name="Introdução teórica" folder="fhs_hierarquia_dos_diretorios" order="71" level="2" page_start="96"/>
+   <node id="estrutura_de_diretorios_gnulinux" name="Estrutura de Diretórios GNU/Linux" folder="fhs_hierarquia_dos_diretorios" order="72" level="2" page_start="97"/>
+   <node id="diretorio_" name="Diretório /" folder="fhs_hierarquia_dos_diretorios" order="73" level="3" page_start="99"/>
+   <node id="diretorio_bin" name="Diretório /bin" folder="fhs_hierarquia_dos_diretorios" order="74" level="2" page_start="99"/>
+   <node id="diretorio_boot" name="Diretório /boot" folder="fhs_hierarquia_dos_diretorios" order="75" level="2" page_start="100"/>
+   <node id="diretorio_dev" name="Diretório /dev" folder="fhs_hierarquia_dos_diretorios" order="76" level="2" page_start="100"/>
+   <node id="diretorio_etc" name="Diretório /etc" folder="fhs_hierarquia_dos_diretorios" order="77" level="2" page_start="101"/>
+   <node id="diretorio_lib" name="Diretório /lib" folder="fhs_hierarquia_dos_diretorios" order="78" level="2" page_start="105"/>
+   <node id="diretorio_media" name="Diretório /media" folder="fhs_hierarquia_dos_diretorios" order="79" level="2" page_start="105"/>
+   <node id="diretorio_mnt" name="Diretório /mnt" folder="fhs_hierarquia_dos_diretorios" order="80" level="2" page_start="106"/>
+   <node id="diretorio_opt" name="Diretório /opt" folder="fhs_hierarquia_dos_diretorios" order="81" level="2" page_start="106"/>
+   <node id="diretorio_sbin" name="Diretório /sbin" folder="fhs_hierarquia_dos_diretorios" order="82" level="2" page_start="106"/>
+   <node id="diretorio_srv" name="Diretório /srv" folder="fhs_hierarquia_dos_diretorios" order="83" level="2" page_start="107"/>
+   <node id="diretorio_tmp" name="Diretório /tmp" folder="fhs_hierarquia_dos_diretorios" order="84" level="2" page_start="107"/>
+   <node id="diretorio_usr" name="Diretório /usr" folder="fhs_hierarquia_dos_diretorios" order="85" level="2" page_start="107"/>
+   <node id="diretorio_var" name="Diretório /var" folder="fhs_hierarquia_dos_diretorios" order="86" level="2" page_start="107"/>
+   <node id="diretorio_proc" name="Diretório /proc" folder="fhs_hierarquia_dos_diretorios" order="87" level="2" page_start="108"/>
+   <node id="diretorio_sys" name="Diretório /sys" folder="fhs_hierarquia_dos_diretorios" order="88" level="2" page_start="108"/>
+   <node id="diretorios_home_e_root" name="Diretórios /home e /root" folder="fhs_hierarquia_dos_diretorios" order="89" level="2" page_start="109"/>
+   <node id="aprendendo_comandos_do_gnulinux" name="Aprendendo Comandos do GNU/Linux" folder="aprendendo_comandos_do_gnulinux" order="90" level="1" page_start="110"/>
+   <node id="extraindo_mais_do_comando_ls" name="Extraindo mais do comando ls" folder="aprendendo_comandos_do_gnulinux" order="91" level="2" page_start="110"/>
+   <node id="criar_arquivo" name="Criar arquivo" folder="aprendendo_comandos_do_gnulinux" order="92" level="2" page_start="112"/>
+   <node id="curingas" name="Curingas" folder="aprendendo_comandos_do_gnulinux" order="93" level="2" page_start="112"/>
+   <node id="criando_diretorios" name="Criando diretórios" folder="aprendendo_comandos_do_gnulinux" order="94" level="2" page_start="116"/>
+   <node id="removendo_arquivosdiretorios" name="Removendo arquivos/diretórios" folder="aprendendo_comandos_do_gnulinux" order="95" level="2" page_start="116"/>
+   <node id="copiar_arquivosdiretorios" name="Copiar arquivos/diretórios" folder="aprendendo_comandos_do_gnulinux" order="96" level="2" page_start="117"/>
+   <node id="mover_ou_renomear_arquivosdiretorios" name="Mover ou renomear arquivos/diretórios" folder="aprendendo_comandos_do_gnulinux" order="97" level="2" page_start="118"/>
+   <node id="localizacao_no_sistema" name="Localização no sistema" folder="localizacao_no_sistema" order="98" level="1" page_start="120"/>
+   <node id="comando_find" name="Comando find" folder="localizacao_no_sistema" order="99" level="2" page_start="120"/>
+   <node id="mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia" name="Mais alguns exemplos que podem te ajudar no seu dia-a-dia" folder="localizacao_no_sistema" order="100" level="3" page_start="122"/>
+   <node id="comando_xargs" name="Comando xargs" folder="localizacao_no_sistema" order="101" level="2" page_start="125"/>
+   <node id="comando_locate" name="Comando locate" folder="localizacao_no_sistema" order="102" level="2" page_start="126"/>
+   <node id="topicos_para_revisao_do_capitulo" name="Tópicos para revisão do capítulo" folder="topicos_para_revisao_do_capitulo" order="103" level="1" page_start="127"/>
+</nodes>

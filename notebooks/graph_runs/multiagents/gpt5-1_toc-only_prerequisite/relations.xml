@@ -1,0 +1,507 @@
+<?xml version="1.0" ?>
+<relations>
+   <relation type="contains" source="introducao_ao_linux" target="sobre_o_material">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="introducao_ao_linux" target="mercado_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="mercado_linux" target="onde_podemos_encontrar_o_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="mercado_linux" target="market_share__sistemas_operacionais_pelo_mundo">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="mercado_linux" target="dispositivos_moveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="mercado_linux" target="desktop_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="mercado_linux" target="servidores_web">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="mercado_linux" target="profissoes_no_mundo_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="certificacoes_linux" target="centros_certificadores">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="historia_do_linux" target="a_origem_do_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="licencas_open_source" target="free_software_foundation">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="licencas_open_source" target="software_livre">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="licencas_open_source" target="gnu_gpl_general_public_license">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="evolucao_do_linux_distribuicoes" target="distribuicoes_livres_e_corporativas">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="evolucao_do_linux_distribuicoes" target="distribuicoes_from_scratch_e_derivadas">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="evolucao_do_linux_distribuicoes" target="ciclo_de_vida_de_algumas_distribuicoes_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="ciclo_de_vida_de_algumas_distribuicoes_linux" target="debian_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="evolucao_do_linux_distribuicoes" target="evolucao_do_linux_dispositivos_embarcados">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="conhecendo_o_linux" target="principais_aplicacoes_desktop_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="conhecendo_o_linux" target="principais_aplicacoes_em_servidores_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="conhecendo_o_linux" target="principais_linguagens_de_programacao_opensource">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="conhecendo_o_linux" target="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="estrutura_do_sistema_operacional" target="sessoes">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="sessoes" target="terminal_virtual_em_modo_texto">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="sessoes" target="pseudoterminal">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="estrutura_do_sistema_operacional" target="execucao_dos_primeiros_comandos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="execucao_dos_primeiros_comandos" target="inicio_de_uma_sessao_login">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="execucao_dos_primeiros_comandos" target="encerrando_uma_sessao_logout">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="execucao_dos_primeiros_comandos" target="desligamento_do_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="execucao_dos_primeiros_comandos" target="reiniciar_o_sistema">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="o_que_e_um_shell" target="tipos_de_shell">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="o_que_e_um_shell" target="alteracao_do_shell_atual">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="variaveis" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="variaveis_locais_e_de_ambiente_globais" target="como_definir_variaveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="variaveis_locais_e_de_ambiente_globais" target="exclusao_de_variaveis">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="variaveis_locais_e_de_ambiente_globais" target="alterar_o_prompt_de_comando">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="arquivos_de_configuracao_do_shell" target="utilizacao_de_aliases_apelidos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="arquivos_de_configuracao_do_shell" target="arquivos_para_exibicao_de_mensagens">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="arquivos_de_configuracao_do_shell" target="historico_de_comando">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="arquivos_de_configuracao_do_shell" target="comando_fc">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="caminhos_de_diretorios" target="acessando_os_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="acessando_os_diretorios" target="comando_ls">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="caminhos_de_diretorios" target="atalhos_de_teclado_utilizados_na_linha_de_comando">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="formas_de_documentacao" target="howtos">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="formas_de_documentacao" target="manuais">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="formas_de_documentacao" target="documentacao">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="comando_info" target="alternativas_para_consulta">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="comando_which" target="topicos_para_revisao_do_capitulo">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="introducao_teorica">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="estrutura_de_diretorios_gnulinux">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="estrutura_de_diretorios_gnulinux" target="diretorio_">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_bin">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_boot">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_dev">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_etc">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_lib">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_media">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_mnt">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_opt">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_sbin">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_srv">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_tmp">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_usr">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_var">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_proc">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorio_sys">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="fhs_hierarquia_dos_diretorios" target="diretorios_home_e_root">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="extraindo_mais_do_comando_ls">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="criar_arquivo">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="curingas">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="criando_diretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="removendo_arquivosdiretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="copiar_arquivosdiretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="aprendendo_comandos_do_gnulinux" target="mover_ou_renomear_arquivosdiretorios">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="localizacao_no_sistema" target="comando_find">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="comando_find" target="mais_alguns_exemplos_que_podem_te_ajudar_no_seu_diaadia">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="localizacao_no_sistema" target="comando_xargs">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="contains" source="localizacao_no_sistema" target="comando_locate">
+      <context>Structural Hierarchy (ToC)</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="licencas_open_source">
+      <context>Para entender o propósito das licenças open source (como a GPL) é necessário primeiro compreender o conceito de software livre e suas liberdades, que essas licenças buscam garantir juridicamente.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="gnu_gpl_general_public_license">
+      <context>A GPL é uma licença criada para proteger juridicamente o software livre e prolongar suas quatro liberdades; por isso, compreender a GPL pressupõe entender antes o que é software livre e quais são essas liberdades.</context>
+   </relation>
+   <relation type="prerequisite" source="distribuicoes_from_scratch_e_derivadas" target="debian_gnulinux">
+      <context>Para entender o papel do Debian como uma grande distribuição &quot;from scratch&quot; que serve de base para muitas distribuições derivadas (como Ubuntu e outras), é importante primeiro compreender o conceito geral de distribuições from scratch e derivadas, isto é, distribuições independentes versus aquelas construídas a partir de outra já existente.</context>
+   </relation>
+   <relation type="prerequisite" source="principais_aplicacoes_desktop_opensource" target="conhecendo_o_linux">
+      <context>Antes de estudar as principais aplicações desktop open source usadas em Linux, o aluno precisa conhecer as características básicas do sistema GNU/Linux (como representação por arquivos, permissões, multitarefa/multiusuário). Isso fornece o contexto de uso dessas aplicações no ambiente Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="principais_aplicacoes_em_servidores_opensource" target="conhecendo_o_linux">
+      <context>A compreensão de aplicações de servidor open source (como Apache, NGINX, bancos de dados) pressupõe entender previamente o sistema GNU/Linux, especialmente sua natureza Unix-like, modelo de permissões, processos e papel do superusuário.</context>
+   </relation>
+   <relation type="prerequisite" source="principais_linguagens_de_programacao_opensource" target="conhecendo_o_linux">
+      <context>Para entender o uso de linguagens de programação open source em ambiente Linux, é necessário primeiro conhecer o sistema GNU/Linux, sua organização em camadas, terminal e conceito de arquivos, pois esses elementos são a base para desenvolvimento e execução de código.</context>
+   </relation>
+   <relation type="prerequisite" source="apresentacao_dos_principais_gerenciadores_de_janelas_usados_no_linux" target="conhecendo_o_linux">
+      <context>A apresentação dos gerenciadores de janelas no Linux depende do entendimento prévio do próprio sistema GNU/Linux, em especial sua divisão em camadas (kernel, sistema, interface gráfica) e o fato de o ambiente gráfico ser opcional.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual_em_modo_texto" target="estrutura_do_sistema_operacional">
+      <context>Na estrutura em camadas do GNU/Linux, a camada ttyn corresponde aos terminais virtuais em modo texto; entender a estrutura geral do sistema ajuda a situar e compreender o papel desses terminais.</context>
+   </relation>
+   <relation type="prerequisite" source="pseudoterminal" target="terminal_virtual_em_modo_texto">
+      <context>O pseudoterminal é definido como um terminal virtual inicializado a partir do ambiente gráfico e com a mesma função do terminal em modo texto; por isso, é necessário entender antes o conceito de terminal virtual em modo texto.</context>
+   </relation>
+   <relation type="prerequisite" source="sessoes" target="terminal_virtual_em_modo_texto">
+      <context>Sessões são iniciadas através de terminais, que podem ser terminais virtuais em modo texto; para entender como uma sessão começa e funciona, é preciso conhecer primeiro o que é um terminal virtual em modo texto.</context>
+   </relation>
+   <relation type="prerequisite" source="sessoes" target="pseudoterminal">
+      <context>Sessões também podem ser iniciadas em pseudoterminais, que são terminais virtuais criados a partir do ambiente gráfico; compreender pseudoterminais completa a visão das formas de acesso a uma sessão.</context>
+   </relation>
+   <relation type="prerequisite" source="execucao_dos_primeiros_comandos" target="sessoes">
+      <context>A seção de execução dos primeiros comandos foca em iniciar e encerrar sessões, desligar e reiniciar o sistema; ter antes o conceito de sessão esclarece o contexto em que esses comandos são usados.</context>
+   </relation>
+   <relation type="prerequisite" source="inicio_de_uma_sessao_login" target="sessoes">
+      <context>Login é descrito como o ato de iniciar uma sessão para um usuário válido; compreender o que é uma sessão é necessário para entender o significado do login.</context>
+   </relation>
+   <relation type="prerequisite" source="inicio_de_uma_sessao_login" target="terminal_virtual_em_modo_texto">
+      <context>O texto exemplifica o login em modo texto, realizado em qualquer um dos terminais virtuais; por isso, é importante já saber o que é e como acessar um terminal virtual em modo texto.</context>
+   </relation>
+   <relation type="prerequisite" source="encerrando_uma_sessao_logout" target="sessoes">
+      <context>Logout é definido como o encerramento de uma sessão em modo texto; o conceito de sessão é a base para entender o que está sendo fechado.</context>
+   </relation>
+   <relation type="prerequisite" source="desligamento_do_sistema" target="execucao_dos_primeiros_comandos">
+      <context>Os comandos de desligamento são apresentados como parte do conjunto de primeiros comandos que o usuário aprende (iniciar/encerrar sessão, desligar, reiniciar); eles dependem do entendimento geral dessa etapa inicial de uso do shell.</context>
+   </relation>
+   <relation type="prerequisite" source="reiniciar_o_sistema" target="execucao_dos_primeiros_comandos">
+      <context>Reiniciar o sistema é tratado como continuidade dos primeiros comandos básicos de administração via shell, ao lado de desligar o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="reiniciar_o_sistema" target="desligamento_do_sistema">
+      <context>A reinicialização reutiliza o comando shutdown explicado na seção de desligamento, apenas trocando o parâmetro (-h por -r); por isso, entender o uso de shutdown para desligar é base para compreendê-lo ao reiniciar.</context>
+   </relation>
+   <relation type="prerequisite" source="debian_gnulinux" target="estrutura_do_sistema_operacional">
+      <context>O exemplo &quot;Debian GNU/Linux 10&quot; é apresentado como nome e versão do sistema operacional no terminal; reconhecer Debian GNU/Linux como um sistema operacional pressupõe a noção de estrutura de um sistema GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="introducao_ao_linux" target="estrutura_do_sistema_operacional">
+      <context>Antes de detalhar a estrutura em camadas do GNU/Linux, é preciso uma introdução geral ao que é o Linux como sistema operacional; a estrutura aprofunda essa visão inicial.</context>
+   </relation>
+   <relation type="prerequisite" source="conhecendo_o_linux" target="introducao_ao_linux">
+      <context>&quot;Conhecendo o Linux&quot; representa um estudo mais detalhado e prático; ele se apoia numa introdução prévia que apresenta os conceitos básicos sobre o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="o_que_e_um_shell" target="introducao_ao_linux">
+      <context>Antes de entender o shell como camada de acesso ao sistema, o aluno precisa ter uma noção básica do que é o sistema GNU/Linux e o que é um sistema operacional, normalmente apresentado em uma introdução ao Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="tipos_de_shell" target="o_que_e_um_shell">
+      <context>Para compreender a diferenciação entre bash, sh, csh etc., o estudante deve primeiro entender o conceito geral de shell como interface ou camada de acesso ao sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="alteracao_do_shell_atual" target="o_que_e_um_shell">
+      <context>Para aprender a alterar o shell com o comando chsh, o aluno precisa saber o que é um shell e qual é seu papel na interação com o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="alteracao_do_shell_atual" target="tipos_de_shell">
+      <context>Para escolher adequadamente para qual shell alterar (sh, bash, csh, zsh, etc.), é necessário conhecer os principais tipos de shell e suas características.</context>
+   </relation>
+   <relation type="prerequisite" source="variaveis_locais_e_de_ambiente_globais" target="variaveis">
+      <context>Antes de distinguir variáveis locais e de ambiente, o leitor precisa entender o conceito geral de variáveis em shell (nome, valor, uso com $).</context>
+   </relation>
+   <relation type="prerequisite" source="como_definir_variaveis" target="variaveis_locais_e_de_ambiente_globais">
+      <context>A explicação sobre a forma técnica de definição (simples atribuição vs. uso de export) pressupõe saber o que são variáveis locais e de ambiente.</context>
+   </relation>
+   <relation type="prerequisite" source="como_definir_variaveis" target="variaveis">
+      <context>Para aprender a definir variáveis com NOME=VALOR e usá-las com echo $nome, o leitor deve primeiro compreender o que é uma variável em shell.</context>
+   </relation>
+   <relation type="prerequisite" source="exclusao_de_variaveis" target="variaveis">
+      <context>O uso de unset para remover variáveis só faz sentido após entender o que são variáveis e como elas armazenam valores.</context>
+   </relation>
+   <relation type="prerequisite" source="exclusao_de_variaveis" target="como_definir_variaveis">
+      <context>Para acompanhar a exclusão (unset) e seus efeitos em sessões e ambientes, o leitor precisa saber antes como criar e exportar variáveis.</context>
+   </relation>
+   <relation type="prerequisite" source="alterar_o_prompt_de_comando" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Modificar o prompt via PS1 exige compreender que PS1 é uma variável de ambiente e como variáveis globais influenciam o comportamento do shell.</context>
+   </relation>
+   <relation type="prerequisite" source="alterar_o_prompt_de_comando" target="variaveis">
+      <context>Para alterar PS1, é necessário entender o conceito de variável (armazenar um valor, atribuir e reatribuir) aplicado ao formato do prompt.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivos_de_configuracao_do_shell" target="o_que_e_um_shell">
+      <context>Para entender arquivos como /etc/profile, ~/.bash_profile ou ~/.bashrc e quando são carregados, é preciso antes saber o que é um shell e que ele interpreta comandos em sessões de usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivos_de_configuracao_do_shell" target="sessoes">
+      <context>A distinção entre shells de login, shells interativos em sessões já iniciadas e shells não interativos depende do conceito de sessão no sistema operacional.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivos_de_configuracao_do_shell" target="inicio_de_uma_sessao_login">
+      <context>Os arquivos são lidos &quot;no momento do login&quot; ou quando o shell é invocado como login shell; é necessário entender o processo de login para saber quando esses arquivos são executados.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivos_de_configuracao_do_shell" target="encerrando_uma_sessao_logout">
+      <context>A execução automática de ~/.bash_logout ocorre ao término da sessão; compreender isso exige saber o que é logout e o encerramento de uma sessão de shell.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivos_de_configuracao_do_shell" target="variaveis_locais_e_de_ambiente_globais">
+      <context>Arquivos como /etc/profile e /etc/environment são usados para definir e exportar variáveis de ambiente; é preciso conhecer o conceito de variáveis locais e de ambiente para entender seu papel.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivos_de_configuracao_do_shell" target="como_definir_variaveis">
+      <context>O texto menciona que nesses arquivos o usuário pode programar a criação de variáveis; para aproveitar isso é necessário já saber a sintaxe básica de definição de variáveis no shell.</context>
+   </relation>
+   <relation type="prerequisite" source="utilizacao_de_aliases_apelidos" target="o_que_e_um_shell">
+      <context>Aliases são recursos da linha de comando do shell; é necessário entender o que é um shell interativo para compreender onde e como aliases são usados.</context>
+   </relation>
+   <relation type="prerequisite" source="utilizacao_de_aliases_apelidos" target="execucao_dos_primeiros_comandos">
+      <context>A motivação de aliases é evitar redigitar comandos longos já conhecidos; o aluno precisa ter experiência prévia executando comandos básicos para ver sentido em aliases.</context>
+   </relation>
+   <relation type="prerequisite" source="historico_de_comando" target="o_que_e_um_shell">
+      <context>O histórico (history, .bash_history) é uma funcionalidade do shell; é preciso saber o que é o shell e sua interface de comando para compreender o histórico.</context>
+   </relation>
+   <relation type="prerequisite" source="historico_de_comando" target="execucao_dos_primeiros_comandos">
+      <context>O histórico registra comandos já executados; o leitor deve ter noção prévia de executar comandos para entender por que reaproveitá-los é útil.</context>
+   </relation>
+   <relation type="prerequisite" source="historico_de_comando" target="variaveis_locais_e_de_ambiente_globais">
+      <context>A configuração do histórico usa variáveis como HISTFILE, HISTSIZE e HISTFILESIZE; é necessário entender o conceito de variáveis de ambiente e seu efeito no shell.</context>
+   </relation>
+   <relation type="prerequisite" source="historico_de_comando" target="como_definir_variaveis">
+      <context>Para alterar o funcionamento do histórico por meio de HISTFILE, HISTSIZE etc., o usuário precisa saber como definir e modificar variáveis no shell.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_fc" target="historico_de_comando">
+      <context>O comando fc opera sobre os comandos armazenados em history; é necessário compreender o histórico de comandos para usar fc corretamente.</context>
+   </relation>
+   <relation type="prerequisite" source="caminhos_de_diretorios" target="acessando_os_diretorios">
+      <context>Para entender como usar comandos como cd e pwd para se mover na árvore de diretórios, o leitor primeiro precisa compreender a hierarquia de diretórios do Linux e os conceitos de caminhos absolutos e relativos apresentados em &quot;Caminhos de Diretorios&quot;.</context>
+   </relation>
+   <relation type="prerequisite" source="caminhos_de_diretorios" target="comando_ls">
+      <context>A explicação do comando ls pressupõe que o leitor já entenda o que são diretórios, diretório corrente e como funcionam caminhos absolutos e relativos, conceitos introduzidos em &quot;Caminhos de Diretorios&quot;.</context>
+   </relation>
+   <relation type="prerequisite" source="como_obter_ajuda" target="introducao_ao_linux">
+      <context>Para aproveitar a explicação sobre como buscar ajuda dentro do próprio GNU/Linux, o leitor precisa já entender, em nível básico, o que é o sistema operacional Linux e seu propósito geral.</context>
+   </relation>
+   <relation type="prerequisite" source="como_obter_ajuda" target="conhecendo_o_linux">
+      <context>O capítulo pressupõe que o leitor já está minimamente familiarizado com o ambiente Linux (estrutura básica do sistema, uso cotidiano), pois fala em usar recursos internos de documentação sem explicar o sistema desde o zero.</context>
+   </relation>
+   <relation type="prerequisite" source="como_obter_ajuda" target="execucao_dos_primeiros_comandos">
+      <context>Como a seção menciona obter respostas no próprio sistema &quot;ao teclar de um simples comando&quot;, é necessário que o leitor já saiba executar comandos básicos no shell.</context>
+   </relation>
+   <relation type="prerequisite" source="como_obter_ajuda" target="o_que_e_um_shell">
+      <context>As man pages e demais documentações são acessadas via comandos no shell; para utilizar esses recursos de ajuda, o aluno precisa compreender o que é um shell e que ele é a interface onde os comandos são digitados.</context>
+   </relation>
+   <relation type="prerequisite" source="como_obter_ajuda" target="terminal_virtual_em_modo_texto">
+      <context>Para visualizar man pages e outra documentação em modo texto, o aluno deve saber abrir e usar um terminal virtual ou console de texto, já que a ajuda é acessada e exibida nesse ambiente.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whatis" target="comando_apropos">
+      <context>O texto afirma que o comando whatis tem basicamente a mesma função do comando apropos, apenas com buscas mais específicas. Para entender o papel do whatis, é útil já conhecer o apropos e seu funcionamento de busca por man pages.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whatis" target="manuais_man_pages">
+      <context>Whatis pesquisa nas páginas de manual e pode ser usado de forma equivalente a `man -f`. Para compreender o uso do whatis, é necessário já entender o que são manuais (man pages) e como o comando man funciona.</context>
+   </relation>
+   <relation type="prerequisite" source="como_obter_ajuda" target="comando_man">
+      <context>Antes de aprender o uso específico do comando man, é útil entender o conceito geral de como obter ajuda em sistemas GNU/Linux (manuais, ajuda embutida, etc.).</context>
+   </relation>
+   <relation type="prerequisite" source="documentacao" target="comando_man">
+      <context>Para compreender o propósito do comando man, o aluno precisa saber o que é documentação técnica (manuais de comandos, arquivos de configuração, bibliotecas e rotinas de sistema).</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whereis" target="comando_apropos">
+      <context>O texto usa o comando apropos como exemplo de argumento passado ao whereis; para acompanhar o exemplo com clareza, ajuda já saber que apropos é um comando do sistema e o que ele representa.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whereis" target="comando_man">
+      <context>O whereis é descrito como ferramenta para localizar, entre outras coisas, as páginas de manual de um comando; para entender essa utilidade, é preciso conhecer o comando man e o conceito de páginas de manual.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whereis" target="como_obter_ajuda">
+      <context>O whereis se insere no conjunto de ferramentas de apoio e descoberta de comandos (localizando binários e documentação); compreender bem seu papel exige uma noção prévia de como se obtém ajuda e informação sobre comandos no sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whereis" target="formas_de_documentacao">
+      <context>O texto menciona páginas de manual e a ideia de comandos/documentação não documentados; entender a utilidade do whereis pressupõe conhecer que existem diferentes formas de documentação no Linux, como man pages e arquivos de configuração.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_whereis" target="acessando_os_diretorios">
+      <context>As opções -B, -M e -S do whereis trabalham com caminhos como /bin, /usr/share/man/man1 e /usr/src; para usá-las corretamente, o aluno precisa compreender antes o conceito de diretórios, caminhos absolutos e a navegação no sistema de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_">
+      <context>É preciso entender a árvore de diretórios e o conceito de diretório no GNU/Linux antes de identificar o diretório raiz / como o ponto inicial de todos os demais diretórios do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_bin">
+      <context>A visão geral da estrutura de diretórios vem antes da compreensão de que /bin armazena binários essenciais acessíveis a qualquer usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_boot">
+      <context>Após entender a árvore de diretórios, o aluno consegue situar o diretório /boot como o local dos arquivos estáticos de inicialização e do gerenciador de boot.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_dev">
+      <context>Saber o que é um diretório e a árvore de diretórios facilita entender /dev como coleção de arquivos especiais que representam dispositivos de hardware.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_etc">
+      <context>Com a estrutura global de diretórios em mente, o aluno pode entender /etc como o diretório que centraliza arquivos de configuração de sistema e serviços.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_lib">
+      <context>A compreensão da hierarquia de diretórios precede o entendimento de /lib como repositório de bibliotecas essenciais e módulos do kernel.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_media">
+      <context>Primeiro se apresenta a árvore de diretórios; depois fica claro que /media é o ponto de montagem padrão para dispositivos removíveis.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_mnt">
+      <context>Conhecer a organização de diretórios é necessário para entender /mnt como local reservado para montagens temporárias de outros sistemas de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_opt">
+      <context>Após a visão geral da hierarquia, é possível situar /opt como diretório destinado a pacotes de software adicionais, geralmente não integrantes do sistema base.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_sbin">
+      <context>Com a estrutura de diretórios estabelecida, entende-se /sbin como diretório de binários administrativos e essenciais voltados ao root.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_srv">
+      <context>A compreensão da árvore de diretórios antecede o entendimento de /srv como local para dados de serviços de rede oferecidos pelo sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_tmp">
+      <context>Sabendo como a hierarquia de diretórios funciona, o aluno pode compreender /tmp como área destinada a arquivos temporários, geralmente apagados na reinicialização.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_usr">
+      <context>É necessário entender a hierarquia principal para perceber /usr como uma hierarquia secundária, com estrutura semelhante à raiz, contendo programas e bibliotecas não essenciais.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_var">
+      <context>Após conhecer a organização geral, fica mais fácil entender /var como diretório para dados variáveis, como logs e filas de impressão ou e-mail.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_proc">
+      <context>A noção de árvore de diretórios é apresentada antes de caracterizar /proc como sistema de arquivos virtual com informações dinâmicas sobre o kernel e processos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorio_sys">
+      <context>Depois de entender a hierarquia, o aluno pode ver /sys como outro sistema de arquivos virtual, organizado para expor e permitir ajustes em dispositivos do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_diretorios_gnulinux" target="diretorios_home_e_root">
+      <context>A compreensão da estrutura de diretórios prepara o aluno para entender /home e /root como diretórios pessoais dos usuários comuns e do superusuário, respectivamente, dentro dessa hierarquia.</context>
+   </relation>
+   <relation type="prerequisite" source="extraindo_mais_do_comando_ls" target="comando_ls">
+      <context>Antes de explorar opções detalhadas como -l, -a e -R e interpretar sua saída, o leitor precisa conhecer o comando ls básico e sua função de listar arquivos e diretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="curingas" target="comando_ls">
+      <context>Os exemplos de uso de curingas (*, ?, [], etc.) são apresentados principalmente combinados com ls; é necessário já compreender ls para focar no aprendizado dos padrões de expansão.</context>
+   </relation>
+   <relation type="prerequisite" source="criar_arquivo" target="acessando_os_diretorios">
+      <context>Para criar arquivos em locais específicos como /tmp ou /srv usando touch, o texto primeiro usa cd para entrar nesses diretórios; o aluno precisa saber navegar na árvore de diretórios para contextualizar onde os arquivos serão criados.</context>
+   </relation>
+   <relation type="prerequisite" source="criando_diretorios" target="acessando_os_diretorios">
+      <context>A criação de diretórios com mkdir é demonstrada após mudanças de diretório com cd; entender como acessar e posicionar-se em diretórios é prévia ao planejamento de onde criar novas pastas.</context>
+   </relation>
+   <relation type="prerequisite" source="removendo_arquivosdiretorios" target="caminhos_de_diretorios">
+      <context>Comandos como rm e rm -r são usados com caminhos relativos e hierarquias (por exemplo Rh/Processos/Cv's); para remover com segurança é preciso entender a estrutura de diretórios e a sintaxe de caminhos.</context>
+   </relation>
+   <relation type="prerequisite" source="copiar_arquivosdiretorios" target="caminhos_de_diretorios">
+      <context>O uso de cp é mostrado com origem e destino na forma arquivo-origem caminho/diretório-destino/; copiar corretamente exige compreensão de caminhos absolutos/relativos e da hierarquia de diretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="mover_ou_renomear_arquivosdiretorios" target="caminhos_de_diretorios">
+      <context>mv é usado tanto para renomear quanto para mover arquivos e diretórios entre caminhos diferentes; entender como os caminhos representam posições na árvore de diretórios é necessário para prever o resultado do comando.</context>
+   </relation>
+   <relation type="prerequisite" source="aprendendo_comandos_do_gnulinux" target="o_que_e_um_shell">
+      <context>A seção apresenta o conceito geral de comandos no GNU/Linux e sua importância; em seguida explica que o Shell é o componente que interpreta esses comandos, portanto o entendimento de comandos fundamenta a compreensão do papel do Shell.</context>
+   </relation>
+   <relation type="prerequisite" source="aprendendo_comandos_do_gnulinux" target="execucao_dos_primeiros_comandos">
+      <context>Após definir o que são comandos e a relação com o Shell, o leitor está preparado para uma seção prática sobre execução dos primeiros comandos na linha de comando.</context>
+   </relation>
+   <relation type="prerequisite" source="localizacao_no_sistema" target="comando_find">
+      <context>Entender o conceito geral de localização e busca de arquivos/diretórios no sistema ajuda a compreender o propósito e uso do comando find para pesquisar no sistema de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="comando_ls" target="comando_xargs">
+      <context>Os exemplos de xargs utilizam ls (por exemplo, ls -ld, ls /) como comando a ser aplicado à lista de arquivos, então é útil já saber interpretar a sintaxe e a saída do ls antes de combinar ls com xargs.</context>
+   </relation>
+   <relation type="prerequisite" source="localizacao_no_sistema" target="comando_locate">
+      <context>Saber que o objetivo é localizar arquivos no sistema de arquivos fornece o contexto necessário para entender o comando locate e sua função como mecanismo rápido de busca baseada em uma base de dados.</context>
+   </relation>
+</relations>
