@@ -1,0 +1,505 @@
+<?xml version="1.0" ?>
+<nodes>
+   <node id="linux" name="Linux" description="Sistema operacional de código aberto baseado no kernel Linux, amplamente utilizado em servidores, desktops, dispositivos móveis e na nuvem." order="0"/>
+   <node id="open_source" name="Open Source" description="Modelo de desenvolvimento e licenciamento de software em que o código-fonte é aberto para uso, modificação e distribuição." order="1"/>
+   <node id="android" name="Android" description="Sistema operacional móvel baseado no kernel Linux, amplamente utilizado em smartphones e outros dispositivos móveis." order="2"/>
+   <node id="sistema_operacional" name="Sistema operacional" description="Software básico que gerencia o hardware do computador e fornece serviços para programas aplicativos." order="3"/>
+   <node id="segurança_da_informação" name="Segurança da informação" description="Área que trata da proteção de dados e sistemas contra acessos não autorizados, uso indevido, falhas e ataques." order="4"/>
+   <node id="testes_de_invasão" name="Testes de invasão" description="Prática de simular ataques a sistemas de informação para identificar vulnerabilidades de segurança, também conhecida como pentest." order="5"/>
+   <node id="computação_em_nuvem" name="Computação em nuvem" description="Modelo de fornecimento de recursos computacionais como serviço pela Internet, incluindo infraestrutura, plataformas e software." order="6"/>
+   <node id="infraestrutura_sob_demanda" name="Infraestrutura sob demanda" description="Provisionamento dinâmico de recursos de TI, como servidores e armazenamento, conforme a necessidade do usuário, típico da computação em nuvem." order="7"/>
+   <node id="amazon_web_services" name="Amazon Web Services" description="Plataforma de computação em nuvem da Amazon, com diversos serviços de infraestrutura e plataforma." order="8"/>
+   <node id="google_cloud_platform" name="Google Cloud Platform" description="Plataforma de computação em nuvem do Google, que oferece serviços de infraestrutura, dados e machine learning." order="9"/>
+   <node id="oracle_cloud_infrastructure" name="Oracle Cloud Infrastructure" description="Plataforma de computação em nuvem da Oracle voltada para infraestrutura e serviços corporativos, frequentemente abreviada como OCI." order="10"/>
+   <node id="digitalocean" name="DigitalOcean" description="Provedor de computação em nuvem focado em simplicidade e servidores virtuais (droplets)." order="11"/>
+   <node id="microsoft_azure" name="Microsoft Azure" description="Plataforma de computação em nuvem da Microsoft que oferece máquinas virtuais, bancos de dados e outros serviços." order="12"/>
+   <node id="big_data" name="Big Data" description="Conjunto de técnicas e tecnologias para armazenamento, processamento e análise de grandes volumes de dados." order="13"/>
+   <node id="devops" name="DevOps" description="Cultura e conjunto de práticas que integram desenvolvimento de software (Dev) e operações (Ops) para entrega contínua e ágil." order="14"/>
+   <node id="kernel_linux" name="Kernel Linux" description="Núcleo do sistema operacional Linux, responsável pela interação entre hardware e software." order="15"/>
+   <node id="gplv2" name="GPLv2" description="Versão 2 da GNU General Public License, licença de software livre sob a qual o kernel Linux é distribuído." order="16"/>
+   <node id="desktop_linux" name="Desktop Linux" description="Uso do sistema operacional Linux em computadores pessoais e estações de trabalho de usuários finais." order="17"/>
+   <node id="elementary_os" name="Elementary OS" description="Distribuição Linux para desktop com foco em simplicidade e design consistente." order="18"/>
+   <node id="mx_linux" name="MX Linux" description="Distribuição Linux baseada em Debian, voltada para leveza e estabilidade em desktops." order="19"/>
+   <node id="linux_mint" name="Linux Mint" description="Distribuição Linux baseada em Ubuntu/Debian, voltada para facilidade de uso no desktop." order="20"/>
+   <node id="deepin" name="Deepin" description="Distribuição Linux focada em experiência de uso e design de interface amigável." order="21"/>
+   <node id="manjaro" name="Manjaro" description="Distribuição Linux baseada em Arch Linux, focada em facilidade de instalação e uso no desktop." order="22"/>
+   <node id="pop!_os" name="Pop!_OS" description="Distribuição Linux desenvolvida pela System76, voltada para desenvolvedores e usuários de alto desempenho." order="23"/>
+   <node id="ubuntu" name="Ubuntu" description="Distribuição Linux baseada em Debian, amplamente utilizada em desktops, servidores e nuvem." order="24"/>
+   <node id="fedora" name="Fedora" description="Distribuição Linux patrocinada pela Red Hat, focada em software livre e tecnologias recentes." order="25"/>
+   <node id="servidores_web" name="Servidores web" description="Servidores usados para hospedar e entregar páginas e aplicações web via HTTP/HTTPS." order="26"/>
+   <node id="w3techs" name="W3Techs" description="Serviço que fornece estatísticas sobre o uso de tecnologias web, incluindo sistemas operacionais de servidores." order="27"/>
+   <node id="linux_foundation" name="Linux Foundation" description="Organização sem fins lucrativos que promove o desenvolvimento do Linux e de tecnologias de código aberto." order="28"/>
+   <node id="edx" name="edX" description="Plataforma de educação online que oferece cursos, inclusive na área de código aberto." order="29"/>
+   <node id="profissional_de_devops" name="Profissional de DevOps" description="Profissional focado em automatizar, integrar e operar ciclos de desenvolvimento e entrega de software segundo práticas DevOps." order="30"/>
+   <node id="certificação_profissional" name="Certificação profissional" description="Credencial formal que valida habilidades técnicas em determinada tecnologia ou domínio." order="31"/>
+   <node id="tecnologia_de_nuvem_aberta" name="Tecnologia de nuvem aberta" description="Tecnologias de computação em nuvem baseadas em padrões abertos e software open source." order="32"/>
+   <node id="analista_devops" name="Analista DevOps" description="Profissional responsável por integrar desenvolvimento e operações, gerenciando automação e pipelines em ambientes de TI." order="33"/>
+   <node id="site_reliability_engineering" name="Site Reliability Engineering" description="Disciplina de engenharia focada em confiabilidade, disponibilidade e desempenho de sistemas em produção, conhecida como SRE." order="34"/>
+   <node id="analista_sre" name="Analista SRE" description="Profissional que aplica práticas de Site Reliability Engineering para manter serviços confiáveis e escaláveis." order="35"/>
+   <node id="administrador_de_servidores" name="Administrador de servidores" description="Profissional responsável por instalar, configurar, manter e monitorar servidores, muitas vezes baseados em Linux." order="36"/>
+   <node id="desenvolvedor_de_software" name="Desenvolvedor de software" description="Profissional que projeta, implementa e mantém aplicações e sistemas de software." order="37"/>
+   <node id="engenheiro_de_software" name="Engenheiro de software" description="Profissional que aplica princípios de engenharia ao desenvolvimento e manutenção de software em larga escala." order="38"/>
+   <node id="banco_de_dados" name="Banco de dados" description="Sistema organizado de armazenamento e recuperação de dados estruturados." order="39"/>
+   <node id="analista_de_banco_de_dados" name="Analista de banco de dados" description="Profissional que projeta, administra e otimiza bancos de dados." order="40"/>
+   <node id="engenharia_de_dados" name="Engenharia de dados" description="Área focada em projetar e manter pipelines e infraestrutura de dados para análise e aplicações." order="41"/>
+   <node id="engenheiro_de_dados" name="Engenheiro de dados" description="Profissional responsável por construir e gerenciar sistemas de processamento e integração de dados." order="42"/>
+   <node id="ciência_de_dados" name="Ciência de dados" description="Campo interdisciplinar que usa métodos científicos, estatísticos e computacionais para extrair conhecimento de dados." order="43"/>
+   <node id="cientista_de_dados" name="Cientista de dados" description="Profissional que aplica técnicas estatísticas e de machine learning para analisar dados e gerar insights." order="44"/>
+   <node id="machine_learning" name="Machine Learning" description="Subárea de inteligência artificial que desenvolve algoritmos que aprendem padrões a partir de dados." order="45"/>
+   <node id="engenheiro_de_machine_learning" name="Engenheiro de Machine Learning" description="Profissional que implementa, integra e mantém modelos de machine learning em produção." order="46"/>
+   <node id="analista_de_segurança" name="Analista de segurança" description="Profissional focado em avaliar riscos, implementar controles e monitorar a segurança de sistemas de informação." order="47"/>
+   <node id="ti" name="TI" description="Abreviação de Tecnologia da Informação, área responsável por infraestrutura, sistemas e serviços tecnológicos em organizações." order="48"/>
+   <node id="certificações_linux" name="Certificações Linux" description="Conjunto de certificações profissionais voltadas a validar conhecimentos e habilidades em sistemas operacionais Linux, oferecidas por diferentes organizações e distribuidores." order="49"/>
+   <node id="linux_professional_institute" name="Linux Professional Institute" description="Organização sem fins lucrativos que oferece certificações profissionais em Linux, independentes de fornecedor, baseadas no padrão Linux Standard Base." order="50"/>
+   <node id="red_hat" name="Red Hat" description="Empresa fornecedora de soluções Linux corporativas, incluindo o Red Hat Enterprise Linux, e um programa de certificações práticas em administração e arquitetura de sistemas." order="51"/>
+   <node id="linux_foundation" name="Linux Foundation" description="Fundação que promove o ecossistema Linux e projetos open source, oferecendo certificações profissionais com exames práticos para administradores e engenheiros Linux." order="52"/>
+   <node id="microsoft" name="Microsoft" description="Empresa de software e serviços que desenvolve o sistema operacional Windows e estabelece integrações e parcerias com tecnologias Linux e open source." order="53"/>
+   <node id="sql_server" name="SQL Server" description="Sistema de gerenciamento de banco de dados relacional da Microsoft, também disponibilizado para plataformas Linux." order="54"/>
+   <node id="opensuse" name="OpenSUSE" description="Distribuição Linux patrocinada pela SUSE, voltada para uso em desktops e servidores, que também oferece trilhas e certificações voltadas a seus sistemas." order="55"/>
+   <node id="exin" name="EXIN" description="Organização de certificação que oferece exames em diversas áreas de TI, incluindo uma certificação em DevOps citada no contexto de formações relacionadas a Linux." order="56"/>
+   <node id="linux_standard_base" name="Linux Standard Base" description="Especificação que padroniza componentes e interfaces de sistemas Linux para garantir compatibilidade e interoperabilidade entre distribuições e aplicações." order="57"/>
+   <node id="lpi_brasil" name="LPI Brasil" description="Representação nacional do Linux Professional Institute no Brasil, responsável por aplicar exames de certificação LPI no país." order="58"/>
+   <node id="pearson_vue" name="Pearson VUE" description="Plataforma e rede global de centros de testes que aplica exames de certificação profissionais, incluindo exames do Linux Professional Institute." order="59"/>
+   <node id="red_hat_enterprise_linux" name="Red Hat Enterprise Linux" description="Distribuição Linux corporativa da Red Hat, voltada a ambientes empresariais, usada como base para o conteúdo dos exames de certificação da empresa." order="60"/>
+   <node id="red_hat_certified_system_administrator" name="Red Hat Certified System Administrator" description="Certificação de nível básico/intermediário da Red Hat que valida habilidades essenciais de administração do Red Hat Enterprise Linux por meio de exame prático." order="61"/>
+   <node id="red_hat_certified_engineer" name="Red Hat Certified Engineer" description="Certificação avançada da Red Hat que comprova competências em administração e automação de sistemas Red Hat Enterprise Linux, avaliada por exame prático." order="62"/>
+   <node id="red_hat_certified_architect" name="Red Hat Certified Architect" description="Certificação de nível mais avançado da Red Hat, focada em arquitetura e soluções empresariais baseadas em tecnologias Red Hat." order="63"/>
+   <node id="sistema_operacional" name="Sistema operacional" description="Conjunto de software que gerencia hardware e fornece serviços e interfaces para os usuários e aplicações, normalmente estruturado em camadas sobre um kernel." order="64"/>
+   <node id="gnu" name="GNU" description="Projeto iniciado em 1983 por Richard Stallman para criar um sistema operacional completamente livre e compatível com os padrões Unix." order="65"/>
+   <node id="richard_stallman" name="Richard Stallman" description="Programador e ativista do software livre que idealizou o projeto GNU e fundou a Free Software Foundation." order="66"/>
+   <node id="unix" name="Unix" description="Família de sistemas operacionais multitarefa e multiusuário, conhecida por robustez, segurança e uso acadêmico e em servidores." order="67"/>
+   <node id="código-fonte" name="Código-fonte" description="Texto em linguagem de programação legível por humanos que define o comportamento de um software." order="68"/>
+   <node id="software_proprietário" name="Software proprietário" description="Modelo de software em que o usuário geralmente tem apenas permissão de uso, sem acesso ou direito de modificar e redistribuir o código-fonte." order="69"/>
+   <node id="software_livre" name="Software livre" description="Modelo de licenciamento de software que garante liberdades de uso, estudo, modificação e redistribuição do código-fonte." order="70"/>
+   <node id="free_software_foundation" name="Free Software Foundation" description="Organização sem fins lucrativos criada para apoiar o movimento de software livre e coordenar o desenvolvimento do projeto GNU." order="71"/>
+   <node id="emacs" name="Emacs" description="Editor de texto avançado e extensível desenvolvido no âmbito do projeto GNU." order="72"/>
+   <node id="servidor_x" name="Servidor X" description="Implementação do sistema de janelas X responsável por gerenciar a interface gráfica em sistemas tipo Unix." order="73"/>
+   <node id="gcc" name="GCC" description="GNU Compiler Collection, conjunto de compiladores de software livre para diversas linguagens de programação, parte do projeto GNU." order="74"/>
+   <node id="g++" name="G++" description="Compilador para a linguagem C++ que integra a GNU Compiler Collection (GCC)." order="75"/>
+   <node id="kernel" name="Kernel" description="Núcleo do sistema operacional responsável por gerenciar recursos de hardware e mediar a comunicação entre hardware e software." order="76"/>
+   <node id="gnu_hurd" name="GNU Hurd" description="Kernel do projeto GNU baseado em arquitetura de microkernel, concebido para substituir kernels Unix tradicionais." order="77"/>
+   <node id="linux" name="Linux" description="Kernel de sistema operacional criado por Linus Torvalds em 1991, distribuído como software livre sob a licença GPL." order="78"/>
+   <node id="gnu/linux" name="GNU/Linux" description="Sistema operacional completo que combina o kernel Linux com as ferramentas e utilitários do projeto GNU." order="79"/>
+   <node id="distribuição_linux" name="Distribuição Linux" description="Variante de sistema GNU/Linux que empacota o kernel Linux, ferramentas GNU e outros softwares em uma solução integrada pronta para uso." order="80"/>
+   <node id="gnash" name="Gnash" description="Implementação livre de um player para arquivos Adobe Flash, mantida pelo projeto GNU." order="81"/>
+   <node id="coreboot" name="Coreboot" description="Projeto de firmware livre destinado a substituir BIOS proprietárias em computadores." order="82"/>
+   <node id="bios" name="BIOS" description="Firmware básico de inicialização do computador que prepara o hardware para carregar o sistema operacional." order="83"/>
+   <node id="voip" name="VOIP" description="Tecnologia de transmissão de voz utilizando redes baseadas em IP, como a Internet." order="84"/>
+   <node id="skype" name="Skype" description="Aplicativo de comunicação que utiliza tecnologia VoIP para chamadas de voz, vídeo e mensagens." order="85"/>
+   <node id="gnu_is_not_unix" name="Gnu Is Not Unix" description="Acrônimo recursivo que define o significado de GNU, enfatizando que não é Unix, embora seja compatível com seus padrões." order="86"/>
+   <node id="minix" name="Minix" description="Sistema operacional Unix-like educacional criado por Andrew Tanenbaum, usado no ensino de sistemas operacionais." order="87"/>
+   <node id="andrew_tanenbaum" name="Andrew Tanenbaum" description="Pesquisador e autor de livros sobre sistemas operacionais, criador do sistema operacional educacional Minix." order="88"/>
+   <node id="unix-like" name="Unix-like" description="Termo que designa sistemas que seguem interfaces e padrões semelhantes aos dos sistemas Unix, incluindo suporte robusto a multiusuário e multitarefa." order="89"/>
+   <node id="multiusuário" name="Multiusuário" description="Capacidade de um sistema operacional suportar múltiplos usuários de forma simultânea ou concorrente, com separação de recursos e permissões." order="90"/>
+   <node id="multitarefa" name="Multitarefa" description="Capacidade de um sistema operacional executar múltiplos processos ou tarefas ao mesmo tempo, compartilhando os recursos do sistema." order="91"/>
+   <node id="freax" name="Freax" description="Nome inicial dado por Linus Torvalds ao projeto de kernel que posteriormente passou a ser chamado de Linux." order="92"/>
+   <node id="gpl" name="GPL" description="GNU General Public License, licença de software livre que garante liberdades de uso, modificação e redistribuição, exigindo que versões derivadas mantenham a mesma licença." order="93"/>
+   <node id="patch" name="Patch" description="Conjunto de alterações de código-fonte usado para corrigir bugs ou adicionar funcionalidades a um software." order="94"/>
+   <node id="bash" name="Bash" description="Bourne Again SHell, interpretador de comandos amplamente utilizado como shell padrão em sistemas GNU/Linux." order="95"/>
+   <node id="free_software_foundation" name="Free Software Foundation" description="Organização sem fins lucrativos criada em 1985 para apoiar o projeto GNU, manter a GPL e promover a ideologia do software livre." order="96"/>
+   <node id="projeto_gnu" name="Projeto GNU" description="Projeto de sistema operacional livre iniciado por Richard Stallman para fornecer um sistema completo composto apenas de software livre." order="97"/>
+   <node id="software_livre" name="Software livre" description="Modelo de software que garante ao usuário as quatro liberdades essenciais: executar, estudar, modificar e redistribuir o programa e suas versões modificadas." order="98"/>
+   <node id="gnu_gpl" name="GNU GPL" description="GNU General Public License, licença de software livre criada pela Free Software Foundation para garantir juridicamente as quatro liberdades do software." order="99"/>
+   <node id="gplv1" name="GPLv1" description="Primeira versão da GNU General Public License, lançada em janeiro de 1989." order="100"/>
+   <node id="gplv2" name="GPLv2" description="Segunda versão da GNU General Public License, lançada em junho de 1991 para corrigir vulnerabilidades da versão inicial." order="101"/>
+   <node id="gplv3" name="GPLv3" description="Terceira versão da GNU General Public License, lançada em junho de 2007, versão mais recente e referência atual da licença." order="102"/>
+   <node id="código-fonte" name="Código-fonte" description="Forma legível por humanos de um programa de computador, necessária para estudar, modificar e redistribuir software livre." order="103"/>
+   <node id="software_proprietário" name="Software proprietário" description="Modelo de software no qual o código-fonte e os direitos de uso, modificação e redistribuição são restritos pelo detentor dos direitos autorais." order="104"/>
+   <node id="gfdl" name="GFDL" description="GNU Free Documentation License, licença para documentação livre associada ao projeto GNU, voltada à liberdade de uso, cópia e modificação de textos." order="105"/>
+   <node id="opl" name="OPL" description="Open Publication License, licença voltada à publicação aberta de conteúdos, permitindo redistribuição e, em alguns casos, modificação controlada de obras." order="106"/>
+   <node id="creative_commons" name="Creative Commons" description="Conjunto de licenças que permite aos autores definir condições flexíveis de uso, distribuição e modificação de obras criativas." order="107"/>
+   <node id="bsd_license" name="BSD License" description="Licença Berkeley Software Distribution, licença de software permissiva que permite uso, modificação e redistribuição com poucas restrições." order="108"/>
+   <node id="spl" name="SPL" description="Sun Public License, licença de software utilizada em alguns projetos da Sun Microsystems para distribuição de código aberto." order="109"/>
+   <node id="gnu/linux" name="GNU/Linux" description="Sistema operacional formado pela combinação do kernel Linux com ferramentas do projeto GNU." order="110"/>
+   <node id="kernel_linux" name="Kernel Linux" description="Núcleo do sistema operacional Linux, responsável pelo gerenciamento de hardware e recursos do sistema." order="111"/>
+   <node id="distribuição_linux" name="Distribuição Linux" description="Pacote de software que combina o kernel Linux com um conjunto de ferramentas, aplicativos e mecanismos de instalação e atualização, mantido por uma comunidade ou empresa." order="112"/>
+   <node id="gpl" name="GPL" description="Licença GNU General Public License, que garante liberdades de uso, estudo, modificação e redistribuição de software." order="113"/>
+   <node id="live_distribution" name="Live distribution" description="Distribuição Linux executada diretamente a partir de mídia removível, como CD, DVD ou USB, sem necessidade de instalação em disco rígido." order="114"/>
+   <node id="from_scratch_distribution" name="From scratch distribution" description="Distribuição Linux desenvolvida do zero, sem derivar de outra distribuição existente." order="115"/>
+   <node id="distribuição_derivada" name="Distribuição derivada" description="Distribuição Linux baseada em outra distribuição, adaptada com customizações e objetivos específicos." order="116"/>
+   <node id="rolling_release" name="Rolling release" description="Modelo de manutenção em que a distribuição recebe atualizações contínuas, sem lançamentos de versões finais bem definidas." order="117"/>
+   <node id="rpm" name="RPM" description="Red Hat Package Manager, formato e sistema de gerenciamento de pacotes utilizado por diversas distribuições baseadas em Red Hat." order="118"/>
+   <node id="deb" name="DEB" description="Formato de pacote de software usado pelo Debian e distribuições derivadas para distribuir e instalar software." order="119"/>
+   <node id="pacman" name="Pacman" description="Gerenciador de pacotes padrão do Arch Linux e derivadas, responsável por instalar, atualizar e remover softwares." order="120"/>
+   <node id="yum" name="YUM" description="Gerenciador de pacotes para distribuições baseadas em RPM, como Fedora e versões antigas do Red Hat, que resolve dependências e atualiza sistemas." order="121"/>
+   <node id="aur" name="AUR" description="Arch User Repository, repositório comunitário de pacotes para Arch Linux e derivadas." order="122"/>
+   <node id="red_hat_linux" name="Red Hat Linux" description="Distribuição Linux criada em 1993 pela Red Hat, precursora da linha corporativa Red Hat Enterprise Linux." order="123"/>
+   <node id="red_hat_enterprise_linux" name="Red Hat Enterprise Linux" description="Distribuição Linux corporativa da Red Hat, baseada em RPM, com foco em estabilidade e suporte comercial de longo prazo." order="124"/>
+   <node id="fedora" name="Fedora" description="Distribuição Linux comunitária patrocinada pela Red Hat, com lançamentos frequentes e foco em tecnologias mais recentes." order="125"/>
+   <node id="fedora_project" name="Fedora Project" description="Projeto comunitário, patrocinado pela Red Hat, responsável pelo desenvolvimento e manutenção da distribuição Fedora." order="126"/>
+   <node id="centos" name="CentOS" description="Community Enterprise Operating System; distribuição Linux corporativa derivada do código-fonte do Red Hat Enterprise Linux, tradicionalmente com suporte de longo prazo." order="127"/>
+   <node id="centos_stream" name="CentOS Stream" description="Distribuição Linux de desenvolvimento contínuo que funciona como ramo upstream próximo do Red Hat Enterprise Linux." order="128"/>
+   <node id="oracle_linux" name="Oracle Linux" description="Distribuição Linux da Oracle, recompilada a partir do código-fonte do Red Hat Enterprise Linux e distribuída gratuitamente com opções de suporte comercial." order="129"/>
+   <node id="ksplice" name="Ksplice" description="Tecnologia que permite aplicar patches de segurança ao kernel Linux em execução sem necessidade de reinicialização." order="130"/>
+   <node id="dtrace" name="DTrace" description="Framework de rastreamento dinâmico para diagnóstico e análise de desempenho de kernels e aplicações em tempo real." order="131"/>
+   <node id="slackware_linux" name="Slackware Linux" description="Uma das primeiras distribuições Linux, de filosofia simples e próxima do Unix tradicional, distribuída originalmente em CD." order="132"/>
+   <node id="debian_gnu/linux" name="Debian GNU/Linux" description="Distribuição Linux mantida pela comunidade, conhecida por sua estabilidade, políticas abertas e por servir de base para numerosas derivadas." order="133"/>
+   <node id="ubuntu" name="Ubuntu" description="Distribuição Linux baseada em Debian, mantida pela Canonical, destinada a desktops, servidores e outros dispositivos, com ciclos regulares de lançamento." order="134"/>
+   <node id="ubuntu_lts" name="Ubuntu LTS" description="Versões de suporte de longo prazo do Ubuntu, lançadas a cada dois anos, com foco em uso empresarial e suporte estendido." order="135"/>
+   <node id="canonical" name="Canonical" description="Empresa responsável pelo desenvolvimento do Ubuntu e pela oferta de suporte e serviços comerciais relacionados." order="136"/>
+   <node id="linux_mint" name="Linux Mint" description="Distribuição Linux derivada do Ubuntu e também disponível em versão baseada em Debian, focada em facilidade de uso e pronta para uso imediato." order="137"/>
+   <node id="cinnamon" name="Cinnamon" description="Ambiente de desktop desenvolvido pelo projeto Linux Mint, derivado do GNOME, com aparência tradicional de desktop." order="138"/>
+   <node id="gnome" name="GNOME" description="Ambiente gráfico de desktop amplamente usado em sistemas Linux e Unix-like." order="139"/>
+   <node id="kde" name="KDE" description="Conjunto de software e ambiente gráfico de desktop para sistemas Unix-like, atualmente centrado no KDE Plasma Desktop." order="140"/>
+   <node id="xfce" name="Xfce" description="Ambiente de desktop leve e modular para sistemas Unix-like." order="141"/>
+   <node id="kubuntu" name="Kubuntu" description="Distribuição derivada do Ubuntu que utiliza o KDE como ambiente gráfico padrão." order="142"/>
+   <node id="xubuntu" name="Xubuntu" description="Distribuição derivada do Ubuntu que utiliza o Xfce como ambiente gráfico padrão." order="143"/>
+   <node id="lubuntu" name="Lubuntu" description="Distribuição derivada do Ubuntu voltada para computadores com poucos recursos, utilizando ambientes gráficos leves." order="144"/>
+   <node id="arch_linux" name="Arch Linux" description="Distribuição Linux minimalista de modelo rolling release, voltada para usuários avançados." order="145"/>
+   <node id="manjaro_linux" name="Manjaro Linux" description="Distribuição Linux baseada em Arch Linux, de modelo rolling release, com foco em facilidade de instalação e uso." order="146"/>
+   <node id="suse_linux_enterprise" name="SUSE Linux Enterprise" description="Linha de distribuições Linux corporativas da SUSE, voltadas para servidores e desktops empresariais." order="147"/>
+   <node id="opensuse" name="openSUSE" description="Distribuição Linux comunitária e gratuita patrocinada pela SUSE, usada também como base tecnológica para o SUSE Linux Enterprise." order="148"/>
+   <node id="yast" name="YaST" description="Ferramenta de instalação, configuração e administração de sistemas usada nas distribuições SUSE e openSUSE." order="149"/>
+   <node id="knoppix" name="Knoppix" description="Distribuição Linux do tipo Live baseada em Debian, conhecida por sua detecção automática de hardware." order="150"/>
+   <node id="gentoo_linux" name="Gentoo Linux" description="Metadistribuição Linux altamente personalizável, baseada na compilação de código-fonte por meio do sistema Portage." order="151"/>
+   <node id="portage" name="Portage" description="Sistema de gerenciamento de pacotes e build do Gentoo, que compila e instala software a partir do código-fonte." order="152"/>
+   <node id="emerge" name="Emerge" description="Ferramenta de linha de comando do Gentoo que interage com o Portage para instalar, atualizar e remover pacotes." order="153"/>
+   <node id="metadistribuição" name="Metadistribuição" description="Tipo de distribuição Linux desenhada para ser altamente configurável e adaptável a diversos cenários de uso." order="154"/>
+   <node id="mplayer" name="MPlayer" description="Reprodutor de mídia multiplataforma de código aberto, voltado principalmente para vídeo e áudio." order="155"/>
+   <node id="amarok" name="Amarok" description="Reprodutor de áudio de código aberto, tradicionalmente integrado ao ambiente KDE." order="156"/>
+   <node id="openoffice" name="OpenOffice" description="Suíte de escritório de código aberto que oferece editor de texto, planilha, apresentações e outros aplicativos." order="157"/>
+   <node id="rpmfusion" name="RPMFusion" description="Repositório adicional de pacotes para distribuições baseadas em RPM, fornecendo softwares não incluídos nos repositórios oficiais." order="158"/>
+   <node id="epel" name="EPEL" description="Extra Packages for Enterprise Linux; repositório mantido pelo projeto Fedora para fornecer pacotes adicionais ao RHEL e derivados, como o CentOS." order="159"/>
+   <node id="sistema_embarcado" name="Sistema embarcado" description="Sistema de computação dedicado a executar uma função específica dentro de um dispositivo ou sistema maior." order="160"/>
+   <node id="software_embarcado" name="Software embarcado" description="Software projetado para rodar em sistemas embarcados, interagindo diretamente com o hardware subjacente." order="161"/>
+   <node id="internet_das_coisas" name="Internet das Coisas" description="Ecossistema de dispositivos físicos conectados à rede, equipados com sensores, software e conectividade para troca de dados." order="162"/>
+   <node id="raspbian" name="Raspbian" description="Distribuição Linux baseada em Debian, otimizada para o hardware Raspberry Pi." order="163"/>
+   <node id="android" name="Android" description="Sistema operacional baseado em kernel Linux desenvolvido principalmente para dispositivos móveis e amplamente usado como plataforma embarcada." order="164"/>
+   <node id="android_things" name="Android Things" description="Sistema operacional baseado em Android voltado para dispositivos de Internet das Coisas, com suporte a APIs e serviços do Google." order="165"/>
+   <node id="openwrt" name="OpenWrt" description="Distribuição Linux para dispositivos embarcados, especialmente roteadores sem fio e equipamentos de rede." order="166"/>
+   <node id="tizen" name="Tizen" description="Plataforma Linux embarcada desenvolvida em grande parte pela Samsung para dispositivos de consumo e IoT." order="167"/>
+   <node id="ubuntu_core" name="Ubuntu Core" description="Versão minimalista e embarcada do Ubuntu, projetada para dispositivos com recursos limitados e IoT." order="168"/>
+   <node id="yocto_project" name="Yocto Project" description="Projeto de código aberto que fornece ferramentas e metadados para criar distribuições Linux personalizadas para sistemas embarcados e IoT." order="169"/>
+   <node id="raspberry_pi" name="Raspberry Pi" description="Placa de computador de baixo custo e baixo consumo energético, amplamente usada em educação, hobby e projetos de IoT." order="170"/>
+   <node id="docker" name="Docker" description="Plataforma de containers que permite empacotar e executar aplicações em ambientes isolados sobre o kernel Linux." order="171"/>
+   <node id="container_linux" name="Container Linux" description="Conceito de distribuições Linux minimalistas projetadas especificamente para execução em ambientes de containers." order="172"/>
+   <node id="gimp" name="GIMP" description="GNU Image Manipulation Program; editor de imagens de código aberto para manipulação e criação gráfica." order="173"/>
+   <node id="mozilla_firefox" name="Mozilla Firefox" description="Navegador web de código aberto multiplataforma." order="174"/>
+   <node id="cli" name="CLI" description="Command Line Interface; modo de interação com o sistema por meio de comandos em texto." order="175"/>
+   <node id="gui" name="GUI" description="Graphical User Interface; modo de interação com o sistema por meio de elementos gráficos como janelas, ícones e menus." order="176"/>
+   <node id="mintmenu" name="MintMenu" description="Menu de aplicativos do ambiente Cinnamon no Linux Mint, localizado no painel inferior." order="177"/>
+   <node id="ci/cd" name="CI/CD" description="Continuous Integration / Continuous Delivery; conjunto de práticas de automação de build, teste e entrega de software." order="178"/>
+   <node id="distrowatch" name="DistroWatch" description="Site que cataloga distribuições Linux, oferecendo notícias, estatísticas e links de download." order="179"/>
+   <node id="kurumin" name="Kurumin" description="Distribuição Linux brasileira derivada do Knoppix, com foco em facilidade de uso e adaptação ao público brasileiro." order="180"/>
+   <node id="kalango" name="Kalango" description="Distribuição Linux brasileira derivada do Knoppix, voltada ao público de língua portuguesa." order="181"/>
+   <node id="dreamlinux" name="DreamLinux" description="Distribuição Linux brasileira baseada em Debian, voltada para uso em desktops." order="182"/>
+   <node id="brdesktop" name="BrDesktop" description="Distribuição Linux brasileira voltada para uso em desktops, derivada de outra distribuição." order="183"/>
+   <node id="slax" name="Slax" description="Distribuição Linux leve, frequentemente usada como sistema Live portátil." order="184"/>
+   <node id="qubes_os" name="Qubes OS" description="Sistema operacional orientado à segurança que usa virtualização para isolar aplicações e ambientes de trabalho." order="185"/>
+   <node id="kali_linux" name="Kali Linux" description="Distribuição Linux especializada em testes de penetração e segurança, baseada em Debian." order="186"/>
+   <node id="perl" name="Perl" description="Linguagem de programação de alto nível, versátil, amplamente usada em scripts, administração de sistemas e desenvolvimento rápido." order="187"/>
+   <node id="servidor_web" name="Servidor web" description="Aplicação ou sistema que fornece conteúdo e serviços via protocolos HTTP/HTTPS." order="188"/>
+   <node id="servidor_ftp" name="Servidor FTP" description="Servidor que utiliza o protocolo FTP para transferência de arquivos entre máquinas." order="189"/>
+   <node id="servidor_de_e-mail" name="Servidor de e-mail" description="Sistema que envia, recebe e armazena mensagens de correio eletrônico." order="190"/>
+   <node id="servidor_de_notícias" name="Servidor de notícias" description="Servidor que fornece serviços de grupos de notícias, como NNTP/Usenet." order="191"/>
+   <node id="stable" name="Stable" description="Ramo estável de uma distribuição, recomendado para produção por priorizar confiabilidade sobre novidades." order="192"/>
+   <node id="testing" name="Testing" description="Ramo de testes de uma distribuição, com versões de software mais recentes ainda em validação para futura estabilização." order="193"/>
+   <node id="unstable" name="Unstable" description="Ramo de desenvolvimento ativo de uma distribuição, com mudanças frequentes e maior risco de instabilidade." order="194"/>
+   <node id="buster" name="Buster" description="Codinome da versão 10 estável do Debian GNU/Linux." order="195"/>
+   <node id="bullseye" name="Bullseye" description="Codinome da distribuição Debian GNU/Linux que sucedeu Buster, inicialmente como ramo testing." order="196"/>
+   <node id="sid" name="Sid" description="Nome permanente do ramo unstable do Debian GNU/Linux." order="197"/>
+   <node id="suse" name="SUSE" description="Empresa e família de distribuições Linux, incluindo SUSE Linux Enterprise e o projeto comunitário openSUSE." order="198"/>
+   <node id="novell" name="Novell" description="Empresa que adquiriu a SUSE em 2003, impulsionando sua atuação no mercado corporativo." order="199"/>
+   <node id="gnu/linux" name="GNU/Linux" description="Família de sistemas operacionais livres que combinam o kernel Linux com ferramentas GNU e herdaram muitas características do Unix." order="200"/>
+   <node id="unix" name="Unix" description="Família de sistemas operacionais multitarefa e multiusuário, origem conceitual de diversos sistemas Unix-like." order="201"/>
+   <node id="unix-like" name="Unix-like" description="Sistema operacional que segue conceitos, interfaces e comportamentos inspirados no Unix, mas não é necessariamente Unix certificado." order="202"/>
+   <node id="macos" name="macOS" description="Sistema operacional da Apple, sucessor do Mac OS X, baseado em Unix e classificado como Unix-like." order="203"/>
+   <node id="arquivo" name="arquivo" description="Unidade lógica de dados em um sistema operacional, usada para armazenar informações e representar recursos do sistema." order="204"/>
+   <node id="diretório" name="diretório" description="Tipo especial de arquivo que contém referências para outros arquivos e subdiretórios." order="205"/>
+   <node id="arquivo_binário" name="arquivo binário" description="Arquivo cujo conteúdo é interpretado como código ou dados binários, não diretamente legível como texto." order="206"/>
+   <node id="arquivo_de_texto" name="arquivo de texto" description="Arquivo cujo conteúdo é composto por caracteres legíveis, geralmente em codificações como ASCII ou Unicode." order="207"/>
+   <node id="arquivo_especial" name="arquivo especial" description="Arquivo usado em Unix/Linux para representar dispositivos ou recursos especiais do sistema, como dispositivos de bloco ou caractere." order="208"/>
+   <node id="dispositivo_de_armazenamento" name="dispositivo de armazenamento" description="Hardware usado para armazenar dados de forma persistente, como discos rígidos, SSDs ou pen drives." order="209"/>
+   <node id="memória_física" name="memória física" description="Memória RAM instalada no computador, endereçável diretamente pelo processador." order="210"/>
+   <node id="porta_serial" name="porta serial" description="Interface de comunicação que transmite dados sequencialmente, bit a bit, por um ou poucos fios." order="211"/>
+   <node id="porta_paralela" name="porta paralela" description="Interface de comunicação que transmite múltiplos bits simultaneamente por vários fios." order="212"/>
+   <node id="case-sensitive" name="case-sensitive" description="Propriedade de sistemas ou linguagens que diferencia letras maiúsculas de minúsculas em comparações e identificadores." order="213"/>
+   <node id="permissão_de_execução" name="permissão de execução" description="Bit de permissão em sistemas Unix-like que indica se um arquivo pode ser executado como programa ou script." order="214"/>
+   <node id="shell_script" name="shell script" description="Arquivo de texto contendo comandos para o interpretador de comandos (shell), usado para automatizar tarefas." order="215"/>
+   <node id="arquivo_oculto" name="arquivo oculto" description="Arquivo em Unix/Linux cujo nome começa com ponto (.), ficando oculto em listagens padrão." order="216"/>
+   <node id="ls" name="ls" description="Comando de sistemas Unix-like usado para listar arquivos e diretórios." order="217"/>
+   <node id="kernel" name="kernel" description="Núcleo do sistema operacional, responsável por gerenciar hardware, processos, memória e recursos do sistema." order="218"/>
+   <node id="processo" name="processo" description="Instância em execução de um programa, gerenciada pelo sistema operacional." order="219"/>
+   <node id="superusuário" name="superusuário" description="Conta com privilégios administrativos completos em sistemas Unix-like, normalmente associada ao usuário root." order="220"/>
+   <node id="root" name="root" description="Nome padrão da conta de superusuário em sistemas Unix-like, associada à UID 0." order="221"/>
+   <node id="uid" name="UID" description="User Identification; número inteiro que identifica de forma única um usuário em sistemas Unix-like." order="222"/>
+   <node id="multitarefa" name="multitarefa" description="Capacidade de um sistema operacional de executar várias tarefas ou processos ao mesmo tempo." order="223"/>
+   <node id="firefox" name="Firefox" description="Navegador web open source multiplataforma desenvolvido pela Mozilla." order="224"/>
+   <node id="chrome" name="Chrome" description="Navegador web desenvolvido pelo Google, baseado no motor Blink e na base do projeto Chromium." order="225"/>
+   <node id="vivaldi" name="Vivaldi" description="Navegador web multiplataforma focado em personalização, baseado em Chromium." order="226"/>
+   <node id="opera" name="Opera" description="Navegador web proprietário multiplataforma, hoje baseado em Chromium." order="227"/>
+   <node id="thunderbird" name="Thunderbird" description="Cliente de e-mail open source e multiplataforma mantido pela Mozilla Foundation." order="228"/>
+   <node id="smtp" name="SMTP" description="Simple Mail Transfer Protocol; protocolo padrão para envio de e-mails entre servidores e clientes." order="229"/>
+   <node id="pop3" name="POP3" description="Post Office Protocol version 3; protocolo usado para receber e-mails realizando download das mensagens para o cliente." order="230"/>
+   <node id="imap" name="IMAP" description="Internet Message Access Protocol; protocolo de acesso a e-mails que mantém as mensagens no servidor." order="231"/>
+   <node id="s/mime" name="S/MIME" description="Padrão para criptografia e assinatura digital de e-mails usando certificados digitais." order="232"/>
+   <node id="criptografia_de_mensagens" name="criptografia de mensagens" description="Uso de técnicas criptográficas para garantir a confidencialidade e, em alguns casos, integridade de mensagens." order="233"/>
+   <node id="certificado_digital" name="certificado digital" description="Documento eletrônico que associa uma chave pública a uma identidade, emitido por uma autoridade certificadora." order="234"/>
+   <node id="gimp" name="GIMP" description="Programa de código aberto voltado principalmente para criação e edição de imagens raster, com suporte limitado a desenho vetorial." order="235"/>
+   <node id="desenho_vetorial" name="desenho vetorial" description="Representação de imagens por meio de formas geométricas definidas por equações e coordenadas." order="236"/>
+   <node id="inkscape" name="Inkscape" description="Editor de gráficos vetoriais livre e open source que trabalha nativamente com o formato SVG." order="237"/>
+   <node id="svg" name="SVG" description="Scalable Vector Graphics; formato aberto baseado em XML para imagens vetoriais." order="238"/>
+   <node id="dtd" name="DTD" description="Document Type Definition; especificação que define a estrutura e regras de um tipo de documento XML." order="239"/>
+   <node id="xml" name="XML" description="Extensible Markup Language; linguagem de marcação para armazenamento e transporte de dados estruturados." order="240"/>
+   <node id="png" name="PNG" description="Portable Network Graphics; formato de imagem raster sem perdas com suporte a transparência." order="241"/>
+   <node id="tiff" name="TIFF" description="Tagged Image File Format; formato flexível para imagens raster, comum em fotografia e escaneamento." order="242"/>
+   <node id="gif" name="GIF" description="Graphics Interchange Format; formato de imagem raster com suporte a animação e paleta limitada de cores." order="243"/>
+   <node id="jpeg" name="JPEG" description="Família de padrões e formatos de imagem compressa com perdas, amplamente usada em fotos digitais." order="244"/>
+   <node id="formato_ai_(adobe_illustrator)" name="formato AI (Adobe Illustrator)" description="Formato de arquivo proprietário de gráficos vetoriais usado pelo Adobe Illustrator." order="245"/>
+   <node id="pdf" name="PDF" description="Portable Document Format; formato multiplataforma para documentos com layout fixo." order="246"/>
+   <node id="postscript" name="PostScript" description="Linguagem de descrição de páginas usada principalmente em impressão e pré-impressão." order="247"/>
+   <node id="kdenlive" name="Kdenlive" description="Editor de vídeo não-linear open source do projeto KDE, baseado no framework MLT." order="248"/>
+   <node id="mlt" name="MLT" description="Framework multimídia usado como backend por editores de vídeo como o Kdenlive." order="249"/>
+   <node id="gnu_general_public_license" name="GNU General Public License" description="Licença de software livre copyleft que garante liberdade de uso, modificação e distribuição do código." order="250"/>
+   <node id="virtualbox" name="VirtualBox" description="Software de virtualização de hardware que permite executar sistemas operacionais convidados em um hospedeiro." order="251"/>
+   <node id="vmware_workstation" name="VMware Workstation" description="Aplicação comercial de virtualização de desktop desenvolvida pela VMware." order="252"/>
+   <node id="virtualização" name="virtualização" description="Técnica de criar versões virtuais de recursos de TI, como sistemas operacionais, servidores ou redes." order="253"/>
+   <node id="sistema_operacional_hospedeiro" name="sistema operacional hospedeiro" description="Sistema operacional no qual o software de virtualização é instalado e executado." order="254"/>
+   <node id="sistema_operacional_convidado" name="sistema operacional convidado" description="Sistema operacional executado dentro de uma máquina virtual fornecida por um hipervisor." order="255"/>
+   <node id="libreoffice" name="LibreOffice" description="Suíte de escritório livre e multiplataforma que inclui aplicativos para textos, planilhas, apresentações e outros." order="256"/>
+   <node id="opendocument_format" name="OpenDocument Format" description="Padrão aberto de documentos de escritório, também conhecido como ODF, usado por suítes como o LibreOffice." order="257"/>
+   <node id="iso/iec_26300" name="ISO/IEC 26300" description="Padrão internacional que especifica o formato de documentos OpenDocument." order="258"/>
+   <node id="microsoft_office" name="Microsoft Office" description="Suíte de aplicativos de escritório proprietária da Microsoft." order="259"/>
+   <node id="writer" name="Writer" description="Editor de texto da suíte LibreOffice." order="260"/>
+   <node id="calc" name="Calc" description="Aplicativo de planilha eletrônica da suíte LibreOffice." order="261"/>
+   <node id="impress" name="Impress" description="Aplicativo de apresentações da suíte LibreOffice." order="262"/>
+   <node id="draw" name="Draw" description="Aplicativo de desenho vetorial e diagramas da suíte LibreOffice." order="263"/>
+   <node id="math" name="Math" description="Editor de fórmulas matemáticas da suíte LibreOffice." order="264"/>
+   <node id="base" name="Base" description="Aplicativo de banco de dados relacional da suíte LibreOffice." order="265"/>
+   <node id="vlc" name="VLC" description="Reprodutor e servidor de mídia de código aberto multiplataforma mantido pelo projeto VideoLAN." order="266"/>
+   <node id="streaming" name="streaming" description="Transmissão contínua de áudio ou vídeo pela rede, permitindo reprodução antes do download completo." order="267"/>
+   <node id="protocolos_de_streaming" name="protocolos de streaming" description="Protocolos de rede usados para transmissão contínua de mídia, como RTP ou HLS." order="268"/>
+   <node id="dvd-video" name="DVD-Video" description="Formato padrão para armazenamento de vídeo digital em discos DVD." order="269"/>
+   <node id="video_cd" name="Video CD" description="Formato para vídeo digital armazenado em discos compactos, popularmente conhecido como VCD." order="270"/>
+   <node id="transcodificação" name="transcodificação" description="Conversão de um arquivo multimídia de um formato de codificação para outro." order="271"/>
+   <node id="podcast" name="podcast" description="Série de episódios de áudio digital distribuídos via internet, normalmente por RSS ou plataformas de streaming." order="272"/>
+   <node id="audacity" name="Audacity" description="Editor de áudio digital livre e multiplataforma, popular entre podcasters." order="273"/>
+   <node id="imagemagick" name="ImageMagick" description="Conjunto de ferramentas de linha de comando para conversão, criação e edição de imagens." order="274"/>
+   <node id="k3b" name="K3B" description="Aplicativo gráfico de gravação de CDs e DVDs para sistemas Unix-like, parte do projeto KDE." order="275"/>
+   <node id="cdrecord" name="cdrecord" description="Ferramenta de linha de comando para gravação de CDs em sistemas Unix-like." order="276"/>
+   <node id="cdrdao" name="cdrdao" description="Ferramenta de linha de comando para gravação de CDs usando o método Disk-At-Once." order="277"/>
+   <node id="growisofs" name="growisofs" description="Ferramenta de linha de comando usada para gravação de DVDs em sistemas Unix-like." order="278"/>
+   <node id="cd-rom" name="CD-ROM" description="Compact Disc Read-Only Memory; mídia óptica de leitura para armazenamento de dados." order="279"/>
+   <node id="dvd" name="DVD" description="Digital Versatile Disc; mídia óptica de maior capacidade que o CD, usada para vídeo e dados." order="280"/>
+   <node id="blender" name="Blender" description="Programa de código aberto para modelagem 3D, animação, texturização, renderização, composição e edição de vídeo." order="281"/>
+   <node id="blender_foundation" name="Blender Foundation" description="Organização responsável pelo desenvolvimento e coordenação do projeto Blender." order="282"/>
+   <node id="media_player" name="media player" description="Aplicativo projetado para reprodução de arquivos de áudio e vídeo." order="283"/>
+   <node id="smplayer" name="smplayer" description="Reprodutor multimídia gráfico baseado em MPlayer, usado para reprodução de vídeo." order="284"/>
+   <node id="audacious" name="Audacious" description="Reprodutor de áudio leve e open source focado em simplicidade." order="285"/>
+   <node id="banshee" name="Banshee" description="Player de mídia e gerenciador de biblioteca musical escrito em C#." order="286"/>
+   <node id="amarok" name="Amarok" description="Player de áudio avançado e gerenciador de biblioteca musical, tradicionalmente associado ao KDE." order="287"/>
+   <node id="apache_http_server" name="Apache HTTP Server" description="Servidor web HTTP livre e amplamente utilizado na internet, mantido pela Apache Software Foundation." order="288"/>
+   <node id="apache_software_foundation" name="Apache Software Foundation" description="Organização sem fins lucrativos que mantém o servidor Apache e diversos outros projetos open source." order="289"/>
+   <node id="httpd" name="HTTPD" description="Denominação comum para programas servidores que implementam o protocolo HTTP." order="290"/>
+   <node id="http_1.1" name="HTTP 1.1" description="Versão 1.1 do protocolo Hypertext Transfer Protocol, padrão para comunicação web." order="291"/>
+   <node id="api" name="API" description="Application Programming Interface; conjunto de rotinas, especificações e convenções para interação entre componentes de software." order="292"/>
+   <node id="nginx" name="NGINX" description="Servidor web leve de alto desempenho que também atua como proxy reverso e proxy de e-mail." order="293"/>
+   <node id="proxy_reverso" name="proxy reverso" description="Servidor que recebe requisições de clientes e as encaminha a servidores de backend, retornando as respostas." order="294"/>
+   <node id="proxy_de_e-mail" name="proxy de e-mail" description="Servidor intermediário para protocolos de e-mail, como IMAP ou POP3, que encaminha conexões para servidores reais." order="295"/>
+   <node id="licença_bsd" name="licença BSD" description="Família de licenças de software permissivas originadas do Berkeley Software Distribution." order="296"/>
+   <node id="lighttpd" name="Lighttpd" description="Servidor web leve otimizado para lidar com grande número de conexões simultâneas." order="297"/>
+   <node id="c10k" name="c10k" description="Problema de engenharia de lidar eficientemente com 10.000 conexões simultâneas em um servidor." order="298"/>
+   <node id="fastcgi" name="FastCGI" description="Protocolo para comunicação eficiente entre servidores web e aplicações externas persistentes." order="299"/>
+   <node id="scgi" name="SCGI" description="Simple Common Gateway Interface; protocolo simples alternativo ao FastCGI para conectar servidores web a aplicações." order="300"/>
+   <node id="apache_tomcat" name="Apache Tomcat" description="Servidor de aplicações Java que atua como contêiner de servlets e JSP." order="301"/>
+   <node id="java_servlet" name="Java Servlet" description="Componente Java do lado do servidor para gerar conteúdo web dinâmico." order="302"/>
+   <node id="javaserver_pages" name="JavaServer Pages" description="Tecnologia Java para criação de páginas web dinâmicas por meio de templates com código Java embutido." order="303"/>
+   <node id="node.js" name="Node.js" description="Ambiente de execução para JavaScript no lado do servidor, baseado em eventos e I/O assíncrono." order="304"/>
+   <node id="javascript" name="JavaScript" description="Linguagem de programação de alto nível amplamente usada no desenvolvimento web, principalmente no lado do cliente." order="305"/>
+   <node id="frontend" name="frontend" description="Parte de uma aplicação que roda no lado do cliente, normalmente no navegador web." order="306"/>
+   <node id="escalabilidade" name="escalabilidade" description="Capacidade de um sistema de lidar com aumento de carga mantendo desempenho adequado." order="307"/>
+   <node id="mariadb" name="MariaDB" description="Sistema de gerenciamento de banco de dados relacional open source, fork do MySQL." order="308"/>
+   <node id="mysql" name="MySQL" description="Sistema de gerenciamento de banco de dados relacional amplamente usado em aplicações web." order="309"/>
+   <node id="postgresql" name="PostgreSQL" description="Sistema de gerenciamento de banco de dados relacional de objetos open source, também conhecido como Postgres." order="310"/>
+   <node id="sql" name="SQL" description="Structured Query Language; linguagem padrão para gerenciamento de bancos de dados relacionais." order="311"/>
+   <node id="mta" name="MTA" description="Mail Transfer Agent; software responsável por transferir e entregar e-mails entre servidores." order="312"/>
+   <node id="postfix" name="Postfix" description="Agente de transferência de e-mails (MTA) livre e de código aberto, projetado como alternativa segura ao Sendmail." order="313"/>
+   <node id="sendmail" name="Sendmail" description="Tradicional MTA para sistemas Unix, historicamente muito utilizado." order="314"/>
+   <node id="ibm_thomas_j._watson_research_center" name="IBM Thomas J. Watson Research Center" description="Centro de pesquisa da IBM onde o Postfix foi originalmente desenvolvido." order="315"/>
+   <node id="bind" name="BIND" description="Berkeley Internet Name Domain; implementação amplamente usada de servidor DNS." order="316"/>
+   <node id="dns" name="DNS" description="Domain Name System; sistema responsável por traduzir nomes de domínio em endereços IP." order="317"/>
+   <node id="squid" name="Squid" description="Servidor proxy e cache web que suporta HTTP, HTTPS, FTP e outros protocolos." order="318"/>
+   <node id="cache_web" name="cache web" description="Mecanismo de armazenamento de respostas HTTP para reutilização em requisições futuras, reduzindo latência e banda." order="319"/>
+   <node id="hadoop" name="Hadoop" description="Plataforma Java para computação distribuída e processamento de grandes volumes de dados, com foco em tolerância a falhas." order="320"/>
+   <node id="mapreduce" name="MapReduce" description="Modelo de programação para processamento distribuído de grandes conjuntos de dados em paralelo." order="321"/>
+   <node id="google_file_system" name="Google File System" description="Sistema de arquivos distribuído proprietário do Google, inspiração para o HDFS do Hadoop." order="322"/>
+   <node id="java" name="Java" description="Linguagem de programação orientada a objetos compilada para bytecode executado na Java Virtual Machine." order="323"/>
+   <node id="kubernetes" name="Kubernetes" description="Sistema de orquestração de contêineres open source que automatiza implantação, escala e gestão de aplicações em contêineres." order="324"/>
+   <node id="cloud_native_computing_foundation" name="Cloud Native Computing Foundation" description="Organização que mantém o Kubernetes e outros projetos relacionados a aplicações cloud-native." order="325"/>
+   <node id="contenedorização" name="contenedorização" description="Empacotamento de aplicações e dependências em contêineres isolados e portáveis." order="326"/>
+   <node id="docker" name="Docker" description="Plataforma de contêineres que automatiza empacotamento e execução de aplicações em ambientes isolados." order="327"/>
+   <node id="python" name="Python" description="Linguagem de programação de alto nível, interpretada, multiparadigma e de tipagem dinâmica e forte." order="328"/>
+   <node id="python_software_foundation" name="Python Software Foundation" description="Organização sem fins lucrativos que gerencia o desenvolvimento e a governança da linguagem Python." order="329"/>
+   <node id="php" name="PHP" description="Linguagem de script interpretada amplamente usada no desenvolvimento web do lado do servidor." order="330"/>
+   <node id="java_virtual_machine" name="Java Virtual Machine" description="Ambiente de execução que interpreta bytecode Java, tornando o Java multiplataforma." order="331"/>
+   <node id="bytecode" name="bytecode" description="Código intermediário gerado por compiladores como o de Java, executado por uma máquina virtual." order="332"/>
+   <node id="gerenciador_de_janelas" name="gerenciador de janelas" description="Componente que controla aparência, posição e comportamento de janelas em ambientes gráficos baseados em X11." order="333"/>
+   <node id="x_window_system" name="X Window System" description="Sistema de janelas para ambientes gráficos em sistemas Unix-like, base para vários gerenciadores de janelas." order="334"/>
+   <node id="afterstep" name="AfterStep" description="Gerenciador de janelas para X inspirado na interface NeXTSTEP." order="335"/>
+   <node id="enlightenment" name="Enlightenment" description="Gerenciador de janelas e ambiente de desktop altamente personalizável para X/Wayland." order="336"/>
+   <node id="kwin" name="KWin" description="Gerenciador de janelas e compositor do ambiente KDE Plasma." order="337"/>
+   <node id="blackbox" name="Blackbox" description="Gerenciador de janelas leve para X com foco em simplicidade." order="338"/>
+   <node id="icewm" name="IceWM" description="Gerenciador de janelas leve e rápido para X." order="339"/>
+   <node id="fluxbox" name="Fluxbox" description="Gerenciador de janelas leve derivado do Blackbox." order="340"/>
+   <node id="sawfish" name="Sawfish" description="Gerenciador de janelas extensível para X baseado em scripts Lisp." order="341"/>
+   <node id="fvwm" name="FVWM" description="Gerenciador de janelas altamente configurável para X." order="342"/>
+   <node id="ion" name="Ion" description="Gerenciador de janelas em mosaico (tiling) para X." order="343"/>
+   <node id="metacity" name="Metacity" description="Antigo gerenciador de janelas padrão do ambiente GNOME 2." order="344"/>
+   <node id="xfce" name="Xfce" description="Ambiente de desktop leve para Unix-like, que inclui seu próprio gerenciador de janelas." order="345"/>
+   <node id="twm" name="twm" description="Tab Window Manager; um dos primeiros gerenciadores de janelas para o X Window System." order="346"/>
+   <node id="acessibilidade" name="acessibilidade" description="Conjunto de recursos que tornam sistemas utilizáveis por pessoas com deficiências ou necessidades especiais." order="347"/>
+   <node id="filesystem_hierarchy_standard_(fhs)" name="Filesystem Hierarchy Standard (FHS)" description="Padrão que define a organização dos diretórios e arquivos em sistemas tipo Unix, incluindo Linux." order="348"/>
+   <node id="xargs" name="xargs" description="Comando do Linux que lê entradas e constrói listas de argumentos para repassá-las a outros comandos." order="349"/>
+   <node id="updatedb" name="updatedb" description="Comando do Linux que atualiza a base de dados usada por locate para realizar buscas rápidas de arquivos." order="350"/>
+   <node id="linux" name="Linux" description="Sistema operacional do tipo Unix usado em servidores, desktops e dispositivos embarcados." order="351"/>
+   <node id="gnu/linux" name="GNU/Linux" description="Família de sistemas operacionais tipo Unix composta pelo kernel Linux e componentes do projeto GNU." order="352"/>
+   <node id="sistema_operacional" name="Sistema operacional" description="Conjunto de programas que gerenciam hardware e fornecem serviços básicos para aplicativos e usuários." order="353"/>
+   <node id="camadas" name="Camadas" description="Estrutura em níveis de um sistema, como hardware, kernel, sistema operacional e interfaces de usuário." order="354"/>
+   <node id="desktop_environment" name="Desktop environment" description="Ambiente gráfico integrado que fornece janelas, painéis, ícones e aplicações, como KDE ou GNOME." order="355"/>
+   <node id="display_manager" name="Display manager" description="Programa que fornece a tela de login gráfica e permite escolher o ambiente gráfico a iniciar." order="356"/>
+   <node id="ttyn" name="ttyn" description="Designação genérica para terminais virtuais de texto no GNU/Linux, como tty1, tty2, etc." order="357"/>
+   <node id="sessão" name="Sessão" description="Conjunto de dados e contexto criado após o login bem-sucedido de um usuário no sistema." order="358"/>
+   <node id="login" name="Login" description="Processo de autenticação de um usuário para iniciar uma sessão no sistema." order="359"/>
+   <node id="terminal_virtual" name="Terminal virtual" description="Interface de linha de comando em modo texto fornecida pelo sistema, acessível por dispositivos como tty1 a tty6." order="360"/>
+   <node id="console" name="Console" description="Terminal físico associado ao teclado e monitor diretamente conectados à máquina." order="361"/>
+   <node id="rlogin" name="rlogin" description="Comando e protocolo para login remoto em sistemas Unix-like via rede, sem criptografia forte." order="362"/>
+   <node id="ssh" name="ssh" description="Secure Shell, protocolo e ferramenta para acesso remoto seguro a terminais e execução de comandos." order="363"/>
+   <node id="rsh" name="rsh" description="Remote shell, comando para executar comandos em máquinas remotas sem uso de criptografia." order="364"/>
+   <node id="rdesktop" name="rdesktop" description="Cliente de desktop remoto para o protocolo RDP, usado principalmente para acessar máquinas Windows." order="365"/>
+   <node id="telnet" name="telnet" description="Protocolo e comando para acesso remoto a terminais, em geral sem criptografia." order="366"/>
+   <node id="pseudoterminal" name="Pseudoterminal" description="Interface de terminal virtual emulada por software, tipicamente inicializada a partir de um ambiente gráfico." order="367"/>
+   <node id="konsole" name="Konsole" description="Emulador de terminal do ambiente gráfico KDE que fornece um pseudoterminal no modo gráfico." order="368"/>
+   <node id="shell" name="Shell" description="Interpretador de comandos que permite interação com o sistema operacional via linha de comando." order="369"/>
+   <node id="bash" name="Bash" description="Bourne Again Shell, shell padrão em muitas distribuições GNU/Linux, usado como interpretador de comandos." order="370"/>
+   <node id="prompt" name="Prompt" description="Linha exibida pelo shell indicando que está pronto para receber comandos." order="371"/>
+   <node id="sudo" name="sudo" description="Comando que permite a um usuário executar comandos com privilégios de outro usuário, geralmente o superusuário." order="372"/>
+   <node id="su" name="su" description="Comando usado para trocar a identidade de usuário na sessão atual, frequentemente para o usuário root." order="373"/>
+   <node id="whoami" name="whoami" description="Comando que mostra o nome efetivo do usuário atual no sistema." order="374"/>
+   <node id="who_am_i" name="who am i" description="Forma do comando who que mostra o usuário e terminal associados ao login original da sessão." order="375"/>
+   <node id="variáveis_de_ambiente" name="Variáveis de ambiente" description="Parâmetros globais do ambiente que influenciam o comportamento de processos e do shell, como PATH ou PS1." order="376"/>
+   <node id="logout" name="Logout" description="Encerramento de uma sessão de usuário no sistema, finalizando o acesso atual." order="377"/>
+   <node id="shutdown" name="shutdown" description="Comando do sistema para desligar ou reiniciar o computador de forma controlada, com agendamento opcional." order="378"/>
+   <node id="halt" name="halt" description="Comando que para o sistema e prepara o desligamento da máquina." order="379"/>
+   <node id="poweroff" name="poweroff" description="Comando que solicita o desligamento físico do computador." order="380"/>
+   <node id="init_0" name="init 0" description="Nível de execução tradicional SysV usado para encerrar o sistema e desligar a máquina." order="381"/>
+   <node id="sistema_de_arquivos" name="Sistema de arquivos" description="Estrutura lógica usada para organizar e armazenar dados em dispositivos de armazenamento." order="382"/>
+   <node id="nobreak" name="Nobreak" description="Equipamento de alimentação elétrica ininterrupta (UPS) que protege contra quedas de energia e picos de tensão." order="383"/>
+   <node id="reboot" name="reboot" description="Comando que reinicia o sistema operacional de forma controlada." order="384"/>
+   <node id="ctrl+alt+del" name="CTRL+ALT+DEL" description="Atalho de teclado tradicionalmente usado para reiniciar o sistema ou acionar rotinas especiais de controle." order="385"/>
+   <node id="kernel_linux" name="Kernel Linux" description="Núcleo do sistema operacional GNU/Linux, que faz a mediação entre hardware e camadas de software superiores." order="386"/>
+   <node id="hardware" name="Hardware" description="Componentes físicos do computador, como disco, teclado, monitor e outros dispositivos." order="387"/>
+   <node id="unix" name="Unix" description="Família de sistemas operacionais multiusuário e multitarefa, cuja filosofia inspira o GNU/Linux." order="388"/>
+   <node id="multiusuário" name="Multiusuário" description="Capacidade de um sistema operacional de permitir que vários usuários utilizem o sistema simultaneamente." order="389"/>
+   <node id="multitarefa" name="Multitarefa" description="Capacidade de um sistema operacional de executar vários processos ou tarefas ao mesmo tempo." order="390"/>
+   <node id="root" name="Root" description="Usuário superadministrador em sistemas tipo Unix, com permissões totais no sistema." order="391"/>
+   <node id="case-sensitive" name="Case-sensitive" description="Característica em que letras maiúsculas e minúsculas são tratadas como distintos, por exemplo em logins e senhas." order="392"/>
+   <node id="gerenciador_de_janelas" name="Gerenciador de janelas" description="Componente do ambiente gráfico responsável por gerenciar janelas, suas bordas, títulos e posicionamento." order="393"/>
+   <node id="kde" name="KDE" description="Ambiente gráfico para sistemas Unix-like, que inclui um gerenciador de janelas e aplicações como o Konsole." order="394"/>
+   <node id="gnome" name="GNOME" description="Ambiente gráfico para sistemas Unix-like, com gerenciador de janelas e aplicações integradas, como emuladores de terminal." order="395"/>
+   <node id="shell" name="Shell" description="Camada de acesso ao sistema operacional que interpreta comandos do usuário, podendo ser usada em modo texto ou integrada a interfaces gráficas." order="396"/>
+   <node id="terminal_de_comandos" name="Terminal de comandos" description="Ambiente de texto usado para interação com o sistema operacional por meio da execução de comandos, normalmente rodando um shell." order="397"/>
+   <node id="gnu/linux" name="GNU/Linux" description="Família de sistemas operacionais baseados no kernel Linux e em softwares do projeto GNU." order="398"/>
+   <node id="shell_script" name="Shell script" description="Arquivo de texto que contém uma sequência de comandos de shell a serem executados de forma automatizada." order="399"/>
+   <node id="bourne_shell" name="Bourne shell" description="Shell original do UNIX, identificado como sh, simples e com poucas funcionalidades embutidas." order="400"/>
+   <node id="sh" name="sh" description="Implementação do Bourne shell historicamente padrão em sistemas UNIX." order="401"/>
+   <node id="bash" name="bash" description="Bourne Again Shell, shell padrão na maioria das distribuições GNU/Linux, intuitivo para iniciantes e poderoso para usuários avançados." order="402"/>
+   <node id="csh" name="csh" description="C shell, shell de linha de comando cuja sintaxe se assemelha à linguagem de programação C." order="403"/>
+   <node id="tcsh" name="tcsh" description="Turbo C shell, versão aprimorada e compatível com csh, adequada para uso interativo e como interpretador de shell scripts." order="404"/>
+   <node id="ksh" name="ksh" description="Korn shell, evolução do Bourne shell, compatível com seus comandos e com mais funcionalidades." order="405"/>
+   <node id="zsh" name="zsh" description="Z shell, shell interativo e linguagem de script que combina funcionalidades de bash, ksh e tcsh." order="406"/>
+   <node id="shell_de_login" name="Shell de login" description="Shell associado à sessão de login de um usuário, iniciado após a autenticação e usado como interface de comandos." order="407"/>
+   <node id="unix" name="UNIX" description="Família de sistemas operacionais multitarefa e multiusuário, base para muitos sistemas tipo UNIX modernos." order="408"/>
+   <node id="chsh" name="chsh" description="Comando de sistemas tipo UNIX usado para alterar o shell de login de um usuário." order="409"/>
+   <node id="variáveis" name="Variáveis" description="Nomes associados a espaços de memória que armazenam valores, usados para fornecer dados a usuários e programas em shell." order="410"/>
+   <node id="variáveis_locais" name="Variáveis locais" description="Variáveis disponíveis apenas no shell ou sessão atual, não herdadas por subprocessos." order="411"/>
+   <node id="variáveis_de_ambiente" name="Variáveis de ambiente" description="Variáveis globais cujo valor é herdado pelo shell atual e por subprocessos, definindo características do ambiente." order="412"/>
+   <node id="home" name="HOME" description="Variável de ambiente que armazena o caminho do diretório home do usuário." order="413"/>
+   <node id="hosttype" name="HOSTTYPE" description="Variável de ambiente que identifica a plataforma ou arquitetura de hardware em uso." order="414"/>
+   <node id="shell" name="SHELL" description="Variável de ambiente que identifica o shell padrão em uso pelo usuário." order="415"/>
+   <node id="term" name="TERM" description="Variável de ambiente que define o tipo de terminal em uso." order="416"/>
+   <node id="user" name="USER" description="Variável de ambiente que contém o nome da conta de usuário corrente." order="417"/>
+   <node id="path" name="PATH" description="Variável de ambiente que lista diretórios, em ordem, onde o shell procura executáveis." order="418"/>
+   <node id="ps1" name="PS1" description="Variável de ambiente que define o formato do prompt principal do shell interativo." order="419"/>
+   <node id="ps2" name="PS2" description="Variável de ambiente que define o formato do prompt secundário (estendido) do shell." order="420"/>
+   <node id="mail" name="MAIL" description="Variável de ambiente que aponta para o arquivo ou diretório de correio eletrônico do usuário." order="421"/>
+   <node id="logname" name="LOGNAME" description="Variável de ambiente que normalmente duplica USER, armazenando o nome de login do usuário." order="422"/>
+   <node id="ostype" name="OSTYPE" description="Variável de ambiente que identifica o tipo de sistema operacional em uso." order="423"/>
+   <node id="echo" name="echo" description="Comando do shell usado para exibir texto ou valores de variáveis na saída padrão ou redirecioná-los para arquivos." order="424"/>
+   <node id="export" name="export" description="Comando do shell que marca variáveis para serem exportadas ao ambiente dos subprocessos, tornando-as variáveis de ambiente." order="425"/>
+   <node id="set" name="set" description="Comando do shell que lista ou define variáveis e opções do shell, exibindo tanto variáveis locais quanto globais." order="426"/>
+   <node id="env" name="env" description="Comando que exibe ou modifica o ambiente de execução, listando apenas variáveis de ambiente." order="427"/>
+   <node id="printenv" name="printenv" description="Comando que imprime o valor de variáveis de ambiente." order="428"/>
+   <node id="unset" name="unset" description="Comando do shell que remove variáveis ou funções da sessão atual." order="429"/>
+   <node id="/etc/profile" name="/etc/profile" description="Arquivo de configuração global de shells de login, usado para definir variáveis e ambiente permanentes para todos os usuários." order="430"/>
+   <node id="/etc/environment" name="/etc/environment" description="Arquivo de configuração global usado, em geral, para definir variáveis de ambiente do sistema de forma permanente." order="431"/>
+   <node id="~/.bashrc" name="~/.bashrc" description="Arquivo de configuração do Bash específico do usuário, lido em shells interativos não-login, usado para definir variáveis e ajustes de ambiente pessoais." order="432"/>
+   <node id="~/.bash_profile" name="~/.bash_profile" description="Arquivo de configuração do Bash específico do usuário, lido em sessões de login Bash, usado para definir variáveis e ambiente pessoais." order="433"/>
+   <node id="~/.bash_login" name="~/.bash_login" description="Arquivo alternativo ao ~/.bash_profile, lido pelo Bash em sessões de login, se existir, para configurar o ambiente do usuário." order="434"/>
+   <node id="~/.profile" name="~/.profile" description="Arquivo de inicialização de shell de login POSIX específico do usuário, usado por diversos shells para definir variáveis e ambiente pessoais." order="435"/>
+   <node id="bash" name="bash" description="The Bourne Again SHell, a common Unix shell that reads configuration files, executes commands, and maintains command history." order="436"/>
+   <node id="/etc/profile" name="/etc/profile" description="System-wide shell startup script read by login shells to set environment variables and run commands for all users." order="437"/>
+   <node id="~/.bash_profile" name="~/.bash_profile" description="User-specific bash login startup file, read after /etc/profile to set per-user environment and shell customizations." order="438"/>
+   <node id="~/.bash_login" name="~/.bash_login" description="Alternative user-specific bash login startup file, read if ~/.bash_profile is absent." order="439"/>
+   <node id="~/.profile" name="~/.profile" description="Generic user-specific login startup file used by various shells, read by bash when other bash-specific login files are absent." order="440"/>
+   <node id="~/.bash_logout" name="~/.bash_logout" description="User-specific bash script executed automatically by a login shell when the user logs out." order="441"/>
+   <node id="/etc/bash.bashrc" name="/etc/bash.bashrc" description="System-wide bash runtime configuration file for interactive non-login shells on some Linux distributions." order="442"/>
+   <node id="~/.bashrc" name="~/.bashrc" description="User-specific bash runtime configuration file for interactive non-login shells, typically used to define aliases, functions, and other customizations." order="443"/>
+   <node id="/etc/environment" name="/etc/environment" description="System-wide configuration file (not a shell script) used on Debian and related systems to define environment variables at system startup, sometimes replacing /etc/profile." order="444"/>
+   <node id="alias" name="alias" description="Shell built-in command used to create or list command aliases that expand to other commands with predefined options and arguments." order="445"/>
+   <node id="unalias" name="unalias" description="Shell built-in command used to remove previously defined aliases." order="446"/>
+   <node id="ls_--color_option" name="ls --color option" description="ls command option that enables colored output based on file type, permissions, and other attributes." order="447"/>
+   <node id="ls_-l_option" name="ls -l option" description="ls command option that produces a long listing format with detailed file information." order="448"/>
+   <node id="ls_-a_option" name="ls -a option" description="ls command option that includes hidden files (those whose names begin with a dot) in the listing." order="449"/>
+   <node id="/etc/issue" name="/etc/issue" description="Text file whose contents are displayed on local terminals before the login prompt." order="450"/>
+   <node id="/etc/motd" name="/etc/motd" description="Message of the day file displayed to users after a successful login." order="451"/>
+   <node id="/etc/issue.net" name="/etc/issue.net" description="Text file containing a pre-login message displayed for remote logins (e.g., via telnet or some SSH configurations)." order="452"/>
+   <node id=".bash_history" name=".bash_history" description="User-specific file where bash stores the history of commands entered in interactive sessions." order="453"/>
+   <node id="histfile" name="HISTFILE" description="Bash variable that specifies the pathname of the file used to store command history, typically .bash_history." order="454"/>
+   <node id="histsize" name="HISTSIZE" description="Bash variable that sets the maximum number of commands kept in the in-memory history list for the current shell session." order="455"/>
+   <node id="histfilesize" name="HISTFILESIZE" description="Bash variable that sets the maximum number of lines stored in the history file on disk." order="456"/>
+   <node id="history" name="history" description="Bash built-in command that displays or manipulates the command history list." order="457"/>
+   <node id="fc" name="fc" description="Bash built-in command (Find/Fix Command) used to list, edit, and re-execute commands from the history." order="458"/>
+   <node id="linha_de_comando" name="linha de comando" description="Interface textual para interação com o sistema operacional por meio de comandos digitados." order="459"/>
+   <node id="estrutura_de_arquivos" name="estrutura de arquivos" description="Organização hierárquica de diretórios e arquivos em um sistema operacional." order="460"/>
+   <node id="diretório_raiz" name="diretório raiz" description="Diretório de nível superior em sistemas Unix-like, representado por /, do qual todos os outros diretórios descendem." order="461"/>
+   <node id="caminho_absoluto" name="caminho absoluto" description="Especificação completa da localização de um arquivo ou diretório a partir da raiz, sempre iniciando com /." order="462"/>
+   <node id="caminho_relativo" name="caminho relativo" description="Especificação da localização de um arquivo ou diretório em relação ao diretório de trabalho atual, sem começar por /." order="463"/>
+   <node id="diretório_corrente" name="diretório corrente" description="Diretório em que o usuário ou processo está trabalhando no momento." order="464"/>
+   <node id="diretório_pai" name="diretório pai" description="Diretório imediatamente superior ao diretório corrente na hierarquia, referenciado por .. em Unix." order="465"/>
+   <node id="pwd" name="pwd" description="Comando Unix que imprime o caminho absoluto do diretório de trabalho atual." order="466"/>
+   <node id="cd" name="cd" description="Comando Unix usado para alterar o diretório de trabalho atual." order="467"/>
+   <node id="variável_de_ambiente" name="variável de ambiente" description="Par chave-valor que afeta o comportamento de processos e programas em um sistema operacional." order="468"/>
+   <node id="path" name="PATH" description="Variável de ambiente que lista diretórios onde o sistema busca executáveis, separados por dois-pontos (:)." order="469"/>
+   <node id="/bin" name="/bin" description="Diretório de sistema Unix que contém binários essenciais de usuário." order="470"/>
+   <node id="/home" name="/home" description="Diretório que abriga os diretórios pessoais dos usuários em sistemas Unix-like." order="471"/>
+   <node id="/usr" name="/usr" description="Diretório de sistemas Unix que contém programas e dados de usuários e aplicativos." order="472"/>
+   <node id="/tmp" name="/tmp" description="Diretório padrão em Unix para armazenamento de arquivos temporários." order="473"/>
+   <node id="/etc" name="/etc" description="Diretório em Unix que armazena arquivos de configuração do sistema." order="474"/>
+   <node id="/dev" name="/dev" description="Diretório em Unix que contém arquivos de dispositivo representando hardware e dispositivos virtuais." order="475"/>
+   <node id="/proc" name="/proc" description="Sistema de arquivos virtual em Unix que expõe informações do kernel e de processos em tempo real." order="476"/>
+   <node id="cpuinfo" name="cpuinfo" description="Arquivo virtual em /proc que contém informações sobre os processadores detectados pelo kernel Linux." order="477"/>
+   <node id="home_do_usuário" name="home do usuário" description="Diretório pessoal de um usuário, geralmente localizado em /home/usuario e referenciado por ~." order="478"/>
+   <node id="curinga" name="curinga" description="Caractere especial em padrões de nomes de arquivos que representa um conjunto de caracteres possíveis." order="479"/>
+   <node id="asterisco_(*)" name="asterisco (*)" description="Curinga em shells Unix que representa zero ou mais caracteres em um nome de arquivo." order="480"/>
+   <node id="ponto_de_interrogação_(?)" name="ponto de interrogação (?)" description="Curinga em shells Unix que representa exatamente um caractere em um nome de arquivo." order="481"/>
+   <node id="expansão_de_colchetes" name="expansão de colchetes" description="Sintaxe de padrão de arquivo em shells Unix que permite combinar conjuntos ou faixas de caracteres, como [abc] ou [!01]." order="482"/>
+   <node id="atalhos_de_teclado" name="atalhos de teclado" description="Combinações de teclas que executam ações específicas no shell ou terminal." order="483"/>
+   <node id="clear" name="clear" description="Comando Unix que limpa o conteúdo visível da tela do terminal." order="484"/>
+   <node id="exit" name="exit" description="Comando Unix que encerra o shell ou sessão atual." order="485"/>
+   <node id="linux" name="Linux" description="Sistema operacional tipo Unix usado neste contexto para exemplificar comandos de shell e navegação em diretórios." order="486"/>
+   <node id="shell" name="shell" description="Interpretador de comandos que fornece a interface de linha de comando em sistemas Unix-like." order="487"/>
+   <node id="ls" name="ls" description="Comando Unix usado para listar o conteúdo de diretórios." order="488"/>
+   <node id="filesystem_hierarchy_standard_(fhs)" name="Filesystem Hierarchy Standard (FHS)" description="Especificação que padroniza a organização, nomes e localizações de diretórios e arquivos importantes em sistemas Unix-like, como Linux." order="489"/>
+   <node id="touch" name="touch" description="Comando de sistemas Unix/Linux usado para criar arquivos vazios ou atualizar timestamps de acesso e modificação de arquivos e diretórios." order="490"/>
+   <node id="mkdir" name="mkdir" description="Comando de sistemas Unix/Linux usado para criar novos diretórios no sistema de arquivos." order="491"/>
+   <node id="rm" name="rm" description="Comando de sistemas Unix/Linux usado para remover arquivos e diretórios, com opções para remoção recursiva e forçada." order="492"/>
+   <node id="find" name="find" description="Comando de sistemas Unix/Linux que localiza arquivos e diretórios com base em critérios como nome, permissões, proprietário, tamanho e tipo." order="493"/>
+   <node id="locate" name="locate" description="Comando de sistemas Unix/Linux que realiza buscas rápidas por nomes de arquivos utilizando uma base de dados previamente indexada." order="494"/>
+   <node id="updatedb" name="updatedb" description="Comando de sistemas Unix/Linux que indexa o sistema de arquivos e atualiza a base de dados usada pelo comando locate." order="495"/>
+   <node id="linux" name="Linux" description="Sistema operacional do tipo Unix, amplamente utilizado em servidores, desktops e dispositivos embarcados." order="496"/>
+   <node id="gnu/linux" name="GNU/Linux" description="Sistema operacional livre composto pelo kernel Linux e componentes do projeto GNU, amplamente utilizado em servidores, desktops e outros dispositivos." order="497"/>
+   <node id="software_livre" name="Software Livre" description="Modelo de software em que o código-fonte é disponibilizado com liberdades de uso, estudo, modificação e redistribuição." order="498"/>
+   <node id="documentação" name="documentação" description="Conjunto de textos técnicos e materiais de referência que descrevem o uso, configuração e funcionamento de sistemas e softwares." order="499"/>
+   <node id="comandos" name="comandos" description="Instruções textuais fornecidas pelo usuário a um sistema operacional ou interpretador de comandos para executar tarefas." order="500"/>
+   <node id="man_pages" name="Man Pages" description="Páginas de manual em sistemas Unix e GNU/Linux que documentam comandos, serviços, chamadas de sistema, bibliotecas e arquivos de configuração." order="501"/>
+</nodes>

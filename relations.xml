@@ -1,0 +1,1461 @@
+<?xml version="1.0" ?>
+<relations>
+   <relation type="prerequisite" source="linux" target="sistema_operacional">
+      <context>Para entender o que é Linux, é necessário antes compreender o conceito geral de sistema operacional, do qual Linux é um exemplo.</context>
+   </relation>
+   <relation type="prerequisite" source="android" target="linux">
+      <context>O texto descreve Android como um sistema operacional baseado no kernel Linux; conhecer Linux e seu ecossistema ajuda a entender a base do Android.</context>
+   </relation>
+   <relation type="prerequisite" source="android" target="kernel_linux">
+      <context>Android é explicitamente descrito como baseado no kernel Linux, logo é útil compreender o kernel Linux para entender sua arquitetura interna.</context>
+   </relation>
+   <relation type="prerequisite" source="android" target="gplv2">
+      <context>O texto afirma que o Android é baseado em um kernel licenciado sob a GPLv2; compreender essa licença é necessário para entender seu modelo de licenciamento.</context>
+   </relation>
+   <relation type="prerequisite" source="segurança_da_informação" target="linux">
+      <context>O material afirma que não se pode falar de segurança, testes de invasão ou técnicas forenses sem conhecer Linux, pois muitas ferramentas de segurança foram desenvolvidas para distribuições Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="testes_de_invasão" target="linux">
+      <context>Na mesma discussão, o texto diz que muitas ferramentas de testes de invasão foram desenvolvidas para distribuições Linux, tornando o conhecimento de Linux essencial para praticar pentest.</context>
+   </relation>
+   <relation type="prerequisite" source="computação_em_nuvem" target="linux">
+      <context>O texto indica que a maior parte dos recursos de computação em nuvem é executada em ambientes Linux, de modo que Linux é a base dos serviços em nuvem descritos.</context>
+   </relation>
+   <relation type="prerequisite" source="infraestrutura_sob_demanda" target="computação_em_nuvem">
+      <context>Infraestrutura sob demanda é apresentada como exemplo de serviço fornecido pela computação em nuvem; entender computação em nuvem é pré-requisito para esse modelo.</context>
+   </relation>
+   <relation type="prerequisite" source="amazon_web_services" target="computação_em_nuvem">
+      <context>AWS é descrito como grande provedor de serviços em nuvem, portanto seu entendimento depende do conceito geral de computação em nuvem.</context>
+   </relation>
+   <relation type="prerequisite" source="google_cloud_platform" target="computação_em_nuvem">
+      <context>GCP é listado como provedor de serviços em nuvem; é preciso entender computação em nuvem para contextualizar seus serviços.</context>
+   </relation>
+   <relation type="prerequisite" source="oracle_cloud_infrastructure" target="computação_em_nuvem">
+      <context>OCI é citado como provedor de serviços em nuvem corporativos, o que pressupõe o conceito de computação em nuvem.</context>
+   </relation>
+   <relation type="prerequisite" source="digitalocean" target="computação_em_nuvem">
+      <context>DigitalOcean é incluído entre provedores que oferecem servidores virtuais na nuvem, o que depende do conceito de computação em nuvem.</context>
+   </relation>
+   <relation type="prerequisite" source="microsoft_azure" target="computação_em_nuvem">
+      <context>Azure é descrito como a nuvem da Microsoft; compreender computação em nuvem é necessário para entender seu papel.</context>
+   </relation>
+   <relation type="prerequisite" source="big_data" target="linux">
+      <context>É mencionado que ferramentas de Big Data para integração e tratamento de dados são executadas em Linux, tornando Linux a base de muitos ambientes de Big Data.</context>
+   </relation>
+   <relation type="prerequisite" source="devops" target="linux">
+      <context>O texto afirma que grande parte das práticas e operações de DevOps funciona dentro de ambientes Linux, fazendo de Linux um fundamento para atuar em DevOps.</context>
+   </relation>
+   <relation type="prerequisite" source="kernel_linux" target="linux">
+      <context>O kernel Linux é o núcleo do sistema operacional Linux; é preciso conhecer o sistema Linux para entender o papel do seu kernel.</context>
+   </relation>
+   <relation type="prerequisite" source="gplv2" target="open_source">
+      <context>A GPLv2 é apresentada como licença que rege o kernel Linux; ela é um tipo específico de licença de código aberto, fundamentada no conceito de Open Source.</context>
+   </relation>
+   <relation type="prerequisite" source="desktop_linux" target="linux">
+      <context>Desktop Linux é o uso de Linux em computadores pessoais; requer o entendimento do sistema Linux em geral antes de suas variações para desktop.</context>
+   </relation>
+   <relation type="prerequisite" source="elementary_os" target="desktop_linux">
+      <context>Elementary OS é listado como uma das distribuições Linux criadas para usuários de desktop, sendo um exemplo de Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="mx_linux" target="desktop_linux">
+      <context>MX Linux aparece na lista de distribuições orientadas a uso em desktop, enquadrando-se no conceito de Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="linux_mint" target="desktop_linux">
+      <context>Linux Mint é apresentado como distribuição voltada ao usuário comum em desktops, logo é um caso de Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="deepin" target="desktop_linux">
+      <context>Deepin é citado na lista de distribuições com interfaces amigáveis para usuários de desktop, pertencendo ao universo Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="manjaro" target="desktop_linux">
+      <context>Manjaro é incluído entre distribuições Linux voltadas a uso em desktops, sendo um exemplo de Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="pop!_os" target="desktop_linux">
+      <context>Pop!_OS é listado como distribuição Linux para desktop com foco em produtividade, integrante da categoria Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="ubuntu" target="desktop_linux">
+      <context>Ubuntu é mencionado entre as distribuições desenvolvidas para utilização do usuário comum em desktops, logo é um caso de Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="fedora" target="desktop_linux">
+      <context>Fedora é citado na lista de distribuições com interfaces amigáveis para estações de trabalho, compondo o grupo Desktop Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="servidores_web" target="linux">
+      <context>O relatório de market share de servidores web por sistema operacional é apresentado no contexto em que Linux domina muitos serviços, exigindo o entendimento de Linux para interpretar esses dados.</context>
+   </relation>
+   <relation type="prerequisite" source="w3techs" target="servidores_web">
+      <context>W3Techs é descrito como fonte de estatísticas de uso de tecnologias web, incluindo servidores web; conhecer o conceito de servidores web é necessário para entender suas métricas.</context>
+   </relation>
+   <relation type="prerequisite" source="linux_foundation" target="open_source">
+      <context>O relatório citado sobre o mercado de trabalho é da Linux Foundation e trata de código aberto, de modo que o papel da fundação é compreendido dentro do contexto de Open Source.</context>
+   </relation>
+   <relation type="prerequisite" source="edx" target="open_source">
+      <context>A edX aparece como coautora de um relatório sobre mercado de código aberto; seu envolvimento é entendido no contexto de iniciativas ligadas a Open Source.</context>
+   </relation>
+   <relation type="prerequisite" source="profissional_de_devops" target="devops">
+      <context>O texto indica que DevOps é a principal função buscada pelos gerentes de contratação; a atuação de um profissional de DevOps depende do entendimento da cultura e práticas DevOps.</context>
+   </relation>
+   <relation type="prerequisite" source="certificação_profissional" target="open_source">
+      <context>As certificações são discutidas especificamente no contexto de profissionais de código aberto, isto é, certificações relacionadas a tecnologias Open Source.</context>
+   </relation>
+   <relation type="prerequisite" source="tecnologia_de_nuvem_aberta" target="computação_em_nuvem">
+      <context>O relatório afirma que conhecimentos em tecnologias de nuvem aberta têm grande impacto; essas tecnologias são apresentadas como parte do domínio de computação em nuvem.</context>
+   </relation>
+   <relation type="prerequisite" source="tecnologia_de_nuvem_aberta" target="open_source">
+      <context>São descritas como tecnologias de nuvem 'aberta' em um relatório sobre código aberto, implicando que se baseiam em princípios e software Open Source.</context>
+   </relation>
+   <relation type="prerequisite" source="analista_devops" target="devops">
+      <context>Analista DevOps é listado como cargo em alta; seu trabalho consiste em aplicar práticas de DevOps, exigindo o entendimento desse conceito.</context>
+   </relation>
+   <relation type="prerequisite" source="site_reliability_engineering" target="devops">
+      <context>SRE é mencionada junto a DevOps no contexto de operações modernas; historicamente deriva e se relaciona fortemente com práticas DevOps, que formam a base cultural.</context>
+   </relation>
+   <relation type="prerequisite" source="analista_sre" target="site_reliability_engineering">
+      <context>Analista SRE é descrito como cargo baseado em Site Reliability Engineering; a disciplina SRE é o conceito fundamental para esse papel.</context>
+   </relation>
+   <relation type="prerequisite" source="administrador_de_servidores" target="servidores_web">
+      <context>O texto relaciona o uso de Linux em servidores web; administrar servidores, incluindo servidores web, requer entender o conceito de servidores web.</context>
+   </relation>
+   <relation type="prerequisite" source="administrador_de_servidores" target="linux">
+      <context>É destacado que grande parte da infraestrutura de servidores roda Linux; um administrador de servidores nesse contexto precisa dominar Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="desenvolvedor_de_software" target="open_source">
+      <context>O cargo é citado como em alta no mundo Open Source; compreender o modelo open source é essencial para quem desenvolve e contribui com esses projetos.</context>
+   </relation>
+   <relation type="prerequisite" source="engenheiro_de_software" target="open_source">
+      <context>Engenheiros de software são listados entre os cargos em alta no ecossistema de código aberto, cuja prática é moldada por princípios de Open Source.</context>
+   </relation>
+   <relation type="prerequisite" source="banco_de_dados" target="linux">
+      <context>No contexto do mercado Open Source e da infraestrutura em Linux, muitos sistemas de banco de dados e suas ferramentas rodam em servidores Linux, tornando Linux uma base importante.</context>
+   </relation>
+   <relation type="prerequisite" source="analista_de_banco_de_dados" target="banco_de_dados">
+      <context>Analista de banco de dados é o profissional responsável por projetar e administrar bancos de dados, o que pressupõe entender o conceito de banco de dados.</context>
+   </relation>
+   <relation type="prerequisite" source="engenharia_de_dados" target="banco_de_dados">
+      <context>Engenharia de dados envolve integração e tratamento de dados, atividades que dependem fortemente de bancos de dados para armazenamento e consulta.</context>
+   </relation>
+   <relation type="prerequisite" source="engenheiro_de_dados" target="engenharia_de_dados">
+      <context>Engenheiro de dados é o profissional que atua na área de engenharia de dados; a disciplina é a base conceitual para seu trabalho.</context>
+   </relation>
+   <relation type="prerequisite" source="ciência_de_dados" target="big_data">
+      <context>Ferramentas de Big Data para integração e tratamento de dados são o ambiente natural onde a ciência de dados é aplicada; compreender Big Data ajuda a situar a prática de ciência de dados.</context>
+   </relation>
+   <relation type="prerequisite" source="cientista_de_dados" target="ciência_de_dados">
+      <context>Cientista de dados é o profissional da área de ciência de dados; conhecer a disciplina é pré-requisito para entender esse papel.</context>
+   </relation>
+   <relation type="prerequisite" source="machine_learning" target="ciência_de_dados">
+      <context>Machine Learning é uma tecnologia central utilizada por profissionais de ciência de dados; ciência de dados fornece o contexto em que ML é aplicado.</context>
+   </relation>
+   <relation type="prerequisite" source="engenheiro_de_machine_learning" target="machine_learning">
+      <context>O engenheiro de Machine Learning é responsável por implementar e manter modelos de ML em produção, o que exige domínio do conceito de Machine Learning.</context>
+   </relation>
+   <relation type="prerequisite" source="analista_de_segurança" target="segurança_da_informação">
+      <context>Analista de segurança é um cargo na área de segurança da informação; o conceito de segurança da informação fundamenta suas atividades.</context>
+   </relation>
+   <relation type="prerequisite" source="analista_de_segurança" target="linux">
+      <context>O texto destaca que não se pode falar de segurança e testes de invasão sem conhecer Linux, pois muitas ferramentas de segurança rodam em distribuições Linux, tornando Linux fundamental para esse analista.</context>
+   </relation>
+   <relation type="prerequisite" source="ti" target="linux">
+      <context>Funções como gerente de TI e cargos em infraestrutura aparecem em um cenário onde Linux domina servidores, nuvem e muitas ferramentas; conhecer Linux é base para atuar em TI nesse contexto.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="linux_professional_institute">
+      <context>Para entender o panorama de certificações Linux apresentado, é necessário conhecer o Linux Professional Institute como uma das principais organizações que oferecem certificações independentes em Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="red_hat">
+      <context>A seção destaca a Red Hat como um dos programas de certificação comercial mais populares em Linux, sendo fundamental para compreender o conjunto de certificações Linux disponíveis no mercado.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="linux_foundation">
+      <context>A Linux Foundation é apresentada como um dos centros certificadores mais buscados em Linux, relevante para entender o cenário geral de certificações Linux descrito.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="microsoft">
+      <context>O texto menciona a parceria da Microsoft com a Linux Foundation e a disponibilização do SQL Server para Linux para ilustrar a expansão do ecossistema Linux em que as certificações estão inseridas.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="sql_server">
+      <context>A disponibilização do SQL Server para plataformas Linux é citada como exemplo de adoção corporativa de Linux, contexto que reforça a importância de certificações Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="opensuse">
+      <context>OpenSUSE é citado entre os centros e carreiras de formação relacionados a Linux, compondo o quadro de opções de certificação e especialização em Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="certificações_linux" target="exin">
+      <context>EXIN é mencionada como organização que oferece uma certificação de DevOps no contexto de formações relacionadas a Linux, ampliando o conjunto de certificações consideradas.</context>
+   </relation>
+   <relation type="prerequisite" source="linux_professional_institute" target="linux_standard_base">
+      <context>O conteúdo dos exames do Linux Professional Institute é baseado no padrão Linux Standard Base, de modo que compreender o LSB ajuda a entender o escopo e os critérios técnicos dessas certificações.</context>
+   </relation>
+   <relation type="prerequisite" source="linux_professional_institute" target="lpi_brasil">
+      <context>As provas do Linux Professional Institute são aplicadas pelo LPI Brasil no contexto brasileiro, sendo necessário conhecer essa representação para entender como as certificações são operacionalizadas no país.</context>
+   </relation>
+   <relation type="prerequisite" source="linux_professional_institute" target="pearson_vue">
+      <context>Os exames do Linux Professional Institute também são aplicados por centros de testes Pearson VUE, elemento importante para compreender a logística de realização das provas.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_certified_system_administrator" target="red_hat_enterprise_linux">
+      <context>O exame RHCSA é prático e baseado sempre na versão mais recente do Red Hat Enterprise Linux, exigindo conhecimento prévio dessa distribuição para a certificação.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_certified_engineer" target="red_hat_enterprise_linux">
+      <context>A certificação RHCE avalia competências avançadas em administração e automação sobre o Red Hat Enterprise Linux, tomando essa distribuição como base do exame.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_certified_architect" target="red_hat_enterprise_linux">
+      <context>A certificação RHCA pertence ao programa Red Hat e tem seu conteúdo construído sobre tecnologias como o Red Hat Enterprise Linux, tornando o conhecimento dessa plataforma essencial.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_certified_system_administrator" target="red_hat">
+      <context>A certificação RHCSA integra o programa de certificações da Red Hat; é necessário entender o contexto do programa e da empresa Red Hat para situar o propósito dessa certificação.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_certified_engineer" target="red_hat">
+      <context>A certificação RHCE faz parte do portfólio de certificações da Red Hat, dependendo do entendimento do programa de certificação e do ecossistema da empresa.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_certified_architect" target="red_hat">
+      <context>A certificação RHCA é o nível mais avançado do programa de certificações da Red Hat, cujo entendimento é prévio para compreender o posicionamento dessa credencial.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_operacional" target="kernel">
+      <context>Entender o papel do kernel como núcleo que manipula o hardware é essencial para compreender como um sistema operacional é estruturado em camadas.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="richard_stallman">
+      <context>Para compreender o projeto GNU, é útil conhecer Richard Stallman, seu idealizador e principal articulador das ideias de software livre.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="unix">
+      <context>O objetivo do GNU era criar um sistema operacional livre que seguisse os padrões do Unix, portanto conhecer Unix ajuda a entender os requisitos do GNU.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="código-fonte">
+      <context>A noção de liberdade em GNU refere-se diretamente à liberdade sobre o código-fonte, exigindo que o usuário possa estudá-lo e modificá-lo.</context>
+   </relation>
+   <relation type="prerequisite" source="software_proprietário" target="código-fonte">
+      <context>O software proprietário é caracterizado por restringir o acesso ao código-fonte, definindo-se em contraste com a possibilidade de estudá-lo e alterá-lo.</context>
+   </relation>
+   <relation type="prerequisite" source="software_proprietário" target="software_livre">
+      <context>O texto contrapõe software proprietário e software livre; entender as restrições do primeiro é necessário para compreender as liberdades defendidas pelo segundo.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="free_software_foundation">
+      <context>O crescimento do projeto GNU levou à criação da Free Software Foundation para gerenciar e apoiar seu desenvolvimento e o movimento de software livre.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="emacs">
+      <context>Emacs é citado como uma das ferramentas desenvolvidas dentro do projeto GNU, ilustrando a construção de um sistema operacional livre completo.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="servidor_x">
+      <context>O Servidor X é mencionado como componente gráfico desenvolvido no âmbito do GNU para compor um sistema operacional livre compatível com Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="gcc">
+      <context>GCC integra o conjunto de compiladores criados pelo projeto GNU, parte essencial das ferramentas de desenvolvimento do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="g++">
+      <context>G++ é mencionado como compilador C++ dentro da GNU Compiler Collection, desenvolvida no projeto GNU.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="gnu_hurd">
+      <context>GNU Hurd é o kernel que o projeto GNU desenvolvia para completar seu sistema operacional livre, embora não tenha atingido maturidade suficiente.</context>
+   </relation>
+   <relation type="prerequisite" source="unix" target="unix-like">
+      <context>O termo Unix-like é definido em relação aos padrões de Unix, portanto compreender Unix é base para entender o que sistemas Unix-like imitam.</context>
+   </relation>
+   <relation type="prerequisite" source="unix-like" target="multiusuário">
+      <context>Sistemas Unix-like são descritos como oferecendo suporte fundamental a multiusuário, tornando esse recurso central para entendê-los.</context>
+   </relation>
+   <relation type="prerequisite" source="unix-like" target="multitarefa">
+      <context>O suporte a multitarefa é apontado como característica essencial dos sistemas Unix-like, compondo sua robustez.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="gnu/linux">
+      <context>O sistema GNU/Linux surge da união das ferramentas GNU com um kernel adequado; conhecer GNU é condição para entender o termo GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="linux" target="gnu/linux">
+      <context>GNU/Linux é definido como a combinação do kernel Linux com programas GNU, logo é necessário entender Linux para compreender o sistema resultante.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu/linux" target="distribuição_linux">
+      <context>As distribuições Linux são variações empacotadas de sistemas GNU/Linux; compreender GNU/Linux é base para entender o conceito de distribuição.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="software_livre">
+      <context>O projeto GNU impulsionou e formalizou a ideologia de software livre, sendo um caso central para entender esse modelo de liberdade de software.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="gpl">
+      <context>A GPL é apresentada como licença típica de software livre usada no kernel Linux, logo conhecer o conceito de software livre é necessário para interpretar a GPL.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="gnash">
+      <context>Gnash é citado como exemplo de projeto específico mantido pelo projeto GNU, ilustrando sua atuação contínua em software livre.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="coreboot">
+      <context>Coreboot é apresentado como um projeto de firmware livre mantido pelo GNU, demonstrando a extensão do projeto além de aplicações de usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="coreboot" target="bios">
+      <context>Coreboot é descrito como uma BIOS em formato de software livre, exigindo compreender o papel da BIOS tradicional para entender sua substituição.</context>
+   </relation>
+   <relation type="prerequisite" source="voip" target="skype">
+      <context>Skype é descrito como um cliente VoIP; entender VoIP ajuda a compreender a natureza técnica do serviço oferecido pelo Skype.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="gnu_is_not_unix">
+      <context>O acrônimo recursivo &quot;Gnu Is Not Unix&quot; explica o nome GNU e sua posição de oposição ao modelo proprietário seguido por muitos sistemas Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="minix" target="andrew_tanenbaum">
+      <context>Minix é apresentado como sistema criado por Andrew Tanenbaum; conhecer o autor ajuda a contextualizar o papel educacional do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="unix-like" target="minix">
+      <context>Minix é descrito como um sistema operacional Unix-like, portanto o conceito de Unix-like fundamenta a compreensão de suas características.</context>
+   </relation>
+   <relation type="prerequisite" source="minix" target="linux">
+      <context>Linus Torvalds iniciou o desenvolvimento do Linux a partir do Minix, pretendendo criar uma versão superior, o que torna Minix base histórica e técnica para Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="kernel" target="linux">
+      <context>O texto enfatiza que Linux é tecnicamente um kernel; entender o conceito geral de kernel é necessário para compreender o papel específico do Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="freax" target="linux">
+      <context>Freax foi o nome inicial do projeto de kernel que acabou sendo renomeado para Linux, constituindo parte da história da origem do Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="patch">
+      <context>No desenvolvimento colaborativo de software livre, contribuições são frequentemente organizadas como patches, usados para corrigir bugs e adicionar funções.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu" target="bash">
+      <context>Bash é citado como uma das ferramentas desenvolvidas pelo projeto GNU que, junto ao kernel Linux, compõe um sistema GNU/Linux completo.</context>
+   </relation>
+   <relation type="prerequisite" source="free_software_foundation" target="projeto_gnu">
+      <context>A Free Software Foundation foi criada em 1985 com o propósito de organizar o projeto GNU em um formato técnico e jurídico, dando suporte institucional ao desenvolvimento do sistema operacional livre.</context>
+   </relation>
+   <relation type="prerequisite" source="free_software_foundation" target="software_livre">
+      <context>A FSF se mantém com doações de empresas que apoiam a causa de defender o software livre e tem como foco disseminar sua ideologia pelo mundo, tornando-se referência para o conceito de software livre.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="código-fonte">
+      <context>As liberdades 1 e 3 do software livre exigem acesso total ao código-fonte para estudar o funcionamento do programa, fazer alterações e disponibilizar melhorias ao público.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="software_proprietário">
+      <context>O texto afirma que a ideia central do software livre é prorrogar a liberdade do software para impedir que alguém se apodere dele e o transforme em algo como um software proprietário, estabelecendo uma oposição conceitual entre os dois modelos.</context>
+   </relation>
+   <relation type="prerequisite" source="free_software_foundation" target="gnu_gpl">
+      <context>A GPL é descrita como uma ferramenta jurídica criada pela Free Software Foundation, e o foco principal atual da FSF é manter essa licença e utilizá-la para defender juridicamente o software livre.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="gplv1">
+      <context>A GPL teve sua primeira versão, denominada GPLv1, lançada em janeiro de 1989, sendo a base histórica das revisões posteriores da licença.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="gplv2">
+      <context>A GPLv1 foi rapidamente substituída pela GPL versão 2 (GPLv2), lançada em junho de 1991 para corrigir vulnerabilidades da versão inicial.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="gplv3">
+      <context>A GPL versão 3 (GPLv3), lançada em junho de 2007, é apresentada como a versão mais recente e referência atual da GNU General Public License.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="gnu_gpl">
+      <context>O texto afirma que a GPL é a licença utilizada para defender juridicamente um software livre e que segue as quatro liberdades que definem o software livre, ligando diretamente o conceito à licença.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="gfdl">
+      <context>Após descrever a GPL como iniciativa original de defesa da liberdade, o texto cita a GFDL como uma das licenças criadas posteriormente com a mesma finalidade de proteger a liberdade do conhecimento e da informação.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="opl">
+      <context>O texto lista a OPL entre as licenças que seguiram o caminho iniciado pela GPL, voltadas a manter a defesa da liberdade do conteúdo e da publicação aberta.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="creative_commons">
+      <context>As licenças Creative Commons aparecem na mesma tabela de licenças inspiradas na ideia de liberdade inaugurada pela GPL, aplicando princípios semelhantes a obras criativas em geral.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="bsd_license">
+      <context>A BSD License é citada junto à GPL como uma licença que protege a liberdade do código aberto, mostrando que, embora com modelo diferente, compartilha a intenção de permitir uso, cópia e modificação do software.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu_gpl" target="spl">
+      <context>A Sun Public License é mencionada na sequência das licenças criadas para manter a defesa da liberdade do código aberto, seguindo a trilha aberta pela GPL como instrumento jurídico de proteção ao software livre.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu/linux" target="kernel_linux">
+      <context>O sistema GNU/Linux é formado pela combinação do kernel Linux com as ferramentas GNU; compreender o kernel é essencial para entender o sistema completo.</context>
+   </relation>
+   <relation type="prerequisite" source="distribuição_linux" target="gnu/linux">
+      <context>Uma distribuição Linux organiza e empacota o sistema GNU/Linux, fornecendo kernel, ferramentas GNU e instalador para facilitar sua instalação e uso.</context>
+   </relation>
+   <relation type="prerequisite" source="gpl" target="distribuição_linux">
+      <context>Muitas distribuições, inclusive corporativas, seguem a licença GPL, que garante acesso ao código-fonte e permite a cobrança por serviços sem restringir a liberdade do software.</context>
+   </relation>
+   <relation type="prerequisite" source="from_scratch_distribution" target="distribuição_linux">
+      <context>As distribuições from scratch são uma categoria de distribuições Linux desenvolvidas do zero, sem derivar de outras, definindo um modo específico de criação de distribuições.</context>
+   </relation>
+   <relation type="prerequisite" source="distribuição_derivada" target="distribuição_linux">
+      <context>Distribuições derivadas são construídas a partir de uma distribuição Linux existente, com ajustes e objetivos funcionais específicos.</context>
+   </relation>
+   <relation type="prerequisite" source="rolling_release" target="distribuição_linux">
+      <context>O modelo rolling release descreve uma forma particular de manutenção de distribuições Linux, baseada em atualizações contínuas em vez de versões fechadas.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_linux" target="red_hat_enterprise_linux">
+      <context>Red Hat Enterprise Linux surgiu como versão corporativa derivada da distribuição original Red Hat Linux, herdando sua base tecnológica.</context>
+   </relation>
+   <relation type="prerequisite" source="rpm" target="red_hat_enterprise_linux">
+      <context>Red Hat Enterprise Linux utiliza o sistema de pacotes RPM para instalação e gerenciamento de aplicativos, tornando o entendimento do formato RPM fundamental para seu uso.</context>
+   </relation>
+   <relation type="prerequisite" source="fedora_project" target="fedora">
+      <context>A distribuição Fedora é desenvolvida e mantida pelo Fedora Project, projeto comunitário patrocinado pela Red Hat.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_enterprise_linux" target="centos">
+      <context>CentOS é recompilado a partir do código-fonte do Red Hat Enterprise Linux, replicando sua base e ciclo de suporte com outra marca.</context>
+   </relation>
+   <relation type="prerequisite" source="centos_stream" target="centos">
+      <context>O projeto CentOS Stream redefine o papel do CentOS, passando de reconstrução estável do RHEL para um ramo que mostra antecipadamente o que entrará no Red Hat Enterprise Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="rolling_release" target="centos_stream">
+      <context>CentOS Stream adota um modelo similar a rolling release, recebendo atualizações contínuas em vez de versões finais congeladas.</context>
+   </relation>
+   <relation type="prerequisite" source="rpmfusion" target="centos">
+      <context>Para uso comum no CentOS, recomenda-se habilitar repositórios adicionais como RPMFusion para obter pacotes que não vêm habilitados por padrão.</context>
+   </relation>
+   <relation type="prerequisite" source="epel" target="centos">
+      <context>O repositório EPEL fornece pacotes extras para CentOS e outros derivados de RHEL, ampliando o conjunto de softwares disponíveis.</context>
+   </relation>
+   <relation type="prerequisite" source="kernel_linux" target="ksplice">
+      <context>Ksplice é uma extensão do kernel Linux que atua diretamente sobre ele para aplicar patches em tempo de execução sem reinicialização.</context>
+   </relation>
+   <relation type="prerequisite" source="kernel_linux" target="dtrace">
+      <context>DTrace é usado para rastrear e diagnosticar o comportamento do kernel Linux e de aplicações em tempo real, exigindo compreensão do funcionamento do kernel.</context>
+   </relation>
+   <relation type="prerequisite" source="red_hat_enterprise_linux" target="oracle_linux">
+      <context>Oracle Linux é compilado a partir do código-fonte do Red Hat Enterprise Linux, substituindo apenas a marca e adicionando tecnologias próprias.</context>
+   </relation>
+   <relation type="prerequisite" source="slackware_linux" target="distribuição_linux">
+      <context>Slackware Linux é um exemplo clássico de distribuição Linux, exemplificando o modelo de empacotar kernel, ferramentas e instalador.</context>
+   </relation>
+   <relation type="prerequisite" source="kde" target="slackware_linux">
+      <context>Slackware Linux utiliza o KDE como interface gráfica padrão, de modo que conhecer o KDE ajuda a operar seu ambiente desktop.</context>
+   </relation>
+   <relation type="prerequisite" source="perl" target="slackware_linux">
+      <context>A instalação completa da Slackware inclui ambientes de desenvolvimento C/C++ e Perl, permitindo o uso de Perl para scripts e aplicações na distribuição.</context>
+   </relation>
+   <relation type="prerequisite" source="servidor_de_notícias" target="slackware_linux">
+      <context>Slackware fornece um servidor de notícias pronto para uso, demonstrando seu foco em serviços de rede tradicionais.</context>
+   </relation>
+   <relation type="prerequisite" source="servidor_de_e-mail" target="slackware_linux">
+      <context>Slackware inclui um servidor de e-mail, ilustrando sua vocação como sistema completo de servidor de mensagens.</context>
+   </relation>
+   <relation type="prerequisite" source="servidor_web" target="slackware_linux">
+      <context>Um servidor web é fornecido na instalação completa da Slackware, possibilitando hospedar sites diretamente na distribuição.</context>
+   </relation>
+   <relation type="prerequisite" source="servidor_ftp" target="slackware_linux">
+      <context>Slackware inclui um servidor FTP, reforçando seu conjunto de serviços de rede disponíveis após a instalação completa.</context>
+   </relation>
+   <relation type="prerequisite" source="gimp" target="slackware_linux">
+      <context>A distribuição Slackware oferece o GNU Image Manipulation Program (GIMP), permitindo edição de imagens imediatamente após a instalação.</context>
+   </relation>
+   <relation type="prerequisite" source="mozilla_firefox" target="slackware_linux">
+      <context>Slackware vem com o navegador Mozilla Firefox, fornecendo acesso web pronto para uso.</context>
+   </relation>
+   <relation type="prerequisite" source="deb" target="debian_gnu/linux">
+      <context>Debian GNU/Linux utiliza o formato de pacotes DEB como base para seu sistema de instalação e atualização de software.</context>
+   </relation>
+   <relation type="prerequisite" source="debian_gnu/linux" target="ubuntu">
+      <context>Ubuntu é baseado no Debian GNU/Linux, reutilizando sua infraestrutura de pacotes e muitos de seus repositórios.</context>
+   </relation>
+   <relation type="prerequisite" source="deb" target="ubuntu">
+      <context>Ubuntu utiliza o formato de pacotes DEB herdado de Debian para gerenciamento de software.</context>
+   </relation>
+   <relation type="prerequisite" source="kubuntu" target="ubuntu">
+      <context>Kubuntu é uma variante do Ubuntu que compartilha sua base, diferenciando-se principalmente pelo uso do KDE como desktop padrão.</context>
+   </relation>
+   <relation type="prerequisite" source="xubuntu" target="ubuntu">
+      <context>Xubuntu é uma derivação oficial do Ubuntu que utiliza o Xfce, mantendo compatibilidade de pacotes com o Ubuntu base.</context>
+   </relation>
+   <relation type="prerequisite" source="lubuntu" target="ubuntu">
+      <context>Lubuntu é derivado do Ubuntu e compartilha seus repositórios, mas foca em ambientes gráficos mais leves para hardware modesto.</context>
+   </relation>
+   <relation type="prerequisite" source="gnome" target="ubuntu">
+      <context>Ubuntu utiliza o GNOME como uma de suas interfaces padrão, de modo que conhecer o GNOME é útil para operar o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="kde" target="kubuntu">
+      <context>Kubuntu adota o KDE como ambiente padrão, tornando o conhecimento do KDE central à sua utilização.</context>
+   </relation>
+   <relation type="prerequisite" source="ubuntu_lts" target="ubuntu">
+      <context>As versões Ubuntu LTS são edições especiais do Ubuntu com suporte prolongado, constituindo a base da adoção empresarial.</context>
+   </relation>
+   <relation type="prerequisite" source="canonical" target="ubuntu">
+      <context>A Canonical é a entidade que desenvolve, coordena e publica o Ubuntu, bem como oferece suporte comercial.</context>
+   </relation>
+   <relation type="prerequisite" source="ci/cd" target="ubuntu">
+      <context>Lançamentos provisórios do Ubuntu são frequentemente usados em pipelines de CI/CD e outros processos DevOps, pela disponibilidade de compiladores e bibliotecas mais recentes.</context>
+   </relation>
+   <relation type="prerequisite" source="linux_mint" target="ubuntu">
+      <context>Uma das edições do Linux Mint é derivada diretamente do Ubuntu e compartilha seus repositórios de pacotes.</context>
+   </relation>
+   <relation type="prerequisite" source="debian_gnu/linux" target="linux_mint">
+      <context>Linux Mint possui uma edição baseada em Debian GNU/Linux, aproveitando sua base estável de pacotes.</context>
+   </relation>
+   <relation type="prerequisite" source="cinnamon" target="linux_mint">
+      <context>Linux Mint utiliza o Cinnamon como ambiente de desktop principal, definindo sua experiência de uso padrão.</context>
+   </relation>
+   <relation type="prerequisite" source="cli" target="linux_mint">
+      <context>Linux Mint oferece ferramentas gráficas para tarefas que em outras distribuições são realizadas pela CLI, tornando útil entender a diferença entre ambos os modos.</context>
+   </relation>
+   <relation type="prerequisite" source="gui" target="linux_mint">
+      <context>A distribuição destaca o uso da GUI para configurar elementos que em outras são feitas via linha de comando, reforçando seu foco em interfaces gráficas.</context>
+   </relation>
+   <relation type="prerequisite" source="gnome" target="cinnamon">
+      <context>Cinnamon é derivado do GNOME e reaproveita sua infraestrutura, beneficiando-se de suas tecnologias subjacentes.</context>
+   </relation>
+   <relation type="prerequisite" source="mintmenu" target="linux_mint">
+      <context>O MintMenu é o menu principal do Cinnamon em Linux Mint, elemento central da interação do usuário com o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="gnome" target="fedora">
+      <context>Fedora utiliza o GNOME como interface padrão, definindo a experiência gráfica inicial do usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="yum" target="fedora">
+      <context>Fedora tradicionalmente usa o gerenciador de pacotes YUM para instalar, atualizar e remover softwares RPM.</context>
+   </relation>
+   <relation type="prerequisite" source="mplayer" target="fedora">
+      <context>MPlayer é uma das aplicações multimídia disponíveis em Fedora, exemplificando o suporte a reprodução de vídeo e áudio.</context>
+   </relation>
+   <relation type="prerequisite" source="amarok" target="fedora">
+      <context>Amarok é oferecido em Fedora como reprodutor de áudio, ilustrando a integração com aplicações do ecossistema KDE.</context>
+   </relation>
+   <relation type="prerequisite" source="openoffice" target="fedora">
+      <context>OpenOffice é disponibilizado em Fedora como suíte de escritório, cobrindo edição de texto, planilhas e apresentações.</context>
+   </relation>
+   <relation type="prerequisite" source="rolling_release" target="arch_linux">
+      <context>Arch Linux adota explicitamente o modelo rolling release, fornecendo continuamente as versões estáveis mais recentes dos pacotes.</context>
+   </relation>
+   <relation type="prerequisite" source="gnome" target="arch_linux">
+      <context>Usuários de Arch Linux recebem rapidamente novas versões do GNOME, o que destaca a integração entre o ambiente e o modelo rolling release.</context>
+   </relation>
+   <relation type="prerequisite" source="arch_linux" target="manjaro_linux">
+      <context>Manjaro Linux é baseado em Arch Linux, usando sua base de pacotes e ferramentas como Pacman e AUR.</context>
+   </relation>
+   <relation type="prerequisite" source="xfce" target="manjaro_linux">
+      <context>Manjaro adota Xfce como ambiente gráfico padrão em uma de suas edições principais, direcionando sua experiência principal.</context>
+   </relation>
+   <relation type="prerequisite" source="rolling_release" target="manjaro_linux">
+      <context>Manjaro segue o modelo rolling release herdado de Arch Linux, oferecendo atualizações contínuas ao usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="pacman" target="manjaro_linux">
+      <context>Manjaro utiliza o gerenciador de pacotes Pacman, herdado de Arch Linux, para instalação e atualização de software.</context>
+   </relation>
+   <relation type="prerequisite" source="aur" target="manjaro_linux">
+      <context>Manjaro mantém compatibilidade com o AUR, permitindo acesso ao vasto repositório comunitário de pacotes do Arch.</context>
+   </relation>
+   <relation type="prerequisite" source="rpm" target="suse_linux_enterprise">
+      <context>SUSE Linux Enterprise adota o formato RPM como base para seu sistema de pacotes, alinhando-se ao ecossistema de distribuições RPM.</context>
+   </relation>
+   <relation type="prerequisite" source="rpm" target="opensuse">
+      <context>openSUSE utiliza o sistema de pacotes RPM, compartilhando tecnologias de empacotamento com SUSE Linux Enterprise.</context>
+   </relation>
+   <relation type="prerequisite" source="suse" target="suse_linux_enterprise">
+      <context>SUSE Linux Enterprise é a linha corporativa de distribuições desenvolvida e mantida pela empresa SUSE.</context>
+   </relation>
+   <relation type="prerequisite" source="opensuse" target="suse_linux_enterprise">
+      <context>openSUSE e SUSE Linux Enterprise compartilham ferramentas como o YaST, e openSUSE serve como base comunitária para tecnologias que entram na linha corporativa.</context>
+   </relation>
+   <relation type="prerequisite" source="gnome" target="opensuse">
+      <context>openSUSE oferece GNOME como uma de suas interfaces padrão, moldando parte significativa da experiência do usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="kde" target="opensuse">
+      <context>openSUSE oferece KDE como ambiente gráfico padrão alternativo, sendo uma de suas principais opções de desktop.</context>
+   </relation>
+   <relation type="prerequisite" source="yast" target="opensuse">
+      <context>openSUSE utiliza o YaST como ferramenta principal de instalação e configuração do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="live_distribution" target="knoppix">
+      <context>Knoppix é uma distribuição Live, executada diretamente de CD ou DVD, ilustrando esse modelo de uso sem instalação.</context>
+   </relation>
+   <relation type="prerequisite" source="deb" target="knoppix">
+      <context>Knoppix utiliza o formato DEB para gerenciamento de pacotes, herdando a infraestrutura de pacotes do Debian.</context>
+   </relation>
+   <relation type="prerequisite" source="kde" target="knoppix">
+      <context>Knoppix utiliza o KDE como interface padrão, definindo seu ambiente gráfico principal.</context>
+   </relation>
+   <relation type="prerequisite" source="metadistribuição" target="gentoo_linux">
+      <context>Gentoo é descrita como metadistribuição por sua alta adaptabilidade, conceito central para entender seu modelo de uso.</context>
+   </relation>
+   <relation type="prerequisite" source="emerge" target="gentoo_linux">
+      <context>Gentoo usa a ferramenta emerge como interface principal para o sistema de pacotes Portage.</context>
+   </relation>
+   <relation type="prerequisite" source="portage" target="gentoo_linux">
+      <context>O sistema Portage é o núcleo do modelo de gerenciamento de pacotes do Gentoo, responsável por compilar e instalar software.</context>
+   </relation>
+   <relation type="prerequisite" source="live_distribution" target="gentoo_linux">
+      <context>Gentoo é distribuído também em forma Live, permitindo inicialização e instalação a partir de mídia removível.</context>
+   </relation>
+   <relation type="prerequisite" source="stable" target="debian_gnu/linux">
+      <context>O ramo stable do Debian representa a versão oficialmente lançada e recomendada para produção, sendo uma das três linhas principais mantidas.</context>
+   </relation>
+   <relation type="prerequisite" source="testing" target="debian_gnu/linux">
+      <context>O ramo testing do Debian contém pacotes que serão promovidos à stable e oferece softwares mais recentes em comparação ao stable.</context>
+   </relation>
+   <relation type="prerequisite" source="unstable" target="debian_gnu/linux">
+      <context>O ramo unstable do Debian, chamado sid, é onde ocorre o desenvolvimento ativo, alimentando posteriormente testing e stable.</context>
+   </relation>
+   <relation type="prerequisite" source="buster" target="stable">
+      <context>Buster é o codinome da versão 10 do Debian, identificada como a distribuição estável (stable) no período descrito.</context>
+   </relation>
+   <relation type="prerequisite" source="bullseye" target="testing">
+      <context>Bullseye é mencionada como a distribuição testing do Debian, sucedendo Buster rumo ao próximo stable.</context>
+   </relation>
+   <relation type="prerequisite" source="sid" target="unstable">
+      <context>Sid é o nome permanente usado pelo Debian para seu ramo unstable, independente da numeração de versão.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_embarcado" target="software_embarcado">
+      <context>Em um sistema embarcado, o software embarcado é a camada responsável por acessar o hardware e torná-lo utilizável.</context>
+   </relation>
+   <relation type="prerequisite" source="kernel_linux" target="sistema_embarcado">
+      <context>Muitos sistemas operacionais usados em sistemas embarcados são baseados no kernel Linux, que fornece a base para o controle de hardware.</context>
+   </relation>
+   <relation type="prerequisite" source="software_embarcado" target="internet_das_coisas">
+      <context>Plataformas Linux com software embarcado são amplamente usadas como base para dispositivos de Internet das Coisas.</context>
+   </relation>
+   <relation type="prerequisite" source="android" target="sistema_embarcado">
+      <context>Android é citado como um dos projetos de software embarcado mais populares, amplamente usado em dispositivos embarcados como smartphones.</context>
+   </relation>
+   <relation type="prerequisite" source="raspbian" target="sistema_embarcado">
+      <context>Raspbian é usado principalmente em Raspberry Pi, um hardware típico de sistemas embarcados e IoT.</context>
+   </relation>
+   <relation type="prerequisite" source="internet_das_coisas" target="android_things">
+      <context>Android Things é uma variante do Android direcionada a dispositivos de Internet das Coisas, suportando APIs e serviços do Google.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_embarcado" target="openwrt">
+      <context>OpenWrt é descrita como distribuição baseada em Linux para dispositivos embarcados, principalmente roteadores sem fio.</context>
+   </relation>
+   <relation type="prerequisite" source="raspbian" target="raspberry_pi">
+      <context>Raspbian é uma distribuição derivada do Debian projetada especificamente para rodar no hardware Raspberry Pi.</context>
+   </relation>
+   <relation type="prerequisite" source="internet_das_coisas" target="tizen">
+      <context>Tizen é a pilha Linux embarcada que alimenta muitos dispositivos de consumo e IoT da Samsung.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_embarcado" target="ubuntu_core">
+      <context>Ubuntu Core é uma versão do Ubuntu feita para sistemas com recursos mínimos, típica de dispositivos embarcados e IoT.</context>
+   </relation>
+   <relation type="prerequisite" source="yocto_project" target="sistema_embarcado">
+      <context>O Yocto Project fornece ferramentas para criar distribuições Linux personalizadas voltadas a sistemas embarcados e IoT.</context>
+   </relation>
+   <relation type="prerequisite" source="distrowatch" target="distribuição_linux">
+      <context>O site DistroWatch cataloga distribuições Linux, suas versões e notícias, servindo como referência para conhecer o ecossistema de distribuições.</context>
+   </relation>
+   <relation type="prerequisite" source="kurumin" target="live_distribution">
+      <context>Kurumin surgiu a partir do Knoppix, uma distribuição Live, e é tradicionalmente distribuído e usado como sistema Live.</context>
+   </relation>
+   <relation type="prerequisite" source="kalango" target="live_distribution">
+      <context>Kalango deriva do Knoppix e segue o modelo de distribuição Live, executando diretamente da mídia.</context>
+   </relation>
+   <relation type="prerequisite" source="dreamlinux" target="distribuição_derivada">
+      <context>DreamLinux é citada como distribuição derivada de outra, baseada em Debian, exemplificando o conceito de distribuição derivada.</context>
+   </relation>
+   <relation type="prerequisite" source="brdesktop" target="distribuição_derivada">
+      <context>BrDesktop é mencionada como distribuição derivada voltada para desktops, ilustrando o conceito de derivação.</context>
+   </relation>
+   <relation type="prerequisite" source="slax" target="distribuição_derivada">
+      <context>Slax é uma distribuição leve frequentemente construída como derivada de outras bases, exemplificando distribuições derivadas e Live.</context>
+   </relation>
+   <relation type="prerequisite" source="qubes_os" target="distribuição_linux">
+      <context>Qubes OS é citado como distribuição baseada em Linux com foco extremo em segurança, ilustrando distribuições com propósito especializado.</context>
+   </relation>
+   <relation type="prerequisite" source="kali_linux" target="distribuição_linux">
+      <context>Kali Linux é distribuição Linux especializada em testes de invasão e segurança, representando distribuições voltadas a um domínio específico.</context>
+   </relation>
+   <relation type="prerequisite" source="docker" target="container_linux">
+      <context>Diversas distribuições Linux minimalistas foram criadas para rodar dentro de containers, como os fornecidos pela plataforma Docker, dando origem ao conceito de Container Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="novell" target="suse">
+      <context>A SUSE foi adquirida pela empresa Novell em 2003, influenciando sua estratégia no mercado corporativo.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu/linux" target="unix">
+      <context>Os sistemas GNU/Linux herdaram muitas características do padrão Unix, como a representação de recursos por arquivos e o modelo multiusuário.</context>
+   </relation>
+   <relation type="prerequisite" source="macos" target="unix-like">
+      <context>O texto cita o sistema operacional Mac OS X (atual macOS) como Unix-like, por herdar características de Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="unix-like" target="unix">
+      <context>Sistemas Unix-like são definidos por seguirem conceitos e interfaces originadas do Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="diretório">
+      <context>O texto explica que um diretório também é um arquivo especial que aponta para outros arquivos e subdiretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="arquivo_binário">
+      <context>Arquivos binários são apresentados como um dos tipos de arquivos em Unix/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="arquivo_de_texto">
+      <context>Arquivos de texto comuns são listados como um tipo de arquivo presente no sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="arquivo_especial">
+      <context>Arquivos especiais são mencionados como tipo de arquivo que representa dispositivos e recursos do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="arquivo_oculto">
+      <context>Arquivos ocultos são definidos como arquivos cujo nome começa por ponto (.) no sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="dispositivo_de_armazenamento">
+      <context>O texto afirma que arquivos podem representar dispositivos de armazenamento de dados no modelo de tudo-ser-arquivo do Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="memória_física">
+      <context>A herança Unix citada inclui arquivos que representam memória física do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="porta_serial">
+      <context>Portas seriais são citadas como recursos que podem ser representados por arquivos em Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo" target="porta_paralela">
+      <context>Portas paralelas também são mencionadas como recursos do sistema representados por arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="case-sensitive" target="arquivo">
+      <context>A característica case-sensitive afeta nomes de arquivos, tratando maiúsculas e minúsculas como diferentes.</context>
+   </relation>
+   <relation type="prerequisite" source="case-sensitive" target="diretório">
+      <context>O texto indica que a diferenciação entre maiúsculas e minúsculas se aplica também a nomes de diretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="case-sensitive" target="ls">
+      <context>É dado o exemplo de que o comando 'LS' é diferente de 'ls', ilustrando o case-sensitive para comandos.</context>
+   </relation>
+   <relation type="prerequisite" source="arquivo_oculto" target="ls">
+      <context>Para visualizar arquivos ou diretórios ocultos (nomes iniciados por ponto), usa-se uma opção específica do comando ls.</context>
+   </relation>
+   <relation type="prerequisite" source="kernel" target="processo">
+      <context>O kernel é descrito como centro de execução do sistema, responsável por controlar hardware e gerenciar processos em execução.</context>
+   </relation>
+   <relation type="prerequisite" source="multitarefa" target="processo">
+      <context>A característica multitarefa é explicada como capacidade de executar várias tarefas ou processos ao mesmo tempo.</context>
+   </relation>
+   <relation type="prerequisite" source="gimp" target="desenho_vetorial">
+      <context>O GIMP é citado como programa de código aberto para edição de imagens, também usado em menor escala para desenho vetorial.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="desenho_vetorial">
+      <context>O Inkscape é apresentado como software para editoração de imagens e documentos vetoriais, baseado em gráficos vetoriais.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="svg">
+      <context>O texto afirma que o Inkscape trabalha nativamente com o formato SVG para gráficos vetoriais.</context>
+   </relation>
+   <relation type="prerequisite" source="svg" target="dtd">
+      <context>SVG é descrito como uma subdefinição (DTD) da linguagem XML, ligando o formato à noção de DTD.</context>
+   </relation>
+   <relation type="prerequisite" source="dtd" target="xml">
+      <context>Uma DTD define a estrutura de documentos XML; entender DTD pressupõe o conceito de XML.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="png">
+      <context>O Inkscape pode exportar seus trabalhos para o formato de imagem raster PNG.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="tiff">
+      <context>O aplicativo é capaz de importar imagens no formato TIFF.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="gif">
+      <context>O Inkscape é citado como capaz de importar o formato GIF.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="jpeg">
+      <context>O texto menciona importação de arquivos JPG, isto é, imagens em formato JPEG.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="formato_ai_(adobe_illustrator)">
+      <context>O Inkscape pode importar arquivos no formato AI do Adobe Illustrator.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="pdf">
+      <context>O aplicativo importa arquivos PDF para edição vetorial.</context>
+   </relation>
+   <relation type="prerequisite" source="inkscape" target="postscript">
+      <context>O Inkscape é mencionado como capaz de importar arquivos PS (PostScript).</context>
+   </relation>
+   <relation type="prerequisite" source="kdenlive" target="mlt">
+      <context>Kdenlive é descrito como editor de vídeo baseado no framework multimídia MLT.</context>
+   </relation>
+   <relation type="prerequisite" source="kdenlive" target="gnu_general_public_license">
+      <context>O texto afirma que o Kdenlive é distribuído sob a GNU General Public License versão 2 ou posterior.</context>
+   </relation>
+   <relation type="prerequisite" source="virtualbox" target="sistema_operacional_hospedeiro">
+      <context>É explicado que o VirtualBox pode ser instalado em vários sistemas operacionais hospedeiros, como Linux, macOS e Windows.</context>
+   </relation>
+   <relation type="prerequisite" source="virtualbox" target="sistema_operacional_convidado">
+      <context>O VirtualBox permite instalar e utilizar um sistema operacional dentro de outro, caracterizando o conceito de sistema convidado.</context>
+   </relation>
+   <relation type="prerequisite" source="virtualbox" target="vmware_workstation">
+      <context>VirtualBox é comparado ao VMware Workstation como software de virtualização com propósito semelhante.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="opendocument_format">
+      <context>A suíte LibreOffice utiliza o formato OpenDocument (ODF) como padrão para seus arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="opendocument_format" target="iso/iec_26300">
+      <context>O texto informa que o ODF é homologado como padrão ISO/IEC 26300.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="microsoft_office">
+      <context>LibreOffice é descrito como compatível com formatos de arquivos do Microsoft Office, além de formatos legados.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="writer">
+      <context>Writer é listado como o editor de texto que compõe a suíte LibreOffice.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="calc">
+      <context>Calc é mencionado como o aplicativo de planilha do LibreOffice.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="impress">
+      <context>Impress é apresentado como o aplicativo de apresentações do LibreOffice.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="draw">
+      <context>Draw é citado como o componente de desenho vetorial do LibreOffice.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="math">
+      <context>Math é listado como o editor de fórmulas matemáticas da suíte.</context>
+   </relation>
+   <relation type="prerequisite" source="libreoffice" target="base">
+      <context>Base é mencionado como o aplicativo de banco de dados que integra o LibreOffice.</context>
+   </relation>
+   <relation type="prerequisite" source="vlc" target="media_player">
+      <context>O VLC é descrito como software de media player portátil gratuito e de código aberto.</context>
+   </relation>
+   <relation type="prerequisite" source="vlc" target="streaming">
+      <context>O texto enfatiza que o VLC também funciona como servidor de mídia de streaming.</context>
+   </relation>
+   <relation type="prerequisite" source="vlc" target="protocolos_de_streaming">
+      <context>É mencionado que o VLC suporta diversos métodos de compactação e formatos de arquivo, incluindo protocolos de streaming.</context>
+   </relation>
+   <relation type="prerequisite" source="vlc" target="dvd-video">
+      <context>Entre os formatos suportados pelo VLC está o DVD-Video.</context>
+   </relation>
+   <relation type="prerequisite" source="vlc" target="video_cd">
+      <context>O texto indica que o VLC suporta CD de vídeo, ou Video CD (VCD).</context>
+   </relation>
+   <relation type="prerequisite" source="vlc" target="transcodificação">
+      <context>O VLC é capaz de transmitir mídia em redes e transcodificar arquivos multimídia entre formatos.</context>
+   </relation>
+   <relation type="prerequisite" source="podcast" target="audacity">
+      <context>Audacity é citado como muito popular entre podcasters por seus recursos de edição e disponibilidade multiplataforma.</context>
+   </relation>
+   <relation type="prerequisite" source="audacity" target="gnu_general_public_license">
+      <context>O código-fonte do Audacity está sob a licença GNU General Public License.</context>
+   </relation>
+   <relation type="prerequisite" source="imagemagick" target="pdf">
+      <context>O texto afirma que o ImageMagick pode criar documentos PDF a partir de arquivos de imagem e o inverso.</context>
+   </relation>
+   <relation type="prerequisite" source="k3b" target="cd-rom">
+      <context>K3B é apresentado como interface gráfica para gravação de CD-ROMs em sistemas Unix-like.</context>
+   </relation>
+   <relation type="prerequisite" source="k3b" target="dvd">
+      <context>Além de CDs, o K3B permite gravar mídias DVD para dados, áudio e vídeo.</context>
+   </relation>
+   <relation type="prerequisite" source="k3b" target="cdrecord">
+      <context>O K3B utiliza o programa de linha de comando cdrecord como backend para gravação de mídias.</context>
+   </relation>
+   <relation type="prerequisite" source="k3b" target="cdrdao">
+      <context>O texto menciona que o K3B usa o utilitário cdrdao para operações de gravação de CDs.</context>
+   </relation>
+   <relation type="prerequisite" source="k3b" target="growisofs">
+      <context>Para gravação de DVDs, o K3B faz uso do programa growisofs.</context>
+   </relation>
+   <relation type="prerequisite" source="blender" target="blender_foundation">
+      <context>O Blender é descrito como desenvolvido pela Blender Foundation.</context>
+   </relation>
+   <relation type="prerequisite" source="blender" target="gnu_general_public_license">
+      <context>O programa Blender está disponível sob a GNU GPL versão 2 ou posterior.</context>
+   </relation>
+   <relation type="prerequisite" source="smplayer" target="media_player">
+      <context>O smplayer é citado como alternativa ao VLC para reprodução de vídeo, isto é, como outro media player.</context>
+   </relation>
+   <relation type="prerequisite" source="audacious" target="media_player">
+      <context>Audacious é apresentado como opção para reprodução de música local e gerenciamento básico de coleção de áudio.</context>
+   </relation>
+   <relation type="prerequisite" source="banshee" target="media_player">
+      <context>O Banshee é descrito como player de mídia que gerencia coleções locais de arquivos de áudio.</context>
+   </relation>
+   <relation type="prerequisite" source="amarok" target="media_player">
+      <context>O Amarok é citado como player que reproduz música local e gerencia coleções de áudio.</context>
+   </relation>
+   <relation type="prerequisite" source="apache_http_server" target="apache_software_foundation">
+      <context>O servidor HTTP Apache é apontado como principal tecnologia da Apache Software Foundation.</context>
+   </relation>
+   <relation type="prerequisite" source="apache_http_server" target="httpd">
+      <context>É descrito como um servidor do tipo HTTPD, isto é, um daemon que implementa HTTP.</context>
+   </relation>
+   <relation type="prerequisite" source="apache_http_server" target="http_1.1">
+      <context>O Apache é mencionado como compatível com o protocolo HTTP versão 1.1.</context>
+   </relation>
+   <relation type="prerequisite" source="apache_http_server" target="api">
+      <context>O texto diz que suas funcionalidades são estendidas por módulos e que o usuário pode escrever módulos usando a API do software.</context>
+   </relation>
+   <relation type="prerequisite" source="nginx" target="proxy_reverso">
+      <context>O NGINX é apresentado como servidor HTTP leve que também atua como proxy reverso.</context>
+   </relation>
+   <relation type="prerequisite" source="nginx" target="proxy_de_e-mail">
+      <context>O texto cita que o NGINX pode funcionar como proxy de e-mail para IMAP/POP3.</context>
+   </relation>
+   <relation type="prerequisite" source="lighttpd" target="c10k">
+      <context>Lighttpd foi originalmente escrito como prova de conceito para o problema c10k de lidar com 10.000 conexões paralelas.</context>
+   </relation>
+   <relation type="prerequisite" source="lighttpd" target="fastcgi">
+      <context>O servidor Lighttpd oferece suporte a recursos avançados como FastCGI para aplicações externas.</context>
+   </relation>
+   <relation type="prerequisite" source="lighttpd" target="scgi">
+      <context>O texto menciona SCGI como outro recurso suportado pelo Lighttpd.</context>
+   </relation>
+   <relation type="prerequisite" source="apache_tomcat" target="java_servlet">
+      <context>Tomcat é descrito como servidor web Java que implementa a tecnologia Java Servlet.</context>
+   </relation>
+   <relation type="prerequisite" source="apache_tomcat" target="javaserver_pages">
+      <context>O texto também destaca que o Tomcat implementa JavaServer Pages (JSP).</context>
+   </relation>
+   <relation type="prerequisite" source="node.js" target="javascript">
+      <context>Node.js é definido como interpretador ou ambiente de execução de JavaScript orientado a eventos no lado do servidor.</context>
+   </relation>
+   <relation type="prerequisite" source="node.js" target="frontend">
+      <context>O texto enfatiza que o Node.js surge para migrar a programação em JavaScript do lado do cliente (frontend) para o servidor.</context>
+   </relation>
+   <relation type="prerequisite" source="node.js" target="escalabilidade">
+      <context>Node.js é descrito como focado em criar aplicações de alta escalabilidade, como servidores web que lidam com milhares de conexões.</context>
+   </relation>
+   <relation type="prerequisite" source="mariadb" target="mysql">
+      <context>MariaDB é apresentado como banco relacional criado pelos desenvolvedores originais do MySQL que o bifurcaram após a aquisição pela Oracle.</context>
+   </relation>
+   <relation type="prerequisite" source="postfix" target="mta">
+      <context>O Postfix é definido como agente de transferência de e-mails (MTA) livre e de código aberto.</context>
+   </relation>
+   <relation type="prerequisite" source="postfix" target="sendmail">
+      <context>O texto diz que o Postfix tem como objetivo ser uma alternativa segura ao Sendmail, MTA historicamente muito usado.</context>
+   </relation>
+   <relation type="prerequisite" source="postfix" target="ibm_thomas_j._watson_research_center">
+      <context>É mencionado que o Postfix foi originalmente escrito por Wietse Venema no IBM Thomas J. Watson Research Center.</context>
+   </relation>
+   <relation type="prerequisite" source="bind" target="dns">
+      <context>BIND é descrito como o servidor para o protocolo DNS mais utilizado na Internet, especialmente em sistemas Unix.</context>
+   </relation>
+   <relation type="prerequisite" source="squid" target="cache_web">
+      <context>O Squid reduz uso de conexão e melhora tempos de resposta fazendo cache de requisições frequentes de páginas web.</context>
+   </relation>
+   <relation type="prerequisite" source="hadoop" target="mapreduce">
+      <context>Hadoop é descrito como plataforma inspirada no modelo de programação MapReduce do Google.</context>
+   </relation>
+   <relation type="prerequisite" source="hadoop" target="google_file_system">
+      <context>O texto diz que o Hadoop foi inspirado no GoogleFS (GFS), o sistema de arquivos distribuído do Google.</context>
+   </relation>
+   <relation type="prerequisite" source="hadoop" target="java">
+      <context>Hadoop é apresentado como projeto de alto nível da Apache construído utilizando a linguagem de programação Java.</context>
+   </relation>
+   <relation type="prerequisite" source="kubernetes" target="docker">
+      <context>O Kubernetes é dito funcionar com várias ferramentas de contenedorização, incluindo Docker.</context>
+   </relation>
+   <relation type="prerequisite" source="kubernetes" target="cloud_native_computing_foundation">
+      <context>O texto informa que o Kubernetes é mantido pela Cloud Native Computing Foundation.</context>
+   </relation>
+   <relation type="prerequisite" source="python" target="python_software_foundation">
+      <context>O desenvolvimento atual de Python é descrito como comunitário e gerenciado pela Python Software Foundation.</context>
+   </relation>
+   <relation type="prerequisite" source="java" target="java_virtual_machine">
+      <context>A linguagem Java é compilada para bytecode que é interpretado pela Java Virtual Machine (JVM).</context>
+   </relation>
+   <relation type="prerequisite" source="java_virtual_machine" target="bytecode">
+      <context>O texto explica que a JVM interpreta bytecode produzido pelo compilador Java.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu/linux" target="gerenciador_de_janelas">
+      <context>É destacado como diferencial do GNU/Linux permitir ao usuário escolher e gerenciar diferentes gerenciadores de janelas.</context>
+   </relation>
+   <relation type="prerequisite" source="gerenciador_de_janelas" target="x_window_system">
+      <context>Os gerenciadores de janelas administram a aparência e localização das janelas do X, isto é, do X Window System.</context>
+   </relation>
+   <relation type="prerequisite" source="afterstep" target="gerenciador_de_janelas">
+      <context>AfterStep é listado entre os gerenciadores de janelas disponíveis para o GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="enlightenment" target="gerenciador_de_janelas">
+      <context>Enlightenment é citado como um dos gerenciadores de janelas suportados.</context>
+   </relation>
+   <relation type="prerequisite" source="kwin" target="gerenciador_de_janelas">
+      <context>KWin é apontado como o gerenciador de janelas do ambiente KDE.</context>
+   </relation>
+   <relation type="prerequisite" source="blackbox" target="gerenciador_de_janelas">
+      <context>Blackbox aparece na lista de gerenciadores de janelas para X em GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="icewm" target="gerenciador_de_janelas">
+      <context>IceWM é mencionado como um dos gerenciadores de janelas disponíveis.</context>
+   </relation>
+   <relation type="prerequisite" source="fluxbox" target="gerenciador_de_janelas">
+      <context>Fluxbox é citado como gerenciador de janelas derivado do Blackbox na lista apresentada.</context>
+   </relation>
+   <relation type="prerequisite" source="sawfish" target="gerenciador_de_janelas">
+      <context>Sawfish é incluído entre os gerenciadores de janelas para X.</context>
+   </relation>
+   <relation type="prerequisite" source="fvwm" target="gerenciador_de_janelas">
+      <context>FVWM é listado como gerenciador de janelas altamente configurável.</context>
+   </relation>
+   <relation type="prerequisite" source="ion" target="gerenciador_de_janelas">
+      <context>Ion aparece no texto como um dos gerenciadores de janelas alternativos.</context>
+   </relation>
+   <relation type="prerequisite" source="metacity" target="gerenciador_de_janelas">
+      <context>Metacity é mencionado como gerenciador de janelas do ambiente GNOME.</context>
+   </relation>
+   <relation type="prerequisite" source="xfce" target="gerenciador_de_janelas">
+      <context>Xfce é listado junto a outros gerenciadores de janelas, sendo um ambiente leve com seu próprio window manager.</context>
+   </relation>
+   <relation type="prerequisite" source="twm" target="gerenciador_de_janelas">
+      <context>twm é citado como um dos primeiros gerenciadores de janelas listados para o X.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu/linux" target="acessibilidade">
+      <context>O texto indica que muitas distribuições GNU/Linux atuais disponibilizam ferramentas de acessibilidade para usuários com necessidades especiais.</context>
+   </relation>
+   <relation type="prerequisite" source="thunderbird" target="smtp">
+      <context>Thunderbird permite acessar e-mails de provedores com suporte a SMTP, entre outros protocolos.</context>
+   </relation>
+   <relation type="prerequisite" source="thunderbird" target="pop3">
+      <context>O cliente é descrito como compatível com provedores que oferecem POP3.</context>
+   </relation>
+   <relation type="prerequisite" source="thunderbird" target="imap">
+      <context>O texto afirma que o Thunderbird funciona com quaisquer provedores que suportem IMAP.</context>
+   </relation>
+   <relation type="prerequisite" source="thunderbird" target="s/mime">
+      <context>Thunderbird oferece recursos corporativos como S/MIME para assinaturas digitais e criptografia.</context>
+   </relation>
+   <relation type="prerequisite" source="thunderbird" target="criptografia_de_mensagens">
+      <context>O cliente inclui recursos de criptografia de mensagens, úteis em ambientes empresariais.</context>
+   </relation>
+   <relation type="prerequisite" source="thunderbird" target="certificado_digital">
+      <context>Thunderbird suporta certificados e dispositivos de segurança usados para S/MIME e autenticação.</context>
+   </relation>
+   <relation type="prerequisite" source="filesystem_hierarchy_standard_(fhs)" target="linux">
+      <context>Para compreender como os diretórios e arquivos são organizados no Linux, é necessário conhecer o padrão Filesystem Hierarchy Standard (FHS), que define essa estrutura.</context>
+   </relation>
+   <relation type="prerequisite" source="xargs" target="linux">
+      <context>O uso do comando xargs, que monta listas de argumentos para outros comandos, pressupõe familiaridade com o ambiente de linha de comando do Linux onde ele é executado.</context>
+   </relation>
+   <relation type="prerequisite" source="updatedb" target="linux">
+      <context>O comando updatedb atualiza o banco de dados de caminhos de arquivos usado por locate e faz parte do conjunto de ferramentas típicas de um sistema Linux, exigindo conhecimento básico desse ambiente para seu uso.</context>
+   </relation>
+   <relation type="prerequisite" source="gnu/linux" target="sistema_operacional">
+      <context>GNU/Linux é apresentado explicitamente como um sistema operacional, cuja estrutura em camadas está sendo descrita.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_operacional" target="camadas">
+      <context>Para entender a estrutura do sistema operacional GNU/Linux é necessário saber que ele é organizado em porções chamadas camadas.</context>
+   </relation>
+   <relation type="prerequisite" source="camadas" target="desktop_environment">
+      <context>O texto lista o ambiente de trabalho (desktop environment) como uma das camadas da estrutura do sistema GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="camadas" target="display_manager">
+      <context>O DM (display manager) é descrito como uma camada da estrutura em camadas do sistema GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="camadas" target="ttyn">
+      <context>A designação ttyn é apresentada como camada de terminais virtuais de texto dentro da estrutura em camadas do sistema GNU/Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="camadas" target="sistema_operacional">
+      <context>Na figura e na descrição, o próprio sistema operacional é tratado como uma camada intermediária que hospeda os aplicativos das camadas superiores.</context>
+   </relation>
+   <relation type="prerequisite" source="camadas" target="kernel_linux">
+      <context>O Kernel Linux é apresentado como a camada mediadora entre as camadas superiores e o hardware na estrutura em camadas.</context>
+   </relation>
+   <relation type="prerequisite" source="camadas" target="hardware">
+      <context>O hardware é descrito como a camada mais baixa, que compreende os dispositivos físicos disponíveis para uso.</context>
+   </relation>
+   <relation type="prerequisite" source="ttyn" target="terminal_virtual">
+      <context>O texto define ttyn como terminais virtuais que interpretam comandos do usuário; em seguida detalha o conceito de terminal virtual em modo texto.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual" target="console">
+      <context>Na seção de terminal virtual em modo texto, o conjunto teclado/monitor diretamente conectado é chamado de terminal ou console, base física para os terminais virtuais.</context>
+   </relation>
+   <relation type="prerequisite" source="unix" target="multiusuário">
+      <context>O aspecto multiusuário é citado como característico do padrão Unix ao explicar que vários usuários podem se manter conectados via terminais virtuais.</context>
+   </relation>
+   <relation type="prerequisite" source="unix" target="multitarefa">
+      <context>O texto menciona o aspecto multitarefa como outra característica do padrão Unix, exemplificada pelo uso simultâneo de vários terminais.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual" target="rlogin">
+      <context>rlogin é apresentado como programa que permite acessar terminais virtuais remota ou localmente; entender o que é um terminal virtual esclarece sua finalidade.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual" target="ssh">
+      <context>ssh é listado entre os programas utilizados para acessar terminais virtuais remota ou localmente.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual" target="rsh">
+      <context>rsh aparece na lista de programas usados para acessar terminais virtuais remotamente, apoiando-se no conceito de terminal virtual.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual" target="rdesktop">
+      <context>rdesktop é citado junto com outras ferramentas para acessar terminais remotos, entendidos no texto como terminais virtuais.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_virtual" target="telnet">
+      <context>telnet é mencionado como programa para acesso remoto a terminais, após a explicação sobre terminais virtuais.</context>
+   </relation>
+   <relation type="prerequisite" source="desktop_environment" target="pseudoterminal">
+      <context>Um pseudoterminal é definido como terminal virtual inicializado a partir do ambiente gráfico, ou seja, do desktop environment.</context>
+   </relation>
+   <relation type="prerequisite" source="gerenciador_de_janelas" target="pseudoterminal">
+      <context>O texto afirma que gerenciadores de janelas como KDE ou GNOME têm aplicações que emulam um terminal no ambiente gráfico, fornecendo pseudoterminais.</context>
+   </relation>
+   <relation type="prerequisite" source="sessão" target="login">
+      <context>Sessão é definida como composta pelos dados gerados após o login de um usuário, portanto o login é condição para existir uma sessão.</context>
+   </relation>
+   <relation type="prerequisite" source="sessão" target="terminal_virtual">
+      <context>As sessões são iniciadas através dos terminais, caracterizados como terminais virtuais em modo texto ou pseudoterminais.</context>
+   </relation>
+   <relation type="prerequisite" source="sessão" target="pseudoterminal">
+      <context>O texto diz que sessões podem ser iniciadas também a partir de pseudoterminais inicializados no ambiente gráfico.</context>
+   </relation>
+   <relation type="prerequisite" source="shell" target="prompt">
+      <context>Após a autenticação, o prompt principal do interpretador de comandos (shell) é apresentado; o prompt é parte da interface do shell.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="sessão">
+      <context>Ao definir sessão, o texto explica que o login dará acesso direto ao interpretador de comandos padrão, geralmente o bash, que passa a operar a sessão.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="prompt">
+      <context>O texto destaca que, se o interpretador de comandos for o bash, o prompt principal exibirá muitas informações específicas desse shell.</context>
+   </relation>
+   <relation type="prerequisite" source="login" target="case-sensitive">
+      <context>Na explicação do início de sessão, menciona-se que o sistema é case-sensitive ao digitar login e senha, o que influencia como o usuário deve autenticar-se.</context>
+   </relation>
+   <relation type="prerequisite" source="prompt" target="sudo">
+      <context>Os exemplos mostram o comando sudo -i sendo digitado na linha de comando do prompt para obter privilégios administrativos.</context>
+   </relation>
+   <relation type="prerequisite" source="prompt" target="su">
+      <context>O comando su é apresentado como sendo digitado no prompt para trocar o usuário da sessão.</context>
+   </relation>
+   <relation type="prerequisite" source="root" target="sudo">
+      <context>sudo -i é descrito como forma de obter poderes de superusuário (root); entender root é necessário para compreender por que se usa sudo.</context>
+   </relation>
+   <relation type="prerequisite" source="root" target="su">
+      <context>O exemplo explica que su sem especificar usuário altera a sessão para root por padrão, relacionando o comando ao conceito de usuário root.</context>
+   </relation>
+   <relation type="prerequisite" source="sudo" target="root">
+      <context>Após usar sudo -i o prompt muda para root:/#, ilustrando que sudo pode elevar o usuário comum ao usuário root.</context>
+   </relation>
+   <relation type="prerequisite" source="su" target="root">
+      <context>Ao executar su e fornecer a senha, o prompt torna-se root:/#, mostrando que su pode mudar a identidade para root.</context>
+   </relation>
+   <relation type="prerequisite" source="variáveis_de_ambiente" target="prompt">
+      <context>O texto afirma que as informações exibidas no prompt principal podem ser alteradas por meio de variáveis de ambiente como PS1.</context>
+   </relation>
+   <relation type="prerequisite" source="login" target="whoami">
+      <context>A explicação indica que whoami mostra quem você é no momento, em contraste com o usuário com o qual você se logou originalmente.</context>
+   </relation>
+   <relation type="prerequisite" source="login" target="who_am_i">
+      <context>O comando who am i é explicado como mostrando o usuário e terminal do login original da sessão, exigindo o entendimento de login inicial.</context>
+   </relation>
+   <relation type="prerequisite" source="sessão" target="logout">
+      <context>A seção 'Encerrando uma sessão (logout)' descreve logout como o fechamento de uma sessão em modo texto.</context>
+   </relation>
+   <relation type="prerequisite" source="root" target="shutdown">
+      <context>Na seção de desligamento, afirma-se que sob o nível de usuário root o desligamento pode ser realizado por comandos como shutdown -h now.</context>
+   </relation>
+   <relation type="prerequisite" source="root" target="halt">
+      <context>O comando halt -p é listado entre os comandos de desligamento que o usuário root pode executar para parar o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="root" target="poweroff">
+      <context>poweroff é apresentado junto de shutdown e halt como comando que o root usa para desligar o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="root" target="init_0">
+      <context>init 0 é citado na lista de comandos de desligamento normalmente executados pelo usuário root.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_de_arquivos" target="shutdown">
+      <context>O texto alerta que desligar diretamente pelo botão pode causar falhas no sistema de arquivos, recomendando usar shutdown para encerrar os processos corretamente.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_de_arquivos" target="halt">
+      <context>Ao comparar com o desligamento abrupto, o texto indica que comandos como halt ajudam a evitar falhas no sistema de arquivos ao preparar o desligamento.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_de_arquivos" target="poweroff">
+      <context>O uso de poweroff como método adequado de desligar está ligado à prevenção de corrupção no sistema de arquivos mencionada no texto.</context>
+   </relation>
+   <relation type="prerequisite" source="sistema_de_arquivos" target="reboot">
+      <context>Na seção sobre reiniciar, reforça-se que reinicializações inadequadas podem causar falhas nos sistemas de arquivos, motivando o uso de comandos como reboot.</context>
+   </relation>
+   <relation type="prerequisite" source="nobreak" target="sistema_de_arquivos">
+      <context>Um nobreak é sugerido como medida de segurança para evitar perda de dados e danos ao sistema de arquivos em casos de queda de energia.</context>
+   </relation>
+   <relation type="prerequisite" source="shutdown" target="reboot">
+      <context>O parâmetro -r do comando shutdown é explicado como proveniente de 'reboot', relacionando o uso de shutdown -r ao conceito de reinicializar o sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="reboot" target="ctrl+alt+del">
+      <context>CTRL+ALT+DEL é apresentado como sequência de teclas que também reinicia o sistema, comportamento análogo ao comando reboot.</context>
+   </relation>
+   <relation type="prerequisite" source="gerenciador_de_janelas" target="kde">
+      <context>KDE é citado como exemplo de gerenciador de janelas; é preciso entender o conceito geral de gerenciador de janelas para situar o KDE.</context>
+   </relation>
+   <relation type="prerequisite" source="gerenciador_de_janelas" target="gnome">
+      <context>GNOME é apresentado como exemplo de gerenciador de janelas, dependente da noção de gerenciador de janelas explicada antes.</context>
+   </relation>
+   <relation type="prerequisite" source="kde" target="konsole">
+      <context>O texto indica que o KDE inclui a aplicação Konsole, que emula um terminal no ambiente gráfico fornecendo um pseudoterminal.</context>
+   </relation>
+   <relation type="prerequisite" source="terminal_de_comandos" target="gnu/linux">
+      <context>No GNU/Linux o principal meio de interação do usuário com o sistema é o terminal de comandos, que permite executar instruções diretamente.</context>
+   </relation>
+   <relation type="prerequisite" source="shell" target="terminal_de_comandos">
+      <context>O terminal de comandos é também conhecido como shell, pois oferece a interface de linha de comando que interpreta o que o usuário digita.</context>
+   </relation>
+   <relation type="prerequisite" source="shell_script" target="shell">
+      <context>Shell scripts são interpretados por um shell, que executa em sequência os comandos definidos no arquivo de script.</context>
+   </relation>
+   <relation type="prerequisite" source="bourne_shell" target="shell">
+      <context>O Bourne shell é apresentado como o shell original do UNIX, uma implementação específica do conceito geral de shell de comandos.</context>
+   </relation>
+   <relation type="prerequisite" source="sh" target="bourne_shell">
+      <context>O texto identifica sh como Bourne shell, isto é, a implementação concreta do shell criado por Stephen Bourne.</context>
+   </relation>
+   <relation type="prerequisite" source="sh" target="unix">
+      <context>O sh ainda é usado em sistemas UNIX e ambientes relacionados, integrando-se ao ecossistema desses sistemas.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="shell">
+      <context>O bash é descrito como o tipo de shell usado na maioria das distribuições GNU/Linux, um dos shells principais disponíveis.</context>
+   </relation>
+   <relation type="prerequisite" source="csh" target="shell">
+      <context>O csh é apresentado como um tipo de shell de comandos, preferido por alguns programadores devido à sua sintaxe semelhante à linguagem C.</context>
+   </relation>
+   <relation type="prerequisite" source="tcsh" target="csh">
+      <context>O tcsh é definido como uma versão melhorada do csh, totalmente compatível com ele e acrescentando recursos para uso interativo e scripts.</context>
+   </relation>
+   <relation type="prerequisite" source="ksh" target="bourne_shell">
+      <context>O ksh é descrito como um Bourne Shell evoluído, mantendo compatibilidade com os comandos do Bourne shell original e adicionando mais opções.</context>
+   </relation>
+   <relation type="prerequisite" source="zsh" target="bash">
+      <context>O zsh é dito englobar várias funções úteis do bash, aproveitando e estendendo capacidades presentes nesse shell.</context>
+   </relation>
+   <relation type="prerequisite" source="zsh" target="ksh">
+      <context>O zsh incorpora funcionalidades do ksh, combinando suas características com as de outros shells compatíveis.</context>
+   </relation>
+   <relation type="prerequisite" source="zsh" target="tcsh">
+      <context>O zsh também integra diversas funções úteis do tcsh, reunindo recursos de múltiplos shells em uma única interface.</context>
+   </relation>
+   <relation type="prerequisite" source="shell_de_login" target="shell">
+      <context>O tcsh pode ser usado como shell de login interativo, ou seja, como a instância de shell que inicia após o usuário se autenticar no sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="chsh" target="shell_de_login">
+      <context>O comando chsh altera o shell de login atual do usuário, permitindo escolher qual shell será iniciado após a autenticação.</context>
+   </relation>
+   <relation type="prerequisite" source="variáveis" target="echo">
+      <context>O comando echo é usado para imprimir o conteúdo armazenado em variáveis, como em echo $comando, sendo necessário entender variáveis para interpretar seu uso.</context>
+   </relation>
+   <relation type="prerequisite" source="variáveis_locais" target="variáveis">
+      <context>Variáveis locais são apresentadas como um subtipo de variáveis em shell, com escopo restrito à sessão atual.</context>
+   </relation>
+   <relation type="prerequisite" source="variáveis_de_ambiente" target="variáveis">
+      <context>Variáveis de ambiente são descritas como um subtipo de variáveis em shell, com visibilidade estendida a subprocessos e outros ambientes.</context>
+   </relation>
+   <relation type="prerequisite" source="home" target="variáveis_de_ambiente">
+      <context>HOME é listada como variável de ambiente que identifica o diretório do usuário, exigindo o entendimento de variáveis de ambiente.</context>
+   </relation>
+   <relation type="prerequisite" source="hosttype" target="variáveis_de_ambiente">
+      <context>HOSTTYPE é apresentada como variável de ambiente que referencia a plataforma em uso, sendo um exemplo concreto desse tipo de variável.</context>
+   </relation>
+   <relation type="prerequisite" source="shell" target="variáveis_de_ambiente">
+      <context>SHELL é descrita na tabela como variável de ambiente que permite identificar o shell utilizado.</context>
+   </relation>
+   <relation type="prerequisite" source="term" target="variáveis_de_ambiente">
+      <context>TERM é listada como variável de ambiente que define o tipo de terminal, ilustrando o papel de variáveis de ambiente no contexto do terminal.</context>
+   </relation>
+   <relation type="prerequisite" source="user" target="variáveis_de_ambiente">
+      <context>USER é apresentada como variável global que guarda o nome da conta, sendo um exemplo de variável de ambiente.</context>
+   </relation>
+   <relation type="prerequisite" source="path" target="variáveis_de_ambiente">
+      <context>PATH é descrita como variável de ambiente que determina a sequência de diretórios em que o shell procura comandos.</context>
+   </relation>
+   <relation type="prerequisite" source="ps1" target="variáveis_de_ambiente">
+      <context>PS1 é introduzida como variável de ambiente que representa as informações exibidas no prompt principal.</context>
+   </relation>
+   <relation type="prerequisite" source="ps2" target="variáveis_de_ambiente">
+      <context>PS2 é apresentada como variável de ambiente que representa o prompt estendido do shell.</context>
+   </relation>
+   <relation type="prerequisite" source="mail" target="variáveis_de_ambiente">
+      <context>MAIL é listada como variável de ambiente que informa como o correio eletrônico está definido para o usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="logname" target="variáveis_de_ambiente">
+      <context>LOGNAME é descrita como sinônimo de USER, ambas tratadas como variáveis de ambiente relacionadas ao nome de login.</context>
+   </relation>
+   <relation type="prerequisite" source="ostype" target="variáveis_de_ambiente">
+      <context>OSTYPE é apresentada como variável de ambiente usada para indicar o tipo de sistema operacional em uso.</context>
+   </relation>
+   <relation type="prerequisite" source="export" target="variáveis_de_ambiente">
+      <context>O texto explica que uma variável torna-se de ambiente quando é definida com o comando export, diferenciando-a de uma variável local.</context>
+   </relation>
+   <relation type="prerequisite" source="set" target="variáveis">
+      <context>O comando set é usado para listar variáveis já definidas, como LOCAL e GLOBAL, o que pressupõe entender o conceito geral de variáveis.</context>
+   </relation>
+   <relation type="prerequisite" source="env" target="variáveis_de_ambiente">
+      <context>env é apresentado como comando que lista apenas variáveis de ambiente, em contraste com set, exigindo o entendimento dessas variáveis globais.</context>
+   </relation>
+   <relation type="prerequisite" source="printenv" target="variáveis_de_ambiente">
+      <context>printenv é citado como comando para visualizar variáveis de ambiente, operando especificamente sobre esse tipo de variável.</context>
+   </relation>
+   <relation type="prerequisite" source="unset" target="variáveis">
+      <context>unset é definido como comando para excluir variáveis, locais ou globais, o que depende da noção de variáveis no shell.</context>
+   </relation>
+   <relation type="prerequisite" source="/etc/profile" target="variáveis_de_ambiente">
+      <context>/etc/profile é indicado como arquivo onde se colocam definições de variáveis para que se tornem permanentes para todos os usuários, afetando o ambiente global.</context>
+   </relation>
+   <relation type="prerequisite" source="/etc/environment" target="variáveis_de_ambiente">
+      <context>/etc/environment é apresentado como arquivo usado para definir variáveis de ambiente do sistema de forma permanente.</context>
+   </relation>
+   <relation type="prerequisite" source="~/.bashrc" target="variáveis_de_ambiente">
+      <context>~/.bashrc é citado como arquivo em que o usuário coloca definições de variáveis para que sejam aplicadas automaticamente em seus shells interativos.</context>
+   </relation>
+   <relation type="prerequisite" source="~/.bash_profile" target="variáveis_de_ambiente">
+      <context>~/.bash_profile é listado entre os arquivos usados para tornar variáveis e configurações de ambiente permanentes para o usuário em sessões de login Bash.</context>
+   </relation>
+   <relation type="prerequisite" source="~/.bash_login" target="variáveis_de_ambiente">
+      <context>~/.bash_login é mencionado como arquivo alternativo a ~/.bash_profile para armazenar definições permanentes de variáveis do usuário.</context>
+   </relation>
+   <relation type="prerequisite" source="~/.profile" target="variáveis_de_ambiente">
+      <context>~/.profile é citado como arquivo onde o usuário pode definir variáveis para que estejam disponíveis em qualquer terminal de login.</context>
+   </relation>
+   <relation type="prerequisite" source="ps1" target="shell">
+      <context>PS1 controla o formato do prompt exibido pelo shell, por exemplo, incluindo usuário, host e hora, de modo que seu uso está diretamente ligado ao funcionamento do shell interativo.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="/etc/profile">
+      <context>/etc/profile is described as a script that bash login shells read first to set a common environment for all users, so understanding it depends on knowing how bash starts login sessions.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="~/.bash_profile">
+      <context>~/.bash_profile is one of the per-user files bash reads during login after /etc/profile, so its role is defined relative to bash’s login behavior.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="~/.bash_login">
+      <context>~/.bash_login is an alternative user login startup file used by bash if ~/.bash_profile is missing, which makes sense only in the context of bash’s startup sequence.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="~/.profile">
+      <context>~/.profile is read by bash when bash-specific login files are absent, so understanding when it is used depends on bash’s login file search order.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="~/.bash_logout">
+      <context>~/.bash_logout is executed automatically when a bash login shell ends, tying its behavior directly to how bash handles logout.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="/etc/bash.bashrc">
+      <context>/etc/bash.bashrc is read by interactive non-login bash shells on some systems, so its purpose is defined by bash’s non-login startup behavior.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="~/.bashrc">
+      <context>~/.bashrc is executed by interactive non-login bash shells and is compared to ~/.bash_profile in the text, so its meaning relies on understanding bash’s shell types.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="alias">
+      <context>Aliases are introduced as a way to personalize bash via the command line or bash configuration files, so their use is explained in the context of bash.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="unalias">
+      <context>unalias is shown as the command to remove aliases previously defined for use in the bash shell, so its behavior is tied to bash alias handling.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target=".bash_history">
+      <context>.bash_history is described as the file where bash stores command history and which bash uses to recall previous commands.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="histfile">
+      <context>HISTFILE is introduced as a variable controlling which file bash uses to store command history, thus depending on bash’s history mechanism.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="histsize">
+      <context>HISTSIZE is described as setting the maximum number of commands bash keeps in its history list for a session, so it is meaningful only given bash history behavior.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="histfilesize">
+      <context>HISTFILESIZE controls how many lines bash preserves in the on-disk history file, so it presupposes understanding bash’s history storage.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="history">
+      <context>history is explained as the command to display and use the bash command history, clearly defined relative to bash’s history feature.</context>
+   </relation>
+   <relation type="prerequisite" source="bash" target="fc">
+      <context>fc is described as operating on commands stored in bash’s history, so its purpose depends on understanding bash history and the history command.</context>
+   </relation>
+   <relation type="prerequisite" source="alias" target="ls_--color_option">
+      <context>The example alias maps l to 'ls --color -l -a'; to understand what the alias changes, one must know that --color makes ls show colored output.</context>
+   </relation>
+   <relation type="prerequisite" source="alias" target="ls_-l_option">
+      <context>The alias example uses -l so that the shorthand l expands to a long listing; understanding the alias’s effect requires knowing what -l does.</context>
+   </relation>
+   <relation type="prerequisite" source="alias" target="ls_-a_option">
+      <context>The alias example includes -a so that l lists hidden files as well; interpreting the alias relies on knowing that -a shows dotfiles.</context>
+   </relation>
+   <relation type="prerequisite" source="/etc/profile" target="/etc/environment">
+      <context>/etc/environment is said to be used on Debian to define environment variables and to substitute /etc/profile on some systems, so its role is explained by comparison to /etc/profile as a system-wide environment configuration mechanism.</context>
+   </relation>
+   <relation type="prerequisite" source=".bash_history" target="histfile">
+      <context>HISTFILE is described as holding the name of the file used to store histories, which in practice is .bash_history, so understanding HISTFILE depends on the concept of the .bash_history file.</context>
+   </relation>
+   <relation type="prerequisite" source=".bash_history" target="histsize">
+      <context>HISTSIZE is explained as the maximum number of commands the history file supports, which is concretely implemented via .bash_history.</context>
+   </relation>
+   <relation type="prerequisite" source=".bash_history" target="histfilesize">
+      <context>HISTFILESIZE is defined as the maximum number of lines that the history file (.bash_history) stores, so its meaning relies on the notion of the history file.</context>
+   </relation>
+   <relation type="prerequisite" source="history" target="fc">
+      <context>fc is introduced as listing and fixing commands 'guardados no history', so understanding fc’s operation depends on knowing that history stores and lists past commands.</context>
+   </relation>
+   <relation type="prerequisite" source="linux" target="linha_de_comando">
+      <context>O texto mostra que em Linux às vezes é necessário executar tarefas a partir da linha de comando, usando o sistema por meio de comandos textuais.</context>
+   </relation>
+   <relation type="prerequisite" source="linux" target="estrutura_de_arquivos">
+      <context>Para usar a linha de comando no Linux é importante saber onde se está na estrutura de arquivos do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="diretório_raiz">
+      <context>A estrutura de arquivos Linux é hierárquica e parte de um diretório de nível superior chamado raiz, identificado por /.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/home">
+      <context>O diretório raiz contém subdiretórios organizados sob ele, como /home, parte fundamental da hierarquia.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/bin">
+      <context>O diretório /bin é citado como subdiretório direto da raiz e faz parte da organização da estrutura de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/usr">
+      <context>O diretório /usr é apresentado como outro subdiretório importante localizado sob a raiz.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/tmp">
+      <context>Exemplos com cd /tmp e pwd mostram /tmp como parte da estrutura de diretórios do sistema.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/etc">
+      <context>O comando cd /etc é usado como exemplo de navegação, ilustrando /etc como diretório da estrutura de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/dev">
+      <context>Comandos como ls /dev/sd* usam /dev para mostrar dispositivos, evidenciando-o na hierarquia de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="/proc">
+      <context>O caminho /proc/cpuinfo é usado como exemplo, mostrando /proc como parte da árvore de diretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="/proc" target="cpuinfo">
+      <context>O arquivo cpuinfo é descrito como estando abaixo do diretório /proc, formando o caminho /proc/cpuinfo.</context>
+   </relation>
+   <relation type="prerequisite" source="diretório_raiz" target="caminho_absoluto">
+      <context>Caminho absoluto é definido como o caminho completo de um arquivo ou subdiretório desde a raiz, que sempre começa com /.</context>
+   </relation>
+   <relation type="prerequisite" source="diretório_corrente" target="caminho_relativo">
+      <context>O uso de caminhos relativos exige saber em qual diretório corrente se está, pois são interpretados a partir dele.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="diretório_corrente">
+      <context>O texto define . como o diretório corrente na notação de caminhos da estrutura de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="diretório_pai">
+      <context>O texto define .. como o diretório pai imediato na hierarquia de diretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="estrutura_de_arquivos" target="home_do_usuário">
+      <context>Comandos como cd ~ são usados para ir ao diretório home do usuário, parte da árvore de diretórios (geralmente sob /home).</context>
+   </relation>
+   <relation type="prerequisite" source="diretório_corrente" target="pwd">
+      <context>pwd é apresentado como o comando que imprime o caminho absoluto do diretório corrente para saber onde o usuário está.</context>
+   </relation>
+   <relation type="prerequisite" source="caminho_relativo" target="cd">
+      <context>Exemplos como cd .. e cd ../../ mostram o uso de cd com caminhos relativos para subir níveis na árvore de diretórios.</context>
+   </relation>
+   <relation type="prerequisite" source="diretório_raiz" target="cd">
+      <context>O comando cd / é usado para ir ao início da árvore de diretórios, isto é, ao diretório raiz (/).</context>
+   </relation>
+   <relation type="prerequisite" source="diretório_corrente" target="ls">
+      <context>O comando ls, sem argumentos, lista o conteúdo do diretório corrente onde o usuário está no momento.</context>
+   </relation>
+   <relation type="prerequisite" source="linux" target="ls">
+      <context>O texto usa vários exemplos de ls (como /bin/ls e ls /dev/sd*) ao demonstrar listagens em sistemas Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="caminho_absoluto" target="ls">
+      <context>O texto explica que seria possível executar /bin/ls pelo caminho absoluto; ls funciona porque o sistema encontra o binário pelo PATH.</context>
+   </relation>
+   <relation type="prerequisite" source="variável_de_ambiente" target="path">
+      <context>PATH é apresentada como uma variável de ambiente que armazena os diretórios nos quais o sistema deve buscar executáveis.</context>
+   </relation>
+   <relation type="prerequisite" source="path" target="/bin">
+      <context>É dito que o diretório /bin está presente na variável de ambiente PATH de todo usuário comum, permitindo executar ls sem indicar /bin/ls.</context>
+   </relation>
+   <relation type="prerequisite" source="path" target="/usr">
+      <context>O exemplo de valor de PATH inclui /usr/bin, mostrando /usr (via seus subdiretórios) como parte da busca por executáveis.</context>
+   </relation>
+   <relation type="prerequisite" source="curinga" target="asterisco_(*)">
+      <context>O asterisco é descrito explicitamente como um tipo de curinga que representa nenhum ou mais caracteres em nomes de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="curinga" target="ponto_de_interrogação_(?)">
+      <context>O ponto de interrogação é descrito como um curinga que representa exatamente um caractere em padrões de nomes.</context>
+   </relation>
+   <relation type="prerequisite" source="curinga" target="expansão_de_colchetes">
+      <context>Padrões como [abc] e [!01] em ls /dev/sd[abc] e ls /dev/sda[!01] são apresentados como variações de curingas usando colchetes.</context>
+   </relation>
+   <relation type="prerequisite" source="ls" target="curinga">
+      <context>Vários exemplos mostram ls combinado com padrões curinga (*, ?, [abc], [!01]) para selecionar subconjuntos de arquivos.</context>
+   </relation>
+   <relation type="prerequisite" source="shell" target="atalhos_de_teclado">
+      <context>O texto afirma que, ao digitar comandos no shell do GNU/Linux, é possível usar atalhos de teclado para agilizar tarefas.</context>
+   </relation>
+   <relation type="prerequisite" source="linha_de_comando" target="atalhos_de_teclado">
+      <context>A seção 'Atalhos de teclado utilizados na linha de comando' descreve combinações de teclas específicas para uso na linha de comando.</context>
+   </relation>
+   <relation type="prerequisite" source="shell" target="clear">
+      <context>CTRL+L é dito funcionar como o comando clear no shell, limpando a tela e reposicionando o cursor.</context>
+   </relation>
+   <relation type="prerequisite" source="shell" target="exit">
+      <context>CTRL+D é descrito como equivalente ao comando exit, que sai do shell atual.</context>
+   </relation>
+   <relation type="prerequisite" source="linha_de_comando" target="shell">
+      <context>A linha de comando é fornecida pelo shell; o texto menciona digitar comandos no shell do GNU/Linux ao discutir o uso da linha de comando.</context>
+   </relation>
+   <relation type="prerequisite" source="filesystem_hierarchy_standard_(fhs)" target="linux">
+      <context>Para compreender como os diretórios são organizados no Linux, é necessário conhecer o padrão Filesystem Hierarchy Standard (FHS), que define a estrutura e a hierarquia de diretórios em sistemas Unix-like.</context>
+   </relation>
+   <relation type="prerequisite" source="touch" target="linux">
+      <context>O comando touch é um utilitário do ambiente Linux/Unix usado para criar arquivos vazios e atualizar timestamps, portanto seu uso pressupõe familiaridade básica com o sistema Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="mkdir" target="linux">
+      <context>O comando mkdir faz parte do conjunto de ferramentas de linha de comando do Linux para criar diretórios, de modo que seu estudo depende de noções básicas do sistema Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="rm" target="linux">
+      <context>O comando rm é um utilitário do Linux para remover arquivos e diretórios; entender seu funcionamento ocorre dentro do contexto do sistema operacional Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="find" target="linux">
+      <context>O comando find é usado no Linux para buscar arquivos e diretórios com base em diversos critérios, logo seu aprendizado está inserido no contexto do uso do sistema Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="locate" target="linux">
+      <context>O comando locate é uma ferramenta de busca de arquivos no Linux baseada em uma base de dados indexada, sendo estudado como parte do ambiente de linha de comando do Linux.</context>
+   </relation>
+   <relation type="prerequisite" source="locate" target="updatedb">
+      <context>O comando locate depende de uma base de dados prévia criada e atualizada pelo comando updatedb, portanto, para usar locate de forma eficaz é necessário entender que updatedb gera a base de dados de pesquisa.</context>
+   </relation>
+   <relation type="prerequisite" source="software_livre" target="gnu/linux">
+      <context>O texto apresenta o GNU/Linux como parte do ecossistema de Software Livre, destacando que seu crescimento e a abertura de conhecimento derivam da filosofia de compartilhamento típica do Software Livre.</context>
+   </relation>
+   <relation type="prerequisite" source="documentação" target="gnu/linux">
+      <context>Para entender a expressão &quot;documentação do GNU/Linux&quot;, é necessário conhecer o que é o sistema GNU/Linux, pois a documentação é descrita especificamente como referência para esse sistema operacional.</context>
+   </relation>
+   <relation type="prerequisite" source="comandos" target="gnu/linux">
+      <context>O texto menciona &quot;serviços e comandos disponíveis&quot; no GNU/Linux, o que pressupõe o entendimento do ambiente GNU/Linux para contextualizar quais comandos são estudados e como eles são executados.</context>
+   </relation>
+   <relation type="prerequisite" source="man_pages" target="documentação">
+      <context>As Man Pages são apresentadas como forma específica de ajuda, isto é, páginas de manual que compõem a documentação do GNU/Linux; compreender documentação como fonte de referência é necessário para entender o papel e a função das Man Pages dentro do sistema.</context>
+   </relation>
+</relations>
