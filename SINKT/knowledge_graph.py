@@ -6,7 +6,7 @@ from typing import Dict, List, Tuple
 import numpy as np
 
 from .models import KnowledgeGraphModel, Concept, Relation, QuestionSchema
-from .utils import prettify_xml
+from .utils import prettify_xml, normalize_id   
 
 class GraphXMLBuilder():
     """
@@ -131,38 +131,29 @@ class GraphXMLBuilder():
 class GraphSelector:
     def __init__(self, kg_model: KnowledgeGraphModel):
         self.kg_model = kg_model
-        self.graph = nx.Graph() # Grafo não-direcionado para clusters
+        self.graph = nx.Graph()
         self._build_graph()
         
     def _build_graph(self):
-        # Adicionar nós (Conceitos)
-        # Usamos o nome normalizado (snake_case) como ID no grafo networkx para consistência
+        # nodes = concept names (normalized)
         for concept in self.kg_model.concepts:
-            node_id = self._normalize_id(concept.name)
+            node_id = normalize_id(concept.name)
             self.graph.add_node(node_id, name=concept.name, description=concept.description)
             
-        # Adicionar arestas (Relações)
+        # edges = relations (normalized)
         for rel in self.kg_model.relations:
-            # Assumindo que source e target no XML já são IDs ou nomes
-            # Se no XML source="analista_devops", usamos direto.
-            # Se for nome "Analista DevOps", normalizamos.
-            src_id = self._normalize_id(rel.source)
-            tgt_id = self._normalize_id(rel.target)
+            src_id = normalize_id(rel.source)
+            tgt_id = normalize_id(rel.target)
             
-            # Só adiciona se ambos nós existirem (segurança)
+            # check if both concepts exist
             if self.graph.has_node(src_id) and self.graph.has_node(tgt_id):
                 self.graph.add_edge(src_id, tgt_id)
             else:
-                # Opcional: Adicionar nós faltantes dinamicamente se necessário
                 pass
-
-    def _normalize_id(self, name: str) -> str:
-        """Helper para garantir IDs consistentes (ex: 'Analista DevOps' -> 'analista_devops')"""
-        return name.strip().replace(' ', '_').lower()
 
     def get_concept_pairs(self) -> List[Tuple[str, str]]:
         """
-        Retorna pares (Hub_ID, Leaf_ID)
+        Get pairs: (hub_id, leaf_id)
         """
         pairs = []
         degrees = dict(self.graph.degree())
@@ -172,15 +163,14 @@ class GraphSelector:
         sorted_degrees = sorted(degrees.values())
         threshold_hub = np.percentile(sorted_degrees, 96)
         threshold_spec = np.percentile(sorted_degrees, 50)
-        # print(f'HUB: {threshold_hub} - SPEC: {threshold_spec}')
-        # Identificar Hubs (Tópicos Principais)
+
+        # Main topics (Hubs)
         hubs = [n for n, d in degrees.items() if d >= threshold_hub]
         
         for hub in hubs:
-            # Pegar vizinhos deste Hub
+            # Hub's neighbours
             neighbors = list(self.graph.neighbors(hub))
-            # print(neighbors)
-            # Filtrar vizinhos que são conceitos específicos (Leaves)
+            # Specific nodes (not hubs)
             specifics = [n for n in neighbors if degrees[n] <= threshold_spec]
             if specifics:
                 for s in specifics:
@@ -191,7 +181,7 @@ class GraphSelector:
         return list(set(pairs))
 
     def get_node_info(self, node_id: str) -> Dict:
-        """Retorna nome e descrição do nó para o Prompt"""
+        """Return name and description of a node"""
         node = self.graph.nodes[node_id]
         return {
             "name": node.get("name", node_id),
