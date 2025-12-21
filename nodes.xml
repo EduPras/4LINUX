@@ -10,7 +10,7 @@
    <node id="infraestrutura_sob_demanda" name="Infraestrutura sob demanda" description="Provisionamento dinâmico de recursos de TI, como servidores e armazenamento, conforme a necessidade do usuário, típico da computação em nuvem." order="7"/>
    <node id="amazon_web_services" name="Amazon Web Services" description="Plataforma de computação em nuvem da Amazon, com diversos serviços de infraestrutura e plataforma." order="8"/>
    <node id="google_cloud_platform" name="Google Cloud Platform" description="Plataforma de computação em nuvem do Google, que oferece serviços de infraestrutura, dados e machine learning." order="9"/>
-   <node id="oracle_cloud_infrastructure" name="Oracle Cloud Infrastructure" description="Plataforma de computação em nuvem da Oracle voltada para infraestrutura e serviços corporativos, frequentemente abreviada como OCI." order="10"/>
+   <node id="oracle_cloud_infraestrutura" name="Oracle Cloud Infrastructure" description="Plataforma de computação em nuvem da Oracle voltada para infraestrutura e serviços corporativos, frequentemente abreviada como OCI." order="10"/>
    <node id="digitalocean" name="DigitalOcean" description="Provedor de computação em nuvem focado em simplicidade e servidores virtuais (droplets)." order="11"/>
    <node id="microsoft_azure" name="Microsoft Azure" description="Plataforma de computação em nuvem da Microsoft que oferece máquinas virtuais, bancos de dados e outros serviços." order="12"/>
    <node id="big_data" name="Big Data" description="Conjunto de técnicas e tecnologias para armazenamento, processamento e análise de grandes volumes de dados." order="13"/>

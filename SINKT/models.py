@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List, Dict, Set, Literal, Optional
+from SINKT.agents.question import QuestionResponse
 
 class Concept(BaseModel):
     name: str = Field(description="The formal name of the concept.")
@@ -10,16 +11,6 @@ class Concept(BaseModel):
         return hash(self.name.lower())
     model_config = {"frozen": True}
     
-class QuestionSchema(BaseModel):
-    """Estrutura da questão a ser gerada pelo LLM"""
-    text: str
-    option: List[str] = Field(..., min_items=2, max_items=5)
-    correct_answer: int
-    context: str
-    # Metadados para o XML
-    main_concept_id: str
-    specific_concept_id: str
-
 class Relation(BaseModel):
     source: str
     target: str
@@ -39,7 +30,7 @@ class Relation(BaseModel):
 class KnowledgeGraphModel(BaseModel):
     concepts: List[Concept]   
     relations: List[Relation]
-    questions: Optional[List[QuestionSchema]]
+    questions: Optional[List[QuestionResponse]]
     
 
 class StudentProfile(BaseModel):
@@ -69,8 +60,3 @@ class StudentProfile(BaseModel):
         ]
         return ', '.join(attrs)
     
-    
-    
-class ErrorAnalyzerSchema(BaseModel):
-    error_type: Literal['lack_of_concept_knowledge', 'slip', 'misinterpretation', 'lack_of_attention']
-    explanation: str

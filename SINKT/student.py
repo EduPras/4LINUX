@@ -5,78 +5,70 @@ import numpy as np
 class StudentFactory:
     """Generates unique students based on archetypes."""
     ARCHETYPES = {
-        # 1. The Ideal Learner (The Canonical Curve)
-        # Starts low, learns fast, low noise. The "perfect" student data.
-        "The Ideal Learner": {
-            "initial_proficiency": 0.1,  
-            "slip_rate": 0.05,           # Very careful
-            "guess_rate": 0.1,           # Doesn't guess, tries to solve
-            "learning_speed": 1.8,       # High P(T) - masters quickly
-            "technological_familiarity": 0.7,
-            "logical_ability": 0.9,
-            "text_interpretation": 0.9
-        },
-
-        # 2. The System Gamer (Gaming the System)
-        # High guess rate, high tech (knows how to exploit UI), zero learning.
-        "The System Gamer": {
-            "initial_proficiency": 0.1,
-            "slip_rate": 0.1,
-            "guess_rate": 0.75,          # Extremely high P(G) - clicking through
-            "learning_speed": 0.1,       # Learning is effectively zero
-            "technological_familiarity": 0.95, # Knows the UI better than the math
-            "logical_ability": 0.4,
-            "text_interpretation": 0.2
-        },
-
-        # 3. The Wheel-Spinner (Persistent Struggler)
-        # Low knowledge, very low learning speed, but distinct from "Gamer" because they TRY (low guess).
-        "The Wheel-Spinner": {
-            "initial_proficiency": 0.05,
-            "slip_rate": 0.1,
-            "guess_rate": 0.15,          # Low guess (they are trying honestly)
-            "learning_speed": 0.2,       # Stuck: P(T) is very low
-            "technological_familiarity": 0.4,
-            "logical_ability": 0.3,
-            "text_interpretation": 0.3
-        },
-
-        # 4. The Careless (High Knowledge/High Slip)
-        # Knows the answers but makes sloppy mistakes. High initial knowledge, high slip.
-        "The Careless": {
-            "initial_proficiency": 0.85, # They actually know the material
-            "slip_rate": 0.35,           # High P(S) - error prone despite knowledge
-            "guess_rate": 0.05,
-            "learning_speed": 1.0,
-            "technological_familiarity": 0.8,
-            "logical_ability": 0.85,
-            "text_interpretation": 0.5   # Often misreads the question
-        },
-
-        # 5. The Stop-Out (The Potential Dropout)
-        # Moderate start, but frustration leads to disengagement.
-        # Modeled here as low text/logic ability leading to a "wall".
-        "The Stop-Out": {
-            "initial_proficiency": 0.3,
-            "slip_rate": 0.15,
+        # 1. Analyst: Careful, logical, slow but accurate
+        "analyst": {
+            "initial_proficiency": 0.22,
+            "slip_rate": 0.07,
             "guess_rate": 0.2,
-            "learning_speed": 0.6,       # Slow progress leads to quitting
-            "technological_familiarity": 0.3, # UX friction often causes dropouts
-            "logical_ability": 0.4,
-            "text_interpretation": 0.4
+            "learning_speed": 2, # 2x
+            "technological_familiarity": 0.65,
+            "logical_ability": 0.9,
+            "text_interpretation": 0.8
         },
 
-        # 6. The Forgetful Learner (Swiss Cheese Memory)
-        # Learns reasonable well, but "slips" frequently on things they should know.
-        # *Note: Since your schema lacks a 'forget_rate', we simulate this with higher slip + variable logic.*
-        "The Forgetful Learner": {
-            "initial_proficiency": 0.2,
-            "slip_rate": 0.25,           # Simulates forgetting previously known items
-            "guess_rate": 0.15,
-            "learning_speed": 1.3,       # They learn fast...
+        # 2. Unstable: Inconsistent, sometimes good, sometimes not
+        "unstable": {
+            "initial_proficiency": 0.18,
+            "slip_rate": 0.25,
+            "guess_rate": 0.1,
+            "learning_speed": 1,
+            "technological_familiarity": 0.5,
+            "logical_ability": 0.4,
+            "text_interpretation": 0.5
+        },
+
+        # 3. Hurry: Fast, careless, guesses a lot
+        "hurry": {
+            "initial_proficiency": 0.19,
+            "slip_rate": 0.28,
+            "guess_rate": 0.08,
+            "learning_speed": 0.7,
+            "technological_familiarity": 0.7,
+            "logical_ability": 0.5,
+            "text_interpretation": 0.55
+        },
+
+        # 4. Expert: High knowledge, low slip, learns fast
+        "expert": {
+            "initial_proficiency": 0.55,
+            "slip_rate": 0.05,
+            "guess_rate": 0.3,
+            "learning_speed": 2.5,
+            "technological_familiarity": 0.85,
+            "logical_ability": 0.95,
+            "text_interpretation": 0.85
+        },
+
+        # 5. Dedicated: Average but persistent, learns steadily
+        "dedicated": {
+            "initial_proficiency": 0.25,
+            "slip_rate": 0.12,
+            "guess_rate": 0.18,
+            "learning_speed": 1.5,
             "technological_familiarity": 0.6,
-            "logical_ability": 0.5,      # ...but retention is spotty
-            "text_interpretation": 0.6
+            "logical_ability": 0.7,
+            "text_interpretation": 0.7
+        },
+
+        # 6. Struggler: Low knowledge, slow learning, high slip
+        "struggler": {
+            "initial_proficiency": 0.09,
+            "slip_rate": 0.22,
+            "guess_rate": 0.1,
+            "learning_speed": 0.8,
+            "technological_familiarity": 0.35,
+            "logical_ability": 0.25,
+            "text_interpretation": 0.3
         }
     }
     

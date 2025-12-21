@@ -30,7 +30,7 @@
    <relation type="prerequisite" source="google_cloud_platform" target="computação_em_nuvem">
       <context>GCP é listado como provedor de serviços em nuvem; é preciso entender computação em nuvem para contextualizar seus serviços.</context>
    </relation>
-   <relation type="prerequisite" source="oracle_cloud_infrastructure" target="computação_em_nuvem">
+   <relation type="prerequisite" source="oracle_cloud_infraestrutura" target="computação_em_nuvem">
       <context>OCI é citado como provedor de serviços em nuvem corporativos, o que pressupõe o conceito de computação em nuvem.</context>
    </relation>
    <relation type="prerequisite" source="digitalocean" target="computação_em_nuvem">
